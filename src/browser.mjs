@@ -44,7 +44,9 @@ export function addVisibleVintage(snapshot,header) {
 }
 export async function observeProduct(context,candidate,config) {
   const id=candidate.id,page=await context.newPage();page.setDefaultTimeout(config.timeoutPerPageMs);
-  const values={},meta={},pending=[],claimed=new Set();let resolve,reject,accept=true;
+  const values={},meta={},pending=[],claimed=new Set(),failures=[],pageErrors=[];let resolve,reject,accept=true;
+  page.on('requestfailed',r=>{if(responseKind(r.url(),id)||r.isNavigationRequest())failures.push({url:cleanUrl(r.url()),reason:r.failure()?.errorText??'request_failed'});});
+  page.on('pageerror',e=>pageErrors.push(String(e.message).split('\n')[0].slice(0,150)));
   const ready=new Promise((res,rej)=>{resolve=res;reject=rej;});ready.catch(()=>{});
   page.on('response',r=>{
     if(!accept||!['xhr','fetch'].includes(r.request().resourceType()))return;
@@ -74,9 +76,16 @@ export async function observeProduct(context,candidate,config) {
     const snapshot=buildCatalog({detail:projectResponse('detail',values.detail),live:projectResponse('inventory',values.inventory),detailAt:meta.detail.observedAt,liveAt:meta.inventory.observedAt,runId:new Date().toISOString().replace(/[:.]/g,'-'),environment:process.env.GITHUB_ACTIONS==='true'?'github-actions':'local',evidence:meta});
     const price=body.match(/¥\s*([\d,.]+)/)?.[1]?.replaceAll(',','');
     if(Number(price)!==Number(snapshot.listings[0].displayedPrice.amount))throw new SourceError('page_data_mismatch','Displayed price differs from live response');
-    addVisibleVintage(snapshot,body.slice(0,2200));
+    addVisibleVintage(snapshot,body.split(/商品详情|商品参数/)[0].slice(0,2200));
     snapshot.listings[0].discoverySources=candidate.sources;
     snapshot.listings[0].categories=categories.filter(c=>typeof c==='string');
     return snapshot;
+  } catch(e) {
+    if(e.code==='response_timeout'){
+      await checkAccess(page);
+      const missing=['detail','inventory'].filter(k=>!values[k]);
+      e.message=`Timed out waiting for ${missing.join('+')||'page'}; ${failures.map(f=>f.reason).join('; ')||'no transport failure reported'}${pageErrors.length?'; page: '+pageErrors.join('; '):''}`;
+    }
+    e.diagnostics={received:Object.keys(values),requestFailures:failures,pageErrors};throw e;
   } finally {accept=false;await page.close().catch(()=>{});await deadline(Promise.allSettled(pending),2000).catch(()=>{});}
 }

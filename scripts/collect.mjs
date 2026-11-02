@@ -26,7 +26,7 @@ try {
     if(snapshots.length>=config.target||attemptedCount>=config.maximumAttempts)break;
     attemptedCount++;
     try {const snapshot=await observeProduct(context,candidate,config);snapshots.push(snapshot);await fs.writeFile(new URL('snapshots.json',artifacts),JSON.stringify(snapshots,null,2)+'\n');consecutive=0;console.log(JSON.stringify({id:candidate.id,status:'ok',successCount:snapshots.length,attemptedCount,skus:snapshot.skus.length}));}
-    catch(e){const error={id:candidate.id,code:e.code??'request_failed',message:clean(String(e.message).split('\n')[0].slice(0,220)),at:new Date().toISOString()};errors.push(error);console.log(JSON.stringify({...error,status:'unknown'}));if(e.code!=='not_wine')consecutive++;if(e.stop||consecutive>=config.maximumConsecutiveFailures){stoppedReason=error;break;}}
+    catch(e){const error={id:candidate.id,code:e.code??'request_failed',message:clean(String(e.message).split('\n')[0].slice(0,220)),diagnostics:clean(e.diagnostics??null),at:new Date().toISOString()};errors.push(error);console.log(JSON.stringify({...error,status:'unknown'}));if(e.code!=='not_wine')consecutive++;if(e.stop||consecutive>=config.maximumConsecutiveFailures){stoppedReason=error;break;}if(e.code==='response_timeout')await pause(30000);}
     await pause(config.minimumPauseMs);
   }
 }catch(e){stoppedReason={code:e.code??'collection_failed',message:clean(String(e.message).split('\n')[0].slice(0,220)),at:new Date().toISOString()};errors.push(stoppedReason);}
