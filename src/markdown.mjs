@@ -41,7 +41,9 @@ export function renderStatusMarkdown(catalog,status) {
   const summary=[
     ['采集状态',status.state],
     ['目录商品数',status.itemCount],
+    ...(status.queue?[['已发现候选商品数',status.queue.discoveredCount],['历史已验证详情商品数',status.detailVerifiedCount??status.queue.verifiedCount],['历史已验证库存 SKU 数',status.skuEverVerifiedCount??0]]:[]),
     ['本轮成功更新',status.freshItemCount],
+    ...(status.queue?[['本轮已验证库存 SKU 数',status.freshSkuVerifiedCount??0]]:[]),
     ['本轮失败',status.failedCount],
     ['当前库存未知商品数',status.unknownCount],
     ['保留历史数据',status.retainedPreviousData?'是':'否'],
@@ -52,6 +54,7 @@ export function renderStatusMarkdown(catalog,status) {
   ];
   const errors=(status.errors??[]).map(error=>[error.id??'—',error.code??'未知',error.message??'未提供',date(error.at)]);
   const sources=(status.coverage?.channels??[]).map(source=>[source.channel,source.observedCandidates??0,source.error??'无']);
+  const countries=(status.countryCounts??[]).map(row=>[row.country,row.count]);
   return [
     '# WineRadar 更新状态',
     '',
@@ -66,6 +69,10 @@ export function renderStatusMarkdown(catalog,status) {
     '## 本轮发现入口',
     '',
     table(['入口','观察到的候选数','入口错误'],sources),
+    '',
+    '## 已验证详情商品的产国',
+    '',
+    table(['产国','商品数'],countries),
     '',
     '候选商品数不等于成功采集数。历史价格和最后验证时间可以用于筛选，库存“未知”不能当作实时在售。',
     '',

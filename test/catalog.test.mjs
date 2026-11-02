@@ -8,6 +8,7 @@ import {productCandidates,selectBalanced} from '../src/discovery.mjs';
 import {robotsAllows} from '../src/robots.mjs';
 import {render,escapeHtml} from '../src/render.mjs';
 import {renderCatalogMarkdown,renderStatusMarkdown} from '../src/markdown.mjs';
+import {mergeQueue,planBatch,recordQueueAttempt,queueStats} from '../src/queue.mjs';
 const fixture=JSON.parse(await readFile(new URL('./fixtures/197683.json',import.meta.url),'utf8'));
 const fresh=()=>buildCatalog(structuredClone(fixture));
 const options={startedAt:'2026-11-03T00:00:00.000Z',finishedAt:'2026-11-03T00:01:00.000Z',discovery:{channels:[]}};
@@ -98,4 +99,14 @@ test('Markdown records SKU stock and last verified time without presenting retai
   assert(markdown.includes('库存最后验证时间（北京时间）'));
   assert(state.includes('| 采集状态 | failed |'));
   assert(state.includes('| 当前库存未知商品数 | 1 |'));
+});
+test('persistent queue deduplicates discovery and cools failed products without losing verified history',()=>{
+  const now='2026-11-03T00:00:00.000Z';
+  const queue=mergeQueue(null,[{id:197683,title:'Wine',sources:[]},{id:197683,title:'Wine',sources:[]},{id:197684,title:'Other',sources:[]}],[],now);
+  assert.equal(queueStats(queue).discoveredCount,2);
+  recordQueueAttempt(queue,197683,{at:now,success:true});
+  recordQueueAttempt(queue,197684,{at:now,code:'response_timeout'});
+  assert.equal(queueStats(queue).verifiedCount,1);
+  assert.deepEqual(planBatch(queue,{maxAttempts:2,now}),[{id:197683,title:'Wine',sources:[]}]);
+  assert.equal(planBatch(queue,{maxAttempts:2,now:'2026-11-03T13:00:00.000Z'})[0].id,197684);
 });

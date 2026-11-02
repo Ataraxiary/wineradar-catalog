@@ -12,7 +12,7 @@ async function walk(dir){for(const e of await fs.readdir(dir,{withFileTypes:true
 for(const dir of ['src/','scripts/','test/','config/','.github/'])await walk(new URL(dir,root));
 for(const folder of ['data/','dist/']){
   let catalog;try{catalog=JSON.parse(await fs.readFile(new URL(folder+'catalog.json',root),'utf8'));}catch(e){if(e.code==='ENOENT')continue;throw e;}
-  validateCatalog(catalog);assert(catalog.items.length>=30&&catalog.items.length<=50,'Public catalog must contain 30–50 real listings');
+  validateCatalog(catalog);assert(catalog.items.length>=30&&catalog.items.length<=10000,'Public catalog must contain real, bounded listings');
   assert.equal(new Set(catalog.items.map(i=>i.id)).size,catalog.items.length,'Duplicate public product IDs');
   function privateFields(v){if(!v||typeof v!=='object')return;for(const[k,x]of Object.entries(v)){assert(!/^(?:cookies?|authorization|headers|storageState|access_token|refresh_token|openid|unionid|buyer_name|creator_name|operator_name|supplier_delivery_address)$/i.test(k),`Private field rejected: ${k}`);privateFields(x);}}
   privateFields(catalog);assertNoSecrets(JSON.stringify(catalog));
@@ -21,6 +21,11 @@ for(const folder of ['data/','dist/']){
 }
 const sourceCatalog=JSON.parse(await fs.readFile(new URL('data/catalog.json',root),'utf8'));
 const sourceStatus=JSON.parse(await fs.readFile(new URL('data/status.json',root),'utf8'));
+const queue=JSON.parse(await fs.readFile(new URL('data/queue.json',root),'utf8'));
+assert.equal(queue.schemaVersion,1);assert(Array.isArray(queue.entries));
+assert.equal(new Set(queue.entries.map(entry=>entry.id)).size,queue.entries.length,'Duplicate queue ID');
+for(const entry of queue.entries)assert(Number.isSafeInteger(entry.id)&&entry.id>0,'Invalid queue ID');
+assertNoSecrets(JSON.stringify(queue));
 const published=publicCatalog(sourceCatalog,sourceStatus);
 const expected={
   'catalog.json':JSON.stringify(published,null,2)+'\n',

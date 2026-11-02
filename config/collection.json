@@ -1,8 +1,10 @@
 {
-  "target": 40,
+  "target": 10,
   "referenceListingId": 197683,
   "minimumFirstBatch": 30,
-  "maximumAttempts": 50,
+  "maximumAttempts": 15,
+  "maximumDiscoveryCandidates": 250,
+  "maximumCatalogListings": 10000,
   "minimumPauseMs": 8000,
   "maximumDiscoveryPages": 8,
   "maximumScrollsPerChannel": 1,

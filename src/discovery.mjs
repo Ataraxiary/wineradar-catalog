@@ -55,12 +55,12 @@ export async function discover(context,config) {
         await page.getByText(country,{exact:true}).first().tap();
       },{scroll:true});
     }
-    const candidates=[...map.values()],balanced=selectBalanced(candidates,config.maximumAttempts);
+    const candidates=[...map.values()],balanced=selectBalanced(candidates,config.maximumDiscoveryCandidates??config.maximumAttempts);
     if(config.referenceListingId){const reference=map.get(config.referenceListingId)??{id:config.referenceListingId,title:'User-specified regression product',sources:[{channel:'用户指定回归商品',url:`https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=${config.referenceListingId}`}]};balanced.unshift(reference);}
     const previous=(config.previousListings??[]).map(old=>map.get(old.id)??{id:old.id,title:old.title,sources:old.discoverySources??[{channel:'上一份有效目录',url:old.url}]}).sort((a,b)=>{
       const oldA=config.previousListings.find(i=>i.id===a.id),oldB=config.previousListings.find(i=>i.id===b.id);return oldA.observedAt.localeCompare(oldB.observedAt);
     });
-    const unique=[...new Map([...balanced.filter(c=>c.id===config.referenceListingId),...previous,...balanced].map(c=>[c.id,c])).values()].slice(0,config.maximumAttempts);
+    const unique=[...new Map([...balanced.filter(c=>c.id===config.referenceListingId),...previous,...balanced].map(c=>[c.id,c])).values()].slice(0,config.maximumDiscoveryCandidates??config.maximumAttempts);
     return {discoveredAt:new Date().toISOString(),totalUnique:candidates.length,candidates:unique,channels,scope:'Bounded anonymous public homepage, visible category links and activity cards plus user-specified regression product; not exhaustive'};
   }finally{await page.close();}
 }
