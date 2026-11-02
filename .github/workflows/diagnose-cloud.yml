@@ -1,0 +1,35 @@
+name: Diagnose bounded public product reads
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 9
+    steps:
+      - name: Checkout existing public project
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Install pinned dependency
+        run: npm ci --ignore-scripts --no-audit --no-fund --fetch-retries=0 --fetch-timeout=30000
+      - name: Install browser
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Read at most five known public products
+        run: node scripts/diagnose-cloud.mjs
+      - name: Upload sanitized diagnostic only
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: wine-public-cloud-diagnostic
+          path: artifacts/cloud-diagnostic.json
+          retention-days: 7
