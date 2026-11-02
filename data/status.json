@@ -1,101 +1,39 @@
 {
   "schemaVersion": 1,
   "state": "partial",
-  "lastAttemptAt": "2026-11-02T21:36:32.023Z",
-  "finishedAt": "2026-11-02T21:47:29.936Z",
+  "lastAttemptAt": "2026-11-02T22:05:08.318Z",
+  "finishedAt": "2026-11-02T22:11:07.907Z",
   "lastSuccessAt": "2026-11-02T21:47:29.936Z",
-  "dataGeneratedAt": "2026-11-02T21:47:29.936Z",
-  "dataStaleAfter": "2026-11-03T15:47:29.936Z",
-  "itemCount": 40,
-  "freshItemCount": 40,
-  "attemptedCount": 44,
-  "failedCount": 4,
-  "retainedPreviousData": false,
-  "availableCount": 40,
+  "dataGeneratedAt": "2026-11-02T22:11:07.907Z",
+  "dataStaleAfter": "2026-11-03T16:11:07.907Z",
+  "itemCount": 41,
+  "freshItemCount": 26,
+  "attemptedCount": 29,
+  "failedCount": 3,
+  "retainedPreviousData": true,
+  "availableCount": 38,
   "soldOutCount": 0,
-  "unknownCount": 0,
+  "unknownCount": 3,
   "errors": [
     {
-      "id": 190102,
-      "code": "request_failed",
-      "message": "page.goto: Timeout 30000ms exceeded.",
-      "at": "2026-11-02T21:39:13.246Z"
-    },
-    {
-      "id": 196951,
-      "code": "request_failed",
-      "message": "page.goto: Timeout 30000ms exceeded.",
-      "at": "2026-11-02T21:39:47.341Z"
-    },
-    {
-      "id": 193245,
+      "id": 197040,
       "code": "response_timeout",
       "message": "Single-attempt time budget exceeded",
-      "at": "2026-11-02T21:41:10.439Z"
+      "at": "2026-11-02T22:09:58.987Z"
     },
     {
-      "id": 197424,
+      "id": 196869,
       "code": "response_timeout",
       "message": "Single-attempt time budget exceeded",
-      "at": "2026-11-02T21:45:40.478Z"
+      "at": "2026-11-02T22:10:33.516Z"
+    },
+    {
+      "id": 196657,
+      "code": "response_timeout",
+      "message": "Single-attempt time budget exceeded",
+      "at": "2026-11-02T22:11:07.876Z"
     }
   ],
-  "stoppedReason": null,
-  "collectionSuspended": false,
-  "coverage": {
-    "discoveredAt": "2026-11-02T21:57:56.706Z",
-    "totalUnique": 168,
-    "channels": [
-      {
-        "channel": "现货速发",
-        "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-        "observedCandidates": 13,
-        "error": null
-      },
-      {
-        "channel": "普通商城",
-        "url": "https://h5.vinehoo.com/",
-        "observedCandidates": 116,
-        "error": null
-      },
-      {
-        "channel": "首页专题活动",
-        "url": "https://h5.vinehoo.com/packageA/pages/more-than-wine/more-than-wine?id=76",
-        "observedCandidates": 5,
-        "error": null
-      },
-      {
-        "channel": "分类·法国",
-        "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=%5BREDACTED%5D&type=%5BREDACTED%5D",
-        "observedCandidates": 23,
-        "error": null
-      },
-      {
-        "channel": "分类·意大利",
-        "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=%5BREDACTED%5D&type=%5BREDACTED%5D",
-        "observedCandidates": 16,
-        "error": null
-      }
-    ],
-    "scope": "Bounded anonymous public homepage, visible category links and activity cards plus user-specified regression product; not exhaustive"
-  },
-  "schedule": {
-    "enabled": true,
-    "timezone": "Asia/Shanghai",
-    "times": [
-      "09:17",
-      "21:17"
-    ],
-    "cronUtc": "17 1,13 * * *",
-    "timing": "GitHub scheduling can be delayed"
-  },
-  "runUrl": null,
-  "robots": {
-    "status": 200,
-    "provided": false,
-    "note": "Site returned SPA HTML instead of robots directives",
-    "checkedAt": "2026-11-02T21:36:38.578Z"
-  },
   "recentFailures": [
     {
       "id": 190102,
@@ -120,6 +58,96 @@
       "code": "response_timeout",
       "message": "Single-attempt time budget exceeded",
       "at": "2026-11-02T21:45:40.478Z"
+    },
+    {
+      "id": 197040,
+      "code": "response_timeout",
+      "message": "Single-attempt time budget exceeded",
+      "at": "2026-11-02T22:09:58.987Z"
+    },
+    {
+      "id": 196869,
+      "code": "response_timeout",
+      "message": "Single-attempt time budget exceeded",
+      "at": "2026-11-02T22:10:33.516Z"
+    },
+    {
+      "id": 196657,
+      "code": "response_timeout",
+      "message": "Single-attempt time budget exceeded",
+      "at": "2026-11-02T22:11:07.876Z"
     }
-  ]
+  ],
+  "stoppedReason": {
+    "id": 196657,
+    "code": "response_timeout",
+    "message": "Single-attempt time budget exceeded",
+    "at": "2026-11-02T22:11:07.876Z"
+  },
+  "collectionSuspended": false,
+  "coverage": {
+    "discoveredAt": "2026-11-02T22:06:19.237Z",
+    "totalUnique": 150,
+    "channels": [
+      {
+        "channel": "现货速发",
+        "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+        "newCandidates": 16,
+        "observedCandidates": 16,
+        "error": null
+      },
+      {
+        "channel": "普通商城",
+        "url": "https://h5.vinehoo.com/",
+        "newCandidates": 110,
+        "observedCandidates": 114,
+        "error": null
+      },
+      {
+        "channel": "首页专题活动",
+        "url": "https://h5.vinehoo.com/packageA/pages/more-than-wine/more-than-wine?id=76",
+        "newCandidates": 0,
+        "observedCandidates": 5,
+        "error": null
+      },
+      {
+        "channel": "分类·法国",
+        "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
+        "newCandidates": 17,
+        "observedCandidates": 23,
+        "error": null
+      },
+      {
+        "channel": "分类·意大利",
+        "url": "https://h5.vinehoo.com/packageF/pages/global-search/global-search?type=2",
+        "newCandidates": 0,
+        "observedCandidates": 0,
+        "error": null
+      }
+    ],
+    "scope": "Bounded anonymous public homepage, visible category links and activity cards plus user-specified regression product; not exhaustive",
+    "robots": {
+      "status": 200,
+      "provided": false,
+      "note": "Site returned SPA HTML instead of robots directives",
+      "checkedAt": "2026-11-02T22:05:10.411Z"
+    }
+  },
+  "schedule": {
+    "enabled": true,
+    "timezone": "Asia/Shanghai",
+    "times": [
+      "09:17",
+      "21:17"
+    ],
+    "cronUtc": "17 1,13 * * *",
+    "timing": "GitHub scheduling can be delayed"
+  },
+  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/41534060844",
+  "robots": {
+    "status": 200,
+    "provided": false,
+    "note": "Site returned SPA HTML instead of robots directives",
+    "checkedAt": "2026-11-02T22:05:10.411Z"
+  }
 }
