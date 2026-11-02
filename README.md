@@ -7,14 +7,20 @@
 - https://ataraxiary.github.io/wineradar-catalog/
 - https://ataraxiary.github.io/wineradar-catalog/catalog.json
 - https://ataraxiary.github.io/wineradar-catalog/status.json
+- https://ataraxiary.github.io/wineradar-catalog/catalog.md
+- https://ataraxiary.github.io/wineradar-catalog/status.md
 
 ## 数据口径
 
 沿用酒款 `wines`、销售条目 `listings`、规格 `skus` 三层模型；`items` 是用于阅读和筛选的汇总视图。价格为人民币规格总价，组合装不是单瓶价。年份缺失时保持未知；可见商品名称中明确标示的年份会记录来源。
 
-实时 SKU 库存优先；与同 SKU 静态库存不同时标记差异。请求失败一律不等于售罄。失败条目保留旧数据，并将当前状态标为未知；整轮失败不替换上一份有效 catalog.json，status.json 记录失败阶段、时间及新鲜度。18 小时新鲜度边界以 `dataStaleAfter` 给出。
+实时 SKU 库存优先；与同 SKU 静态库存不同时标记差异。请求失败一律不等于售罄。失败条目保留旧数据，并将当前状态标为未知；整轮失败不替换上一份有效的 `data/catalog.json` 历史观测，`status.json` 记录失败阶段、时间及新鲜度。18 小时新鲜度边界以 `dataStaleAfter` 给出。
 
 公开的 `catalog.json` 在失败时把未更新条目的当前库存设为 `null`、状态设为 `unknown`，同时保留带观测时间的 `lastKnownInventory`。仓库中的 `data/catalog.json` 保存历史观测值，供下一轮成功采集继续使用。人工勾选工作流的 `publish_only` 可在不访问酒云网的情况下重新发布已保留数据；这不会被计作一次成功采集。
+
+发布流程把同一份已保存的观测与状态投影为站点 HTML、`catalog.md`、`status.md`、`catalog.json`、`status.json`；公开仓库根目录同步提交这四个 Markdown/JSON 文件。`catalog.md` 每个 SKU 一行，包含商品 ID、名称、年份、规格价格、库存状态、库存最后验证时间和来源链接。`catalog.json` 是机器读取的权威结构化数据；Markdown 便于按文本读取，不能替代状态文件的新鲜度判断。构建检查逐字节对比这些输出与生成器，防止版本错位。
+
+首页及筛选页有 canonical URL，首页导航和 sitemap 包含 Markdown。站点子目录的 `robots.txt` 可供检查；真正生效的 robots 规则位于域名根目录。索引是否发生由搜索服务决定，HTTP 200、sitemap 和 Markdown 均不能保证 ChatGPT 网页工具会读取。若该工具仍拒绝 GitHub Pages，可尝试公开仓库对应文件的 GitHub 页面或 Raw URL，并以实际可访问性为准。
 
 ## 范围与频率
 

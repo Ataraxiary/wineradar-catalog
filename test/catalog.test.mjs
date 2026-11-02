@@ -7,6 +7,7 @@ import {addVisibleVintage,responseKind} from '../src/browser.mjs';
 import {productCandidates,selectBalanced} from '../src/discovery.mjs';
 import {robotsAllows} from '../src/robots.mjs';
 import {render,escapeHtml} from '../src/render.mjs';
+import {renderCatalogMarkdown,renderStatusMarkdown} from '../src/markdown.mjs';
 const fixture=JSON.parse(await readFile(new URL('./fixtures/197683.json',import.meta.url),'utf8'));
 const fresh=()=>buildCatalog(structuredClone(fixture));
 const options={startedAt:'2026-11-03T00:00:00.000Z',finishedAt:'2026-11-03T00:01:00.000Z',discovery:{channels:[]}};
@@ -87,4 +88,14 @@ test('static filters are generated from data rather than browser scripts',()=>{
   const c=assemble([fresh()],options),status={state:'ok',errors:[]};
   assert(!render(c,status,{filter:'under200'}).includes('<tr id="product-197683"'));
   assert(render(c,status,{filter:'available'}).includes('<tr id="product-197683"'));
+});
+test('Markdown records SKU stock and last verified time without presenting retained stock as current',()=>{
+  const c=assemble([fresh()],options),status=collectionStatus({catalog:c,...options,successCount:0,attemptedCount:1,errors:[{code:'response_timeout'}],minimum:1});
+  const published=publicCatalog(c,status),markdown=renderCatalogMarkdown(published,status),state=renderStatusMarkdown(published,status);
+  assert(markdown.includes('| 197683 |'));assert(markdown.includes('¥1999.00'));
+  assert(markdown.includes('| 未知 | 未知 | 未知 |'));
+  assert(markdown.includes('https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197683'));
+  assert(markdown.includes('库存最后验证时间（北京时间）'));
+  assert(state.includes('| 采集状态 | failed |'));
+  assert(state.includes('| 当前库存未知商品数 | 1 |'));
 });

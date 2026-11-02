@@ -1,0 +1,73 @@
+# WineRadar 完整商品目录
+
+数据快照：2026/11/3 06:11:07 +08:00；本轮状态：failed；商品 41 款，规格 65 条。
+
+结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
+
+| 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 190510 | Bodega Vivaltus 'Vivaltus' Ribera del Duero 2019 | 2019 | 单支（SKU 379388） | ¥699.00 | 未知 | 未知 | 未知 | 2026/11/3 06:09:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190510) |
+| 196988 | Domaine Gros Frere et Soeur Vosne-Romanee 2023 | 2023 | 单支（SKU 393383） | ¥1099.00 | 未知 | 未知 | 未知 | 2026/11/3 06:09:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196988) |
+| 197360 | Domaine Gros Frere et Soeur Chemin des Moines de Vergy | 2023 | 单支（SKU 393920） | ¥659.00 | 未知 | 未知 | 未知 | 2026/11/3 06:09:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197360) |
+| 185601 | 2007 'Mondot' de Chateau Troplong Mondot | 2007 | 单支（SKU 369879） | ¥199.00 | 未知 | 未知 | 未知 | 2026/11/3 06:09:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185601) |
+| 185601 | 2007 'Mondot' de Chateau Troplong Mondot | 2007 | 双支装（SKU 369880） | ¥388.00 | 未知 | 未知 | 未知 | 2026/11/3 06:09:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185601) |
+| 185601 | 2007 'Mondot' de Chateau Troplong Mondot | 2007 | 十二支装（SKU 369881） | ¥2300.00 | 未知 | 未知 | 未知 | 2026/11/3 06:09:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185601) |
+| 197392 | Patrick Javillier Meursault Clos du Cromin 2023 | 2023 | 单支（SKU 394005） | ¥749.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197392) |
+| 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 单支（SKU 389268） | ¥66.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
+| 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 双支装（SKU 389269） | ¥125.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
+| 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 六支原箱（SKU 389270） | ¥350.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
+| 197400 | Patrick Javillier Meursault Cuvee Tete de Murger 2023 | 2023 | 单支（SKU 394291） | ¥1099.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197400) |
+| 193347 | Block 88 Sauvignon Blanc | 2025 | 三支装（SKU 386388） | ¥199.90 | 未知 | 未知 | 未知 | 2026/11/3 06:08:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193347) |
+| 193347 | Block 88 Sauvignon Blanc | 2025 | 六支装（SKU 386389） | ¥359.90 | 未知 | 未知 | 未知 | 2026/11/3 06:08:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193347) |
+| 193347 | Block 88 Sauvignon Blanc | 2025 | 十二支原箱（SKU 386390） | ¥659.90 | 未知 | 未知 | 未知 | 2026/11/3 06:08:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193347) |
+| 197399 | Patrick Javillier Meursault Les Clousots 2023 | 2023 | 单支（SKU 394301） | ¥899.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197399) |
+| 184915 | Kumeu River Rays Road Chardonnay | 2024 | 单支（SKU 368573） | ¥299.90 | 未知 | 未知 | 未知 | 2026/11/3 06:08:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184915) |
+| 197276 | Yann Durieux - Recrue des Sens 'BT Les Boutieres' 2017 | 2017 | 单支（SKU 393834） | ¥699.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197276) |
+| 196542 | Champagne Lancelot-Pienne Accord Majeur Brut | 未标示 | 单支（SKU 391961） | ¥359.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196542) |
+| 196542 | Champagne Lancelot-Pienne Accord Majeur Brut | 未标示 | 双支装（SKU 391962） | ¥709.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196542) |
+| 197274 | Yann Durieux - Recrue des Sens 'Les Grands Ponts Blancs' 2020 | 2020 | 单支（SKU 393832） | ¥659.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197274) |
+| 196853 | Chateau La Gaffeliere 2007 | 2007 | 单支（SKU 392994） | ¥499.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:50 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196853) |
+| 197622 | Yann Durieux - Recrue des Sens 'Night Cost' 2017 | 2017 | 单支（SKU 394293） | ¥599.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197622) |
+| 183547 | Chateau Jean Faure 2014 | 2014 | 单支（SKU 365987） | ¥259.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:36 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183547) |
+| 197625 | Yann Durieux - Recrue des Sens Les Ponts Blancs 2016 | 2016 | 单支（SKU 394299） | ¥599.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197625) |
+| 197451 | Delecheneau La Grange Tiphaine Touraine Amboise Cuvee Bel Air Sec 2021 | 2021 | 单支（SKU 394149） | ¥219.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197451) |
+| 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 单支（SKU 394374） | ¥368.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
+| 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 双支装（SKU 394375） | ¥728.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
+| 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 六支装（SKU 394376） | ¥2159.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
+| 191074 | Giuseppe Quintarelli Alzero Cabernet Veneto IGT 2017 | 2017 | 单支（SKU 380551） | ¥2399.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191074) |
+| 185783 | Chateau Les Granges de Civrac 2020 | 2020 | 六支原箱（SKU 377890） | ¥269.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185783) |
+| 196961 | Giuseppe Quintarelli Valpolicella Classico Superiore 2019 | 2019 | 单支（SKU 394134） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196961) |
+| 196961 | Giuseppe Quintarelli Valpolicella Classico Superiore 2019 | 2019 | 双支装（SKU 394135） | ¥1589.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196961) |
+| 196961 | Giuseppe Quintarelli Valpolicella Classico Superiore 2019 | 2019 | 六支装（SKU 394136） | ¥4759.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196961) |
+| 196958 | Giuseppe Quintarelli Primofiore 2024 | 2024 | 单支（SKU 394201） | ¥499.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196958) |
+| 197787 | Giuseppe Quintarelli Valpolicella Classico Superiore 2018 | 2018 | 单支（SKU 394589） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197787) |
+| 189792 | Escarpment Sauvignon Blanc 2024 | 2024 | 单支（SKU 380784） | ¥119.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189792) |
+| 189792 | Escarpment Sauvignon Blanc 2024 | 2024 | 双支装（SKU 377898） | ¥195.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189792) |
+| 189792 | Escarpment Sauvignon Blanc 2024 | 2024 | 六支原箱（SKU 377899） | ¥579.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189792) |
+| 197683 | Chateau Latour 'Les Forts de Latour'  2010 | 2010 | 单支（SKU 394492） | ¥1999.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197683) |
+| 197686 | Giacomo Conterno Arione Barolo DOCG 2021 | 2021 | 单支（SKU 394399） | ¥1999.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197686) |
+| 197689 | Azelia di Luigi Scavino Bricco Fiasco Barolo DOCG 2001 | 2001 | 单支（SKU 394409） | ¥899.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197689) |
+| 195772 | Il Paradiso di Manfredi Trentottema Unicita 2019 / Il Paradiso di Manfredi Rosso di Montalcino 2024 | 2019 / 2024 | 四支套装（3瓶Unicita+1瓶rosso）（SKU 390329） | ¥2999.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772) |
+| 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 单支（SKU 392830） | ¥349.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
+| 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 双支装（SKU 392831） | ¥689.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
+| 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 六支原箱（SKU 392832） | ¥2049.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
+| 197050 | Il Paradiso di Manfredi Trentottema Unicita 2019 / Il Paradiso di Manfredi Rosso di Montalcino 2024 | 2019 / 2024 | 双支套装（SKU 393456） | ¥1299.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197050) |
+| 197069 | Il Paradiso di Manfredi Brunello di Montalcino DOCG 2018 / Il Paradiso di Manfredi Rosso di Montalcino 2023 | 2018 / 2023 | 双支套装（SKU 393463） | ¥1299.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197069) |
+| 197801 | Montenidoli 'Sono Montenidoli' Toscana Rosso IGT 2018 | 2018 | 单支（SKU 394610） | ¥489.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197801) |
+| 197801 | Montenidoli 'Sono Montenidoli' Toscana Rosso IGT 2018 | 2018 | 双支装（SKU 394611） | ¥969.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197801) |
+| 197194 | Cirillo Estate Wines 1850 Ancestor Vine Grenache 2018 | 2018 | 单支（SKU 393868） | ¥499.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197194) |
+| 197277 | Torbreck The Struie Shiraz 2024 | 2024 | 单支（SKU 393925） | ¥279.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197277) |
+| 197277 | Torbreck The Struie Shiraz 2024 | 2024 | 双支装（SKU 393926） | ¥549.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197277) |
+| 197277 | Torbreck The Struie Shiraz 2024 | 2024 | 六支装（SKU 393927） | ¥1629.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197277) |
+| 197450 | Torbreck Woodcutter's Shiraz 2025 | 2025 | 单支（SKU 394054） | ¥139.90 | 未知 | 未知 | 未知 | 2026/11/3 05:46:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197450) |
+| 197450 | Torbreck Woodcutter's Shiraz 2025 | 2025 | 双支装（SKU 394055） | ¥275.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197450) |
+| 197450 | Torbreck Woodcutter's Shiraz 2025 | 2025 | 六支装（SKU 394056） | ¥819.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197450) |
+| 197450 | Torbreck Woodcutter's Shiraz 2025 | 2025 | 十二支装（SKU 394057） | ¥1599.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197450) |
+| 197429 | Domaine de l'Ecu Muscadet Sevre-et-Maine Classic 2023 | 2023 | 单支（SKU 394145） | ¥179.00 | 未知 | 未知 | 未知 | 2026/11/3 05:45:50 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197429) |
+| 196281 | Olivier Riviere Vinas De Eusebio - 2016 | 2016 | 单支（SKU 391332） | ¥299.00 | 未知 | 未知 | 未知 | 2026/11/3 05:44:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196281) |
+| 196281 | Olivier Riviere Vinas De Eusebio - 2016 | 2016 | 双支装（SKU 391333） | ¥588.00 | 未知 | 未知 | 未知 | 2026/11/3 05:44:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196281) |
+| 196281 | Olivier Riviere Vinas De Eusebio - 2016 | 2016 | 六支装（SKU 391334） | ¥1728.00 | 未知 | 未知 | 未知 | 2026/11/3 05:44:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196281) |
+| 196657 | Ferrer Bobet Seleccio Especial Vinyes Velles 2019 | 2019 | 单支（SKU 392197） | ¥699.00 | 未知 | 未知 | 未知 | 2026/11/3 05:44:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196657) |
+| 196869 | Vina Ijalba 'Ijalba' Graciano Rioja DOCa | 未标示 | 单支（SKU 393015） | ¥169.90 | 未知 | 未知 | 未知 | 2026/11/3 05:44:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196869) |
+| 196869 | Vina Ijalba 'Ijalba' Graciano Rioja DOCa | 未标示 | 双支装（SKU 393016） | ¥328.00 | 未知 | 未知 | 未知 | 2026/11/3 05:44:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196869) |
+| 197040 | Nin-Ortiz Selma - 2020 | 2020 | 单支（SKU 393346） | ¥429.00 | 未知 | 未知 | 未知 | 2026/11/3 05:44:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197040) |

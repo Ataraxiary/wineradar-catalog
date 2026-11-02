@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "state": "failed",
+  "lastAttemptAt": "2026-11-02T22:17:08.581Z",
+  "finishedAt": "2026-11-02T22:22:25.282Z",
+  "lastSuccessAt": "2026-11-02T21:47:29.936Z",
+  "dataGeneratedAt": "2026-11-02T22:11:07.907Z",
+  "dataStaleAfter": "2026-11-03T16:11:07.907Z",
+  "itemCount": 41,
+  "freshItemCount": 0,
+  "attemptedCount": 3,
+  "failedCount": 3,
+  "retainedPreviousData": true,
+  "availableCount": 0,
+  "soldOutCount": 0,
+  "unknownCount": 41,
+  "errors": [
+    {
+      "id": 197683,
+      "code": "response_timeout",
+      "message": "Timed out waiting for detail+inventory; no transport failure reported",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T22:19:38.426Z"
+    },
+    {
+      "id": 197040,
+      "code": "response_timeout",
+      "message": "Timed out waiting for detail+inventory; no transport failure reported",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T22:21:01.727Z"
+    },
+    {
+      "id": 196869,
+      "code": "response_timeout",
+      "message": "Timed out waiting for detail+inventory; no transport failure reported",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T22:22:25.246Z"
+    }
+  ],
+  "recentFailures": [
+    {
+      "id": 190102,
+      "code": "request_failed",
+      "message": "page.goto: Timeout 30000ms exceeded.",
+      "at": "2026-11-02T21:39:13.246Z"
+    },
+    {
+      "id": 196951,
+      "code": "request_failed",
+      "message": "page.goto: Timeout 30000ms exceeded.",
+      "at": "2026-11-02T21:39:47.341Z"
+    },
+    {
+      "id": 193245,
+      "code": "response_timeout",
+      "message": "Single-attempt time budget exceeded",
+      "at": "2026-11-02T21:41:10.439Z"
+    },
+    {
+      "id": 197424,
+      "code": "response_timeout",
+      "message": "Single-attempt time budget exceeded",
+      "at": "2026-11-02T21:45:40.478Z"
+    },
+    {
+      "id": 197040,
+      "code": "response_timeout",
+      "message": "Single-attempt time budget exceeded",
+      "at": "2026-11-02T22:09:58.987Z"
+    },
+    {
+      "id": 196869,
+      "code": "response_timeout",
+      "message": "Single-attempt time budget exceeded",
+      "at": "2026-11-02T22:10:33.516Z"
+    },
+    {
+      "id": 196657,
+      "code": "response_timeout",
+      "message": "Single-attempt time budget exceeded",
+      "at": "2026-11-02T22:11:07.876Z"
+    },
+    {
+      "id": 197683,
+      "code": "response_timeout",
+      "message": "Timed out waiting for detail+inventory; no transport failure reported",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T22:19:38.426Z"
+    },
+    {
+      "id": 197040,
+      "code": "response_timeout",
+      "message": "Timed out waiting for detail+inventory; no transport failure reported",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T22:21:01.727Z"
+    },
+    {
+      "id": 196869,
+      "code": "response_timeout",
+      "message": "Timed out waiting for detail+inventory; no transport failure reported",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T22:22:25.246Z"
+    }
+  ],
+  "stoppedReason": {
+    "id": 196869,
+    "code": "response_timeout",
+    "message": "Timed out waiting for detail+inventory; no transport failure reported",
+    "diagnostics": {
+      "received": [],
+      "requestFailures": [],
+      "pageErrors": []
+    },
+    "at": "2026-11-02T22:22:25.246Z"
+  },
+  "collectionSuspended": false,
+  "coverage": {
+    "discoveredAt": "2026-11-02T22:18:52.935Z",
+    "totalUnique": 164,
+    "channels": [
+      {
+        "channel": "现货速发",
+        "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+        "newCandidates": 15,
+        "observedCandidates": 15,
+        "error": null
+      },
+      {
+        "channel": "普通商城",
+        "url": "https://h5.vinehoo.com/",
+        "newCandidates": 114,
+        "observedCandidates": 116,
+        "error": null
+      },
+      {
+        "channel": "首页专题活动",
+        "url": "https://h5.vinehoo.com/packageA/pages/more-than-wine/more-than-wine?id=76",
+        "newCandidates": 0,
+        "observedCandidates": 5,
+        "error": null
+      },
+      {
+        "channel": "分类·法国",
+        "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
+        "newCandidates": 16,
+        "observedCandidates": 23,
+        "error": null
+      },
+      {
+        "channel": "分类·意大利",
+        "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
+        "newCandidates": 14,
+        "observedCandidates": 16,
+        "error": null
+      }
+    ],
+    "scope": "Bounded anonymous public homepage, visible category links and activity cards plus user-specified regression product; not exhaustive",
+    "robots": {
+      "status": 200,
+      "provided": false,
+      "note": "Site returned SPA HTML instead of robots directives",
+      "checkedAt": "2026-11-02T22:17:10.366Z"
+    }
+  },
+  "schedule": {
+    "enabled": true,
+    "timezone": "Asia/Shanghai",
+    "times": [
+      "09:17",
+      "21:17"
+    ],
+    "cronUtc": "17 1,13 * * *",
+    "timing": "GitHub scheduling can be delayed"
+  },
+  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/41535815362",
+  "robots": {
+    "status": 200,
+    "provided": false,
+    "note": "Site returned SPA HTML instead of robots directives",
+    "checkedAt": "2026-11-02T22:17:10.366Z"
+  }
+}
