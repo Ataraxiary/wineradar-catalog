@@ -14,7 +14,8 @@ const previous=await read('catalog.json'),previousStatus=await read('status.json
 const config=JSON.parse(await fs.readFile(new URL('config/collection.json',root),'utf8'));
 config.previousListings=previous?.items??[];
 assert(config.target>=5&&config.target<=50&&config.maximumAttempts<=50&&config.minimumPauseMs>=4000);
-const startedAt=new Date().toISOString(),snapshots=[],errors=[];let discovery={channels:[],scope:'not_started'},robots=null,attemptedCount=0,stoppedReason=null,browser,queue=previousQueue;
+assert(config.maximumDiscoveryPages<=14&&config.maximumScrollsPerChannel<=2&&config.maximumDiscoveryCandidates<=10000);
+const startedAt=new Date().toISOString(),snapshots=[],errors=[];let discovery={channels:[],scope:'not_started'},robots=null,attemptedCount=0,stoppedReason=null,browser,queue=previousQueue,catalog=previous;
 const runUrl=process.env.GITHUB_ACTIONS==='true'?`https://github.com/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`:null;
 try {
   if(previousStatus?.collectionSuspended)throw Object.assign(new Error('Collection remains suspended after an access-control response; manual review required'),{code:'collection_suspended',stop:true});
@@ -28,13 +29,19 @@ try {
   for(const candidate of planBatch(queue,{maxAttempts:config.maximumAttempts,now:startedAt})){
     if(snapshots.length>=config.target||attemptedCount>=config.maximumAttempts)break;
     attemptedCount++;
-    try {const snapshot=await observeProduct(context,candidate,config);snapshots.push(snapshot);await fs.writeFile(new URL('snapshots.json',artifacts),JSON.stringify(snapshots,null,2)+'\n');recordQueueAttempt(queue,candidate.id,{at:new Date().toISOString(),success:true});await write('queue.json',queue);consecutive=0;console.log(JSON.stringify({id:candidate.id,status:'ok',successCount:snapshots.length,attemptedCount,skus:snapshot.skus.length}));}
+    try {const snapshot=await observeProduct(context,candidate,config);
+      const {candidates:omitted,...checkpointCoverage}=discovery;
+      const checkpoint=assemble([...snapshots,snapshot],{previous,errors,discovery:checkpointCoverage,startedAt,finishedAt:new Date().toISOString(),runUrl,maxListings:config.maximumCatalogListings});
+      await write('catalog.json',checkpoint);catalog=checkpoint;snapshots.push(snapshot);
+      recordQueueAttempt(queue,candidate.id,{at:new Date().toISOString(),success:true});await write('queue.json',queue);
+      await fs.writeFile(new URL('snapshots.json',artifacts),JSON.stringify(snapshots,null,2)+'\n');
+      consecutive=0;console.log(JSON.stringify({id:candidate.id,status:'ok',successCount:snapshots.length,attemptedCount,skus:snapshot.skus.length}));}
     catch(e){const error={id:candidate.id,code:e.code??'request_failed',message:clean(String(e.message).split('\n')[0].slice(0,220)),diagnostics:clean(e.diagnostics??null),at:new Date().toISOString()};errors.push(error);recordQueueAttempt(queue,candidate.id,{at:error.at,code:error.code});await write('queue.json',queue);console.log(JSON.stringify({...error,status:'unknown'}));if(e.code!=='not_wine')consecutive++;if(e.stop||consecutive>=config.maximumConsecutiveFailures){stoppedReason=error;break;}if(e.code==='response_timeout')await pause(30000);}
     await pause(config.minimumPauseMs);
   }
 }catch(e){stoppedReason={code:e.code??'collection_failed',message:clean(String(e.message).split('\n')[0].slice(0,220)),at:new Date().toISOString()};errors.push(stoppedReason);}
 finally {if(browser)await browser.close().catch(()=>{});}
-const finishedAt=new Date().toISOString();let catalog=previous;
+const finishedAt=new Date().toISOString();
 const {candidates:discardedCandidates,...coverage}=discovery;discovery=coverage;
 if(snapshots.length&&(previous||snapshots.length>=config.minimumFirstBatch)){
   catalog=assemble(snapshots,{previous,errors,discovery,startedAt,finishedAt,runUrl,maxListings:config.maximumCatalogListings});await write('catalog.json',catalog);

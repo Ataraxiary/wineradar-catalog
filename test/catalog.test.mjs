@@ -41,6 +41,12 @@ test('complete collection failure retains last success timestamp and suspended s
   const c=assemble([fresh()],options);const status=collectionStatus({catalog:c,previousStatus:{lastSuccessAt:'2026-11-02T00:00:00.000Z',collectionSuspended:true},...options,successCount:0,attemptedCount:1,errors:[{code:'request_failed'}],minimum:1});
   assert.equal(status.state,'failed');assert.equal(status.retainedPreviousData,true);assert.equal(status.lastSuccessAt,'2026-11-02T00:00:00.000Z');assert.equal(status.collectionSuspended,true);
 });
+test('partial collection records its successful observation time',()=>{
+  const c=assemble([fresh()],options);
+  const status=collectionStatus({catalog:c,previousStatus:{lastSuccessAt:'2026-11-02T00:00:00.000Z'},...options,successCount:1,attemptedCount:2,errors:[{code:'response_timeout'}],minimum:1,target:2});
+  assert.equal(status.state,'partial');
+  assert.equal(status.lastSuccessAt,options.finishedAt);
+});
 test('failed publication retains observations but makes all current inventory unknown',()=>{
   const c=assemble([fresh()],options),status=collectionStatus({catalog:c,previousStatus:{lastSuccessAt:options.finishedAt},...options,successCount:0,attemptedCount:3,errors:[{code:'response_timeout'}],minimum:1});
   const published=publicCatalog(c,status);
@@ -109,6 +115,16 @@ test('persistent queue deduplicates discovery and cools failed products without 
   assert.equal(queueStats(queue).verifiedCount,1);
   assert.deepEqual(planBatch(queue,{maxAttempts:2,now}),[{id:197683,title:'Wine',sources:[]}]);
   assert.equal(planBatch(queue,{maxAttempts:2,now:'2026-11-03T13:00:00.000Z'})[0].id,197684);
+});
+test('incremental queue reserves some capacity for oldest verified products',()=>{
+  const at='2026-11-03T00:00:00.000Z';
+  const candidates=Array.from({length:10},(_,i)=>({id:197680+i,title:`Wine ${i}`,sources:[]}));
+  const queue=mergeQueue(null,candidates,[],at);
+  for(const entry of candidates.slice(0,5))recordQueueAttempt(queue,entry.id,{at,success:true});
+  const planned=planBatch(queue,{maxAttempts:5,now:'2026-11-03T01:00:00.000Z'});
+  assert.equal(planned.length,5);
+  assert.equal(planned.filter(entry=>entry.id<197685).length,1);
+  assert.equal(planned.filter(entry=>entry.id>=197685).length,4);
 });
 test('discovery response waits have a finite, classified deadline',async()=>{
   await assert.rejects(deadline(new Promise(()=>{}),10,'discovery_response_timeout'),error=>error.code==='discovery_response_timeout');

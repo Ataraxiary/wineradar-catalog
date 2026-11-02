@@ -48,12 +48,13 @@ export function renderStatusMarkdown(catalog,status) {
     ['当前库存未知商品数',status.unknownCount],
     ['保留历史数据',status.retainedPreviousData?'是':'否'],
     ['商品目录快照时间（北京时间）',date(catalog?.generatedAt)],
+    ['最近成功采集时间（北京时间）',date(status.lastSuccessAt)],
     ['最近采集结束时间（北京时间）',date(status.finishedAt)],
     ['数据新鲜度界限（北京时间）',date(status.dataStaleAfter)],
     ['最近采集运行链接',status.runUrl?`[GitHub Actions](${status.runUrl})`:'本地快照'],
   ];
   const errors=(status.errors??[]).map(error=>[error.id??'—',error.code??'未知',error.message??'未提供',date(error.at)]);
-  const sources=(status.coverage?.channels??[]).map(source=>[source.channel,source.observedCandidates??0,source.error??'无']);
+  const sources=(status.coverage?.channels??[]).map(source=>[source.channel,source.observedCandidates??0,source.error?.code??'无']);
   const countries=(status.countryCounts??[]).map(row=>[row.country,row.count]);
   return [
     '# WineRadar 更新状态',

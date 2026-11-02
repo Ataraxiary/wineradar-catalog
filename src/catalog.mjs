@@ -63,7 +63,7 @@ export function publicCatalog(catalog,status) {
 export function collectionStatus({catalog,previousStatus,startedAt,finishedAt,successCount,attemptedCount,errors,discovery,minimum=30,target=40,stoppedReason=null,runUrl=null}) {
   const accepted=catalog?.items?.length>=minimum;
   const state=!accepted||successCount===0?'failed':successCount<target||errors.length?'partial':'ok';
-  return {schemaVersion:1,state,lastAttemptAt:startedAt,finishedAt,lastSuccessAt:state==='ok'?finishedAt:previousStatus?.lastSuccessAt??(accepted&&successCount>=minimum?finishedAt:null),
+  return {schemaVersion:1,state,lastAttemptAt:startedAt,finishedAt,lastSuccessAt:state!=='failed'&&successCount>0?finishedAt:previousStatus?.lastSuccessAt??null,
     dataGeneratedAt:catalog?.generatedAt??null,dataStaleAfter:catalog?.generatedAt?new Date(Date.parse(catalog.generatedAt)+18*3600000).toISOString():null,
     itemCount:catalog?.items?.length??0,freshItemCount:successCount,attemptedCount,failedCount:errors.filter(e=>e.code!=='not_wine').length,
     retainedPreviousData:successCount===0||((catalog?.items?.length??0)>successCount),

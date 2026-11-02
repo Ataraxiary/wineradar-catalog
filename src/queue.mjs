@@ -12,9 +12,11 @@ export function mergeQueue(previous,discovered,items,now) {
   return {schemaVersion:1,updatedAt:now,entries:[...entries.values()].sort((a,b)=>a.id-b.id)};
 }
 export function planBatch(queue,{maxAttempts,now}) {
-  return queue.entries.filter(entry=>entry.state!=='excluded'&&(!entry.nextEligibleAt||entry.nextEligibleAt<=now))
-    .sort((a,b)=>Number(Boolean(a.lastVerifiedAt))-Number(Boolean(b.lastVerifiedAt))
-      ||(a.lastVerifiedAt??a.firstSeenAt).localeCompare(b.lastVerifiedAt??b.firstSeenAt)||a.id-b.id)
+  const ready=queue.entries.filter(entry=>entry.state!=='excluded'&&(!entry.nextEligibleAt||entry.nextEligibleAt<=now));
+  const pending=ready.filter(entry=>!entry.lastVerifiedAt).sort((a,b)=>a.firstSeenAt.localeCompare(b.firstSeenAt)||a.id-b.id);
+  const refresh=ready.filter(entry=>entry.lastVerifiedAt).sort((a,b)=>a.lastVerifiedAt.localeCompare(b.lastVerifiedAt)||a.id-b.id);
+  const reserved=Math.min(Math.floor(maxAttempts/5),refresh.length);
+  return [...pending.slice(0,maxAttempts-reserved),...refresh.slice(0,reserved),...pending.slice(maxAttempts-reserved),...refresh.slice(reserved)]
     .slice(0,maxAttempts).map(entry=>({id:entry.id,title:entry.title,sources:entry.sources??[]}));
 }
 export function recordQueueAttempt(queue,id,{at,success=false,code=null}) {

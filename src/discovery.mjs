@@ -35,7 +35,11 @@ export async function discover(context,config) {
     active=source;const before=new Set(map.keys()),started=Date.now(),failuresBefore=parseFailures;let error=null;
     try {
       await action();await page.waitForTimeout(5000);await checkAccess(page);if(blocked)throw blocked;
-      if(scroll){await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));await pause(config.minimumPauseMs);}
+      if(scroll)for(let i=0;i<(config.maximumScrollsPerChannel??1);i++){
+        await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));
+        await pause(config.minimumPauseMs);
+        await Promise.allSettled([...pending]);
+      }
       await Promise.allSettled([...pending]);if(blocked)throw blocked;source.url=cleanUrl(page.url());
     }catch(e){error={code:e.code??'discovery_navigation_failed',message:String(e.message).split('\n')[0].slice(0,220)};if(e.stop)throw e;}
     const found=[...map.values()].filter(c=>c.sources.some(s=>s.channel===source.channel));
@@ -49,8 +53,9 @@ export async function discover(context,config) {
     // Follow an actual homepage activity card, instead of inventing activity IDs.
     const activity=page.getByText(/全部\s*\d+款/).first();
     if(await activity.count())await settle({channel:'首页专题活动',url:page.url()},()=>activity.tap(),{scroll:true});
-    for(const country of ['法国','意大利']) {
-      if(routes.has(country))await settle({channel:'分类·'+country,url:config.landing},async()=>{
+    for(const country of routes.keys()) {
+      if(channels.length>=config.maximumDiscoveryPages)break;
+      await settle({channel:'分类·'+country,url:config.landing},async()=>{
         const categorySource=active;active={channel:'现货速发',url:config.landing};
         await page.goto(config.landing,{waitUntil:'commit',timeout:config.timeoutPerPageMs});
         await page.getByText(country,{exact:true}).first().waitFor();active=categorySource;
