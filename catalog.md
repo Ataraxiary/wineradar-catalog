@@ -1,11 +1,41 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/3 06:11:07 +08:00；本轮状态：failed；商品 41 款，规格 65 条。
+数据快照：2026/11/3 07:39:12 +08:00；本轮状态：partial；商品 51 款，规格 95 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 单支（SKU 389775） | ¥269.00 | 在售 | 在售 | 9 | 2026/11/3 07:39:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
+| 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 双支装（SKU 389776） | ¥529.00 | 在售 | 在售 | 9 | 2026/11/3 07:39:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
+| 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 六支原箱（SKU 389777） | ¥1559.00 | 在售 | 在售 | 9 | 2026/11/3 07:39:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
+| 182282 | Alibrianza Cascina Radice 'Argante' Barolo Riserva DOCG 2015 | 2015 | 单支（SKU 362301） | ¥199.90 | 在售 | 在售 | 8 | 2026/11/3 07:36:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182282) |
+| 182282 | Alibrianza Cascina Radice 'Argante' Barolo Riserva DOCG 2015 | 2015 | 六支原箱（SKU 362302） | ¥1188.00 | 在售 | 在售 | 6 | 2026/11/3 07:36:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182282) |
+| 179189 | JJ Leitz Riesling Spatlese Rheinhessen（Rabbit） | 未标示 | 单支（SKU 356226） | ¥89.00 | 在售 | 在售 | 4 | 2026/11/3 07:33:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189) |
+| 179189 | JJ Leitz Riesling Spatlese Rheinhessen（Rabbit） | 未标示 | 双支装（SKU 355891） | ¥159.00 | 在售 | 在售 | 4 | 2026/11/3 07:33:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189) |
+| 179189 | JJ Leitz Riesling Spatlese Rheinhessen（Rabbit） | 未标示 | 六支装（SKU 355892） | ¥449.00 | 在售 | 在售 | 2 | 2026/11/3 07:33:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189) |
+| 179037 | Weingut Georg Muller Hassel Alte Reben Riesling VDP Grosse Lage(Old Vines) 2020 | 2020 | 单支（SKU 355460） | ¥199.00 | 在售 | 在售 | 7 | 2026/11/3 07:33:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179037) |
+| 179037 | Weingut Georg Muller Hassel Alte Reben Riesling VDP Grosse Lage(Old Vines) 2020 | 2020 | 双支装（SKU 355461） | ¥389.00 | 在售 | 在售 | 4 | 2026/11/3 07:33:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179037) |
+| 179037 | Weingut Georg Muller Hassel Alte Reben Riesling VDP Grosse Lage(Old Vines) 2020 | 2020 | 六支装（SKU 355462） | ¥1150.00 | 在售 | 在售 | 1 | 2026/11/3 07:33:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179037) |
+| 178941 | Weingut Georg Muller Stiftung Hattenheim Riesling Trocken 2022 | 2022 | 单支（SKU 355278） | ¥139.00 | 在售 | 在售 | 9 | 2026/11/3 07:33:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=178941) |
+| 178941 | Weingut Georg Muller Stiftung Hattenheim Riesling Trocken 2022 | 2022 | 双支装（SKU 355279） | ¥269.00 | 在售 | 在售 | 9 | 2026/11/3 07:33:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=178941) |
+| 178941 | Weingut Georg Muller Stiftung Hattenheim Riesling Trocken 2022 | 2022 | 六支装（SKU 355280） | ¥780.00 | 在售 | 在售 | 9 | 2026/11/3 07:33:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=178941) |
+| 178147 | Cantina Vallebelbo San Maurizio Moscato dolce Spumante NV | 未标示 | 单支（SKU 353999） | ¥69.90 | 在售 | 在售 | 7 | 2026/11/3 07:32:58 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=178147) |
+| 178147 | Cantina Vallebelbo San Maurizio Moscato dolce Spumante NV | 未标示 | 双支装（SKU 354000） | ¥129.00 | 在售 | 在售 | 7 | 2026/11/3 07:32:58 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=178147) |
+| 178147 | Cantina Vallebelbo San Maurizio Moscato dolce Spumante NV | 未标示 | 六支原箱（SKU 354001） | ¥379.00 | 在售 | 在售 | 7 | 2026/11/3 07:32:58 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=178147) |
+| 175953 | Mother Rock Brutal Red Cinsault / Mother Rock Brutal Chenin Blanc 2022 | 2022 | 红 单支（SKU 349696） | ¥89.90 | 在售 | 在售 | 10 | 2026/11/3 07:32:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175953) |
+| 175953 | Mother Rock Brutal Red Cinsault / Mother Rock Brutal Chenin Blanc 2022 | 2022 | 白 单支（SKU 349695） | ¥89.90 | 在售 | 在售 | 10 | 2026/11/3 07:32:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175953) |
+| 175953 | Mother Rock Brutal Red Cinsault / Mother Rock Brutal Chenin Blanc 2022 | 2022 | 双支组合装（SKU 349697） | ¥168.00 | 在售 | 在售 | 10 | 2026/11/3 07:32:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175953) |
+| 175953 | Mother Rock Brutal Red Cinsault / Mother Rock Brutal Chenin Blanc 2022 | 2022 | 白 六支装（SKU 349698） | ¥489.00 | 在售 | 在售 | 10 | 2026/11/3 07:32:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175953) |
+| 175953 | Mother Rock Brutal Red Cinsault / Mother Rock Brutal Chenin Blanc 2022 | 2022 | 红 六支装（SKU 349699） | ¥489.00 | 在售 | 在售 | 10 | 2026/11/3 07:32:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175953) |
+| 167945 | Elephant Hill Airavata Syrah 2018 | 2018 | 单支（SKU 393007） | ¥599.00 | 在售 | 在售 | 5 | 2026/11/3 07:32:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167945) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 单支（SKU 348335） | ¥115.00 | 在售 | 在售 | 8 | 2026/11/3 07:32:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 双支装（SKU 332932） | ¥219.90 | 在售 | 在售 | 8 | 2026/11/3 07:32:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 六支装（SKU 332933） | ¥629.90 | 在售 | 在售 | 8 | 2026/11/3 07:32:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 十二支装（SKU 332934） | ¥1199.90 | 在售 | 在售 | 8 | 2026/11/3 07:32:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 167797 | E.Guigal Cotes-du-Rhone Rouge | 2021 | 双支装（SKU 332928） | ¥219.90 | 在售 | 在售 | 8 | 2026/11/3 07:32:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167797) |
+| 167797 | E.Guigal Cotes-du-Rhone Rouge | 2021 | 六支装（SKU 332929） | ¥629.90 | 在售 | 在售 | 8 | 2026/11/3 07:32:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167797) |
+| 167797 | E.Guigal Cotes-du-Rhone Rouge | 2021 | 十二支装（SKU 332930） | ¥1199.90 | 在售 | 在售 | 8 | 2026/11/3 07:32:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167797) |
 | 190510 | Bodega Vivaltus 'Vivaltus' Ribera del Duero 2019 | 2019 | 单支（SKU 379388） | ¥699.00 | 未知 | 未知 | 未知 | 2026/11/3 06:09:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190510) |
 | 196988 | Domaine Gros Frere et Soeur Vosne-Romanee 2023 | 2023 | 单支（SKU 393383） | ¥1099.00 | 未知 | 未知 | 未知 | 2026/11/3 06:09:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196988) |
 | 197360 | Domaine Gros Frere et Soeur Chemin des Moines de Vergy | 2023 | 单支（SKU 393920） | ¥659.00 | 未知 | 未知 | 未知 | 2026/11/3 06:09:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197360) |

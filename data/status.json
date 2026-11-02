@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "state": "failed",
-  "lastAttemptAt": "2026-11-02T22:17:08.581Z",
-  "finishedAt": "2026-11-02T22:22:25.282Z",
+  "state": "partial",
+  "lastAttemptAt": "2026-11-02T23:30:19.376Z",
+  "finishedAt": "2026-11-02T23:39:12.357Z",
   "lastSuccessAt": "2026-11-02T21:47:29.936Z",
-  "dataGeneratedAt": "2026-11-02T22:11:07.907Z",
-  "dataStaleAfter": "2026-11-03T16:11:07.907Z",
-  "itemCount": 41,
-  "freshItemCount": 0,
-  "attemptedCount": 3,
-  "failedCount": 3,
+  "dataGeneratedAt": "2026-11-02T23:39:12.357Z",
+  "dataStaleAfter": "2026-11-03T17:39:12.357Z",
+  "itemCount": 51,
+  "freshItemCount": 10,
+  "attemptedCount": 14,
+  "failedCount": 4,
   "retainedPreviousData": true,
-  "availableCount": 0,
+  "availableCount": 10,
   "soldOutCount": 0,
   "unknownCount": 41,
   "errors": [
     {
-      "id": 197683,
+      "id": 179645,
       "code": "response_timeout",
       "message": "Timed out waiting for detail+inventory; no transport failure reported",
       "diagnostics": {
@@ -24,10 +24,10 @@
         "requestFailures": [],
         "pageErrors": []
       },
-      "at": "2026-11-02T22:19:38.426Z"
+      "at": "2026-11-02T23:34:29.208Z"
     },
     {
-      "id": 197040,
+      "id": 179992,
       "code": "response_timeout",
       "message": "Timed out waiting for detail+inventory; no transport failure reported",
       "diagnostics": {
@@ -35,10 +35,26 @@
         "requestFailures": [],
         "pageErrors": []
       },
-      "at": "2026-11-02T22:21:01.727Z"
+      "at": "2026-11-02T23:35:52.754Z"
     },
     {
-      "id": 196869,
+      "id": 182658,
+      "code": "request_failed",
+      "message": "page.goto: Timeout 45000ms exceeded.",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [
+          {
+            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182658",
+            "reason": "net::ERR_ABORTED"
+          }
+        ],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T23:37:27.338Z"
+    },
+    {
+      "id": 183617,
       "code": "response_timeout",
       "message": "Timed out waiting for detail+inventory; no transport failure reported",
       "diagnostics": {
@@ -46,7 +62,7 @@
         "requestFailures": [],
         "pageErrors": []
       },
-      "at": "2026-11-02T22:22:25.246Z"
+      "at": "2026-11-02T23:38:21.788Z"
     }
   ],
   "recentFailures": [
@@ -124,36 +140,75 @@
         "pageErrors": []
       },
       "at": "2026-11-02T22:22:25.246Z"
+    },
+    {
+      "id": 179645,
+      "code": "response_timeout",
+      "message": "Timed out waiting for detail+inventory; no transport failure reported",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T23:34:29.208Z"
+    },
+    {
+      "id": 179992,
+      "code": "response_timeout",
+      "message": "Timed out waiting for detail+inventory; no transport failure reported",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T23:35:52.754Z"
+    },
+    {
+      "id": 182658,
+      "code": "request_failed",
+      "message": "page.goto: Timeout 45000ms exceeded.",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [
+          {
+            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182658",
+            "reason": "net::ERR_ABORTED"
+          }
+        ],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T23:37:27.338Z"
+    },
+    {
+      "id": 183617,
+      "code": "response_timeout",
+      "message": "Timed out waiting for detail+inventory; no transport failure reported",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [],
+        "pageErrors": []
+      },
+      "at": "2026-11-02T23:38:21.788Z"
     }
   ],
-  "stoppedReason": {
-    "id": 196869,
-    "code": "response_timeout",
-    "message": "Timed out waiting for detail+inventory; no transport failure reported",
-    "diagnostics": {
-      "received": [],
-      "requestFailures": [],
-      "pageErrors": []
-    },
-    "at": "2026-11-02T22:22:25.246Z"
-  },
+  "stoppedReason": null,
   "collectionSuspended": false,
   "coverage": {
-    "discoveredAt": "2026-11-02T22:18:52.935Z",
-    "totalUnique": 164,
+    "discoveredAt": "2026-11-02T23:32:07.101Z",
+    "totalUnique": 166,
     "channels": [
       {
         "channel": "现货速发",
         "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-        "newCandidates": 15,
-        "observedCandidates": 15,
+        "newCandidates": 13,
+        "observedCandidates": 13,
         "error": null
       },
       {
         "channel": "普通商城",
         "url": "https://h5.vinehoo.com/",
-        "newCandidates": 114,
-        "observedCandidates": 116,
+        "newCandidates": 113,
+        "observedCandidates": 115,
         "error": null
       },
       {
@@ -166,14 +221,14 @@
       {
         "channel": "分类·法国",
         "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
-        "newCandidates": 16,
+        "newCandidates": 19,
         "observedCandidates": 23,
         "error": null
       },
       {
         "channel": "分类·意大利",
         "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
-        "newCandidates": 14,
+        "newCandidates": 12,
         "observedCandidates": 16,
         "error": null
       }
@@ -183,7 +238,7 @@
       "status": 200,
       "provided": false,
       "note": "Site returned SPA HTML instead of robots directives",
-      "checkedAt": "2026-11-02T22:17:10.366Z"
+      "checkedAt": "2026-11-02T23:30:22.105Z"
     }
   },
   "schedule": {
@@ -196,11 +251,54 @@
     "cronUtc": "17 1,13 * * *",
     "timing": "GitHub scheduling can be delayed"
   },
-  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/41535815362",
+  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/41545860913",
+  "queue": {
+    "discoveredCount": 169,
+    "verifiedCount": 51,
+    "pendingCount": 118,
+    "excludedCount": 0
+  },
+  "detailVerifiedCount": 51,
+  "skuEverVerifiedCount": 95,
+  "freshSkuVerifiedCount": 30,
+  "countryCounts": [
+    {
+      "country": "法国",
+      "count": 20
+    },
+    {
+      "country": "意大利",
+      "count": 14
+    },
+    {
+      "country": "西班牙",
+      "count": 5
+    },
+    {
+      "country": "新西兰",
+      "count": 4
+    },
+    {
+      "country": "德国",
+      "count": 3
+    },
+    {
+      "country": "澳大利亚",
+      "count": 3
+    },
+    {
+      "country": "南非",
+      "count": 1
+    },
+    {
+      "country": "智利",
+      "count": 1
+    }
+  ],
   "robots": {
     "status": 200,
     "provided": false,
     "note": "Site returned SPA HTML instead of robots directives",
-    "checkedAt": "2026-11-02T22:17:10.366Z"
+    "checkedAt": "2026-11-02T23:30:22.105Z"
   }
 }
