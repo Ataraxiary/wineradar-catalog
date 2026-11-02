@@ -43,8 +43,22 @@ export function assemble(snapshots,{previous=null,errors=[],discovery,startedAt,
     coverage:discovery,collectionErrors:errors,runUrl,
   };
   if(listings.length)validateCatalog(catalog);
-  catalog.items=listings.map(l=>itemView(l,skus,wines,errors.find(e=>e.id===l.sourceListingId)??null));
+  catalog.items=listings.map(l=>itemView(l,skus,wines,errors.find(e=>e.id===l.sourceListingId)??(fresh.has(l.listingId)?null:{code:'not_refreshed',message:'Retained from an earlier observation'})));
   return catalog;
+}
+export function publicCatalog(catalog,status) {
+  if(!catalog)return null;
+  const published=structuredClone(catalog);
+  const failed= status.state==='failed';
+  for(const item of published.items??[]) {
+    const stale=failed||!item.observedAt||!status.lastAttemptAt||Date.parse(item.observedAt)<Date.parse(status.lastAttemptAt);
+    if(!stale)continue;
+    item.availability='unknown';
+    if(item.collectionStatus==='success')item.collectionStatus='retained';
+    item.lastAttemptError??={code:'not_refreshed',message:'Inventory was not refreshed in this collection'};
+    for(const offer of item.offers??[]){offer.inventory=null;offer.availability='unknown';}
+  }
+  return published;
 }
 export function collectionStatus({catalog,previousStatus,startedAt,finishedAt,successCount,attemptedCount,errors,discovery,minimum=30,target=40,stoppedReason=null,runUrl=null}) {
   const accepted=catalog?.items?.length>=minimum;
@@ -53,7 +67,7 @@ export function collectionStatus({catalog,previousStatus,startedAt,finishedAt,su
     dataGeneratedAt:catalog?.generatedAt??null,dataStaleAfter:catalog?.generatedAt?new Date(Date.parse(catalog.generatedAt)+18*3600000).toISOString():null,
     itemCount:catalog?.items?.length??0,freshItemCount:successCount,attemptedCount,failedCount:errors.filter(e=>e.code!=='not_wine').length,
     retainedPreviousData:successCount===0||((catalog?.items?.length??0)>successCount),
-    availableCount:catalog?.items?.filter(i=>i.availability==='available').length??0,soldOutCount:catalog?.items?.filter(i=>i.availability==='sold_out').length??0,unknownCount:catalog?.items?.filter(i=>i.availability==='unknown').length??0,
+    availableCount:successCount===0?0:catalog?.items?.filter(i=>i.availability==='available').length??0,soldOutCount:successCount===0?0:catalog?.items?.filter(i=>i.availability==='sold_out').length??0,unknownCount:successCount===0?(catalog?.items?.length??0):catalog?.items?.filter(i=>i.availability==='unknown').length??0,
     errors,recentFailures:[...(previousStatus?.recentFailures??[]),...errors].slice(-20),stoppedReason,collectionSuspended:Boolean(previousStatus?.collectionSuspended)||errors.some(e=>e.code==='access_control'||e.code==='robots_disallowed'),
     coverage:discovery,schedule:{enabled:true,timezone:'Asia/Shanghai',times:['09:17','21:17'],cronUtc:'17 1,13 * * *',timing:'GitHub scheduling can be delayed'},runUrl,
   };

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {buildCatalog,validateCatalog} from '../src/model.mjs';
-import {assemble,itemView,collectionStatus} from '../src/catalog.mjs';
+import {assemble,itemView,collectionStatus,publicCatalog} from '../src/catalog.mjs';
 import {addVisibleVintage,responseKind} from '../src/browser.mjs';
 import {productCandidates,selectBalanced} from '../src/discovery.mjs';
 import {robotsAllows} from '../src/robots.mjs';
@@ -38,6 +38,19 @@ test('partial update preserves old listing data and marks failed listing unknown
 test('complete collection failure retains last success timestamp and suspended state',()=>{
   const c=assemble([fresh()],options);const status=collectionStatus({catalog:c,previousStatus:{lastSuccessAt:'2026-11-02T00:00:00.000Z',collectionSuspended:true},...options,successCount:0,attemptedCount:1,errors:[{code:'request_failed'}],minimum:1});
   assert.equal(status.state,'failed');assert.equal(status.retainedPreviousData,true);assert.equal(status.lastSuccessAt,'2026-11-02T00:00:00.000Z');assert.equal(status.collectionSuspended,true);
+});
+test('failed publication retains observations but makes all current inventory unknown',()=>{
+  const c=assemble([fresh()],options),status=collectionStatus({catalog:c,previousStatus:{lastSuccessAt:options.finishedAt},...options,successCount:0,attemptedCount:3,errors:[{code:'response_timeout'}],minimum:1});
+  const published=publicCatalog(c,status);
+  assert.equal(status.availableCount,0);assert.equal(status.unknownCount,1);
+  assert.equal(published.items[0].availability,'unknown');assert.equal(published.items[0].offers[0].inventory,null);
+  assert.equal(published.items[0].offers[0].lastKnownInventory,2);
+  assert.equal(c.items[0].availability,'available');assert.equal(c.items[0].offers[0].inventory,2);
+});
+test('unrefreshed listing in a partial batch stays unknown',()=>{
+  const previous=assemble([fresh()],options);
+  const next=assemble([],{...options,previous,errors:[]});
+  assert.equal(next.items[0].availability,'unknown');assert.equal(next.items[0].collectionStatus,'failed');
 });
 test('discovery deduplicates and round-robins across actual source channels',()=>{
   const products=productCandidates({data:{list:[{id:197683,title:'Wine',price:1999,periods_type:0},{id:1,title:'News',price:2},{id:197684,title:'Not wine',price:10,periods_type:1,product_category:['咖啡']}]}});

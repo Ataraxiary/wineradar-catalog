@@ -2,6 +2,11 @@ name: Collect and publish WineRadar
 
 on:
   workflow_dispatch:
+    inputs:
+      publish_only:
+        description: 'Republish retained data without contacting the retailer'
+        type: boolean
+        default: false
   schedule:
     - cron: '17 1,13 * * *'
 
@@ -48,18 +53,18 @@ jobs:
         run: npm test
       - name: Install browser
         id: browser
-        if: steps.tests.outcome == 'success'
+        if: steps.tests.outcome == 'success' && !inputs.publish_only
         continue-on-error: true
         timeout-minutes: 3
         run: npx --no-install playwright install --with-deps chromium
       - name: Collect bounded public wine sample
         id: collect
-        if: steps.browser.outcome == 'success' && steps.tests.outcome == 'success'
+        if: steps.browser.outcome == 'success' && steps.tests.outcome == 'success' && !inputs.publish_only
         continue-on-error: true
         timeout-minutes: 15
         run: npm run collect
       - name: Record failed collection or setup without replacing the last good catalog
-        if: always() && !cancelled() && steps.collect.outcome != 'success'
+        if: always() && !cancelled() && !inputs.publish_only && steps.collect.outcome != 'success'
         env:
           FAILURE_STAGE: ${{ steps.dependencies.outcome != 'success' && 'dependencies' || steps.tests.outcome != 'success' && 'tests' || steps.browser.outcome != 'success' && 'browser' || 'collection' }}
         run: node scripts/record-failure.mjs
@@ -112,4 +117,6 @@ jobs:
         with:
           persist-credentials: false
       - name: Verify anonymous public HTTP responses and data freshness
+        env:
+          PUBLICATION_ONLY: ${{ inputs.publish_only }}
         run: node scripts/verify-public.mjs
