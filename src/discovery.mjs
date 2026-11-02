@@ -1,4 +1,4 @@
-import {pause,checkAccess,SourceError} from './browser.mjs';
+import {pause,checkAccess,SourceError,deadline} from './browser.mjs';
 import {cleanUrl} from './sanitize.mjs';
 export function productCandidates(value,output=[],depth=0) {
   if(!value||typeof value!=='object'||depth>12)return output;
@@ -18,27 +18,29 @@ export function selectBalanced(candidates,limit=50) {
   return [...selected.values()];
 }
 export async function discover(context,config) {
-  const page=await context.newPage();page.setDefaultTimeout(config.timeoutPerPageMs);const map=new Map(),routes=new Map(),channels=[],pending=[],requestSources=new WeakMap();let active={channel:'现货速发',url:config.landing},blocked=null;
+  const page=await context.newPage();page.setDefaultTimeout(config.timeoutPerPageMs);const map=new Map(),routes=new Map(),channels=[],pending=new Set(),requestSources=new WeakMap();let active={channel:'现货速发',url:config.landing},blocked=null,parseFailures=0;
   page.on('request',request=>requestSources.set(request,{...active,url:cleanUrl(page.url())}));
   page.on('response',r=>{
     if(!['xhr','fetch'].includes(r.request().resourceType())||new URL(r.url()).origin!==config.origin)return;
     const source={...(requestSources.get(r.request())??active),api:cleanUrl(r.url())};
     if([401,403,429].includes(r.status())){blocked=new SourceError('access_control',`Discovery HTTP ${r.status()}`,{stop:true});return;}
-    pending.push((async()=>{try{if(r.status()!==200)return;const j=await r.json();if(j?.error_code!==0)return;
+    const task=(async()=>{try{if(r.status()!==200)return;const j=await deadline(r.json(),15000,'discovery_response_timeout');if(j?.error_code!==0)return;
       for(const found of productCandidates(j)){const previous=map.get(found.id)??{...found,sources:[]};if(!previous.sources.some(s=>s.channel===source.channel))previous.sources.push(source);map.set(found.id,previous);}
       for(const column of j.data?.column??[]){if(typeof column.path==='string'&&column.path.startsWith('/activities-v3/'))routes.set(column.name,{channel:'分类·'+column.name,url:new URL(column.path,config.origin).href});}
-    }catch{}})());
+    }catch{parseFailures++;}})();
+    pending.add(task);task.finally(()=>pending.delete(task));
   });
   async function settle(source,action,{scroll=false}={}) {
     if(channels.length>=config.maximumDiscoveryPages)return;
-    active=source;const before=new Set(map.keys());let error=null;
+    active=source;const before=new Set(map.keys()),started=Date.now(),failuresBefore=parseFailures;let error=null;
     try {
       await action();await page.waitForTimeout(5000);await checkAccess(page);if(blocked)throw blocked;
       if(scroll){await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));await pause(config.minimumPauseMs);}
-      await Promise.allSettled(pending);source.url=cleanUrl(page.url());
+      await Promise.allSettled([...pending]);if(blocked)throw blocked;source.url=cleanUrl(page.url());
     }catch(e){error={code:e.code??'discovery_navigation_failed',message:String(e.message).split('\n')[0].slice(0,220)};if(e.stop)throw e;}
     const found=[...map.values()].filter(c=>c.sources.some(s=>s.channel===source.channel));
-    channels.push({channel:source.channel,url:source.url,newCandidates:found.filter(c=>!before.has(c.id)).length,observedCandidates:found.length,error});
+    channels.push({channel:source.channel,url:source.url,newCandidates:found.filter(c=>!before.has(c.id)).length,observedCandidates:found.length,elapsedMs:Date.now()-started,responseParseFailures:parseFailures-failuresBefore,error});
+    console.log(JSON.stringify({stage:'discovery_channel',channel:source.channel,elapsedMs:Date.now()-started,candidates:found.length,responseParseFailures:parseFailures-failuresBefore,errorCode:error?.code??null}));
     await pause(config.minimumPauseMs);
   }
   try {

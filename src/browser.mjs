@@ -44,11 +44,26 @@ export function addVisibleVintage(snapshot,header) {
 }
 export async function observeProduct(context,candidate,config) {
   const id=candidate.id,page=await context.newPage();page.setDefaultTimeout(config.timeoutPerPageMs);
-  const values={},meta={},pending=[],claimed=new Set(),failures=[],pageErrors=[];let resolve,reject,accept=true;
+  const values={},meta={},pending=[],claimed=new Set(),failures=[],pageErrors=[],network=[];let resolve,reject,accept=true;
+  const started=Date.now();
+  function trace(phase,request,status=null){
+    if(network.length>=60)return;
+    let url;try{url=new URL(request.url());}catch{return;}
+    if(!['https://h5.vinehoo.com','https://img.vinehoo.com'].includes(url.origin))return;
+    const kind=responseKind(request.url(),id);
+    const relevant=kind||request.isNavigationRequest()||request.resourceType()==='script'||/\/(?:api\/commodities|vinehoo\/client\/commodities)\//.test(url.pathname);
+    if(!relevant)return;
+    const path=kind?url.pathname:request.isNavigationRequest()&&url.pathname==='/pages/goods-detail/goods-detail'?url.pathname:request.isNavigationRequest()?'[other navigation]':'[first-party script or commodity endpoint]';
+    network.push({phase,elapsedMs:Date.now()-started,host:url.host,path,type:request.resourceType(),kind:kind??'other',...(status===null?{}:{status})});
+  }
+  page.on('request',r=>trace('request',r));
+  page.on('domcontentloaded',()=>network.push({phase:'domcontentloaded',elapsedMs:Date.now()-started}));
+  page.on('load',()=>network.push({phase:'load',elapsedMs:Date.now()-started}));
   page.on('requestfailed',r=>{if(responseKind(r.url(),id)||r.isNavigationRequest())failures.push({url:cleanUrl(r.url()),reason:r.failure()?.errorText??'request_failed'});});
   page.on('pageerror',e=>pageErrors.push(String(e.message).split('\n')[0].slice(0,150)));
   const ready=new Promise((res,rej)=>{resolve=res;reject=rej;});ready.catch(()=>{});
   page.on('response',r=>{
+    trace('response',r.request(),r.status());
     if(!accept||!['xhr','fetch'].includes(r.request().resourceType()))return;
     const kind=responseKind(r.url(),id);if(!kind||claimed.has(kind))return;claimed.add(kind);
     pending.push((async()=>{
@@ -86,6 +101,6 @@ export async function observeProduct(context,candidate,config) {
       const missing=['detail','inventory'].filter(k=>!values[k]);
       e.message=`Timed out waiting for ${missing.join('+')||'page'}; ${failures.map(f=>f.reason).join('; ')||'no transport failure reported'}${pageErrors.length?'; page: '+pageErrors.join('; '):''}`;
     }
-    e.diagnostics={received:Object.keys(values),requestFailures:failures,pageErrors};throw e;
+    e.diagnostics={received:Object.keys(values),requestFailures:failures,pageErrors,network};throw e;
   } finally {accept=false;await page.close().catch(()=>{});await deadline(Promise.allSettled(pending),2000).catch(()=>{});}
 }

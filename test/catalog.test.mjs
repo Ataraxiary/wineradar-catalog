@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {buildCatalog,validateCatalog} from '../src/model.mjs';
 import {assemble,itemView,collectionStatus,publicCatalog} from '../src/catalog.mjs';
-import {addVisibleVintage,responseKind} from '../src/browser.mjs';
+import {addVisibleVintage,responseKind,deadline} from '../src/browser.mjs';
 import {productCandidates,selectBalanced} from '../src/discovery.mjs';
 import {robotsAllows} from '../src/robots.mjs';
 import {render,escapeHtml} from '../src/render.mjs';
@@ -109,4 +109,7 @@ test('persistent queue deduplicates discovery and cools failed products without 
   assert.equal(queueStats(queue).verifiedCount,1);
   assert.deepEqual(planBatch(queue,{maxAttempts:2,now}),[{id:197683,title:'Wine',sources:[]}]);
   assert.equal(planBatch(queue,{maxAttempts:2,now:'2026-11-03T13:00:00.000Z'})[0].id,197684);
+});
+test('discovery response waits have a finite, classified deadline',async()=>{
+  await assert.rejects(deadline(new Promise(()=>{}),10,'discovery_response_timeout'),error=>error.code==='discovery_response_timeout');
 });
