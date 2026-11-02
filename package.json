@@ -1,0 +1,14 @@
+{
+  "name": "wineradar-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "collect": "node scripts/collect.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": { "node": ">=24" },
+  "devDependencies": { "playwright": "1.64.1" }
+}
