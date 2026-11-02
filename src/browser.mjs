@@ -13,8 +13,8 @@ export async function openBrowser() {
   if(process.env.WINERADAR_PROXY) options.proxy={server:process.env.WINERADAR_PROXY};
   const browser=await chromium.launch(options);
   const context=await browser.newContext({locale:'zh-CN',viewport:{width:430,height:932},isMobile:true,hasTouch:true});
-  // Only the unrelated statistics script is omitted; site access/verification code is untouched.
-  await context.route('**://*.cnzz.com/**',route=>route.abort());
+  // Keep Chromium's HTTP cache available across product pages. Playwright routing
+  // disables it for the entire context, including first-party bootstrap scripts.
   return {browser,context};
 }
 export async function checkAccess(page) {
