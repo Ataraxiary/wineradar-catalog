@@ -5,7 +5,7 @@ import {discover} from '../src/discovery.mjs';
 import {assemble,collectionStatus,publicCatalog} from '../src/catalog.mjs';
 import {checkRobots} from '../src/robots.mjs';
 import {clean,assertNoSecrets} from '../src/sanitize.mjs';
-import {mergeQueue,planBatch,recordQueueAttempt,queueStats,exceedsFailureRate} from '../src/queue.mjs';
+import {mergeQueue,planBatch,recordQueueAttempt,queueStats,exceedsFailureRate,isRequestFailure} from '../src/queue.mjs';
 const root=new URL('../',import.meta.url),data=new URL('data/',root),artifacts=new URL('artifacts/',root);
 await fs.mkdir(data,{recursive:true});await fs.mkdir(artifacts,{recursive:true});
 async function read(name){try{return JSON.parse(await fs.readFile(new URL(name,data),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;return null;}}
@@ -39,7 +39,7 @@ try {
       recordQueueAttempt(queue,candidate.id,{at:new Date().toISOString(),success:true});await write('queue.json',queue);
       await fs.writeFile(new URL('snapshots.json',artifacts),JSON.stringify(snapshots,null,2)+'\n');
       consecutive=0;console.log(JSON.stringify({id:candidate.id,status:'ok',successCount:snapshots.length,attemptedCount,skus:snapshot.skus.length}));}
-    catch(e){const error={id:candidate.id,code:e.code??'request_failed',message:clean(String(e.message).split('\n')[0].slice(0,220)),diagnostics:clean(e.diagnostics??null),at:new Date().toISOString()};errors.push(error);recordQueueAttempt(queue,candidate.id,{at:error.at,code:error.code});await write('queue.json',queue);console.log(JSON.stringify({...error,status:'unknown'}));if(e.code!=='not_wine')consecutive++;
+    catch(e){const error={id:candidate.id,code:e.code??'request_failed',message:clean(String(e.message).split('\n')[0].slice(0,220)),diagnostics:clean(e.diagnostics??null),at:new Date().toISOString()};errors.push(error);recordQueueAttempt(queue,candidate.id,{at:error.at,code:error.code});await write('queue.json',queue);console.log(JSON.stringify({...error,status:'unknown'}));if(isRequestFailure(error))consecutive++;else consecutive=0;
       if(e.stop||consecutive>=config.maximumConsecutiveFailures){stoppedReason=error;break;}
       if(exceedsFailureRate(errors,attemptedCount,{minimumSample:config.minimumFailureRateSample,maximumRate:config.maximumFailureRate})){stoppedReason={code:'failure_rate_limit',message:'Stopped after the bounded batch exceeded its failure-rate limit',at:error.at};break;}
       if(e.code==='response_timeout')await pause(30000);}

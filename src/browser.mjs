@@ -36,8 +36,9 @@ export function responseKind(url,id) {
   if(u.origin==='https://h5.vinehoo.com'&&/^\/api\/commodities\/v3\/package\/getPeriods(?:Second)?PackageInventory$/.test(u.pathname)&&u.searchParams.getAll('period').length===1&&u.searchParams.get('period')===String(id))return'inventory';
   return null;
 }
-export async function recoverPublicApis(context,{id,detailUrl,config,pauseFn=pause}) {
+export async function recoverPublicApis(context,{id,detailUrl,visiblePrice,config,pauseFn=pause}) {
   if(responseKind(detailUrl,id)!=='detail')throw new SourceError('fallback_invalid_url','Recovery requires the detail URL observed on the public page');
+  if(!Number.isFinite(visiblePrice)||visiblePrice<0)throw new SourceError('page_price_unavailable','Recovery requires a publicly visible product price');
   const limit=Math.min(config.timeoutPerPageMs,15000);
   async function read(kind,url){
     if(responseKind(url,id)!==kind)throw new SourceError('fallback_invalid_url',`Invalid ${kind} recovery URL`);
@@ -65,6 +66,7 @@ export async function recoverPublicApis(context,{id,detailUrl,config,pauseFn=pau
   const snapshot=buildCatalog({detail:projectResponse('detail',detail.body),live:projectResponse('inventory',inventory.body),detailAt:detail.observedAt,liveAt:inventory.observedAt,
     runId:new Date().toISOString().replace(/[:.]/g,'-'),environment:process.env.GITHUB_ACTIONS==='true'?'github-actions':'local',
     evidence:{detail:{url:detail.url,observedAt:detail.observedAt},inventory:{url:inventory.url,observedAt:inventory.observedAt}}});
+  if(visiblePrice!==Number(snapshot.listings[0].displayedPrice.amount))throw new SourceError('page_data_mismatch','Displayed price differs from recovered detail response');
   snapshot.listings[0].verificationMethod='public_api_recovery';
   const categories=detail.body.data?.product_category??[];
   if(categories.length&&!categories.some(c=>/葡萄酒|起泡|香槟/.test(c)))throw new SourceError('not_wine','Non-wine product omitted');
@@ -144,13 +146,18 @@ export async function observeProduct(context,candidate,config) {
     if(e.code==='response_timeout'){
       await checkAccess(page);
       if(requestUrls.detail&&!values.detail&&!requestUrls.inventory){
-        await page.close().catch(()=>{});
-        await pause(config.minimumPauseMs);
-        try{const snapshot=await recoverPublicApis(context,{id,detailUrl:requestUrls.detail,config});snapshot.listings[0].discoverySources=candidate.sources;return snapshot;}
-        catch(recoveryError){
-          recoveryFailure={code:recoveryError.code??'fallback_failed',message:String(recoveryError.message).slice(0,140)};
-          if(recoveryError.code==='not_wine')throw recoveryError;
-          if(recoveryError.stop){recoveryError.diagnostics={received:Object.keys(values),requestFailures:failures,pageErrors,network,recovery:recoveryFailure};throw recoveryError;}
+        let visiblePrice=null;
+        try{visiblePrice=publicVisiblePrice(await page.locator('body').innerText({timeout:2000}));}
+        catch(priceError){if(priceError.code==='price_not_public')throw priceError;}
+        if(visiblePrice!==null){
+          await page.close().catch(()=>{});
+          await pause(config.minimumPauseMs);
+          try{const snapshot=await recoverPublicApis(context,{id,detailUrl:requestUrls.detail,visiblePrice,config});snapshot.listings[0].discoverySources=candidate.sources;return snapshot;}
+          catch(recoveryError){
+            recoveryFailure={code:recoveryError.code??'fallback_failed',message:String(recoveryError.message).slice(0,140)};
+            if(recoveryError.code==='not_wine')throw recoveryError;
+            if(recoveryError.stop){recoveryError.diagnostics={received:Object.keys(values),requestFailures:failures,pageErrors,network,recovery:recoveryFailure};throw recoveryError;}
+          }
         }
       }
       const missing=['detail','inventory'].filter(k=>!values[k]);

@@ -51,7 +51,7 @@ test('observed public detail URL recovers one stalled regular product with bound
     const payload=url.includes('/periods/194377.json')?recoveryFixture.detail:recoveryFixture.live;
     return {url:()=>url,status:()=>200,body:async()=>Buffer.from(JSON.stringify(payload)),dispose:async()=>{}};
   }}};
-  const snapshot=await recoverPublicApis(context,{id:194377,detailUrl,config:{timeoutPerPageMs:45000,minimumPauseMs:8000},pauseFn:async()=>{}});
+  const snapshot=await recoverPublicApis(context,{id:194377,detailUrl,visiblePrice:219.9,config:{timeoutPerPageMs:45000,minimumPauseMs:8000},pauseFn:async()=>{}});
   assert.equal(snapshot.listings[0].sourceListingId,194377);
   assert.equal(snapshot.listings[0].verificationMethod,'public_api_recovery');
   assert(Number.isSafeInteger(snapshot.skus[0].inventory.quantity));
@@ -61,8 +61,12 @@ test('observed public detail URL recovers one stalled regular product with bound
 test('public API recovery stops on access control without requesting inventory',async()=>{
   const calls=[];
   const context={request:{get:async url=>{calls.push(url);return {url:()=>url,status:()=>429,dispose:async()=>{}};}}};
-  await assert.rejects(recoverPublicApis(context,{id:194377,detailUrl:'https://img.vinehoo.com/vinehoo/client/commodities/periods/194377.json',config:{timeoutPerPageMs:45000,minimumPauseMs:8000},pauseFn:async()=>{}}),error=>error.code==='access_control'&&error.stop);
+  await assert.rejects(recoverPublicApis(context,{id:194377,detailUrl:'https://img.vinehoo.com/vinehoo/client/commodities/periods/194377.json',visiblePrice:219.9,config:{timeoutPerPageMs:45000,minimumPauseMs:8000},pauseFn:async()=>{}}),error=>error.code==='access_control'&&error.stop);
   assert.equal(calls.length,1);
+});
+test('public API recovery cannot publish a price absent from the page',async()=>{
+  const context={request:{get:async()=>{throw new Error('Recovery must not request product data');}}};
+  await assert.rejects(recoverPublicApis(context,{id:194377,detailUrl:'https://img.vinehoo.com/vinehoo/client/commodities/periods/194377.json',config:{timeoutPerPageMs:45000,minimumPauseMs:8000}}),error=>error.code==='page_price_unavailable');
 });
 test('an explicitly confidential page price is never replaced by an API or promotional price',()=>{
   assert.equal(publicVisiblePrice('公开价格 ¥1,899'),1899);
