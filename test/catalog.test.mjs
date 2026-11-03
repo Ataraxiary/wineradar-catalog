@@ -188,8 +188,18 @@ test('incremental queue reserves some capacity for oldest verified products',()=
   for(const entry of candidates.slice(0,5))recordQueueAttempt(queue,entry.id,{at,success:true});
   const planned=planBatch(queue,{maxAttempts:5,now:'2026-11-03T01:00:00.000Z'});
   assert.equal(planned.length,5);
+  assert(planned[0].id<197685,'A verified product should warm the page session before new candidates');
   assert.equal(planned.filter(entry=>entry.id<197685).length,1);
   assert.equal(planned.filter(entry=>entry.id>=197685).length,4);
+});
+test('refresh slots occur before the target count can end a batch',()=>{
+  const at='2026-11-03T00:00:00.000Z';
+  const candidates=Array.from({length:30},(_,i)=>({id:200000+i,title:`Wine ${i}`,sources:[]}));
+  const queue=mergeQueue(null,candidates,[],at);
+  for(const entry of candidates.slice(0,10))recordQueueAttempt(queue,entry.id,{at,success:true});
+  const planned=planBatch(queue,{maxAttempts:15,now:'2026-11-03T01:00:00.000Z'});
+  for(const slot of [0,5,10])assert(planned[slot].id<200010);
+  assert.equal(new Set(planned.map(entry=>entry.id)).size,15);
 });
 test('discovery response waits have a finite, classified deadline',async()=>{
   await assert.rejects(deadline(new Promise(()=>{}),10,'discovery_response_timeout'),error=>error.code==='discovery_response_timeout');

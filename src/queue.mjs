@@ -20,7 +20,13 @@ export function planBatch(queue,{maxAttempts,now}) {
   const pending=ready.filter(entry=>!entry.lastVerifiedAt).sort((a,b)=>a.firstSeenAt.localeCompare(b.firstSeenAt)||a.id-b.id);
   const refresh=ready.filter(entry=>entry.lastVerifiedAt).sort((a,b)=>a.lastVerifiedAt.localeCompare(b.lastVerifiedAt)||a.id-b.id);
   const reserved=Math.min(Math.floor(maxAttempts/5),refresh.length);
-  return [...pending.slice(0,maxAttempts-reserved),...refresh.slice(0,reserved),...pending.slice(maxAttempts-reserved),...refresh.slice(reserved)]
+  const chosenPending=pending.slice(0,maxAttempts-reserved),chosenRefresh=refresh.slice(0,reserved),ordered=[];
+  for(let slot=0;slot<maxAttempts;slot++){
+    if(slot%5===0&&chosenRefresh.length)ordered.push(chosenRefresh.shift());
+    else if(chosenPending.length)ordered.push(chosenPending.shift());
+    else if(chosenRefresh.length)ordered.push(chosenRefresh.shift());
+  }
+  return [...ordered,...pending.slice(maxAttempts-reserved),...refresh.slice(reserved)]
     .slice(0,maxAttempts).map(entry=>({id:entry.id,title:entry.title,sources:entry.sources??[]}));
 }
 export function recordQueueAttempt(queue,id,{at,success=false,code=null}) {
