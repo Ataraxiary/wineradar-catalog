@@ -1,36 +1,58 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/3 08:09:18 +08:00；本轮状态：partial；商品 79 款，规格 174 条。
+数据快照：2026/11/3 16:02:12 +08:00；本轮状态：partial；商品 89 款，规格 196 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 196869 | Vina Ijalba 'Ijalba' Graciano Rioja DOCa | 未标示 | 单支（SKU 393015） | ¥169.90 | 在售 | 在售 | 2 | 2026/11/3 08:09:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196869) |
-| 196869 | Vina Ijalba 'Ijalba' Graciano Rioja DOCa | 未标示 | 双支装（SKU 393016） | ¥328.00 | 在售 | 在售 | 2 | 2026/11/3 08:09:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196869) |
-| 197040 | Nin-Ortiz Selma - 2020 | 2020 | 单支（SKU 393346） | ¥429.00 | 在售 | 在售 | 6 | 2026/11/3 08:08:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197040) |
-| 194364 | Cuvee Victoire Gold VIntage Limited Edition 2012 | 2012 | 单支（SKU 393432） | ¥269.00 | 在售 | 在售 | 7 | 2026/11/3 08:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194364) |
-| 194364 | Cuvee Victoire Gold VIntage Limited Edition 2012 | 2012 | 双支装（SKU 393433） | ¥529.00 | 在售 | 在售 | 7 | 2026/11/3 08:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194364) |
-| 194364 | Cuvee Victoire Gold VIntage Limited Edition 2012 | 2012 | 六支装（SKU 393434） | ¥1559.00 | 在售 | 在售 | 7 | 2026/11/3 08:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194364) |
-| 194241 | Gilbert Family Wines Chloe Estate Cabernet Sauvignon Mudgee 2019 | 2019 | 三支装（SKU 387504） | ¥150.00 | 在售 | 在售 | 4 | 2026/11/3 08:08:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194241) |
-| 194241 | Gilbert Family Wines Chloe Estate Cabernet Sauvignon Mudgee 2019 | 2019 | 六支原箱（SKU 387505） | ¥279.00 | 在售 | 在售 | 4 | 2026/11/3 08:08:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194241) |
-| 193803 | Vignamaggio Castello di Monna Lisa Chianti Classico Gran Selezione 2019 | 2019 | 单支（SKU 388355） | ¥169.00 | 在售 | 在售 | 8 | 2026/11/3 08:05:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193803) |
-| 193803 | Vignamaggio Castello di Monna Lisa Chianti Classico Gran Selezione 2019 | 2019 | 双支装（SKU 388356） | ¥330.00 | 在售 | 在售 | 8 | 2026/11/3 08:05:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193803) |
-| 193803 | Vignamaggio Castello di Monna Lisa Chianti Classico Gran Selezione 2019 | 2019 | 六支装（SKU 388357） | ¥950.00 | 在售 | 在售 | 8 | 2026/11/3 08:05:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193803) |
-| 193507 | Vina Quebrada de Macul 'Alba de Domus' 2015 | 2015 | 单支（SKU 385941） | ¥168.00 | 在售 | 在售 | 7 | 2026/11/3 08:05:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193507) |
-| 193507 | Vina Quebrada de Macul 'Alba de Domus' 2015 | 2015 | 双支装（SKU 385942） | ¥329.00 | 在售 | 在售 | 7 | 2026/11/3 08:05:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193507) |
-| 193507 | Vina Quebrada de Macul 'Alba de Domus' 2015 | 2015 | 六支装（SKU 385966） | ¥979.00 | 在售 | 在售 | 7 | 2026/11/3 08:05:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193507) |
-| 193473 | Torrevento Infinitum Chardonnay | 2024 | 单支（SKU 385859） | ¥59.90 | 在售 | 在售 | 4 | 2026/11/3 08:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193473) |
-| 193473 | Torrevento Infinitum Chardonnay | 2024 | 双支装（SKU 385860） | ¥109.90 | 在售 | 在售 | 2 | 2026/11/3 08:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193473) |
-| 193473 | Torrevento Infinitum Chardonnay | 2024 | 六支原箱（SKU 385861） | ¥319.90 | 在售 | 售罄 | 0 | 2026/11/3 08:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193473) |
-| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 单支（SKU 390634） | ¥169.00 | 在售 | 在售 | 4 | 2026/11/3 08:05:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
-| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 双支装（SKU 384482） | ¥329.00 | 在售 | 在售 | 4 | 2026/11/3 08:05:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
-| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 六支装（SKU 384483） | ¥969.00 | 在售 | 在售 | 4 | 2026/11/3 08:05:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
-| 192743 | Vina Una Hectarea 1 ha  Reserva Especial Cabernet Sauvignon 2020 | 2020 | 六支原箱（SKU 384278） | ¥149.90 | 在售 | 在售 | 6 | 2026/11/3 08:04:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192743) |
-| 192743 | Vina Una Hectarea 1 ha  Reserva Especial Cabernet Sauvignon 2020 | 2020 | 5箱聚会装（SKU 389274） | ¥739.00 | 在售 | 在售 | 1 | 2026/11/3 08:04:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192743) |
-| 192743 | Vina Una Hectarea 1 ha  Reserva Especial Cabernet Sauvignon 2020 | 2020 | 10箱囤货装（SKU 389275） | ¥1469.00 | 在售 | 售罄 | 0 | 2026/11/3 08:04:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192743) |
-| 192729 | Le Petit beylot  AOC  2018 | 2018 | 六支装（SKU 384252） | ¥99.90 | 在售 | 在售 | 8 | 2026/11/3 08:04:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192729) |
-| 192729 | Le Petit beylot  AOC  2018 | 2018 | 十二支原箱（SKU 384253） | ¥189.00 | 在售 | 在售 | 8 | 2026/11/3 08:04:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192729) |
+| 195426 | La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 单支（SKU 389687） | ¥119.90 | 在售 | 在售 | 7 | 2026/11/3 16:02:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195426) |
+| 195426 | La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 双支装（SKU 389688） | ¥229.90 | 在售 | 在售 | 7 | 2026/11/3 16:02:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195426) |
+| 195426 | La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 六支装（SKU 389689） | ¥668.00 | 在售 | 在售 | 7 | 2026/11/3 16:02:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195426) |
+| 195371 | Weingut Konrad Pauly Graacher Himmerlreich Riesling Spatlese Fein-Herb 1998 | 1998 | 单支（SKU 389794） | ¥199.00 | 在售 | 在售 | 7 | 2026/11/3 16:01:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195371) |
+| 195371 | Weingut Konrad Pauly Graacher Himmerlreich Riesling Spatlese Fein-Herb 1998 | 1998 | 双支装（SKU 389795） | ¥388.00 | 在售 | 在售 | 7 | 2026/11/3 16:01:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195371) |
+| 195356 | Saint Molly Moscato d'Asti 2024 | 2024 | 双支装（SKU 389619） | ¥99.90 | 在售 | 在售 | 4 | 2026/11/3 16:01:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195356) |
+| 195356 | Saint Molly Moscato d'Asti 2024 | 2024 | 六支原箱（SKU 389620） | ¥259.90 | 在售 | 在售 | 4 | 2026/11/3 16:01:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195356) |
+| 195351 | Rijckaert Sur la Roche Vieilles Vignes Pouilly-Fuisse  2019 | 2019 | 单支（SKU 389705） | ¥229.00 | 在售 | 在售 | 6 | 2026/11/3 16:01:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195351) |
+| 195351 | Rijckaert Sur la Roche Vieilles Vignes Pouilly-Fuisse  2019 | 2019 | 双支装（SKU 389706） | ¥449.00 | 在售 | 在售 | 6 | 2026/11/3 16:01:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195351) |
+| 195351 | Rijckaert Sur la Roche Vieilles Vignes Pouilly-Fuisse  2019 | 2019 | 六支装（SKU 389707） | ¥1339.00 | 在售 | 在售 | 6 | 2026/11/3 16:01:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195351) |
+| 195335 | Domaine la Haute Fevrie Muscadet Sevre-et-Maine Chateau Thebaud 2020 / Domaine du Haut Bourg Muscadet Cotes de Grandlieu Signature 2018 | 2020 / 2018 | 双支对比套装（SKU 389632） | ¥279.00 | 在售 | 在售 | 6 | 2026/11/3 16:01:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195335) |
+| 195311 | Domaine Chandon de Briailles Savigny-les-Beaune Aux Fourneaux 2021 | 2021 | 单支（SKU 391580） | ¥369.00 | 在售 | 在售 | 5 | 2026/11/3 16:01:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195311) |
+| 195232 | Schloss Saarstein Serriger Schloss Saarsteiner Riesling Kabinett 2022 | 2022 | 单支（SKU 389399） | ¥138.00 | 在售 | 在售 | 4 | 2026/11/3 16:00:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195232) |
+| 195232 | Schloss Saarstein Serriger Schloss Saarsteiner Riesling Kabinett 2022 | 2022 | 双支装（SKU 389400） | ¥268.00 | 在售 | 在售 | 4 | 2026/11/3 16:00:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195232) |
+| 195232 | Schloss Saarstein Serriger Schloss Saarsteiner Riesling Kabinett 2022 | 2022 | 六支装（SKU 389401） | ¥799.00 | 在售 | 在售 | 4 | 2026/11/3 16:00:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195232) |
+| 195106 | Porganyi Winery Tokaji Szamorodni sweet 2018 | 2018 | 单支（SKU 389106） | ¥69.90 | 在售 | 在售 | 5 | 2026/11/3 16:00:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195106) |
+| 195106 | Porganyi Winery Tokaji Szamorodni sweet 2018 | 2018 | 双支装（SKU 389107） | ¥129.90 | 在售 | 在售 | 5 | 2026/11/3 16:00:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195106) |
+| 195106 | Porganyi Winery Tokaji Szamorodni sweet 2018 | 2018 | 六支原箱（SKU 389108） | ¥379.90 | 在售 | 在售 | 5 | 2026/11/3 16:00:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195106) |
+| 195035 | Villa Granda prosecco DOC Treviso Extra Dry Millesimato | 2022 | 单支（SKU 389114） | ¥89.90 | 在售 | 在售 | 4 | 2026/11/3 16:00:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195035) |
+| 195035 | Villa Granda prosecco DOC Treviso Extra Dry Millesimato | 2022 | 双支装（SKU 389115） | ¥175.00 | 在售 | 在售 | 4 | 2026/11/3 16:00:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195035) |
+| 195035 | Villa Granda prosecco DOC Treviso Extra Dry Millesimato | 2022 | 六支装（SKU 389116） | ¥499.90 | 在售 | 在售 | 4 | 2026/11/3 16:00:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195035) |
+| 194954 | Bulletin Place Shiraz 2019 | 2019 | 六支原箱（SKU 388986） | ¥188.00 | 在售 | 在售 | 7 | 2026/11/3 16:00:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194954) |
+| 196869 | Vina Ijalba 'Ijalba' Graciano Rioja DOCa | 未标示 | 单支（SKU 393015） | ¥169.90 | 未知 | 未知 | 未知 | 2026/11/3 08:09:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196869) |
+| 196869 | Vina Ijalba 'Ijalba' Graciano Rioja DOCa | 未标示 | 双支装（SKU 393016） | ¥328.00 | 未知 | 未知 | 未知 | 2026/11/3 08:09:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196869) |
+| 197040 | Nin-Ortiz Selma - 2020 | 2020 | 单支（SKU 393346） | ¥429.00 | 未知 | 未知 | 未知 | 2026/11/3 08:08:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197040) |
+| 194364 | Cuvee Victoire Gold VIntage Limited Edition 2012 | 2012 | 单支（SKU 393432） | ¥269.00 | 未知 | 未知 | 未知 | 2026/11/3 08:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194364) |
+| 194364 | Cuvee Victoire Gold VIntage Limited Edition 2012 | 2012 | 双支装（SKU 393433） | ¥529.00 | 未知 | 未知 | 未知 | 2026/11/3 08:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194364) |
+| 194364 | Cuvee Victoire Gold VIntage Limited Edition 2012 | 2012 | 六支装（SKU 393434） | ¥1559.00 | 未知 | 未知 | 未知 | 2026/11/3 08:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194364) |
+| 194241 | Gilbert Family Wines Chloe Estate Cabernet Sauvignon Mudgee 2019 | 2019 | 三支装（SKU 387504） | ¥150.00 | 未知 | 未知 | 未知 | 2026/11/3 08:08:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194241) |
+| 194241 | Gilbert Family Wines Chloe Estate Cabernet Sauvignon Mudgee 2019 | 2019 | 六支原箱（SKU 387505） | ¥279.00 | 未知 | 未知 | 未知 | 2026/11/3 08:08:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194241) |
+| 193803 | Vignamaggio Castello di Monna Lisa Chianti Classico Gran Selezione 2019 | 2019 | 单支（SKU 388355） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193803) |
+| 193803 | Vignamaggio Castello di Monna Lisa Chianti Classico Gran Selezione 2019 | 2019 | 双支装（SKU 388356） | ¥330.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193803) |
+| 193803 | Vignamaggio Castello di Monna Lisa Chianti Classico Gran Selezione 2019 | 2019 | 六支装（SKU 388357） | ¥950.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193803) |
+| 193507 | Vina Quebrada de Macul 'Alba de Domus' 2015 | 2015 | 单支（SKU 385941） | ¥168.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193507) |
+| 193507 | Vina Quebrada de Macul 'Alba de Domus' 2015 | 2015 | 双支装（SKU 385942） | ¥329.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193507) |
+| 193507 | Vina Quebrada de Macul 'Alba de Domus' 2015 | 2015 | 六支装（SKU 385966） | ¥979.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193507) |
+| 193473 | Torrevento Infinitum Chardonnay | 2024 | 单支（SKU 385859） | ¥59.90 | 未知 | 未知 | 未知 | 2026/11/3 08:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193473) |
+| 193473 | Torrevento Infinitum Chardonnay | 2024 | 双支装（SKU 385860） | ¥109.90 | 未知 | 未知 | 未知 | 2026/11/3 08:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193473) |
+| 193473 | Torrevento Infinitum Chardonnay | 2024 | 六支原箱（SKU 385861） | ¥319.90 | 未知 | 未知 | 未知 | 2026/11/3 08:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193473) |
+| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 单支（SKU 390634） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
+| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 双支装（SKU 384482） | ¥329.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
+| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 六支装（SKU 384483） | ¥969.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
+| 192743 | Vina Una Hectarea 1 ha  Reserva Especial Cabernet Sauvignon 2020 | 2020 | 六支原箱（SKU 384278） | ¥149.90 | 未知 | 未知 | 未知 | 2026/11/3 08:04:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192743) |
+| 192743 | Vina Una Hectarea 1 ha  Reserva Especial Cabernet Sauvignon 2020 | 2020 | 5箱聚会装（SKU 389274） | ¥739.00 | 未知 | 未知 | 未知 | 2026/11/3 08:04:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192743) |
+| 192743 | Vina Una Hectarea 1 ha  Reserva Especial Cabernet Sauvignon 2020 | 2020 | 10箱囤货装（SKU 389275） | ¥1469.00 | 未知 | 未知 | 未知 | 2026/11/3 08:04:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192743) |
+| 192729 | Le Petit beylot  AOC  2018 | 2018 | 六支装（SKU 384252） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/3 08:04:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192729) |
+| 192729 | Le Petit beylot  AOC  2018 | 2018 | 十二支原箱（SKU 384253） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/3 08:04:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192729) |
 | 192162 | Paringa Estate Pinot Noir Mornington Peninsula 2019 / Paringa Estate Shiraz Mornington Peninsula 2018 | 2019 / 2018 | 黑皮诺 2019 单支（SKU 383176） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/3 07:57:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192162) |
 | 192162 | Paringa Estate Pinot Noir Mornington Peninsula 2019 / Paringa Estate Shiraz Mornington Peninsula 2018 | 2019 / 2018 | 西拉 2018 单支（SKU 383177） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/3 07:57:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192162) |
 | 192162 | Paringa Estate Pinot Noir Mornington Peninsula 2019 / Paringa Estate Shiraz Mornington Peninsula 2018 | 2019 / 2018 | 双支组合装（SKU 382816） | ¥189.90 | 未知 | 未知 | 未知 | 2026/11/3 07:57:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192162) |
