@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
 import {renderCatalogMarkdown,renderStatusMarkdown} from '../src/markdown.mjs';
 const base='https://ataraxiary.github.io/wineradar-catalog/';
 const expectedRun=process.env.GITHUB_RUN_ID?`https://github.com/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`:null;
@@ -21,9 +22,14 @@ for(let attempt=1;attempt<=4;attempt++){
     assert(sitemap.includes('/wineradar-catalog/catalog.md')&&sitemap.includes('/wineradar-catalog/status.md'),'Markdown sitemap entries missing');
     assert(robots.includes('Allow: /')&&robots.includes('sitemap.xml'),'Project robots file incomplete');
     if(publicationOnly){
-      assert.equal(status.state,'failed','Retained-data publication requires a recorded failed collection');
-      assert.equal(status.unknownCount,catalog.items.length,'All current inventory must be unknown after full failure');
-      assert(catalog.items.every(item=>item.availability==='unknown'&&item.offers.every(offer=>offer.inventory===null)),'Stale inventory was published as current');
+      const retainedCatalog=JSON.parse(await readFile(new URL('../catalog.json',import.meta.url),'utf8'));
+      const retainedStatus=JSON.parse(await readFile(new URL('../status.json',import.meta.url),'utf8'));
+      assert.deepEqual(catalog,retainedCatalog,'Published catalog differs from the retained repository snapshot');
+      assert.deepEqual(status,retainedStatus,'Published status differs from the retained repository snapshot');
+      if(status.state==='failed'){
+        assert.equal(status.unknownCount,catalog.items.length,'All current inventory must be unknown after full failure');
+        assert(catalog.items.every(item=>item.availability==='unknown'&&item.offers.every(offer=>offer.inventory===null)),'Stale inventory was published as current');
+      }
     }else{
       if(expectedRun)assert.equal(status.runUrl,expectedRun,'CDN still serves an older collection');
       assert(status.freshItemCount>=8&&status.state!=='failed','Fresh cloud batch did not verify at least eight listings; previous data is retained');
