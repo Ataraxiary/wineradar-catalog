@@ -1,9 +1,15 @@
 import {promises as fs} from 'node:fs';
+import assert from 'node:assert/strict';
 import {openBrowser,observeProduct,pause,responseKind} from '../src/browser.mjs';
 import {assertNoSecrets,clean} from '../src/sanitize.mjs';
 
-// Known published products only. This probe does not discover IDs or publish data.
-const ids=[197683,190510,196542,197686,189792];
+// Existing published or queued IDs only. This probe does not discover IDs or publish data.
+const requested=process.env.WINERADAR_DIAGNOSTIC_IDS?.trim();
+const known=[197683,190510,196542,197686,189792];
+const ids=requested?requested.split(',').map(value=>Number(value.trim())):known;
+const queue=JSON.parse(await fs.readFile(new URL('../data/queue.json',import.meta.url),'utf8'));
+const allowed=new Set(queue.entries.map(entry=>entry.id));
+assert(ids.length>=1&&ids.length<=5&&new Set(ids).size===ids.length&&ids.every(id=>Number.isSafeInteger(id)&&allowed.has(id)),'Diagnostic IDs must be one to five distinct queued public products');
 const limit=Math.min(5,Math.max(1,Number(process.env.WINERADAR_DIAGNOSTIC_LIMIT)||5));
 const config=JSON.parse(await fs.readFile(new URL('../config/collection.json',import.meta.url),'utf8'));
 const output=new URL('../artifacts/',import.meta.url);
@@ -33,6 +39,7 @@ try {
     try {
       const snapshot=await observeProduct(context,{id,sources:[]},config);
       attempt.outcome='success';attempt.listings=snapshot.listings.length;
+      attempt.wines=snapshot.wines.length;attempt.verificationMethod=snapshot.listings[0].verificationMethod??'page_xhr_visible_price';
       attempt.validatedSkus=snapshot.skus.filter(s=>Number.isSafeInteger(s.inventory.quantity)&&s.inventory.observedAt).length;
       attempt.detailObservedAt=snapshot.wines[0]?.observedAt??null;
       attempt.inventoryObservedAt=snapshot.skus[0]?.inventory.observedAt??null;

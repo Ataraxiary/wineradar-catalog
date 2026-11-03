@@ -3,13 +3,15 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {buildCatalog,validateCatalog} from '../src/model.mjs';
 import {assemble,itemView,collectionStatus,publicCatalog} from '../src/catalog.mjs';
-import {addVisibleVintage,responseKind,deadline} from '../src/browser.mjs';
+import {addVisibleVintage,responseKind,deadline,recoverPublicApis} from '../src/browser.mjs';
 import {productCandidates,selectBalanced} from '../src/discovery.mjs';
 import {robotsAllows} from '../src/robots.mjs';
 import {render,escapeHtml} from '../src/render.mjs';
 import {renderCatalogMarkdown,renderStatusMarkdown} from '../src/markdown.mjs';
-import {mergeQueue,planBatch,recordQueueAttempt,queueStats} from '../src/queue.mjs';
+import {mergeQueue,planBatch,recordQueueAttempt,queueStats,exceedsFailureRate} from '../src/queue.mjs';
 const fixture=JSON.parse(await readFile(new URL('./fixtures/197683.json',import.meta.url),'utf8'));
+const bundleFixture=JSON.parse(await readFile(new URL('./fixtures/195117.json',import.meta.url),'utf8'));
+const recoveryFixture=JSON.parse(await readFile(new URL('./fixtures/194377.json',import.meta.url),'utf8'));
 const fresh=()=>buildCatalog(structuredClone(fixture));
 const options={startedAt:'2026-11-03T00:00:00.000Z',finishedAt:'2026-11-03T00:01:00.000Z',discovery:{channels:[]}};
 
@@ -17,6 +19,50 @@ test('original three levels and same-SKU conflict survive catalog aggregation',(
   const c=assemble([fresh()],options);validateCatalog(c);
   assert.equal(c.wines[0].sourceProductId,127101);assert.equal(c.listings[0].sourceListingId,197683);assert.equal(c.skus[0].sourcePackageId,394492);
   assert.equal(c.items[0].availability,'available');assert.equal(c.items[0].offers[0].inventory,2);assert.equal(c.conflicts[0].staticQuantity,0);
+});
+test('real four-wine bundle keeps live names and unknown fields when detail omits two wines',()=>{
+  const catalog=buildCatalog(structuredClone(bundleFixture));validateCatalog(catalog);
+  assert.equal(catalog.listings[0].sourceListingId,195117);
+  assert.deepEqual(catalog.wines.map(w=>w.sourceProductId).sort(),[125908,125909,125910,125911]);
+  for(const id of [125909,125911]){
+    const wine=catalog.wines.find(w=>w.sourceProductId===id);
+    assert.equal(wine.nameSource,'live_sku_product_list');
+    assert.equal(wine.country,null);assert.equal(wine.vintage,null);
+    assert(wine.name.includes('葡萄酒'));
+  }
+  assert.equal(catalog.skus[0].components.length,4);
+  assert(Number.isSafeInteger(catalog.skus[0].inventory.quantity));
+  const published=assemble([catalog],{...options,maxListings:10});
+  const status=collectionStatus({catalog:published,...options,successCount:1,attemptedCount:1,errors:[],minimum:1,target:1});
+  assert.equal(published.items[0].vintageUnknownCount,2);
+  assert.equal(published.items[0].countryUnknownCount,2);
+  assert(renderCatalogMarkdown(published,status).includes('2026 / 部分未标示'));
+  assert(render(published,status).includes('2026 / 部分未标示'));
+});
+test('missing both detail and live component name stays a parsing failure',()=>{
+  const input=structuredClone(bundleFixture);
+  delete input.live.data.packageList[0].product_list.find(w=>w.product_id===125909).product_name;
+  assert.throws(()=>buildCatalog(input),/Missing wine details and live product name for product 125909/);
+});
+test('observed public detail URL recovers one stalled regular product with bounded API reads',async()=>{
+  const calls=[],detailUrl='https://img.vinehoo.com/vinehoo/client/commodities/periods/194377.json?t=1&isJson=true&id=194377';
+  const context={request:{get:async url=>{
+    calls.push(url);
+    const payload=url.includes('/periods/194377.json')?recoveryFixture.detail:recoveryFixture.live;
+    return {url:()=>url,status:()=>200,body:async()=>Buffer.from(JSON.stringify(payload)),dispose:async()=>{}};
+  }}};
+  const snapshot=await recoverPublicApis(context,{id:194377,detailUrl,config:{timeoutPerPageMs:45000,minimumPauseMs:8000},pauseFn:async()=>{}});
+  assert.equal(snapshot.listings[0].sourceListingId,194377);
+  assert.equal(snapshot.listings[0].verificationMethod,'public_api_recovery');
+  assert(Number.isSafeInteger(snapshot.skus[0].inventory.quantity));
+  assert.equal(calls.length,2);
+  assert(calls[1].includes('period=194377&periods_type=0'));
+});
+test('public API recovery stops on access control without requesting inventory',async()=>{
+  const calls=[];
+  const context={request:{get:async url=>{calls.push(url);return {url:()=>url,status:()=>429,dispose:async()=>{}};}}};
+  await assert.rejects(recoverPublicApis(context,{id:194377,detailUrl:'https://img.vinehoo.com/vinehoo/client/commodities/periods/194377.json',config:{timeoutPerPageMs:45000,minimumPauseMs:8000},pauseFn:async()=>{}}),error=>error.code==='access_control'&&error.stop);
+  assert.equal(calls.length,1);
 });
 test('request failure never becomes sold-out and last known quantity is retained separately',()=>{
   const s=fresh();const item=itemView(s.listings[0],s.skus,s.wines,{code:'request_failed'});
@@ -117,6 +163,23 @@ test('persistent queue deduplicates discovery and cools failed products without 
   assert.equal(queueStats(queue).verifiedCount,1);
   assert.deepEqual(planBatch(queue,{maxAttempts:2,now}),[{id:197683,title:'Wine',sources:[]}]);
   assert.equal(planBatch(queue,{maxAttempts:2,now:'2026-11-03T13:00:00.000Z'})[0].id,197684);
+});
+test('narrower discovery cannot discard candidates found in earlier workflows',()=>{
+  const first=mergeQueue(null,[{id:190001,title:'A',sources:[]},{id:190002,title:'B',sources:[]},{id:190003,title:'C',sources:[]}],[],'2026-11-03T00:00:00.000Z');
+  recordQueueAttempt(first,190001,{at:'2026-11-03T00:01:00.000Z',success:true});
+  const second=mergeQueue(first,[{id:190003,title:'C',sources:[]}],[],'2026-11-03T12:00:00.000Z');
+  assert.deepEqual(second.entries.map(entry=>entry.id),[190001,190002,190003]);
+  assert.equal(queueStats(second).discoveredCount,3);
+  assert.equal(queueStats(second).unverifiedCandidateCount,2);
+  assert.equal(queueStats(second).verifiedCount,1);
+  assert.equal(second.entries[0].lastVerifiedAt,'2026-11-03T00:01:00.000Z');
+});
+test('bounded collection stops on sustained failures but ignores excluded non-wine products',()=>{
+  const threshold={minimumSample:8,maximumRate:0.4};
+  assert.equal(exceedsFailureRate(Array(4).fill({code:'response_timeout'}),7,threshold),false);
+  assert.equal(exceedsFailureRate(Array(3).fill({code:'response_timeout'}),8,threshold),false);
+  assert.equal(exceedsFailureRate(Array(4).fill({code:'response_timeout'}),8,threshold),true);
+  assert.equal(exceedsFailureRate([{code:'not_wine'},...Array(3).fill({code:'response_timeout'})],8,threshold),false);
 });
 test('incremental queue reserves some capacity for oldest verified products',()=>{
   const at='2026-11-03T00:00:00.000Z';

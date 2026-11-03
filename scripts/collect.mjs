@@ -2,10 +2,10 @@ import {promises as fs} from 'node:fs';
 import assert from 'node:assert/strict';
 import {openBrowser,observeProduct,pause} from '../src/browser.mjs';
 import {discover} from '../src/discovery.mjs';
-import {assemble,collectionStatus} from '../src/catalog.mjs';
+import {assemble,collectionStatus,publicCatalog} from '../src/catalog.mjs';
 import {checkRobots} from '../src/robots.mjs';
 import {clean,assertNoSecrets} from '../src/sanitize.mjs';
-import {mergeQueue,planBatch,recordQueueAttempt,queueStats} from '../src/queue.mjs';
+import {mergeQueue,planBatch,recordQueueAttempt,queueStats,exceedsFailureRate} from '../src/queue.mjs';
 const root=new URL('../',import.meta.url),data=new URL('data/',root),artifacts=new URL('artifacts/',root);
 await fs.mkdir(data,{recursive:true});await fs.mkdir(artifacts,{recursive:true});
 async function read(name){try{return JSON.parse(await fs.readFile(new URL(name,data),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;return null;}}
@@ -15,6 +15,8 @@ const config=JSON.parse(await fs.readFile(new URL('config/collection.json',root)
 config.previousListings=previous?.items??[];
 assert(config.target>=5&&config.target<=50&&config.maximumAttempts<=50&&config.minimumPauseMs>=4000);
 assert(config.maximumDiscoveryPages<=14&&config.maximumScrollsPerChannel<=2&&config.maximumDiscoveryCandidates<=10000);
+assert(config.minimumFailureRateSample>=5&&config.minimumFailureRateSample<=config.maximumAttempts&&config.maximumFailureRate>0&&config.maximumFailureRate<=0.5);
+assert(config.maximumCollectionMs>=300000&&config.maximumCollectionMs<=780000);
 const startedAt=new Date().toISOString(),snapshots=[],errors=[];let discovery={channels:[],scope:'not_started'},robots=null,attemptedCount=0,stoppedReason=null,browser,queue=previousQueue,catalog=previous;
 const runUrl=process.env.GITHUB_ACTIONS==='true'?`https://github.com/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`:null;
 try {
@@ -28,6 +30,7 @@ try {
   let consecutive=0;
   for(const candidate of planBatch(queue,{maxAttempts:config.maximumAttempts,now:startedAt})){
     if(snapshots.length>=config.target||attemptedCount>=config.maximumAttempts)break;
+    if(Date.now()-Date.parse(startedAt)>=config.maximumCollectionMs){stoppedReason={code:'collection_time_budget',message:'Stopped before the workflow timeout; checkpoint retained',at:new Date().toISOString()};break;}
     attemptedCount++;
     try {const snapshot=await observeProduct(context,candidate,config);
       const {candidates:omitted,...checkpointCoverage}=discovery;
@@ -36,7 +39,10 @@ try {
       recordQueueAttempt(queue,candidate.id,{at:new Date().toISOString(),success:true});await write('queue.json',queue);
       await fs.writeFile(new URL('snapshots.json',artifacts),JSON.stringify(snapshots,null,2)+'\n');
       consecutive=0;console.log(JSON.stringify({id:candidate.id,status:'ok',successCount:snapshots.length,attemptedCount,skus:snapshot.skus.length}));}
-    catch(e){const error={id:candidate.id,code:e.code??'request_failed',message:clean(String(e.message).split('\n')[0].slice(0,220)),diagnostics:clean(e.diagnostics??null),at:new Date().toISOString()};errors.push(error);recordQueueAttempt(queue,candidate.id,{at:error.at,code:error.code});await write('queue.json',queue);console.log(JSON.stringify({...error,status:'unknown'}));if(e.code!=='not_wine')consecutive++;if(e.stop||consecutive>=config.maximumConsecutiveFailures){stoppedReason=error;break;}if(e.code==='response_timeout')await pause(30000);}
+    catch(e){const error={id:candidate.id,code:e.code??'request_failed',message:clean(String(e.message).split('\n')[0].slice(0,220)),diagnostics:clean(e.diagnostics??null),at:new Date().toISOString()};errors.push(error);recordQueueAttempt(queue,candidate.id,{at:error.at,code:error.code});await write('queue.json',queue);console.log(JSON.stringify({...error,status:'unknown'}));if(e.code!=='not_wine')consecutive++;
+      if(e.stop||consecutive>=config.maximumConsecutiveFailures){stoppedReason=error;break;}
+      if(exceedsFailureRate(errors,attemptedCount,{minimumSample:config.minimumFailureRateSample,maximumRate:config.maximumFailureRate})){stoppedReason={code:'failure_rate_limit',message:'Stopped after the bounded batch exceeded its failure-rate limit',at:error.at};break;}
+      if(e.code==='response_timeout')await pause(30000);}
     await pause(config.minimumPauseMs);
   }
 }catch(e){stoppedReason={code:e.code??'collection_failed',message:clean(String(e.message).split('\n')[0].slice(0,220)),at:new Date().toISOString()};errors.push(stoppedReason);}
@@ -51,6 +57,8 @@ if(queue)status.queue=queueStats(queue);
 status.detailVerifiedCount=catalog?.listings?.length??0;
 status.skuEverVerifiedCount=catalog?.skus?.filter(s=>Number.isSafeInteger(s.inventory.quantity)).length??0;
 status.freshSkuVerifiedCount=snapshots.reduce((n,s)=>n+s.skus.filter(k=>Number.isSafeInteger(k.inventory.quantity)).length,0);
+status.publicApiRecoveryCount=snapshots.filter(s=>s.listings.some(l=>l.verificationMethod==='public_api_recovery')).length;
+status.historicalInventoryUnknownCount=(publicCatalog(catalog,status)?.items??[]).filter(item=>item.availability==='unknown'&&item.offers.some(offer=>offer.lastKnownInventory!==null)).length;
 status.countryCounts=Object.entries((catalog?.items??[]).reduce((counts,item)=>{
   for(const country of new Set(item.countries.length?item.countries:['未标示']))counts[country]=(counts[country]??0)+1;
   return counts;

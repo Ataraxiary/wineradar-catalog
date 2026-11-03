@@ -1,4 +1,8 @@
 const hours=ms=>new Date(ms).toISOString();
+export function exceedsFailureRate(errors,attemptedCount,{minimumSample,maximumRate}) {
+  if(attemptedCount<minimumSample)return false;
+  return errors.filter(error=>error.code!=='not_wine').length/attemptedCount>=maximumRate;
+}
 export function mergeQueue(previous,discovered,items,now) {
   const entries=new Map((previous?.entries??[]).map(entry=>[entry.id,structuredClone(entry)]));
   for(const item of items??[])if(!entries.has(item.id))entries.set(item.id,{id:item.id,title:item.title,
@@ -31,5 +35,8 @@ export function recordQueueAttempt(queue,id,{at,success=false,code=null}) {
 }
 export function queueStats(queue) {
   return {discoveredCount:queue.entries.length,verifiedCount:queue.entries.filter(e=>Boolean(e.lastVerifiedAt)).length,
-    pendingCount:queue.entries.filter(e=>e.state==='pending').length,excludedCount:queue.entries.filter(e=>e.state==='excluded').length};
+    pendingCount:queue.entries.filter(e=>e.state==='pending').length,
+    unverifiedCandidateCount:queue.entries.filter(e=>e.state==='pending'&&!e.lastVerifiedAt).length,
+    previouslyVerifiedRetryCount:queue.entries.filter(e=>e.state==='pending'&&Boolean(e.lastVerifiedAt)).length,
+    excludedCount:queue.entries.filter(e=>e.state==='excluded').length};
 }

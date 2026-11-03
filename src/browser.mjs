@@ -30,6 +30,41 @@ export function responseKind(url,id) {
   if(u.origin==='https://h5.vinehoo.com'&&/^\/api\/commodities\/v3\/package\/getPeriods(?:Second)?PackageInventory$/.test(u.pathname)&&u.searchParams.getAll('period').length===1&&u.searchParams.get('period')===String(id))return'inventory';
   return null;
 }
+export async function recoverPublicApis(context,{id,detailUrl,config,pauseFn=pause}) {
+  if(responseKind(detailUrl,id)!=='detail')throw new SourceError('fallback_invalid_url','Recovery requires the detail URL observed on the public page');
+  const limit=Math.min(config.timeoutPerPageMs,15000);
+  async function read(kind,url){
+    if(responseKind(url,id)!==kind)throw new SourceError('fallback_invalid_url',`Invalid ${kind} recovery URL`);
+    let response;
+    try{response=await context.request.get(url,{timeout:limit});}
+    catch(error){throw new SourceError(/timeout/i.test(String(error?.name)+' '+String(error?.message))?'fallback_request_timeout':'fallback_request_failed',`${kind} public API recovery request failed`);}
+    try{
+      const returned=new URL(response.url());
+      if(returned.origin!==new URL(url).origin||/\/login|\/captcha|\/verify/i.test(returned.pathname))throw new SourceError('access_control',`${kind} redirected to access control`,{stop:true});
+      if([401,403,429].includes(response.status()))throw new SourceError('access_control',`${kind} HTTP ${response.status()}`,{stop:true});
+      if(response.status()!==200)throw new SourceError('source_http_error',`${kind} HTTP ${response.status()}`);
+      const buffer=await deadline(response.body(),limit,'fallback_response_timeout');
+      if(buffer.length>3000000)throw new SourceError('response_too_large',`${kind} source JSON exceeds limit`);
+      let body;try{body=JSON.parse(buffer.toString('utf8'));}catch{throw new SourceError('invalid_json',`${kind} source returned non-JSON`);}
+      if(body?.error_code!==0)throw new SourceError('source_business_error',`${kind} source error code ${String(body?.error_code).slice(0,30)}`);
+      return {body,observedAt:new Date().toISOString(),url:cleanUrl(response.url())};
+    }finally{await response.dispose().catch(()=>{});}
+  }
+  const detail=await read('detail',detailUrl);
+  if(detail.body?.data?.id!==id)throw new SourceError('fallback_id_mismatch','Recovered detail belongs to a different listing');
+  if(detail.body?.data?.periods_type!==0)throw new SourceError('fallback_unsupported_type','No observed direct-inventory pattern for this product type');
+  await pauseFn(config.minimumPauseMs);
+  const inventoryUrl=`https://h5.vinehoo.com/api/commodities/v3/package/getPeriodsPackageInventory?period=${id}&periods_type=0`;
+  const inventory=await read('inventory',inventoryUrl);
+  const snapshot=buildCatalog({detail:projectResponse('detail',detail.body),live:projectResponse('inventory',inventory.body),detailAt:detail.observedAt,liveAt:inventory.observedAt,
+    runId:new Date().toISOString().replace(/[:.]/g,'-'),environment:process.env.GITHUB_ACTIONS==='true'?'github-actions':'local',
+    evidence:{detail:{url:detail.url,observedAt:detail.observedAt},inventory:{url:inventory.url,observedAt:inventory.observedAt}}});
+  snapshot.listings[0].verificationMethod='public_api_recovery';
+  const categories=detail.body.data?.product_category??[];
+  if(categories.length&&!categories.some(c=>/葡萄酒|起泡|香槟/.test(c)))throw new SourceError('not_wine','Non-wine product omitted');
+  snapshot.listings[0].categories=categories.filter(c=>typeof c==='string');
+  return snapshot;
+}
 export function addVisibleVintage(snapshot,header) {
   const normalized=header.replace(/\s+/g,' ');
   for(const wine of snapshot.wines) {
@@ -44,7 +79,7 @@ export function addVisibleVintage(snapshot,header) {
 }
 export async function observeProduct(context,candidate,config) {
   const id=candidate.id,page=await context.newPage();page.setDefaultTimeout(config.timeoutPerPageMs);
-  const values={},meta={},pending=[],claimed=new Set(),failures=[],pageErrors=[],network=[];let resolve,reject,accept=true;
+  const values={},meta={},pending=[],claimed=new Set(),failures=[],pageErrors=[],network=[],requestUrls={};let resolve,reject,accept=true;
   const started=Date.now();
   function trace(phase,request,status=null){
     if(network.length>=60)return;
@@ -56,7 +91,7 @@ export async function observeProduct(context,candidate,config) {
     const path=kind?url.pathname:request.isNavigationRequest()&&url.pathname==='/pages/goods-detail/goods-detail'?url.pathname:request.isNavigationRequest()?'[other navigation]':'[first-party script or commodity endpoint]';
     network.push({phase,elapsedMs:Date.now()-started,host:url.host,path,type:request.resourceType(),kind:kind??'other',...(status===null?{}:{status})});
   }
-  page.on('request',r=>trace('request',r));
+  page.on('request',r=>{trace('request',r);const kind=responseKind(r.url(),id);if(kind&&['xhr','fetch'].includes(r.resourceType()))requestUrls[kind]=r.url();});
   page.on('domcontentloaded',()=>network.push({phase:'domcontentloaded',elapsedMs:Date.now()-started}));
   page.on('load',()=>network.push({phase:'load',elapsedMs:Date.now()-started}));
   page.on('requestfailed',r=>{if(responseKind(r.url(),id)||r.isNavigationRequest())failures.push({url:cleanUrl(r.url()),reason:r.failure()?.errorText??'request_failed'});});
@@ -94,13 +129,25 @@ export async function observeProduct(context,candidate,config) {
     addVisibleVintage(snapshot,body.split(/商品详情|商品参数/)[0].slice(0,2200));
     snapshot.listings[0].discoverySources=candidate.sources;
     snapshot.listings[0].categories=categories.filter(c=>typeof c==='string');
+    snapshot.listings[0].verificationMethod='page_xhr_visible_price';
     return snapshot;
   } catch(e) {
+    let recoveryFailure=null;
     if(e.code==='response_timeout'){
       await checkAccess(page);
+      if(requestUrls.detail&&!values.detail&&!requestUrls.inventory){
+        await page.close().catch(()=>{});
+        await pause(config.minimumPauseMs);
+        try{const snapshot=await recoverPublicApis(context,{id,detailUrl:requestUrls.detail,config});snapshot.listings[0].discoverySources=candidate.sources;return snapshot;}
+        catch(recoveryError){
+          recoveryFailure={code:recoveryError.code??'fallback_failed',message:String(recoveryError.message).slice(0,140)};
+          if(recoveryError.code==='not_wine')throw recoveryError;
+          if(recoveryError.stop){recoveryError.diagnostics={received:Object.keys(values),requestFailures:failures,pageErrors,network,recovery:recoveryFailure};throw recoveryError;}
+        }
+      }
       const missing=['detail','inventory'].filter(k=>!values[k]);
-      e.message=`Timed out waiting for ${missing.join('+')||'page'}; ${failures.map(f=>f.reason).join('; ')||'no transport failure reported'}${pageErrors.length?'; page: '+pageErrors.join('; '):''}`;
+      e.message=`Timed out waiting for ${missing.join('+')||'page'}; ${failures.map(f=>f.reason).join('; ')||'no transport failure reported'}${pageErrors.length?'; page: '+pageErrors.join('; '):''}${recoveryFailure?'; recovery: '+recoveryFailure.code:''}`;
     }
-    e.diagnostics={received:Object.keys(values),requestFailures:failures,pageErrors,network};throw e;
+    e.diagnostics={received:Object.keys(values),requestFailures:failures,pageErrors,network,...(recoveryFailure?{recovery:recoveryFailure}:{})};throw e;
   } finally {accept=false;await page.close().catch(()=>{});await deadline(Promise.allSettled(pending),2000).catch(()=>{});}
 }

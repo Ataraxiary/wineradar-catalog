@@ -28,21 +28,24 @@ export function buildCatalog({ detail, live, detailAt, liveAt, runId, environmen
     assert(Array.isArray(p.product_list) && p.product_list.length, 'SKU has no underlying wine components');
     const components = p.product_list.map(product => {
       const wine = d.product_info?.find(w => w.id === product.product_id);
-      assert(wine, `Missing wine details for product ${product.product_id}`);
-      assert(typeof wine.en_product_name === 'string' && wine.en_product_name.trim(), 'Missing wine name');
-      assert(Number.isSafeInteger(wine.id) && wine.id>0,'Invalid wine ID');
+      const detailName=typeof wine?.en_product_name==='string'&&wine.en_product_name.trim()?wine.en_product_name.trim():null;
+      const liveName=typeof product.product_name==='string'&&product.product_name.trim()?product.product_name.trim():null;
+      const name=detailName??liveName;
+      assert(name,`Missing wine details and live product name for product ${product.product_id}`);
+      assert(Number.isSafeInteger(product.product_id) && product.product_id>0,'Invalid wine ID');
       assert(Number.isSafeInteger(product.nums) && product.nums > 0, 'Invalid bottles per SKU');
-      const wineId = id('wine', wine.id);
+      const wineId = id('wine', product.product_id);
       if (!wines.has(wineId)) {
-        const vintage = wine.en_product_name.match(/\b((?:19|20)\d{2})\s*$/)?.[1];
+        const vintage = name.match(/\b((?:19|20)\d{2})\s*$/)?.[1];
         wines.set(wineId, {
-          wineId, sourceProductId: wine.id,
-          name: wine.en_product_name.trim(), nameZh: wine.cn_product_name ?? null,
+          wineId, sourceProductId: product.product_id,
+          name, nameZh: wine?.cn_product_name ?? (detailName?null:liveName),
+          nameSource:detailName?'detail_product_info':'live_sku_product_list',
           vintage: vintage ? Number(vintage) : null,
-          vintageSource: vintage ? 'trailing_year_in_product_name' : 'not_available',
-          bottleCapacity: wine.capacity ?? null, country: wine.country_name ?? null,
-          region: wine.producing_area_name ?? null, winery: wine.chateau_name ?? null,
-          observedAt: detailAt,
+          vintageSource: vintage ? (detailName?'trailing_year_in_product_name':'trailing_year_in_live_product_name') : 'not_available',
+          bottleCapacity: wine?.capacity ?? null, country: wine?.country_name ?? null,
+          region: wine?.producing_area_name ?? null, winery: wine?.chateau_name ?? null,
+          observedAt: detailName?detailAt:liveAt,
         });
       }
       return { wineId, bottlesPerSku: product.nums, reportedProductInventory: quantity(product.inventory) };
@@ -101,6 +104,7 @@ export function validateCatalog(catalog) {
   for(const wine of catalog.wines) {
     positiveId(wine.sourceProductId); assert.equal(wine.wineId,id('wine',wine.sourceProductId));
     assert(typeof wine.name==='string' && wine.name.trim(),'Missing wine name');
+    assert(wine.nameSource===undefined||['detail_product_info','live_sku_product_list'].includes(wine.nameSource),'Invalid wine name source');
     assert(wine.vintage===null || (Number.isInteger(wine.vintage)&&wine.vintage>=1900&&wine.vintage<=2099),'Invalid vintage');
     stamp(wine.observedAt);
   }
@@ -108,6 +112,7 @@ export function validateCatalog(catalog) {
     positiveId(listing.sourceListingId); assert.equal(listing.listingId,id('listing',listing.sourceListingId));
     assert.equal(listing.sourcePage,`https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=${listing.sourceListingId}`);
     assert(typeof listing.title==='string' && listing.title.trim(),'Missing listing title');
+    assert(listing.verificationMethod===undefined||['page_xhr_visible_price','public_api_recovery'].includes(listing.verificationMethod),'Invalid verification method');
     validatePrice(listing.displayedPrice); stamp(listing.observedAt);
     assert(listing.skuIds.length && listing.wineIds.length);
     assert.equal(new Set(listing.skuIds).size,listing.skuIds.length,'Duplicate SKU reference');

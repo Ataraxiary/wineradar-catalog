@@ -2,6 +2,11 @@ name: Diagnose bounded public product reads
 
 on:
   workflow_dispatch:
+    inputs:
+      diagnostic_ids:
+        description: 'Comma-separated IDs already present in the public candidate queue; at most five'
+        type: string
+        required: false
 
 permissions:
   contents: read
@@ -25,6 +30,8 @@ jobs:
       - name: Install browser
         run: npx --no-install playwright install --with-deps chromium
       - name: Read at most five known public products
+        env:
+          WINERADAR_DIAGNOSTIC_IDS: ${{ inputs.diagnostic_ids }}
         run: node scripts/diagnose-cloud.mjs
       - name: Upload sanitized diagnostic only
         if: always()
