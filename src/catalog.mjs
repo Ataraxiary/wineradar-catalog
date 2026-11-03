@@ -66,6 +66,8 @@ export function collectionStatus({catalog,previousStatus,startedAt,finishedAt,su
   return {schemaVersion:1,state,lastAttemptAt:startedAt,finishedAt,lastSuccessAt:state!=='failed'&&successCount>0?finishedAt:previousStatus?.lastSuccessAt??null,
     dataGeneratedAt:catalog?.generatedAt??null,dataStaleAfter:catalog?.generatedAt?new Date(Date.parse(catalog.generatedAt)+18*3600000).toISOString():null,
     itemCount:catalog?.items?.length??0,freshItemCount:successCount,attemptedCount,failedCount:errors.filter(e=>e.code!=='not_wine').length,
+    durationSeconds:Math.max(0,Math.round((Date.parse(finishedAt)-Date.parse(startedAt))/1000)),
+    detailSuccessRate:attemptedCount?Number((successCount/attemptedCount).toFixed(3)):null,
     retainedPreviousData:successCount===0||((catalog?.items?.length??0)>successCount),
     availableCount:successCount===0?0:catalog?.items?.filter(i=>i.availability==='available').length??0,soldOutCount:successCount===0?0:catalog?.items?.filter(i=>i.availability==='sold_out').length??0,unknownCount:successCount===0?(catalog?.items?.length??0):catalog?.items?.filter(i=>i.availability==='unknown').length??0,
     errors,recentFailures:[...(previousStatus?.recentFailures??[]),...errors].slice(-20),stoppedReason,collectionSuspended:Boolean(previousStatus?.collectionSuspended)||errors.some(e=>e.code==='access_control'||e.code==='robots_disallowed'),

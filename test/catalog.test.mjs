@@ -46,6 +46,8 @@ test('partial collection records its successful observation time',()=>{
   const status=collectionStatus({catalog:c,previousStatus:{lastSuccessAt:'2026-11-02T00:00:00.000Z'},...options,successCount:1,attemptedCount:2,errors:[{code:'response_timeout'}],minimum:1,target:2});
   assert.equal(status.state,'partial');
   assert.equal(status.lastSuccessAt,options.finishedAt);
+  assert.equal(status.detailSuccessRate,0.5);
+  assert.equal(status.durationSeconds,60);
 });
 test('failed publication retains observations but makes all current inventory unknown',()=>{
   const c=assemble([fresh()],options),status=collectionStatus({catalog:c,previousStatus:{lastSuccessAt:options.finishedAt},...options,successCount:0,attemptedCount:3,errors:[{code:'response_timeout'}],minimum:1});

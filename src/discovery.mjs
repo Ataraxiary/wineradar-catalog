@@ -58,8 +58,8 @@ export async function discover(context,config) {
       await settle({channel:'分类·'+country,url:config.landing},async()=>{
         const categorySource=active;active={channel:'现货速发',url:config.landing};
         await page.goto(config.landing,{waitUntil:'commit',timeout:config.timeoutPerPageMs});
-        await page.getByText(country,{exact:true}).first().waitFor();active=categorySource;
-        await page.getByText(country,{exact:true}).first().tap();
+        await page.getByText(country,{exact:true}).first().waitFor({timeout:8000});active=categorySource;
+        await page.getByText(country,{exact:true}).first().tap({timeout:8000});
       },{scroll:true});
     }
     const candidates=[...map.values()],balanced=selectBalanced(candidates,config.maximumDiscoveryCandidates??config.maximumAttempts);

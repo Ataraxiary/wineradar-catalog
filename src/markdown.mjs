@@ -43,6 +43,8 @@ export function renderStatusMarkdown(catalog,status) {
     ['目录商品数',status.itemCount],
     ...(status.queue?[['已发现候选商品数',status.queue.discoveredCount],['历史已验证详情商品数',status.detailVerifiedCount??status.queue.verifiedCount],['历史已验证库存 SKU 数',status.skuEverVerifiedCount??0]]:[]),
     ['本轮成功更新',status.freshItemCount],
+    ['本轮详情成功率',typeof status.detailSuccessRate==='number'?`${(status.detailSuccessRate*100).toFixed(1)}%`:'未记录'],
+    ['本轮运行耗时',typeof status.durationSeconds==='number'?`${status.durationSeconds} 秒`:'未记录'],
     ...(status.queue?[['本轮已验证库存 SKU 数',status.freshSkuVerifiedCount??0]]:[]),
     ['本轮失败',status.failedCount],
     ['当前库存未知商品数',status.unknownCount],
