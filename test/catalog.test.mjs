@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {buildCatalog,validateCatalog} from '../src/model.mjs';
 import {assemble,itemView,collectionStatus,publicCatalog} from '../src/catalog.mjs';
-import {addVisibleVintage,responseKind,deadline,recoverPublicApis} from '../src/browser.mjs';
+import {addVisibleVintage,responseKind,deadline,recoverPublicApis,publicVisiblePrice} from '../src/browser.mjs';
 import {productCandidates,selectBalanced} from '../src/discovery.mjs';
 import {robotsAllows} from '../src/robots.mjs';
 import {render,escapeHtml} from '../src/render.mjs';
@@ -63,6 +63,11 @@ test('public API recovery stops on access control without requesting inventory',
   const context={request:{get:async url=>{calls.push(url);return {url:()=>url,status:()=>429,dispose:async()=>{}};}}};
   await assert.rejects(recoverPublicApis(context,{id:194377,detailUrl:'https://img.vinehoo.com/vinehoo/client/commodities/periods/194377.json',config:{timeoutPerPageMs:45000,minimumPauseMs:8000},pauseFn:async()=>{}}),error=>error.code==='access_control'&&error.stop);
   assert.equal(calls.length,1);
+});
+test('an explicitly confidential page price is never replaced by an API or promotional price',()=>{
+  assert.equal(publicVisiblePrice('公开价格 ¥1,899'),1899);
+  assert.throws(()=>publicVisiblePrice('价格保密；其他活动 ¥99'),error=>error.code==='price_not_public');
+  assert.throws(()=>publicVisiblePrice('商品详情尚未显示价格'),error=>error.code==='page_price_unavailable');
 });
 test('request failure never becomes sold-out and last known quantity is retained separately',()=>{
   const s=fresh();const item=itemView(s.listings[0],s.skus,s.wines,{code:'request_failed'});
@@ -180,6 +185,19 @@ test('bounded collection stops on sustained failures but ignores excluded non-wi
   assert.equal(exceedsFailureRate(Array(3).fill({code:'response_timeout'}),8,threshold),false);
   assert.equal(exceedsFailureRate(Array(4).fill({code:'response_timeout'}),8,threshold),true);
   assert.equal(exceedsFailureRate([{code:'not_wine'},...Array(3).fill({code:'response_timeout'})],8,threshold),false);
+  assert.equal(exceedsFailureRate([{code:'price_not_public'},...Array(3).fill({code:'response_timeout'})],8,threshold),false);
+});
+test('confidential-price candidate remains queued for later review without inflating request failures',()=>{
+  const at='2026-11-03T00:00:00.000Z';
+  const queue=mergeQueue(null,[{id:197278,title:'Price hidden',sources:[]}],[],at);
+  recordQueueAttempt(queue,197278,{at,code:'price_not_public'});
+  assert.equal(queueStats(queue).priceHiddenCount,1);
+  assert.equal(queue.entries[0].nextEligibleAt,'2026-11-10T00:00:00.000Z');
+  const catalog=assemble([fresh()],options);
+  const status=collectionStatus({catalog,...options,successCount:1,attemptedCount:2,errors:[{id:197278,code:'price_not_public'}],minimum:1,target:1});
+  assert.equal(status.failedCount,0);
+  assert.equal(status.excludedAttemptCount,1);
+  assert.equal(status.detailSuccessRate,1);
 });
 test('incremental queue reserves some capacity for oldest verified products',()=>{
   const at='2026-11-03T00:00:00.000Z';

@@ -23,6 +23,12 @@ export async function checkAccess(page) {
     for(const match of await locator.all()) if(await match.isVisible()) throw new SourceError('access_control','Visible access control; collection stopped',{stop:true});
   }
 }
+export function publicVisiblePrice(body) {
+  if(/价格保密|登录后.{0,12}价格|会员.{0,8}可见价格/.test(body))throw new SourceError('price_not_public','Public page does not display a product price');
+  const price=body.match(/¥\s*([\d,.]+)/)?.[1]?.replaceAll(',','');
+  if(price!==undefined)return Number(price);
+  throw new SourceError('page_price_unavailable','Product page did not display a price');
+}
 export function responseKind(url,id) {
   let u;try{u=new URL(url);}catch{return null;}
   if(u.username||u.password)return null;
@@ -121,11 +127,13 @@ export async function observeProduct(context,candidate,config) {
     await checkAccess(page);await deadline(ready,config.timeoutPerPageMs);await checkAccess(page);
     const categories=values.detail.data?.product_category??[];
     if(categories.length&&!categories.some(c=>/葡萄酒|起泡|香槟/.test(c)))throw new SourceError('not_wine','Non-wine product omitted');
-    await page.waitForFunction(()=>/¥\s*[\d,.]+/.test(document.body.innerText),null,{timeout:10000});
-    const body=await page.locator('body').innerText();
+    try{await page.waitForFunction(()=>/¥\s*[\d,.]+|价格保密|登录后.{0,12}价格|会员.{0,8}可见价格/.test(document.body.innerText),null,{timeout:10000});}
+    catch(error){if(/Timeout/i.test(error.name))throw new SourceError('page_price_unavailable','Product page did not display a price');throw error;}
+    let body=await page.locator('body').innerText();
+    if(!/¥\s*[\d,.]+/.test(body)&&/价格保密/.test(body)){await page.waitForTimeout(1500);body=await page.locator('body').innerText();}
+    const visiblePrice=publicVisiblePrice(body);
     const snapshot=buildCatalog({detail:projectResponse('detail',values.detail),live:projectResponse('inventory',values.inventory),detailAt:meta.detail.observedAt,liveAt:meta.inventory.observedAt,runId:new Date().toISOString().replace(/[:.]/g,'-'),environment:process.env.GITHUB_ACTIONS==='true'?'github-actions':'local',evidence:meta});
-    const price=body.match(/¥\s*([\d,.]+)/)?.[1]?.replaceAll(',','');
-    if(Number(price)!==Number(snapshot.listings[0].displayedPrice.amount))throw new SourceError('page_data_mismatch','Displayed price differs from live response');
+    if(visiblePrice!==Number(snapshot.listings[0].displayedPrice.amount))throw new SourceError('page_data_mismatch','Displayed price differs from live response');
     addVisibleVintage(snapshot,body.split(/商品详情|商品参数/)[0].slice(0,2200));
     snapshot.listings[0].discoverySources=candidate.sources;
     snapshot.listings[0].categories=categories.filter(c=>typeof c==='string');

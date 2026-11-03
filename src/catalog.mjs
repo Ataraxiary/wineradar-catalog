@@ -1,4 +1,5 @@
 import {validateCatalog} from './model.mjs';
+import {isRequestFailure} from './queue.mjs';
 export function itemView(listing,skus,wines,error=null) {
   const offers=skus.filter(s=>s.listingId===listing.listingId&&s.inventory.rawFlags.isHidden!==1&&s.inventory.rawFlags.isHiddenPackage!==1);
   const associated=wines.filter(w=>listing.wineIds.includes(w.wineId));
@@ -65,12 +66,15 @@ export function publicCatalog(catalog,status) {
 }
 export function collectionStatus({catalog,previousStatus,startedAt,finishedAt,successCount,attemptedCount,errors,discovery,minimum=30,target=40,stoppedReason=null,runUrl=null}) {
   const accepted=catalog?.items?.length>=minimum;
+  const failedCount=errors.filter(isRequestFailure).length;
+  const excludedAttemptCount=errors.length-failedCount;
+  const eligibleAttemptedCount=Math.max(0,attemptedCount-excludedAttemptCount);
   const state=!accepted||successCount===0?'failed':successCount<target||errors.length?'partial':'ok';
   return {schemaVersion:1,state,lastAttemptAt:startedAt,finishedAt,lastSuccessAt:state!=='failed'&&successCount>0?finishedAt:previousStatus?.lastSuccessAt??null,
     dataGeneratedAt:catalog?.generatedAt??null,dataStaleAfter:catalog?.generatedAt?new Date(Date.parse(catalog.generatedAt)+18*3600000).toISOString():null,
-    itemCount:catalog?.items?.length??0,freshItemCount:successCount,attemptedCount,failedCount:errors.filter(e=>e.code!=='not_wine').length,
+    itemCount:catalog?.items?.length??0,freshItemCount:successCount,attemptedCount,eligibleAttemptedCount,excludedAttemptCount,failedCount,
     durationSeconds:Math.max(0,Math.round((Date.parse(finishedAt)-Date.parse(startedAt))/1000)),
-    detailSuccessRate:attemptedCount?Number((successCount/attemptedCount).toFixed(3)):null,
+    detailSuccessRate:eligibleAttemptedCount?Number((successCount/eligibleAttemptedCount).toFixed(3)):null,
     retainedPreviousData:successCount===0||((catalog?.items?.length??0)>successCount),
     availableCount:successCount===0?0:catalog?.items?.filter(i=>i.availability==='available').length??0,soldOutCount:successCount===0?0:catalog?.items?.filter(i=>i.availability==='sold_out').length??0,unknownCount:successCount===0?(catalog?.items?.length??0):catalog?.items?.filter(i=>i.availability==='unknown').length??0,
     errors,recentFailures:[...(previousStatus?.recentFailures??[]),...errors].slice(-20),stoppedReason,collectionSuspended:Boolean(previousStatus?.collectionSuspended)||errors.some(e=>e.code==='access_control'||e.code==='robots_disallowed'),

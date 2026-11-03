@@ -1,7 +1,9 @@
 const hours=ms=>new Date(ms).toISOString();
+export const isRequestFailure=error=>!['not_wine','price_not_public'].includes(error.code);
 export function exceedsFailureRate(errors,attemptedCount,{minimumSample,maximumRate}) {
-  if(attemptedCount<minimumSample)return false;
-  return errors.filter(error=>error.code!=='not_wine').length/attemptedCount>=maximumRate;
+  const eligible=attemptedCount-errors.filter(error=>!isRequestFailure(error)).length;
+  if(eligible<minimumSample)return false;
+  return errors.filter(isRequestFailure).length/eligible>=maximumRate;
 }
 export function mergeQueue(previous,discovered,items,now) {
   const entries=new Map((previous?.entries??[]).map(entry=>[entry.id,structuredClone(entry)]));
@@ -35,6 +37,7 @@ export function recordQueueAttempt(queue,id,{at,success=false,code=null}) {
   entry.attempts=(entry.attempts??0)+1;entry.lastAttemptAt=at;
   if(success){entry.state='verified';entry.lastVerifiedAt=at;delete entry.nextEligibleAt;delete entry.lastErrorCode;}
   else if(code==='not_wine'){entry.state='excluded';entry.lastErrorCode=code;}
+  else if(code==='price_not_public'){entry.state='pending';entry.lastErrorCode=code;entry.nextEligibleAt=hours(Date.parse(at)+7*24*3600000);}
   else{entry.state='pending';entry.lastErrorCode=code??'request_failed';entry.nextEligibleAt=hours(Date.parse(at)+12*3600000);}
   queue.updatedAt=at;
   return queue;
@@ -44,5 +47,6 @@ export function queueStats(queue) {
     pendingCount:queue.entries.filter(e=>e.state==='pending').length,
     unverifiedCandidateCount:queue.entries.filter(e=>e.state==='pending'&&!e.lastVerifiedAt).length,
     previouslyVerifiedRetryCount:queue.entries.filter(e=>e.state==='pending'&&Boolean(e.lastVerifiedAt)).length,
+    priceHiddenCount:queue.entries.filter(e=>e.lastErrorCode==='price_not_public').length,
     excludedCount:queue.entries.filter(e=>e.state==='excluded').length};
 }
