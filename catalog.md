@@ -1,28 +1,37 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/3 17:12:07 +08:00；本轮状态：partial；商品 121 款，规格 261 条。
+数据快照：2026/11/3 17:31:09 +08:00；本轮状态：partial；商品 125 款，规格 266 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 197309 | Mount Pleasant Family Collection Cellar Aged Elizabeth 2021 | 2021 | 单支（SKU 393764） | ¥109.90 | 在售 | 在售 | 7 | 2026/11/3 17:11:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197309) |
-| 197309 | Mount Pleasant Family Collection Cellar Aged Elizabeth 2021 | 2021 | 双支装（SKU 393765） | ¥209.00 | 在售 | 在售 | 7 | 2026/11/3 17:11:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197309) |
-| 197309 | Mount Pleasant Family Collection Cellar Aged Elizabeth 2021 | 2021 | 六支装（SKU 393766） | ¥599.90 | 在售 | 在售 | 7 | 2026/11/3 17:11:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197309) |
-| 197069 | Il Paradiso di Manfredi Brunello di Montalcino DOCG 2018 / Il Paradiso di Manfredi Rosso di Montalcino 2023 | 2018 / 2023 | 双支套装（SKU 393463） | ¥1299.00 | 在售 | 在售 | 3 | 2026/11/3 17:11:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197069) |
-| 197292 | Centare Old Block Shiraz 2021 | 2021 | 单支（SKU 393897） | ¥399.00 | 在售 | 在售 | 4 | 2026/11/3 17:11:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197292) |
-| 197234 | Blumelle Secco | 未标示 | 双支装（SKU 393879） | ¥119.90 | 在售 | 在售 | 4 | 2026/11/3 17:10:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197234) |
-| 197234 | Blumelle Secco | 未标示 | 六支装（SKU 393880） | ¥349.00 | 在售 | 在售 | 4 | 2026/11/3 17:10:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197234) |
-| 197195 | Mastrojanni BRUNELLO DI MONTALCINO DOCG VIGNA SCHIENA D'ASINO WINE 75CL | 未标示 | 单支（SKU 393571） | ¥799.00 | 在售 | 在售 | 3 | 2026/11/3 17:10:41 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197195) |
-| 197801 | Montenidoli 'Sono Montenidoli' Toscana Rosso IGT 2018 | 2018 | 单支（SKU 394610） | ¥489.00 | 在售 | 在售 | 2 | 2026/11/3 17:10:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197801) |
-| 197801 | Montenidoli 'Sono Montenidoli' Toscana Rosso IGT 2018 | 2018 | 双支装（SKU 394611） | ¥969.00 | 在售 | 在售 | 1 | 2026/11/3 17:10:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197801) |
-| 197144 | Chateau Rauzan-Segla 1989 | 1989 | 单支（SKU 393495） | ¥1399.00 | 在售 | 在售 | 2 | 2026/11/3 17:10:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197144) |
-| 197132 | Tahbilk 'Old Vines' Cabernet - Shiraz 2017 | 2017 | 单支（SKU 393516） | ¥99.90 | 在售 | 在售 | 4 | 2026/11/3 17:09:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197132) |
-| 197132 | Tahbilk 'Old Vines' Cabernet - Shiraz 2017 | 2017 | 六支装（SKU 393517） | ¥588.00 | 在售 | 在售 | 4 | 2026/11/3 17:09:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197132) |
-| 197115 | Frederic Magnien Les Blanchards Morey-Saint-Denis Premier Cru 2018 | 2018 | 单支（SKU 393959） | ¥399.00 | 在售 | 在售 | 8 | 2026/11/3 17:08:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197115) |
-| 197115 | Frederic Magnien Les Blanchards Morey-Saint-Denis Premier Cru 2018 | 2018 | 双支装（SKU 393960） | ¥789.00 | 在售 | 在售 | 8 | 2026/11/3 17:08:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197115) |
-| 197115 | Frederic Magnien Les Blanchards Morey-Saint-Denis Premier Cru 2018 | 2018 | 六支装（SKU 393961） | ¥2349.00 | 在售 | 在售 | 8 | 2026/11/3 17:08:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197115) |
-| 197194 | Cirillo Estate Wines 1850 Ancestor Vine Grenache 2018 | 2018 | 单支（SKU 393868） | ¥499.00 | 在售 | 在售 | 6 | 2026/11/3 17:08:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197194) |
+| 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 单支（SKU 392830） | ¥349.00 | 在售 | 在售 | 5 | 2026/11/3 17:28:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
+| 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 双支装（SKU 392831） | ¥689.00 | 在售 | 在售 | 3 | 2026/11/3 17:28:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
+| 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 六支原箱（SKU 392832） | ¥2049.00 | 在售 | 在售 | 1 | 2026/11/3 17:28:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
+| 197431 | Clarendon Hills Astralis Shiraz 2022 | 2022 | 单支（SKU 394078） | ¥1399.00 | 在售 | 在售 | 2 | 2026/11/3 17:28:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197431) |
+| 197424 | Domaine de Bila-Haut Chrysopee Collioure | 2018 | 单支（SKU 394141） | ¥599.00 | 在售 | 在售 | 5 | 2026/11/3 17:28:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197424) |
+| 197371 | JJ Hahn Homestead Cabernet Sauvignon 2016 | 2016 | 单支（SKU 393947） | ¥99.90 | 在售 | 在售 | 2 | 2026/11/3 17:27:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197371) |
+| 197371 | JJ Hahn Homestead Cabernet Sauvignon 2016 | 2016 | 双支装（SKU 393948） | ¥188.00 | 在售 | 在售 | 2 | 2026/11/3 17:27:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197371) |
+| 197316 | Girolamo Russo Feudo Etna Rosso 2021 | 2021 | 单支（SKU 393923） | ¥299.00 | 在售 | 在售 | 9 | 2026/11/3 17:27:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197316) |
+| 197050 | Il Paradiso di Manfredi Trentottema Unicita 2019 / Il Paradiso di Manfredi Rosso di Montalcino 2024 | 2019 / 2024 | 双支套装（SKU 393456） | ¥1299.00 | 在售 | 在售 | 3 | 2026/11/3 17:27:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197050) |
+| 197309 | Mount Pleasant Family Collection Cellar Aged Elizabeth 2021 | 2021 | 单支（SKU 393764） | ¥109.90 | 未知 | 未知 | 未知 | 2026/11/3 17:11:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197309) |
+| 197309 | Mount Pleasant Family Collection Cellar Aged Elizabeth 2021 | 2021 | 双支装（SKU 393765） | ¥209.00 | 未知 | 未知 | 未知 | 2026/11/3 17:11:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197309) |
+| 197309 | Mount Pleasant Family Collection Cellar Aged Elizabeth 2021 | 2021 | 六支装（SKU 393766） | ¥599.90 | 未知 | 未知 | 未知 | 2026/11/3 17:11:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197309) |
+| 197069 | Il Paradiso di Manfredi Brunello di Montalcino DOCG 2018 / Il Paradiso di Manfredi Rosso di Montalcino 2023 | 2018 / 2023 | 双支套装（SKU 393463） | ¥1299.00 | 未知 | 未知 | 未知 | 2026/11/3 17:11:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197069) |
+| 197292 | Centare Old Block Shiraz 2021 | 2021 | 单支（SKU 393897） | ¥399.00 | 未知 | 未知 | 未知 | 2026/11/3 17:11:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197292) |
+| 197234 | Blumelle Secco | 未标示 | 双支装（SKU 393879） | ¥119.90 | 未知 | 未知 | 未知 | 2026/11/3 17:10:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197234) |
+| 197234 | Blumelle Secco | 未标示 | 六支装（SKU 393880） | ¥349.00 | 未知 | 未知 | 未知 | 2026/11/3 17:10:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197234) |
+| 197195 | Mastrojanni BRUNELLO DI MONTALCINO DOCG VIGNA SCHIENA D'ASINO WINE 75CL | 未标示 | 单支（SKU 393571） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/3 17:10:41 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197195) |
+| 197801 | Montenidoli 'Sono Montenidoli' Toscana Rosso IGT 2018 | 2018 | 单支（SKU 394610） | ¥489.00 | 未知 | 未知 | 未知 | 2026/11/3 17:10:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197801) |
+| 197801 | Montenidoli 'Sono Montenidoli' Toscana Rosso IGT 2018 | 2018 | 双支装（SKU 394611） | ¥969.00 | 未知 | 未知 | 未知 | 2026/11/3 17:10:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197801) |
+| 197144 | Chateau Rauzan-Segla 1989 | 1989 | 单支（SKU 393495） | ¥1399.00 | 未知 | 未知 | 未知 | 2026/11/3 17:10:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197144) |
+| 197132 | Tahbilk 'Old Vines' Cabernet - Shiraz 2017 | 2017 | 单支（SKU 393516） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/3 17:09:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197132) |
+| 197132 | Tahbilk 'Old Vines' Cabernet - Shiraz 2017 | 2017 | 六支装（SKU 393517） | ¥588.00 | 未知 | 未知 | 未知 | 2026/11/3 17:09:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197132) |
+| 197115 | Frederic Magnien Les Blanchards Morey-Saint-Denis Premier Cru 2018 | 2018 | 单支（SKU 393959） | ¥399.00 | 未知 | 未知 | 未知 | 2026/11/3 17:08:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197115) |
+| 197115 | Frederic Magnien Les Blanchards Morey-Saint-Denis Premier Cru 2018 | 2018 | 双支装（SKU 393960） | ¥789.00 | 未知 | 未知 | 未知 | 2026/11/3 17:08:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197115) |
+| 197115 | Frederic Magnien Les Blanchards Morey-Saint-Denis Premier Cru 2018 | 2018 | 六支装（SKU 393961） | ¥2349.00 | 未知 | 未知 | 未知 | 2026/11/3 17:08:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197115) |
+| 197194 | Cirillo Estate Wines 1850 Ancestor Vine Grenache 2018 | 2018 | 单支（SKU 393868） | ¥499.00 | 未知 | 未知 | 未知 | 2026/11/3 17:08:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197194) |
 | 197109 | Monte del Fra Ca del Magro Custoza Superiore 2023 | 2023 | 单支（SKU 393440） | ¥129.90 | 未知 | 未知 | 未知 | 2026/11/3 17:02:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197109) |
 | 197109 | Monte del Fra Ca del Magro Custoza Superiore 2023 | 2023 | 双支装（SKU 393441） | ¥248.00 | 未知 | 未知 | 未知 | 2026/11/3 17:02:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197109) |
 | 197109 | Monte del Fra Ca del Magro Custoza Superiore 2023 | 2023 | 六支装（SKU 393442） | ¥719.00 | 未知 | 未知 | 未知 | 2026/11/3 17:02:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197109) |
@@ -263,7 +272,3 @@
 | 197686 | Giacomo Conterno Arione Barolo DOCG 2021 | 2021 | 单支（SKU 394399） | ¥1999.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197686) |
 | 197689 | Azelia di Luigi Scavino Bricco Fiasco Barolo DOCG 2001 | 2001 | 单支（SKU 394409） | ¥899.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197689) |
 | 195772 | Il Paradiso di Manfredi Trentottema Unicita 2019 / Il Paradiso di Manfredi Rosso di Montalcino 2024 | 2019 / 2024 | 四支套装（3瓶Unicita+1瓶rosso）（SKU 390329） | ¥2999.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772) |
-| 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 单支（SKU 392830） | ¥349.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
-| 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 双支装（SKU 392831） | ¥689.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
-| 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 六支原箱（SKU 392832） | ¥2049.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
-| 197050 | Il Paradiso di Manfredi Trentottema Unicita 2019 / Il Paradiso di Manfredi Rosso di Montalcino 2024 | 2019 / 2024 | 双支套装（SKU 393456） | ¥1299.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197050) |
