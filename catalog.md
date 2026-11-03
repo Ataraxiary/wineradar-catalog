@@ -1,30 +1,46 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/3 16:47:15 +08:00；本轮状态：partial；商品 98 款，规格 214 条。
+数据快照：2026/11/3 16:55:11 +08:00；本轮状态：ok；商品 106 款，规格 226 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 196657 | Ferrer Bobet Seleccio Especial Vinyes Velles 2019 | 2019 | 单支（SKU 392197） | ¥699.00 | 在售 | 在售 | 4 | 2026/11/3 16:47:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196657) |
-| 196541 | Alfred Gratien Brut Champagne 1.5L | 未标示 | 单支（SKU 391959） | ¥599.00 | 在售 | 在售 | 9 | 2026/11/3 16:46:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196541) |
-| 196541 | Alfred Gratien Brut Champagne 1.5L | 未标示 | 六支装（SKU 391960） | ¥3549.00 | 在售 | 在售 | 9 | 2026/11/3 16:46:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196541) |
-| 196540 | Auntsfield Single Vineyard Pinot Noir 2023 | 2023 | 单支（SKU 391956） | ¥179.00 | 在售 | 在售 | 6 | 2026/11/3 16:46:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196540) |
-| 196540 | Auntsfield Single Vineyard Pinot Noir 2023 | 2023 | 双支装（SKU 391957） | ¥348.00 | 在售 | 在售 | 6 | 2026/11/3 16:46:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196540) |
-| 196540 | Auntsfield Single Vineyard Pinot Noir 2023 | 2023 | 六支装（SKU 391958） | ¥999.90 | 在售 | 在售 | 4 | 2026/11/3 16:46:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196540) |
-| 196537 | BAROLO DOCG SERRA | 未标示 | 单支（SKU 392065） | ¥399.00 | 在售 | 在售 | 5 | 2026/11/3 16:46:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196537) |
-| 196537 | BAROLO DOCG SERRA | 未标示 | 双支装（SKU 392066） | ¥789.00 | 在售 | 在售 | 5 | 2026/11/3 16:46:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196537) |
-| 196537 | BAROLO DOCG SERRA | 未标示 | 六支装（SKU 392067） | ¥2349.00 | 在售 | 在售 | 5 | 2026/11/3 16:46:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196537) |
-| 196489 | Palari Rosso del Soprano Sicilia IGT 2019 | 2019 | 单支（SKU 391890） | ¥169.00 | 在售 | 在售 | 7 | 2026/11/3 16:46:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196489) |
-| 196489 | Palari Rosso del Soprano Sicilia IGT 2019 | 2019 | 双支装（SKU 391884） | ¥329.00 | 在售 | 在售 | 7 | 2026/11/3 16:46:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196489) |
-| 196489 | Palari Rosso del Soprano Sicilia IGT 2019 | 2019 | 六支装（SKU 391885） | ¥979.00 | 在售 | 在售 | 7 | 2026/11/3 16:46:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196489) |
-| 196386 | Renzo Masi Contrappasso Rosso di Toscana IGT 2022 | 2022 | 单支（SKU 391569） | ¥69.90 | 在售 | 在售 | 6 | 2026/11/3 16:45:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196386) |
-| 196386 | Renzo Masi Contrappasso Rosso di Toscana IGT 2022 | 2022 | 双支装（SKU 391570） | ¥135.00 | 在售 | 在售 | 6 | 2026/11/3 16:45:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196386) |
-| 196386 | Renzo Masi Contrappasso Rosso di Toscana IGT 2022 | 2022 | 六支原箱（SKU 391571） | ¥399.00 | 在售 | 在售 | 6 | 2026/11/3 16:45:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196386) |
-| 196289 | Palari Faro 2016 | 2016 | 单支（SKU 391356） | ¥299.00 | 在售 | 在售 | 5 | 2026/11/3 16:45:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196289) |
-| 196283 | Cordella Brunello di Montalcino DOCG 2019 / Baricci Colombaio di Montosoli Brunello di Montalcino DOCG | 2019 / 部分未标示 | 双支组合装（SKU 391813） | ¥598.00 | 在售 | 在售 | 6 | 2026/11/3 16:45:28 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196283) |
-| 195997 | Allan Scott Sauvignon Blanc 2026 / Taitira Sauvignon Blanc 2025 / Ara 'Single Estate' Sauvignon Blanc 2025 | 2026 / 2025 | 三支组合装（SKU 391455） | ¥199.90 | 在售 | 在售 | 6 | 2026/11/3 16:45:15 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195997) |
-| 195820 | Chateau des Tourelles 2017 | 2017 | 六支装（SKU 391976） | ¥239.00 | 在售 | 在售 | 10 | 2026/11/3 16:44:03 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195820) |
+| 196889 | Pewsey Vale The Contours Riesling 2017 | 2017 | 单支（SKU 393070） | ¥249.00 | 在售 | 在售 | 5 | 2026/11/3 16:55:03 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196889) |
+| 196845 | John Duval Wines Plexus Marsanne - Roussanne - Viognier | 2024 | 单支（SKU 393084） | ¥199.00 | 在售 | 在售 | 5 | 2026/11/3 16:54:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196845) |
+| 196782 | Maxime Crotet Beaujolais-Lantignie 'Vaugervand' 2021 | 2021 | 六支装（SKU 392898） | ¥699.00 | 在售 | 在售 | 5 | 2026/11/3 16:54:41 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196782) |
+| 196778 | Golflee Sauvignon Blanc Marlborough 2025 / Reichsrat von Buhl Bone Dry Knochentrocken Rose Trocken 2020 / 黑宝石・原点干红葡萄酒 2023 / Greg Norman Australia Estates Cabernet Sauvignon - Merlot 2013 / Lake Chalice Syrah / Chateau Vrai Canon Bouche 2014 | 2025 / 2020 / 2023 / 2013 / 2014 / 部分未标示 | 六支套装（SKU 393322） | ¥299.90 | 在售 | 在售 | 5 | 2026/11/3 16:54:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196778) |
+| 197429 | Domaine de l'Ecu Muscadet Sevre-et-Maine Classic 2023 | 2023 | 单支（SKU 394145） | ¥179.00 | 在售 | 在售 | 6 | 2026/11/3 16:54:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197429) |
+| 196759 | XiaoLing霄岭干红葡萄酒 / Rippon Mature Vines Pinot Noir 2019 | 2019 / 部分未标示 | 霄岭干红2020单支赠睿境Rippon黑皮诺2019单支（SKU 392852） | ¥1499.00 | 在售 | 在售 | 2 | 2026/11/3 16:54:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196759) |
+| 196754 | 2017 Boroli Barolo DOCG | 2017 | 单支（SKU 392803） | ¥175.00 | 在售 | 在售 | 6 | 2026/11/3 16:53:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196754) |
+| 196754 | 2017 Boroli Barolo DOCG | 2017 | 双支装（SKU 392804） | ¥345.00 | 在售 | 在售 | 6 | 2026/11/3 16:53:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196754) |
+| 196754 | 2017 Boroli Barolo DOCG | 2017 | 六支装（SKU 392805） | ¥1025.00 | 在售 | 在售 | 6 | 2026/11/3 16:53:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196754) |
+| 196706 | Marlborough Sun Sauvignon Blanc Bubbles 2025 | 2025 | 单支（SKU 392820） | ¥89.90 | 在售 | 在售 | 4 | 2026/11/3 16:53:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196706) |
+| 196706 | Marlborough Sun Sauvignon Blanc Bubbles 2025 | 2025 | 双支装（SKU 392821） | ¥169.00 | 在售 | 在售 | 4 | 2026/11/3 16:53:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196706) |
+| 196706 | Marlborough Sun Sauvignon Blanc Bubbles 2025 | 2025 | 六支装（SKU 392822） | ¥499.90 | 在售 | 在售 | 4 | 2026/11/3 16:53:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196706) |
+| 196694 | Domaine Jean-Jacques Confuron Chambolle-Musigny 2023 | 2023 | 单支（SKU 392248） | ¥899.00 | 在售 | 在售 | 1 | 2026/11/3 16:53:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196694) |
+| 196281 | Olivier Riviere Vinas De Eusebio - 2016 | 2016 | 单支（SKU 391332） | ¥299.00 | 在售 | 在售 | 7 | 2026/11/3 16:53:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196281) |
+| 196281 | Olivier Riviere Vinas De Eusebio - 2016 | 2016 | 双支装（SKU 391333） | ¥588.00 | 在售 | 在售 | 7 | 2026/11/3 16:53:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196281) |
+| 196281 | Olivier Riviere Vinas De Eusebio - 2016 | 2016 | 六支装（SKU 391334） | ¥1728.00 | 在售 | 在售 | 7 | 2026/11/3 16:53:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196281) |
+| 196657 | Ferrer Bobet Seleccio Especial Vinyes Velles 2019 | 2019 | 单支（SKU 392197） | ¥699.00 | 未知 | 未知 | 未知 | 2026/11/3 16:47:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196657) |
+| 196541 | Alfred Gratien Brut Champagne 1.5L | 未标示 | 单支（SKU 391959） | ¥599.00 | 未知 | 未知 | 未知 | 2026/11/3 16:46:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196541) |
+| 196541 | Alfred Gratien Brut Champagne 1.5L | 未标示 | 六支装（SKU 391960） | ¥3549.00 | 未知 | 未知 | 未知 | 2026/11/3 16:46:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196541) |
+| 196540 | Auntsfield Single Vineyard Pinot Noir 2023 | 2023 | 单支（SKU 391956） | ¥179.00 | 未知 | 未知 | 未知 | 2026/11/3 16:46:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196540) |
+| 196540 | Auntsfield Single Vineyard Pinot Noir 2023 | 2023 | 双支装（SKU 391957） | ¥348.00 | 未知 | 未知 | 未知 | 2026/11/3 16:46:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196540) |
+| 196540 | Auntsfield Single Vineyard Pinot Noir 2023 | 2023 | 六支装（SKU 391958） | ¥999.90 | 未知 | 未知 | 未知 | 2026/11/3 16:46:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196540) |
+| 196537 | BAROLO DOCG SERRA | 未标示 | 单支（SKU 392065） | ¥399.00 | 未知 | 未知 | 未知 | 2026/11/3 16:46:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196537) |
+| 196537 | BAROLO DOCG SERRA | 未标示 | 双支装（SKU 392066） | ¥789.00 | 未知 | 未知 | 未知 | 2026/11/3 16:46:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196537) |
+| 196537 | BAROLO DOCG SERRA | 未标示 | 六支装（SKU 392067） | ¥2349.00 | 未知 | 未知 | 未知 | 2026/11/3 16:46:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196537) |
+| 196489 | Palari Rosso del Soprano Sicilia IGT 2019 | 2019 | 单支（SKU 391890） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/3 16:46:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196489) |
+| 196489 | Palari Rosso del Soprano Sicilia IGT 2019 | 2019 | 双支装（SKU 391884） | ¥329.00 | 未知 | 未知 | 未知 | 2026/11/3 16:46:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196489) |
+| 196489 | Palari Rosso del Soprano Sicilia IGT 2019 | 2019 | 六支装（SKU 391885） | ¥979.00 | 未知 | 未知 | 未知 | 2026/11/3 16:46:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196489) |
+| 196386 | Renzo Masi Contrappasso Rosso di Toscana IGT 2022 | 2022 | 单支（SKU 391569） | ¥69.90 | 未知 | 未知 | 未知 | 2026/11/3 16:45:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196386) |
+| 196386 | Renzo Masi Contrappasso Rosso di Toscana IGT 2022 | 2022 | 双支装（SKU 391570） | ¥135.00 | 未知 | 未知 | 未知 | 2026/11/3 16:45:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196386) |
+| 196386 | Renzo Masi Contrappasso Rosso di Toscana IGT 2022 | 2022 | 六支原箱（SKU 391571） | ¥399.00 | 未知 | 未知 | 未知 | 2026/11/3 16:45:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196386) |
+| 196289 | Palari Faro 2016 | 2016 | 单支（SKU 391356） | ¥299.00 | 未知 | 未知 | 未知 | 2026/11/3 16:45:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196289) |
+| 196283 | Cordella Brunello di Montalcino DOCG 2019 / Baricci Colombaio di Montosoli Brunello di Montalcino DOCG | 2019 / 部分未标示 | 双支组合装（SKU 391813） | ¥598.00 | 未知 | 未知 | 未知 | 2026/11/3 16:45:28 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196283) |
+| 195997 | Allan Scott Sauvignon Blanc 2026 / Taitira Sauvignon Blanc 2025 / Ara 'Single Estate' Sauvignon Blanc 2025 | 2026 / 2025 | 三支组合装（SKU 391455） | ¥199.90 | 未知 | 未知 | 未知 | 2026/11/3 16:45:15 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195997) |
+| 195820 | Chateau des Tourelles 2017 | 2017 | 六支装（SKU 391976） | ¥239.00 | 未知 | 未知 | 未知 | 2026/11/3 16:44:03 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195820) |
 | 195426 | La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 单支（SKU 389687） | ¥119.90 | 未知 | 未知 | 未知 | 2026/11/3 16:02:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195426) |
 | 195426 | La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 双支装（SKU 389688） | ¥229.90 | 未知 | 未知 | 未知 | 2026/11/3 16:02:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195426) |
 | 195426 | La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 六支装（SKU 389689） | ¥668.00 | 未知 | 未知 | 未知 | 2026/11/3 16:02:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195426) |
@@ -216,7 +232,3 @@
 | 197450 | Torbreck Woodcutter's Shiraz 2025 | 2025 | 双支装（SKU 394055） | ¥275.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197450) |
 | 197450 | Torbreck Woodcutter's Shiraz 2025 | 2025 | 六支装（SKU 394056） | ¥819.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197450) |
 | 197450 | Torbreck Woodcutter's Shiraz 2025 | 2025 | 十二支装（SKU 394057） | ¥1599.00 | 未知 | 未知 | 未知 | 2026/11/3 05:46:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197450) |
-| 197429 | Domaine de l'Ecu Muscadet Sevre-et-Maine Classic 2023 | 2023 | 单支（SKU 394145） | ¥179.00 | 未知 | 未知 | 未知 | 2026/11/3 05:45:50 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197429) |
-| 196281 | Olivier Riviere Vinas De Eusebio - 2016 | 2016 | 单支（SKU 391332） | ¥299.00 | 未知 | 未知 | 未知 | 2026/11/3 05:44:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196281) |
-| 196281 | Olivier Riviere Vinas De Eusebio - 2016 | 2016 | 双支装（SKU 391333） | ¥588.00 | 未知 | 未知 | 未知 | 2026/11/3 05:44:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196281) |
-| 196281 | Olivier Riviere Vinas De Eusebio - 2016 | 2016 | 六支装（SKU 391334） | ¥1728.00 | 未知 | 未知 | 未知 | 2026/11/3 05:44:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196281) |
