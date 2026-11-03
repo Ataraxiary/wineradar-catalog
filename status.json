@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "state": "ok",
-  "lastAttemptAt": "2026-11-03T08:51:29.535Z",
-  "finishedAt": "2026-11-03T08:55:11.306Z",
-  "lastSuccessAt": "2026-11-03T08:55:11.306Z",
-  "dataGeneratedAt": "2026-11-03T08:55:11.306Z",
-  "dataStaleAfter": "2026-11-04T02:55:11.306Z",
-  "itemCount": 106,
+  "lastAttemptAt": "2026-11-03T08:58:35.938Z",
+  "finishedAt": "2026-11-03T09:02:16.315Z",
+  "lastSuccessAt": "2026-11-03T09:02:16.315Z",
+  "dataGeneratedAt": "2026-11-03T09:02:16.315Z",
+  "dataStaleAfter": "2026-11-04T03:02:16.315Z",
+  "itemCount": 114,
   "freshItemCount": 10,
   "attemptedCount": 10,
   "failedCount": 0,
-  "durationSeconds": 222,
+  "durationSeconds": 220,
   "detailSuccessRate": 1,
   "retainedPreviousData": true,
   "availableCount": 10,
   "soldOutCount": 0,
-  "unknownCount": 96,
+  "unknownCount": 104,
   "errors": [],
   "recentFailures": [
     {
@@ -1609,24 +1609,24 @@
   "stoppedReason": null,
   "collectionSuspended": false,
   "coverage": {
-    "discoveredAt": "2026-11-03T08:53:16.993Z",
-    "totalUnique": 166,
+    "discoveredAt": "2026-11-03T09:00:20.804Z",
+    "totalUnique": 171,
     "channels": [
       {
         "channel": "现货速发",
         "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-        "newCandidates": 14,
-        "observedCandidates": 14,
-        "elapsedMs": 6013,
+        "newCandidates": 15,
+        "observedCandidates": 15,
+        "elapsedMs": 5972,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "普通商城",
         "url": "https://h5.vinehoo.com/",
-        "newCandidates": 116,
-        "observedCandidates": 119,
-        "elapsedMs": 13070,
+        "newCandidates": 115,
+        "observedCandidates": 118,
+        "elapsedMs": 13073,
         "responseParseFailures": 0,
         "error": null
       },
@@ -1635,25 +1635,25 @@
         "url": "https://h5.vinehoo.com/packageA/pages/more-than-wine/more-than-wine?id=76",
         "newCandidates": 0,
         "observedCandidates": 4,
-        "elapsedMs": 13091,
+        "elapsedMs": 13090,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "分类·法国",
         "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
-        "newCandidates": 17,
+        "newCandidates": 15,
         "observedCandidates": 23,
-        "elapsedMs": 16172,
+        "elapsedMs": 14565,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "分类·意大利",
         "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
-        "newCandidates": 14,
+        "newCandidates": 15,
         "observedCandidates": 16,
-        "elapsedMs": 16163,
+        "elapsedMs": 15155,
         "responseParseFailures": 0,
         "error": null
       }
@@ -1663,7 +1663,7 @@
       "status": 200,
       "provided": false,
       "note": "Site returned SPA HTML instead of robots directives",
-      "checkedAt": "2026-11-03T08:51:32.416Z"
+      "checkedAt": "2026-11-03T08:58:38.883Z"
     }
   },
   "schedule": {
@@ -1676,32 +1676,32 @@
     "cronUtc": "17 1,13 * * *",
     "timing": "GitHub scheduling can be delayed"
   },
-  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/41606341986",
+  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/41607211943",
   "queue": {
-    "discoveredCount": 230,
-    "verifiedCount": 106,
-    "pendingCount": 124,
-    "unverifiedCandidateCount": 124,
+    "discoveredCount": 236,
+    "verifiedCount": 114,
+    "pendingCount": 122,
+    "unverifiedCandidateCount": 122,
     "previouslyVerifiedRetryCount": 0,
     "excludedCount": 0
   },
-  "detailVerifiedCount": 106,
-  "skuEverVerifiedCount": 226,
-  "freshSkuVerifiedCount": 16,
+  "detailVerifiedCount": 114,
+  "skuEverVerifiedCount": 248,
+  "freshSkuVerifiedCount": 29,
   "publicApiRecoveryCount": 0,
-  "historicalInventoryUnknownCount": 96,
+  "historicalInventoryUnknownCount": 104,
   "countryCounts": [
     {
       "country": "法国",
-      "count": 37
+      "count": 39
     },
     {
       "country": "意大利",
-      "count": 35
+      "count": 38
     },
     {
       "country": "澳大利亚",
-      "count": 10
+      "count": 12
     },
     {
       "country": "新西兰",
@@ -1717,7 +1717,7 @@
     },
     {
       "country": "智利",
-      "count": 3
+      "count": 4
     },
     {
       "country": "中国",
@@ -1740,6 +1740,6 @@
     "status": 200,
     "provided": false,
     "note": "Site returned SPA HTML instead of robots directives",
-    "checkedAt": "2026-11-03T08:51:32.416Z"
+    "checkedAt": "2026-11-03T08:58:38.883Z"
   }
 }
