@@ -48,11 +48,11 @@ export async function discover(context,config) {
     await pause(config.minimumPauseMs);
   }
   try {
-    await settle(active,()=>page.goto(config.landing,{waitUntil:'domcontentloaded',timeout:config.timeoutPerPageMs}));
-    await settle({channel:'普通商城',url:config.origin+'/'},()=>page.getByText('首页',{exact:true}).last().tap(),{scroll:true});
+    await settle(active,()=>page.goto(config.landing,{waitUntil:'commit',timeout:config.timeoutPerPageMs}));
+    await settle({channel:'普通商城',url:config.origin+'/'},()=>page.getByText('首页',{exact:true}).last().tap({timeout:8000}),{scroll:true});
     // Follow an actual homepage activity card, instead of inventing activity IDs.
     const activity=page.getByText(/全部\s*\d+款/).first();
-    if(await activity.count())await settle({channel:'首页专题活动',url:page.url()},()=>activity.tap(),{scroll:true});
+    if(await activity.count())await settle({channel:'首页专题活动',url:page.url()},()=>activity.tap({timeout:8000}),{scroll:true});
     for(const country of routes.keys()) {
       if(channels.length>=config.maximumDiscoveryPages)break;
       await settle({channel:'分类·'+country,url:config.landing},async()=>{
