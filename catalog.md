@@ -1,30 +1,52 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/4 04:13:22 +08:00；本轮状态：partial；商品 133 款，规格 283 条。
+数据快照：2026/11/4 15:37:39 +08:00；本轮状态：partial；商品 141 款，规格 301 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 193962 | ARROGANT FROG TUTTI FRUTTI ROUGE | 2025 | 双支装（SKU 386836） | ¥99.90 | 在售 | 在售 | 10 | 2026/11/4 04:13:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193962) |
-| 193962 | ARROGANT FROG TUTTI FRUTTI ROUGE | 2025 | 六支原箱（SKU 386837） | ¥249.90 | 在售 | 在售 | 10 | 2026/11/4 04:13:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193962) |
-| 197686 | Giacomo Conterno Arione Barolo DOCG 2021 | 2021 | 单支（SKU 394399） | ¥1999.00 | 在售 | 在售 | 2 | 2026/11/4 04:13:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197686) |
-| 192355 | Catalina Sounds Sauvignon Blanc 2025 | 2025 | 单支（SKU 383697） | ¥99.90 | 在售 | 在售 | 5 | 2026/11/4 04:12:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192355) |
-| 192355 | Catalina Sounds Sauvignon Blanc 2025 | 2025 | 双支装（SKU 383698） | ¥189.00 | 在售 | 在售 | 5 | 2026/11/4 04:12:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192355) |
-| 192355 | Catalina Sounds Sauvignon Blanc 2025 | 2025 | 六支装（SKU 383856） | ¥559.00 | 在售 | 在售 | 5 | 2026/11/4 04:12:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192355) |
-| 190507 | Ornellaia Bolgheri Superiore 1998 | 1998 | 单支（SKU 379311） | ¥2699.00 | 在售 | 在售 | 1 | 2026/11/4 04:12:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190507) |
-| 190422 | Alibrianza Cascina Radice 'Poiane' Barolo DOCG 2020 | 2020 | 单支（SKU 379458） | ¥188.00 | 在售 | 在售 | 4 | 2026/11/4 04:12:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190422) |
-| 190422 | Alibrianza Cascina Radice 'Poiane' Barolo DOCG 2020 | 2020 | 双支装（SKU 379459） | ¥360.00 | 在售 | 在售 | 4 | 2026/11/4 04:12:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190422) |
-| 190422 | Alibrianza Cascina Radice 'Poiane' Barolo DOCG 2020 | 2020 | 六支装（SKU 379460） | ¥1028.00 | 在售 | 在售 | 4 | 2026/11/4 04:12:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190422) |
-| 197689 | Azelia di Luigi Scavino Bricco Fiasco Barolo DOCG 2001 | 2001 | 单支（SKU 394409） | ¥899.00 | 在售 | 在售 | 2 | 2026/11/4 04:12:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197689) |
-| 183617 | Chteau La Truffe Pomerol 2014 | 2014 | 单支（SKU 366111） | ¥169.00 | 在售 | 在售 | 5 | 2026/11/4 04:11:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183617) |
-| 183617 | Chteau La Truffe Pomerol 2014 | 2014 | 双支装（SKU 366112） | ¥335.00 | 在售 | 在售 | 5 | 2026/11/4 04:11:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183617) |
-| 183617 | Chteau La Truffe Pomerol 2014 | 2014 | 六支原箱（SKU 366113） | ¥999.00 | 在售 | 在售 | 5 | 2026/11/4 04:11:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183617) |
-| 182658 | Bartolo Mascarello Artist Label, Barolo DOCG 2012 | 2012 | 单支（SKU 390574） | ¥2599.00 | 在售 | 在售 | 1 | 2026/11/4 04:11:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182658) |
-| 179992 | Hunter's Sauvignon Blanc 2024 | 2024 | 双支装（SKU 357869） | ¥139.00 | 在售 | 在售 | 9 | 2026/11/4 04:11:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179992) |
-| 179992 | Hunter's Sauvignon Blanc 2024 | 2024 | 六支装（SKU 377465） | ¥409.00 | 在售 | 在售 | 9 | 2026/11/4 04:11:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179992) |
-| 179645 | Patrick Javillier Bourgogne Cote d Or Cuvèe des Forgets 2023 | 2023 | 单支（SKU 356827） | ¥299.90 | 在售 | 在售 | 9 | 2026/11/4 04:11:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179645) |
-| 179645 | Patrick Javillier Bourgogne Cote d Or Cuvèe des Forgets 2023 | 2023 | 六支装（SKU 358125） | ¥1769.00 | 在售 | 在售 | 9 | 2026/11/4 04:11:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179645) |
+| 197526 | Lapostolle Grand Selection Carmenere  Rapel Valley 2019 | 2019 | 单支（SKU 394209） | ¥69.90 | 在售 | 在售 | 12 | 2026/11/4 15:37:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197526) |
+| 197526 | Lapostolle Grand Selection Carmenere  Rapel Valley 2019 | 2019 | 双支装（SKU 394210） | ¥129.00 | 在售 | 在售 | 12 | 2026/11/4 15:37:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197526) |
+| 197526 | Lapostolle Grand Selection Carmenere  Rapel Valley 2019 | 2019 | 六支原箱（SKU 394212） | ¥349.00 | 在售 | 在售 | 12 | 2026/11/4 15:37:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197526) |
+| 197505 | Comando G La Bruja de Rozas 2020 | 2020 | 单支（SKU 394150） | ¥189.90 | 在售 | 在售 | 8 | 2026/11/4 15:37:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197505) |
+| 197505 | Comando G La Bruja de Rozas 2020 | 2020 | 双支装（SKU 394151） | ¥369.90 | 在售 | 在售 | 8 | 2026/11/4 15:37:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197505) |
+| 197505 | Comando G La Bruja de Rozas 2020 | 2020 | 六支装（SKU 394152） | ¥1088.00 | 在售 | 在售 | 4 | 2026/11/4 15:37:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197505) |
+| 197441 | Legende Lion Bordeaux 2019 | 2019 | 六支原箱（SKU 394036） | ¥169.90 | 在售 | 在售 | 6 | 2026/11/4 15:37:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197441) |
+| 195822 | Insurgente Tinto 2016 | 2016 | 单支（SKU 391721） | ¥89.90 | 在售 | 在售 | 9 | 2026/11/4 15:34:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195822) |
+| 195822 | Insurgente Tinto 2016 | 2016 | 双支装（SKU 391722） | ¥169.90 | 在售 | 在售 | 9 | 2026/11/4 15:34:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195822) |
+| 195690 | Wild Earth Earth and Sky Pinot Noir 2021 | 2021 | 单支（SKU 390225） | ¥299.00 | 在售 | 在售 | 5 | 2026/11/4 15:34:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195690) |
+| 195690 | Wild Earth Earth and Sky Pinot Noir 2021 | 2021 | 双支装（SKU 390226） | ¥589.00 | 在售 | 在售 | 5 | 2026/11/4 15:34:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195690) |
+| 195690 | Wild Earth Earth and Sky Pinot Noir 2021 | 2021 | 六支装（SKU 390227） | ¥1730.00 | 在售 | 在售 | 5 | 2026/11/4 15:34:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195690) |
+| 189792 | Escarpment Sauvignon Blanc 2024 | 2024 | 单支（SKU 380784） | ¥119.00 | 在售 | 在售 | 8 | 2026/11/4 15:34:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189792) |
+| 189792 | Escarpment Sauvignon Blanc 2024 | 2024 | 双支装（SKU 377898） | ¥195.00 | 在售 | 在售 | 8 | 2026/11/4 15:34:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189792) |
+| 189792 | Escarpment Sauvignon Blanc 2024 | 2024 | 六支原箱（SKU 377899） | ¥579.00 | 在售 | 在售 | 8 | 2026/11/4 15:34:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189792) |
+| 195497 | Pierrick Harang Wine Cuvee Balthazar Viognier 2025 | 2025 | 单支（SKU 391337） | ¥99.00 | 在售 | 在售 | 5 | 2026/11/4 15:34:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195497) |
+| 195497 | Pierrick Harang Wine Cuvee Balthazar Viognier 2025 | 2025 | 双支装（SKU 391338） | ¥189.00 | 在售 | 在售 | 5 | 2026/11/4 15:34:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195497) |
+| 195497 | Pierrick Harang Wine Cuvee Balthazar Viognier 2025 | 2025 | 六支装（SKU 391339） | ¥559.00 | 在售 | 在售 | 5 | 2026/11/4 15:34:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195497) |
+| 195117 | Rieslingfreak No.2 Polish Hill River Riesling 2026 / 雷司令怪杰高伊顿菲拉斯曼干白葡萄酒 / Rieslingfreak No.5 Clare Valley Off Dry Riesling 2026 / 雷司令怪杰大发宝库半甜白葡萄酒 | 2026 / 部分未标示 | 四支组合装（SKU 389174） | ¥599.00 | 在售 | 在售 | 3 | 2026/11/4 15:34:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195117) |
+| 193966 | ARROGANT FROG TUTTI FRUTTI BLANC | 2024 | 双支装（SKU 386841） | ¥99.90 | 在售 | 在售 | 8 | 2026/11/4 15:32:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193966) |
+| 193966 | ARROGANT FROG TUTTI FRUTTI BLANC | 2024 | 六支原箱（SKU 386842） | ¥249.90 | 在售 | 在售 | 6 | 2026/11/4 15:32:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193966) |
+| 197683 | Chateau Latour 'Les Forts de Latour'  2010 | 2010 | 单支（SKU 394492） | ¥1999.00 | 在售 | 在售 | 2 | 2026/11/4 15:32:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197683) |
+| 193962 | ARROGANT FROG TUTTI FRUTTI ROUGE | 2025 | 双支装（SKU 386836） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/4 04:13:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193962) |
+| 193962 | ARROGANT FROG TUTTI FRUTTI ROUGE | 2025 | 六支原箱（SKU 386837） | ¥249.90 | 未知 | 未知 | 未知 | 2026/11/4 04:13:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193962) |
+| 197686 | Giacomo Conterno Arione Barolo DOCG 2021 | 2021 | 单支（SKU 394399） | ¥1999.00 | 未知 | 未知 | 未知 | 2026/11/4 04:13:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197686) |
+| 192355 | Catalina Sounds Sauvignon Blanc 2025 | 2025 | 单支（SKU 383697） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/4 04:12:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192355) |
+| 192355 | Catalina Sounds Sauvignon Blanc 2025 | 2025 | 双支装（SKU 383698） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/4 04:12:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192355) |
+| 192355 | Catalina Sounds Sauvignon Blanc 2025 | 2025 | 六支装（SKU 383856） | ¥559.00 | 未知 | 未知 | 未知 | 2026/11/4 04:12:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192355) |
+| 190507 | Ornellaia Bolgheri Superiore 1998 | 1998 | 单支（SKU 379311） | ¥2699.00 | 未知 | 未知 | 未知 | 2026/11/4 04:12:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190507) |
+| 190422 | Alibrianza Cascina Radice 'Poiane' Barolo DOCG 2020 | 2020 | 单支（SKU 379458） | ¥188.00 | 未知 | 未知 | 未知 | 2026/11/4 04:12:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190422) |
+| 190422 | Alibrianza Cascina Radice 'Poiane' Barolo DOCG 2020 | 2020 | 双支装（SKU 379459） | ¥360.00 | 未知 | 未知 | 未知 | 2026/11/4 04:12:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190422) |
+| 190422 | Alibrianza Cascina Radice 'Poiane' Barolo DOCG 2020 | 2020 | 六支装（SKU 379460） | ¥1028.00 | 未知 | 未知 | 未知 | 2026/11/4 04:12:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190422) |
+| 197689 | Azelia di Luigi Scavino Bricco Fiasco Barolo DOCG 2001 | 2001 | 单支（SKU 394409） | ¥899.00 | 未知 | 未知 | 未知 | 2026/11/4 04:12:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197689) |
+| 183617 | Chteau La Truffe Pomerol 2014 | 2014 | 单支（SKU 366111） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/4 04:11:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183617) |
+| 183617 | Chteau La Truffe Pomerol 2014 | 2014 | 双支装（SKU 366112） | ¥335.00 | 未知 | 未知 | 未知 | 2026/11/4 04:11:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183617) |
+| 183617 | Chteau La Truffe Pomerol 2014 | 2014 | 六支原箱（SKU 366113） | ¥999.00 | 未知 | 未知 | 未知 | 2026/11/4 04:11:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183617) |
+| 182658 | Bartolo Mascarello Artist Label, Barolo DOCG 2012 | 2012 | 单支（SKU 390574） | ¥2599.00 | 未知 | 未知 | 未知 | 2026/11/4 04:11:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182658) |
+| 179992 | Hunter's Sauvignon Blanc 2024 | 2024 | 双支装（SKU 357869） | ¥139.00 | 未知 | 未知 | 未知 | 2026/11/4 04:11:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179992) |
+| 179992 | Hunter's Sauvignon Blanc 2024 | 2024 | 六支装（SKU 377465） | ¥409.00 | 未知 | 未知 | 未知 | 2026/11/4 04:11:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179992) |
+| 179645 | Patrick Javillier Bourgogne Cote d Or Cuvèe des Forgets 2023 | 2023 | 单支（SKU 356827） | ¥299.90 | 未知 | 未知 | 未知 | 2026/11/4 04:11:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179645) |
+| 179645 | Patrick Javillier Bourgogne Cote d Or Cuvèe des Forgets 2023 | 2023 | 六支装（SKU 358125） | ¥1769.00 | 未知 | 未知 | 未知 | 2026/11/4 04:11:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179645) |
 | 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 单支（SKU 392830） | ¥349.00 | 未知 | 未知 | 未知 | 2026/11/3 17:28:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
 | 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 双支装（SKU 392831） | ¥689.00 | 未知 | 未知 | 未知 | 2026/11/3 17:28:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
 | 196763 | 2022 Montenidoli Carato Vernaccia di San Gimignano DOCG | 2022 | 六支原箱（SKU 392832） | ¥2049.00 | 未知 | 未知 | 未知 | 2026/11/3 17:28:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196763) |
@@ -284,8 +306,4 @@
 | 196961 | Giuseppe Quintarelli Valpolicella Classico Superiore 2019 | 2019 | 六支装（SKU 394136） | ¥4759.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196961) |
 | 196958 | Giuseppe Quintarelli Primofiore 2024 | 2024 | 单支（SKU 394201） | ¥499.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196958) |
 | 197787 | Giuseppe Quintarelli Valpolicella Classico Superiore 2018 | 2018 | 单支（SKU 394589） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197787) |
-| 189792 | Escarpment Sauvignon Blanc 2024 | 2024 | 单支（SKU 380784） | ¥119.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189792) |
-| 189792 | Escarpment Sauvignon Blanc 2024 | 2024 | 双支装（SKU 377898） | ¥195.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189792) |
-| 189792 | Escarpment Sauvignon Blanc 2024 | 2024 | 六支原箱（SKU 377899） | ¥579.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189792) |
-| 197683 | Chateau Latour 'Les Forts de Latour'  2010 | 2010 | 单支（SKU 394492） | ¥1999.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197683) |
 | 195772 | Il Paradiso di Manfredi Trentottema Unicita 2019 / Il Paradiso di Manfredi Rosso di Montalcino 2024 | 2019 / 2024 | 四支套装（3瓶Unicita+1瓶rosso）（SKU 390329） | ¥2999.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772) |
