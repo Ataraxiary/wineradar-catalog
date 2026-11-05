@@ -3,12 +3,12 @@
   "catalogVersion": 1,
   "provider": "vinehoo",
   "observation": {
-    "runId": "2026-11-05T07-56-29-717Z",
+    "runId": "2026-11-05T20-41-18-495Z",
     "environment": "github-actions",
-    "capturedAt": "2026-11-05T08:00:07.364Z"
+    "capturedAt": "2026-11-05T20:45:56.514Z"
   },
-  "generatedAt": "2026-11-05T08:00:07.364Z",
-  "lastCollectionStartedAt": "2026-11-05T07:56:29.717Z",
+  "generatedAt": "2026-11-05T20:45:56.514Z",
+  "lastCollectionStartedAt": "2026-11-05T20:41:18.495Z",
   "wines": [
     {
       "wineId": "vinehoo:wine:112494",
@@ -504,7 +504,7 @@
       "country": "意大利",
       "region": "托斯卡纳产区（Toscana）",
       "winery": "曼法拉第天堂庄园（Il Paradiso di Manfredi）",
-      "observedAt": "2026-11-03T09:27:29.339Z"
+      "observedAt": "2026-11-05T20:43:06.485Z"
     },
     {
       "wineId": "vinehoo:wine:122479",
@@ -518,7 +518,7 @@
       "country": "意大利",
       "region": "蒙塔尔奇诺红葡萄酒法定产区（Rosso di Montalcino）",
       "winery": "曼法拉第天堂庄园（Il Paradiso di Manfredi）",
-      "observedAt": "2026-11-03T09:27:29.339Z"
+      "observedAt": "2026-11-05T20:43:06.485Z"
     },
     {
       "wineId": "vinehoo:wine:124988",
@@ -737,13 +737,14 @@
       "sourceProductId": 103670,
       "name": "Santa Julia 'La Oveja' Blanco Natural 2022",
       "nameZh": "祖卡迪茱莉小绵羊干白葡萄酒",
+      "nameSource": "detail_product_info",
       "vintage": 2022,
       "vintageSource": "trailing_year_in_product_name",
       "bottleCapacity": "750ml",
       "country": "阿根廷",
       "region": "门多萨产区（Mendoza）",
       "winery": "圣茱莉亚酒庄（Bodega Santa Julia）",
-      "observedAt": "2026-11-02T23:45:11.646Z"
+      "observedAt": "2026-11-05T20:43:17.014Z"
     },
     {
       "wineId": "vinehoo:wine:121386",
@@ -2427,9 +2428,126 @@
       "region": "巴巴莱斯科产区（Barbaresco）",
       "winery": "合作社巴巴莱斯科（Produttori Del Barbaresco PDB）",
       "observedAt": "2026-11-05T07:59:58.976Z"
+    },
+    {
+      "wineId": "vinehoo:wine:114388",
+      "sourceProductId": 114388,
+      "name": "Romandiola Esarca Rubicone IGT Bianco",
+      "nameZh": "埃萨尔卡蓝孔雀白葡萄酒",
+      "nameSource": "detail_product_info",
+      "vintage": null,
+      "vintageSource": "not_available",
+      "bottleCapacity": "750ml",
+      "country": "意大利",
+      "region": "艾米利亚-罗马涅产区（Emilia-Romagna）",
+      "winery": "Terre Cevico（Terre Cevico）",
+      "observedAt": "2026-11-05T20:43:17.014Z"
+    },
+    {
+      "wineId": "vinehoo:wine:117106",
+      "sourceProductId": 117106,
+      "name": "Marques de Caceres Verdejo",
+      "nameZh": "艾木茜MC(卡塞里侯爵)弗德乔干白葡萄酒",
+      "nameSource": "detail_product_info",
+      "vintage": null,
+      "vintageSource": "not_available",
+      "bottleCapacity": "750ml",
+      "country": "西班牙",
+      "region": "卢埃达产区（Rueda）",
+      "winery": "卡塞里侯爵酒庄（Marques de Caceres）",
+      "observedAt": "2026-11-05T20:43:17.014Z"
     }
   ],
   "listings": [
+    {
+      "listingId": "vinehoo:listing:194377",
+      "sourceListingId": 194377,
+      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194377",
+      "title": "【香香组合丨全球白葡萄酒风味地图】意大利、西班牙、阿根廷干白三支组合装",
+      "wineIds": [
+        "vinehoo:wine:114388",
+        "vinehoo:wine:117106",
+        "vinehoo:wine:103670"
+      ],
+      "skuIds": [
+        "vinehoo:sku:387809"
+      ],
+      "observedAt": "2026-11-05T20:43:17.289Z",
+      "displayedPrice": {
+        "amount": "219.90",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-05T20:43:17.289Z"
+      },
+      "soldCount": 118,
+      "predictedShipmentDate": "2026-11-06",
+      "saleWindow": {
+        "start": "2026-08-27 14:30:00",
+        "end": "2026-11-12 14:29:56",
+        "timezone": "not_supplied_by_source"
+      },
+      "onsaleStatusRaw": 2,
+      "staticListingInventory": {
+        "quantity": 189,
+        "observedAt": "2026-11-05T20:43:17.014Z",
+        "note": "different level; never substituted for live SKU inventory"
+      },
+      "discoverySources": [
+        {
+          "channel": "分类·意大利",
+          "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
+          "api": "https://h5.vinehoo.com/api/marketing-conf/v3/column/filtergoodslist?cid=29"
+        }
+      ],
+      "categories": [
+        "干白葡萄酒"
+      ],
+      "verificationMethod": "page_xhr_visible_price"
+    },
+    {
+      "listingId": "vinehoo:listing:195772",
+      "sourceListingId": 195772,
+      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772",
+      "title": "【同一片园同一种酿造：窖藏期间喝Rosso，陈年喝Brunello！】Il Paradiso di Manfredi Trentottema Unicita 2019*3瓶 +  Rosso di Montalcino 2024*1瓶 四支组合装",
+      "wineIds": [
+        "vinehoo:wine:122478",
+        "vinehoo:wine:122479"
+      ],
+      "skuIds": [
+        "vinehoo:sku:390329"
+      ],
+      "observedAt": "2026-11-05T20:43:06.770Z",
+      "displayedPrice": {
+        "amount": "2999.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-05T20:43:06.770Z"
+      },
+      "soldCount": 17,
+      "predictedShipmentDate": "2026-11-06",
+      "saleWindow": {
+        "start": "2026-09-22 13:21:46",
+        "end": "2026-11-10 13:21:45",
+        "timezone": "not_supplied_by_source"
+      },
+      "onsaleStatusRaw": 2,
+      "staticListingInventory": {
+        "quantity": 38,
+        "observedAt": "2026-11-05T20:43:06.485Z",
+        "note": "different level; never substituted for live SKU inventory"
+      },
+      "discoverySources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ],
+      "categories": [
+        "干红葡萄酒"
+      ],
+      "verificationMethod": "page_xhr_visible_price"
+    },
     {
       "listingId": "vinehoo:listing:197661",
       "sourceListingId": 197661,
@@ -9399,97 +9517,9 @@
       "categories": [
         "干红葡萄酒"
       ]
-    },
-    {
-      "listingId": "vinehoo:listing:195772",
-      "sourceListingId": 195772,
-      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772",
-      "title": "【同一片园同一种酿造：窖藏期间喝Rosso，陈年喝Brunello！】Il Paradiso di Manfredi Trentottema Unicita 2019*3瓶 +  Rosso di Montalcino 2024*1瓶 四支组合装",
-      "wineIds": [
-        "vinehoo:wine:122478",
-        "vinehoo:wine:122479"
-      ],
-      "skuIds": [
-        "vinehoo:sku:390329"
-      ],
-      "observedAt": "2026-11-02T21:47:14.022Z",
-      "displayedPrice": {
-        "amount": "2999.00",
-        "currency": "CNY",
-        "source": "live_sku_inventory_response",
-        "observedAt": "2026-11-02T21:47:14.022Z"
-      },
-      "soldCount": 17,
-      "predictedShipmentDate": "2026-11-03",
-      "saleWindow": {
-        "start": "2026-09-22 13:21:46",
-        "end": "2026-11-03 13:21:45",
-        "timezone": "not_supplied_by_source"
-      },
-      "onsaleStatusRaw": 2,
-      "staticListingInventory": {
-        "quantity": 40,
-        "observedAt": "2026-11-02T21:47:14.020Z",
-        "note": "different level; never substituted for live SKU inventory"
-      },
-      "discoverySources": [
-        {
-          "channel": "普通商城",
-          "url": "https://h5.vinehoo.com/",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
-        }
-      ],
-      "categories": [
-        "干红葡萄酒"
-      ]
     }
   ],
   "skus": [
-    {
-      "skuId": "vinehoo:sku:390329",
-      "sourcePackageId": 390329,
-      "listingId": "vinehoo:listing:195772",
-      "name": "四支套装（3瓶Unicita+1瓶rosso）",
-      "components": [
-        {
-          "wineId": "vinehoo:wine:122478",
-          "bottlesPerSku": 3,
-          "reportedProductInventory": 15
-        },
-        {
-          "wineId": "vinehoo:wine:122479",
-          "bottlesPerSku": 1,
-          "reportedProductInventory": 25
-        }
-      ],
-      "price": {
-        "amount": "2999.00",
-        "currency": "CNY",
-        "source": "live_sku_inventory_response",
-        "observedAt": "2026-11-02T21:47:14.022Z"
-      },
-      "inventory": {
-        "primarySource": "live_sku_inventory_response",
-        "quantity": 2,
-        "observedAt": "2026-11-02T21:47:14.022Z",
-        "unit": "sellable_sku_units",
-        "availability": "available_reported_by_api",
-        "staticSnapshot": {
-          "quantity": 0,
-          "observedAt": "2026-11-02T21:47:14.020Z"
-        },
-        "comparison": "different",
-        "conflict": true,
-        "difference": 2,
-        "rawFlags": {
-          "isOnsale": 1,
-          "isHidden": 0,
-          "isHiddenPackage": 0,
-          "unlimited": 1
-        },
-        "checkoutVerified": false
-      }
-    },
     {
       "skuId": "vinehoo:sku:394589",
       "sourcePackageId": 394589,
@@ -22704,6 +22734,101 @@
         },
         "checkoutVerified": false
       }
+    },
+    {
+      "skuId": "vinehoo:sku:390329",
+      "sourcePackageId": 390329,
+      "listingId": "vinehoo:listing:195772",
+      "name": "四支套装（3瓶Unicita+1瓶rosso）",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:122478",
+          "bottlesPerSku": 3,
+          "reportedProductInventory": 13
+        },
+        {
+          "wineId": "vinehoo:wine:122479",
+          "bottlesPerSku": 1,
+          "reportedProductInventory": 25
+        }
+      ],
+      "price": {
+        "amount": "2999.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-05T20:43:06.770Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 2,
+        "observedAt": "2026-11-05T20:43:06.770Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-05T20:43:06.485Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 2,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:387809",
+      "sourcePackageId": 387809,
+      "listingId": "vinehoo:listing:194377",
+      "name": "三支组合装",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:114388",
+          "bottlesPerSku": 1,
+          "reportedProductInventory": 141
+        },
+        {
+          "wineId": "vinehoo:wine:117106",
+          "bottlesPerSku": 1,
+          "reportedProductInventory": 35
+        },
+        {
+          "wineId": "vinehoo:wine:103670",
+          "bottlesPerSku": 1,
+          "reportedProductInventory": 13
+        }
+      ],
+      "price": {
+        "amount": "219.90",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-05T20:43:17.289Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 6,
+        "observedAt": "2026-11-05T20:43:17.289Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-05T20:43:17.014Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 6,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
     }
   ],
   "inventoryPolicy": {
@@ -22713,14 +22838,6 @@
     "compareOnlySameSku": true
   },
   "conflicts": [
-    {
-      "type": "same_sku_inventory_mismatch",
-      "skuId": "vinehoo:sku:390329",
-      "staticQuantity": 0,
-      "liveQuantity": 2,
-      "staticObservedAt": "2026-11-02T21:47:14.020Z",
-      "liveObservedAt": "2026-11-02T21:47:14.022Z"
-    },
     {
       "type": "same_sku_inventory_mismatch",
       "skuId": "vinehoo:sku:394589",
@@ -25312,27 +25429,43 @@
       "liveQuantity": 3,
       "staticObservedAt": "2026-11-05T07:59:58.976Z",
       "liveObservedAt": "2026-11-05T07:59:59.216Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:390329",
+      "staticQuantity": 0,
+      "liveQuantity": 2,
+      "staticObservedAt": "2026-11-05T20:43:06.485Z",
+      "liveObservedAt": "2026-11-05T20:43:06.770Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:387809",
+      "staticQuantity": 0,
+      "liveQuantity": 6,
+      "staticObservedAt": "2026-11-05T20:43:17.014Z",
+      "liveObservedAt": "2026-11-05T20:43:17.289Z"
     }
   ],
   "coverage": {
-    "discoveredAt": "2026-11-05T07:58:13.731Z",
-    "totalUnique": 162,
+    "discoveredAt": "2026-11-05T20:43:02.125Z",
+    "totalUnique": 161,
     "channels": [
       {
         "channel": "现货速发",
         "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-        "newCandidates": 13,
-        "observedCandidates": 13,
-        "elapsedMs": 5857,
+        "newCandidates": 15,
+        "observedCandidates": 15,
+        "elapsedMs": 5936,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "普通商城",
         "url": "https://h5.vinehoo.com/",
-        "newCandidates": 111,
-        "observedCandidates": 114,
-        "elapsedMs": 13061,
+        "newCandidates": 107,
+        "observedCandidates": 107,
+        "elapsedMs": 13054,
         "responseParseFailures": 0,
         "error": null
       },
@@ -25341,25 +25474,25 @@
         "url": "https://h5.vinehoo.com/packageA/pages/more-than-wine/more-than-wine?id=76",
         "newCandidates": 0,
         "observedCandidates": 4,
-        "elapsedMs": 13099,
+        "elapsedMs": 13081,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "分类·法国",
         "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
-        "newCandidates": 17,
+        "newCandidates": 18,
         "observedCandidates": 24,
-        "elapsedMs": 15114,
+        "elapsedMs": 14604,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "分类·意大利",
         "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
-        "newCandidates": 14,
+        "newCandidates": 16,
         "observedCandidates": 16,
-        "elapsedMs": 15147,
+        "elapsedMs": 15142,
         "responseParseFailures": 0,
         "error": null
       }
@@ -25369,12 +25502,236 @@
       "status": 200,
       "provided": false,
       "note": "Site returned SPA HTML instead of robots directives",
-      "checkedAt": "2026-11-05T07:56:31.377Z"
+      "checkedAt": "2026-11-05T20:41:20.252Z"
     }
   },
-  "collectionErrors": [],
-  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/41990657506",
+  "collectionErrors": [
+    {
+      "id": 197539,
+      "code": "request_failed",
+      "message": "page.goto: Timeout 45000ms exceeded.",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [
+          {
+            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197539",
+            "reason": "net::ERR_ABORTED"
+          }
+        ],
+        "pageErrors": [],
+        "network": [
+          {
+            "phase": "request",
+            "elapsedMs": 3,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other"
+          }
+        ]
+      },
+      "at": "2026-11-05T20:44:10.400Z"
+    },
+    {
+      "id": 197664,
+      "code": "request_failed",
+      "message": "page.goto: Timeout 45000ms exceeded.",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [
+          {
+            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197664",
+            "reason": "net::ERR_ABORTED"
+          }
+        ],
+        "pageErrors": [],
+        "network": [
+          {
+            "phase": "request",
+            "elapsedMs": 1,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other"
+          }
+        ]
+      },
+      "at": "2026-11-05T20:45:03.442Z"
+    },
+    {
+      "id": 197665,
+      "code": "request_failed",
+      "message": "page.goto: Timeout 45000ms exceeded.",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [
+          {
+            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197665",
+            "reason": "net::ERR_ABORTED"
+          }
+        ],
+        "pageErrors": [],
+        "network": [
+          {
+            "phase": "request",
+            "elapsedMs": 2,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other"
+          }
+        ]
+      },
+      "at": "2026-11-05T20:45:56.480Z"
+    }
+  ],
+  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/42105624795",
   "items": [
+    {
+      "id": 194377,
+      "title": "【香香组合丨全球白葡萄酒风味地图】意大利、西班牙、阿根廷干白三支组合装",
+      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194377",
+      "wineNames": [
+        "Santa Julia 'La Oveja' Blanco Natural 2022",
+        "Romandiola Esarca Rubicone IGT Bianco",
+        "Marques de Caceres Verdejo"
+      ],
+      "wineNamesZh": [
+        "祖卡迪茱莉小绵羊干白葡萄酒",
+        "埃萨尔卡蓝孔雀白葡萄酒",
+        "艾木茜MC(卡塞里侯爵)弗德乔干白葡萄酒"
+      ],
+      "vintages": [
+        2022
+      ],
+      "vintageUnknownCount": 2,
+      "countries": [
+        "阿根廷",
+        "意大利",
+        "西班牙"
+      ],
+      "countryUnknownCount": 0,
+      "regions": [
+        "门多萨产区（Mendoza）",
+        "艾米利亚-罗马涅产区（Emilia-Romagna）",
+        "卢埃达产区（Rueda）"
+      ],
+      "capacities": [
+        "750ml"
+      ],
+      "minPrice": 219.9,
+      "currency": "CNY",
+      "availability": "available",
+      "observedAt": "2026-11-05T20:43:17.289Z",
+      "collectionStatus": "success",
+      "lastAttemptError": null,
+      "verificationMethod": "page_xhr_visible_price",
+      "discoverySources": [
+        {
+          "channel": "分类·意大利",
+          "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
+          "api": "https://h5.vinehoo.com/api/marketing-conf/v3/column/filtergoodslist?cid=29"
+        }
+      ],
+      "offers": [
+        {
+          "skuId": 387809,
+          "name": "三支组合装",
+          "price": "219.90",
+          "currency": "CNY",
+          "inventory": 6,
+          "lastKnownInventory": 6,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-05T20:43:17.289Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:114388",
+              "bottlesPerSku": 1,
+              "reportedProductInventory": 141
+            },
+            {
+              "wineId": "vinehoo:wine:117106",
+              "bottlesPerSku": 1,
+              "reportedProductInventory": 35
+            },
+            {
+              "wineId": "vinehoo:wine:103670",
+              "bottlesPerSku": 1,
+              "reportedProductInventory": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 195772,
+      "title": "【同一片园同一种酿造：窖藏期间喝Rosso，陈年喝Brunello！】Il Paradiso di Manfredi Trentottema Unicita 2019*3瓶 +  Rosso di Montalcino 2024*1瓶 四支组合装",
+      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772",
+      "wineNames": [
+        "Il Paradiso di Manfredi Trentottema Unicita 2019",
+        "Il Paradiso di Manfredi Rosso di Montalcino 2024"
+      ],
+      "wineNamesZh": [
+        "天堂托斯卡纳干红葡萄酒",
+        "天堂蒙塔奇诺干红葡萄酒"
+      ],
+      "vintages": [
+        2019,
+        2024
+      ],
+      "vintageUnknownCount": 0,
+      "countries": [
+        "意大利"
+      ],
+      "countryUnknownCount": 0,
+      "regions": [
+        "托斯卡纳产区（Toscana）",
+        "蒙塔尔奇诺红葡萄酒法定产区（Rosso di Montalcino）"
+      ],
+      "capacities": [
+        "750ml"
+      ],
+      "minPrice": 2999,
+      "currency": "CNY",
+      "availability": "available",
+      "observedAt": "2026-11-05T20:43:06.770Z",
+      "collectionStatus": "success",
+      "lastAttemptError": null,
+      "verificationMethod": "page_xhr_visible_price",
+      "discoverySources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ],
+      "offers": [
+        {
+          "skuId": 390329,
+          "name": "四支套装（3瓶Unicita+1瓶rosso）",
+          "price": "2999.00",
+          "currency": "CNY",
+          "inventory": 2,
+          "lastKnownInventory": 2,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-05T20:43:06.770Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:122478",
+              "bottlesPerSku": 3,
+              "reportedProductInventory": 13
+            },
+            {
+              "wineId": "vinehoo:wine:122479",
+              "bottlesPerSku": 1,
+              "reportedProductInventory": 25
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": 197661,
       "title": "【PDB九园之“桀骜不驯” | 奔放且狂野的假小子】Produttori del Barbaresco Ovello Barbaresco Riserva DOCG 2020",
@@ -25401,10 +25758,13 @@
       ],
       "minPrice": 439,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-05T07:59:59.216Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -25419,9 +25779,9 @@
           "name": "单支",
           "price": "439.00",
           "currency": "CNY",
-          "inventory": 5,
+          "inventory": null,
           "lastKnownInventory": 5,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:59:59.216Z",
           "inventoryConflict": true,
           "components": [
@@ -25437,9 +25797,9 @@
           "name": "双支装",
           "price": "868.00",
           "currency": "CNY",
-          "inventory": 5,
+          "inventory": null,
           "lastKnownInventory": 5,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:59:59.216Z",
           "inventoryConflict": true,
           "components": [
@@ -25455,9 +25815,9 @@
           "name": "六支装",
           "price": "2569.00",
           "currency": "CNY",
-          "inventory": 3,
+          "inventory": null,
           "lastKnownInventory": 3,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:59:59.216Z",
           "inventoryConflict": true,
           "components": [
@@ -25496,10 +25856,13 @@
       ],
       "minPrice": 3299,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-05T07:59:47.049Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -25514,9 +25877,9 @@
           "name": "单支",
           "price": "3299.00",
           "currency": "CNY",
-          "inventory": 3,
+          "inventory": null,
           "lastKnownInventory": 3,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:59:47.049Z",
           "inventoryConflict": true,
           "components": [
@@ -25555,10 +25918,13 @@
       ],
       "minPrice": 1199,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-05T07:59:34.690Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -25573,9 +25939,9 @@
           "name": "单支",
           "price": "1199.00",
           "currency": "CNY",
-          "inventory": 3,
+          "inventory": null,
           "lastKnownInventory": 3,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:59:34.690Z",
           "inventoryConflict": true,
           "components": [
@@ -25614,10 +25980,13 @@
       ],
       "minPrice": 999,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-05T07:59:23.117Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -25632,9 +26001,9 @@
           "name": "单支",
           "price": "999.00",
           "currency": "CNY",
-          "inventory": 6,
+          "inventory": null,
           "lastKnownInventory": 6,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:59:23.117Z",
           "inventoryConflict": true,
           "components": [
@@ -25673,10 +26042,13 @@
       ],
       "minPrice": 2399,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-05T07:59:11.606Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -25696,9 +26068,9 @@
           "name": "单支",
           "price": "2399.00",
           "currency": "CNY",
-          "inventory": 1,
+          "inventory": null,
           "lastKnownInventory": 1,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:59:11.606Z",
           "inventoryConflict": true,
           "components": [
@@ -25737,10 +26109,13 @@
       ],
       "minPrice": 3888,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-05T07:59:00.176Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -25755,9 +26130,9 @@
           "name": "单支",
           "price": "3888.00",
           "currency": "CNY",
-          "inventory": 2,
+          "inventory": null,
           "lastKnownInventory": 2,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:59:00.176Z",
           "inventoryConflict": true,
           "components": [
@@ -25796,10 +26171,13 @@
       ],
       "minPrice": 1399,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-05T07:58:49.349Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -25814,9 +26192,9 @@
           "name": "单支",
           "price": "1399.00",
           "currency": "CNY",
-          "inventory": 2,
+          "inventory": null,
           "lastKnownInventory": 2,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:58:49.349Z",
           "inventoryConflict": true,
           "components": [
@@ -25855,10 +26233,13 @@
       ],
       "minPrice": 3599,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-05T07:58:37.896Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -25873,9 +26254,9 @@
           "name": "单支",
           "price": "3599.00",
           "currency": "CNY",
-          "inventory": 1,
+          "inventory": null,
           "lastKnownInventory": 1,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:58:37.896Z",
           "inventoryConflict": true,
           "components": [
@@ -25914,10 +26295,13 @@
       ],
       "minPrice": 469,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-05T07:58:27.121Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -25932,9 +26316,9 @@
           "name": "单支",
           "price": "469.00",
           "currency": "CNY",
-          "inventory": 5,
+          "inventory": null,
           "lastKnownInventory": 5,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:58:27.121Z",
           "inventoryConflict": true,
           "components": [
@@ -25950,9 +26334,9 @@
           "name": "双支装",
           "price": "928.00",
           "currency": "CNY",
-          "inventory": 5,
+          "inventory": null,
           "lastKnownInventory": 5,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:58:27.121Z",
           "inventoryConflict": true,
           "components": [
@@ -25968,9 +26352,9 @@
           "name": "六支装",
           "price": "2749.00",
           "currency": "CNY",
-          "inventory": 5,
+          "inventory": null,
           "lastKnownInventory": 5,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:58:27.121Z",
           "inventoryConflict": true,
           "components": [
@@ -26009,10 +26393,13 @@
       ],
       "minPrice": 269,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-05T07:58:16.638Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -26032,9 +26419,9 @@
           "name": "六支原箱",
           "price": "269.00",
           "currency": "CNY",
-          "inventory": 10,
+          "inventory": null,
           "lastKnownInventory": 10,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-05T07:58:16.638Z",
           "inventoryConflict": true,
           "components": [
@@ -38383,77 +38770,6 @@
               "wineId": "vinehoo:wine:121810",
               "bottlesPerSku": 1,
               "reportedProductInventory": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 195772,
-      "title": "【同一片园同一种酿造：窖藏期间喝Rosso，陈年喝Brunello！】Il Paradiso di Manfredi Trentottema Unicita 2019*3瓶 +  Rosso di Montalcino 2024*1瓶 四支组合装",
-      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772",
-      "wineNames": [
-        "Il Paradiso di Manfredi Trentottema Unicita 2019",
-        "Il Paradiso di Manfredi Rosso di Montalcino 2024"
-      ],
-      "wineNamesZh": [
-        "天堂托斯卡纳干红葡萄酒",
-        "天堂蒙塔奇诺干红葡萄酒"
-      ],
-      "vintages": [
-        2019,
-        2024
-      ],
-      "vintageUnknownCount": 0,
-      "countries": [
-        "意大利"
-      ],
-      "countryUnknownCount": 0,
-      "regions": [
-        "托斯卡纳产区（Toscana）",
-        "蒙塔尔奇诺红葡萄酒法定产区（Rosso di Montalcino）"
-      ],
-      "capacities": [
-        "750ml"
-      ],
-      "minPrice": 2999,
-      "currency": "CNY",
-      "availability": "unknown",
-      "observedAt": "2026-11-02T21:47:14.022Z",
-      "collectionStatus": "failed",
-      "lastAttemptError": {
-        "code": "not_refreshed",
-        "message": "Retained from an earlier observation"
-      },
-      "verificationMethod": "page_xhr_visible_price",
-      "discoverySources": [
-        {
-          "channel": "普通商城",
-          "url": "https://h5.vinehoo.com/",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
-        }
-      ],
-      "offers": [
-        {
-          "skuId": 390329,
-          "name": "四支套装（3瓶Unicita+1瓶rosso）",
-          "price": "2999.00",
-          "currency": "CNY",
-          "inventory": null,
-          "lastKnownInventory": 2,
-          "availability": "unknown",
-          "observedAt": "2026-11-02T21:47:14.022Z",
-          "inventoryConflict": true,
-          "components": [
-            {
-              "wineId": "vinehoo:wine:122478",
-              "bottlesPerSku": 3,
-              "reportedProductInventory": 15
-            },
-            {
-              "wineId": "vinehoo:wine:122479",
-              "bottlesPerSku": 1,
-              "reportedProductInventory": 25
             }
           ]
         }

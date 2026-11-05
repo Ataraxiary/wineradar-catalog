@@ -1,25 +1,27 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/5 16:00:07 +08:00；本轮状态：ok；商品 157 款，规格 328 条。
+数据快照：2026/11/6 04:45:56 +08:00；本轮状态：partial；商品 158 款，规格 329 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 197661 | Produttori del Barbaresco Ovello Barbaresco Riserva DOCG 2020 | 2020 | 单支（SKU 394345） | ¥439.00 | 在售 | 在售 | 5 | 2026/11/5 15:59:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197661) |
-| 197661 | Produttori del Barbaresco Ovello Barbaresco Riserva DOCG 2020 | 2020 | 双支装（SKU 394346） | ¥868.00 | 在售 | 在售 | 5 | 2026/11/5 15:59:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197661) |
-| 197661 | Produttori del Barbaresco Ovello Barbaresco Riserva DOCG 2020 | 2020 | 六支装（SKU 394347） | ¥2569.00 | 在售 | 在售 | 3 | 2026/11/5 15:59:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197661) |
-| 197652 | 2014 Philipponnat Clos des Goisses Extra Brut | 2014 | 单支（SKU 394635） | ¥3299.00 | 在售 | 在售 | 3 | 2026/11/5 15:59:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197652) |
-| 197649 | Samuel Billaud Blanchot Chablis Grand Cru 2024 | 2024 | 单支（SKU 394574） | ¥1199.00 | 在售 | 在售 | 3 | 2026/11/5 15:59:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197649) |
-| 197628 | Vina Almaviva | 2024 | 单支（SKU 394498） | ¥999.00 | 在售 | 在售 | 6 | 2026/11/5 15:59:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197628) |
-| 191074 | Giuseppe Quintarelli Alzero Cabernet Veneto IGT 2017 | 2017 | 单支（SKU 380551） | ¥2399.00 | 在售 | 在售 | 1 | 2026/11/5 15:59:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191074) |
-| 197624 | Chateau Haut-Brion 2019 | 2019 | 单支（SKU 394298） | ¥3888.00 | 在售 | 在售 | 2 | 2026/11/5 15:59:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197624) |
-| 197609 | 1999 Marchesi Antinori Tenuta Guado al Tasso Bolgheri Superiore | 1999 | 单支（SKU 394325） | ¥1399.00 | 在售 | 在售 | 2 | 2026/11/5 15:58:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197609) |
-| 197574 | G. B. Burlotto Cannubi Barolo DOCG 2021 | 2021 | 单支（SKU 394324） | ¥3599.00 | 在售 | 在售 | 1 | 2026/11/5 15:58:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197574) |
-| 197568 | Produttori del Barbaresco Rio Sordo Barbaresco Riserva DOCG 2020 | 2020 | 单支（SKU 394229） | ¥469.00 | 在售 | 在售 | 5 | 2026/11/5 15:58:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197568) |
-| 197568 | Produttori del Barbaresco Rio Sordo Barbaresco Riserva DOCG 2020 | 2020 | 双支装（SKU 394230） | ¥928.00 | 在售 | 在售 | 5 | 2026/11/5 15:58:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197568) |
-| 197568 | Produttori del Barbaresco Rio Sordo Barbaresco Riserva DOCG 2020 | 2020 | 六支装（SKU 394231） | ¥2749.00 | 在售 | 在售 | 5 | 2026/11/5 15:58:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197568) |
-| 185783 | Chateau Les Granges de Civrac 2020 | 2020 | 六支原箱（SKU 377890） | ¥269.00 | 在售 | 在售 | 10 | 2026/11/5 15:58:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185783) |
+| 194377 | Santa Julia 'La Oveja' Blanco Natural 2022 / Romandiola Esarca Rubicone IGT Bianco / Marques de Caceres Verdejo | 2022 / 部分未标示 | 三支组合装（SKU 387809） | ¥219.90 | 在售 | 在售 | 6 | 2026/11/6 04:43:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194377) |
+| 195772 | Il Paradiso di Manfredi Trentottema Unicita 2019 / Il Paradiso di Manfredi Rosso di Montalcino 2024 | 2019 / 2024 | 四支套装（3瓶Unicita+1瓶rosso）（SKU 390329） | ¥2999.00 | 在售 | 在售 | 2 | 2026/11/6 04:43:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772) |
+| 197661 | Produttori del Barbaresco Ovello Barbaresco Riserva DOCG 2020 | 2020 | 单支（SKU 394345） | ¥439.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197661) |
+| 197661 | Produttori del Barbaresco Ovello Barbaresco Riserva DOCG 2020 | 2020 | 双支装（SKU 394346） | ¥868.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197661) |
+| 197661 | Produttori del Barbaresco Ovello Barbaresco Riserva DOCG 2020 | 2020 | 六支装（SKU 394347） | ¥2569.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197661) |
+| 197652 | 2014 Philipponnat Clos des Goisses Extra Brut | 2014 | 单支（SKU 394635） | ¥3299.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197652) |
+| 197649 | Samuel Billaud Blanchot Chablis Grand Cru 2024 | 2024 | 单支（SKU 394574） | ¥1199.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197649) |
+| 197628 | Vina Almaviva | 2024 | 单支（SKU 394498） | ¥999.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197628) |
+| 191074 | Giuseppe Quintarelli Alzero Cabernet Veneto IGT 2017 | 2017 | 单支（SKU 380551） | ¥2399.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191074) |
+| 197624 | Chateau Haut-Brion 2019 | 2019 | 单支（SKU 394298） | ¥3888.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197624) |
+| 197609 | 1999 Marchesi Antinori Tenuta Guado al Tasso Bolgheri Superiore | 1999 | 单支（SKU 394325） | ¥1399.00 | 未知 | 未知 | 未知 | 2026/11/5 15:58:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197609) |
+| 197574 | G. B. Burlotto Cannubi Barolo DOCG 2021 | 2021 | 单支（SKU 394324） | ¥3599.00 | 未知 | 未知 | 未知 | 2026/11/5 15:58:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197574) |
+| 197568 | Produttori del Barbaresco Rio Sordo Barbaresco Riserva DOCG 2020 | 2020 | 单支（SKU 394229） | ¥469.00 | 未知 | 未知 | 未知 | 2026/11/5 15:58:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197568) |
+| 197568 | Produttori del Barbaresco Rio Sordo Barbaresco Riserva DOCG 2020 | 2020 | 双支装（SKU 394230） | ¥928.00 | 未知 | 未知 | 未知 | 2026/11/5 15:58:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197568) |
+| 197568 | Produttori del Barbaresco Rio Sordo Barbaresco Riserva DOCG 2020 | 2020 | 六支装（SKU 394231） | ¥2749.00 | 未知 | 未知 | 未知 | 2026/11/5 15:58:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197568) |
+| 185783 | Chateau Les Granges de Civrac 2020 | 2020 | 六支原箱（SKU 377890） | ¥269.00 | 未知 | 未知 | 未知 | 2026/11/5 15:58:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185783) |
 | 197567 | Produttori del Barbaresco Paje Barbaresco Riserva DOCG 2020 | 2020 | 单支（SKU 394226） | ¥469.00 | 未知 | 未知 | 未知 | 2026/11/5 04:34:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197567) |
 | 197567 | Produttori del Barbaresco Paje Barbaresco Riserva DOCG 2020 | 2020 | 双支装（SKU 394227） | ¥929.00 | 未知 | 未知 | 未知 | 2026/11/5 04:34:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197567) |
 | 197567 | Produttori del Barbaresco Paje Barbaresco Riserva DOCG 2020 | 2020 | 六支装（SKU 394228） | ¥2749.00 | 未知 | 未知 | 未知 | 2026/11/5 04:34:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197567) |
@@ -333,4 +335,3 @@
 | 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 双支装（SKU 394375） | ¥728.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
 | 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 六支装（SKU 394376） | ¥2159.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
 | 197787 | Giuseppe Quintarelli Valpolicella Classico Superiore 2018 | 2018 | 单支（SKU 394589） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197787) |
-| 195772 | Il Paradiso di Manfredi Trentottema Unicita 2019 / Il Paradiso di Manfredi Rosso di Montalcino 2024 | 2019 / 2024 | 四支套装（3瓶Unicita+1瓶rosso）（SKU 390329） | ¥2999.00 | 未知 | 未知 | 未知 | 2026/11/3 05:47:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772) |
