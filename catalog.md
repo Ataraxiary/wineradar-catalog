@@ -1,13 +1,30 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/6 04:45:56 +08:00；本轮状态：partial；商品 158 款，规格 329 条。
+数据快照：2026/11/6 16:00:38 +08:00；本轮状态：partial；商品 165 款，规格 341 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 194377 | Santa Julia 'La Oveja' Blanco Natural 2022 / Romandiola Esarca Rubicone IGT Bianco / Marques de Caceres Verdejo | 2022 / 部分未标示 | 三支组合装（SKU 387809） | ¥219.90 | 在售 | 在售 | 6 | 2026/11/6 04:43:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194377) |
-| 195772 | Il Paradiso di Manfredi Trentottema Unicita 2019 / Il Paradiso di Manfredi Rosso di Montalcino 2024 | 2019 / 2024 | 四支套装（3瓶Unicita+1瓶rosso）（SKU 390329） | ¥2999.00 | 在售 | 在售 | 2 | 2026/11/6 04:43:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772) |
+| 197625 | Yann Durieux - Recrue des Sens Les Ponts Blancs 2016 | 2016 | 单支（SKU 394299） | ¥599.00 | 在售 | 在售 | 3 | 2026/11/6 16:00:30 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197625) |
+| 176093 | Wai Wai Sauvignon Blanc 2024 | 2024 | 单支（SKU 369060） | ¥69.90 | 在售 | 在售 | 33 | 2026/11/6 16:00:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=176093) |
+| 176093 | Wai Wai Sauvignon Blanc 2024 | 2024 | 双支装（SKU 369061） | ¥139.00 | 在售 | 在售 | 33 | 2026/11/6 16:00:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=176093) |
+| 176093 | Wai Wai Sauvignon Blanc 2024 | 2024 | 六支装（SKU 369849） | ¥399.90 | 在售 | 在售 | 16 | 2026/11/6 16:00:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=176093) |
+| 176093 | Wai Wai Sauvignon Blanc 2024 | 2024 | 十二支原箱（SKU 369850） | ¥780.00 | 在售 | 在售 | 8 | 2026/11/6 16:00:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=176093) |
+| 197807 | Domaine Alain Graillot Crozes-Hermitage | 2018 | 单支（SKU 394639） | ¥599.00 | 在售 | 在售 | 4 | 2026/11/6 15:59:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197807) |
+| 197745 | Francois Carillon Les Champs Gain Puligny-Montrachet Premier Cru 2024 | 2024 | 单支（SKU 394560） | ¥1299.00 | 在售 | 在售 | 1 | 2026/11/6 15:59:45 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197745) |
+| 197451 | Delecheneau La Grange Tiphaine Touraine Amboise Cuvee Bel Air Sec 2021 | 2021 | 单支（SKU 394149） | ¥219.00 | 在售 | 在售 | 4 | 2026/11/6 15:59:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197451) |
+| 197744 | Jean-Marc Millot Grands-Echezeaux Grand Cru 2017 | 2017 | 单支（SKU 394559） | ¥2999.00 | 在售 | 在售 | 2 | 2026/11/6 15:59:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197744) |
+| 197697 | Chateau Cheval Blanc 2019 | 2019 | 单支（SKU 394428） | ¥5299.00 | 在售 | 在售 | 2 | 2026/11/6 15:59:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197697) |
+| 197672 | Le Vigne di Eli Moganazzi - Volta Sciara Etna Rosso 2023 | 2023 | 单支（SKU 394493） | ¥269.90 | 在售 | 在售 | 8 | 2026/11/6 15:59:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197672) |
+| 197670 | Girolamo Russo 'a Rina Etna Rosso 2022 | 2022 | 单支（SKU 394500） | ¥139.00 | 在售 | 在售 | 8 | 2026/11/6 15:58:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197670) |
+| 197670 | Girolamo Russo 'a Rina Etna Rosso 2022 | 2022 | 双支装（SKU 394501） | ¥275.00 | 在售 | 在售 | 8 | 2026/11/6 15:58:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197670) |
+| 197670 | Girolamo Russo 'a Rina Etna Rosso 2022 | 2022 | 六支装（SKU 394502） | ¥820.00 | 在售 | 在售 | 6 | 2026/11/6 15:58:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197670) |
+| 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 单支（SKU 394374） | ¥368.00 | 在售 | 在售 | 5 | 2026/11/6 15:58:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
+| 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 双支装（SKU 394375） | ¥728.00 | 在售 | 在售 | 5 | 2026/11/6 15:58:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
+| 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 六支装（SKU 394376） | ¥2159.00 | 在售 | 在售 | 5 | 2026/11/6 15:58:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
+| 194377 | Santa Julia 'La Oveja' Blanco Natural 2022 / Romandiola Esarca Rubicone IGT Bianco / Marques de Caceres Verdejo | 2022 / 部分未标示 | 三支组合装（SKU 387809） | ¥219.90 | 未知 | 未知 | 未知 | 2026/11/6 04:43:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194377) |
+| 195772 | Il Paradiso di Manfredi Trentottema Unicita 2019 / Il Paradiso di Manfredi Rosso di Montalcino 2024 | 2019 / 2024 | 四支套装（3瓶Unicita+1瓶rosso）（SKU 390329） | ¥2999.00 | 未知 | 未知 | 未知 | 2026/11/6 04:43:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195772) |
 | 197661 | Produttori del Barbaresco Ovello Barbaresco Riserva DOCG 2020 | 2020 | 单支（SKU 394345） | ¥439.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197661) |
 | 197661 | Produttori del Barbaresco Ovello Barbaresco Riserva DOCG 2020 | 2020 | 双支装（SKU 394346） | ¥868.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197661) |
 | 197661 | Produttori del Barbaresco Ovello Barbaresco Riserva DOCG 2020 | 2020 | 六支装（SKU 394347） | ¥2569.00 | 未知 | 未知 | 未知 | 2026/11/5 15:59:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197661) |
@@ -329,9 +346,4 @@
 | 196853 | Chateau La Gaffeliere 2007 | 2007 | 单支（SKU 392994） | ¥499.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:50 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196853) |
 | 197622 | Yann Durieux - Recrue des Sens 'Night Cost' 2017 | 2017 | 单支（SKU 394293） | ¥599.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197622) |
 | 183547 | Chateau Jean Faure 2014 | 2014 | 单支（SKU 365987） | ¥259.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:36 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183547) |
-| 197625 | Yann Durieux - Recrue des Sens Les Ponts Blancs 2016 | 2016 | 单支（SKU 394299） | ¥599.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197625) |
-| 197451 | Delecheneau La Grange Tiphaine Touraine Amboise Cuvee Bel Air Sec 2021 | 2021 | 单支（SKU 394149） | ¥219.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197451) |
-| 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 单支（SKU 394374） | ¥368.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
-| 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 双支装（SKU 394375） | ¥728.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
-| 197677 | Marc Soyard-Domaine De La Cras Bourgogne Blanc 2023 | 2023 | 六支装（SKU 394376） | ¥2159.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197677) |
 | 197787 | Giuseppe Quintarelli Valpolicella Classico Superiore 2018 | 2018 | 单支（SKU 394589） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197787) |

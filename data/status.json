@@ -1,110 +1,33 @@
 {
   "schemaVersion": 1,
   "state": "partial",
-  "lastAttemptAt": "2026-11-05T20:41:18.495Z",
-  "finishedAt": "2026-11-05T20:45:56.514Z",
-  "lastSuccessAt": "2026-11-05T20:45:56.514Z",
-  "dataGeneratedAt": "2026-11-05T20:45:56.514Z",
-  "dataStaleAfter": "2026-11-06T14:45:56.514Z",
-  "itemCount": 158,
-  "freshItemCount": 2,
-  "attemptedCount": 5,
-  "eligibleAttemptedCount": 5,
-  "excludedAttemptCount": 0,
-  "failedCount": 3,
-  "durationSeconds": 278,
-  "detailSuccessRate": 0.4,
+  "lastAttemptAt": "2026-11-06T07:56:56.032Z",
+  "finishedAt": "2026-11-06T08:00:38.761Z",
+  "lastSuccessAt": "2026-11-06T08:00:38.761Z",
+  "dataGeneratedAt": "2026-11-06T08:00:38.761Z",
+  "dataStaleAfter": "2026-11-07T02:00:38.761Z",
+  "itemCount": 165,
+  "freshItemCount": 10,
+  "attemptedCount": 11,
+  "eligibleAttemptedCount": 10,
+  "excludedAttemptCount": 1,
+  "failedCount": 0,
+  "durationSeconds": 223,
+  "detailSuccessRate": 1,
   "retainedPreviousData": true,
-  "availableCount": 2,
+  "availableCount": 10,
   "soldOutCount": 0,
-  "unknownCount": 156,
+  "unknownCount": 155,
   "errors": [
     {
-      "id": 197539,
-      "code": "request_failed",
-      "message": "page.goto: Timeout 45000ms exceeded.",
+      "id": 147654,
+      "code": "not_wine",
+      "message": "Non-wine product omitted",
       "diagnostics": {
-        "received": [],
-        "requestFailures": [
-          {
-            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197539",
-            "reason": "net::ERR_ABORTED"
-          }
+        "received": [
+          "detail",
+          "inventory"
         ],
-        "pageErrors": [],
-        "network": [
-          {
-            "phase": "request",
-            "elapsedMs": 3,
-            "host": "h5.vinehoo.com",
-            "path": "/pages/goods-detail/goods-detail",
-            "type": "document",
-            "kind": "other"
-          }
-        ]
-      },
-      "at": "2026-11-05T20:44:10.400Z"
-    },
-    {
-      "id": 197664,
-      "code": "request_failed",
-      "message": "page.goto: Timeout 45000ms exceeded.",
-      "diagnostics": {
-        "received": [],
-        "requestFailures": [
-          {
-            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197664",
-            "reason": "net::ERR_ABORTED"
-          }
-        ],
-        "pageErrors": [],
-        "network": [
-          {
-            "phase": "request",
-            "elapsedMs": 1,
-            "host": "h5.vinehoo.com",
-            "path": "/pages/goods-detail/goods-detail",
-            "type": "document",
-            "kind": "other"
-          }
-        ]
-      },
-      "at": "2026-11-05T20:45:03.442Z"
-    },
-    {
-      "id": 197665,
-      "code": "request_failed",
-      "message": "page.goto: Timeout 45000ms exceeded.",
-      "diagnostics": {
-        "received": [],
-        "requestFailures": [
-          {
-            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197665",
-            "reason": "net::ERR_ABORTED"
-          }
-        ],
-        "pageErrors": [],
-        "network": [
-          {
-            "phase": "request",
-            "elapsedMs": 2,
-            "host": "h5.vinehoo.com",
-            "path": "/pages/goods-detail/goods-detail",
-            "type": "document",
-            "kind": "other"
-          }
-        ]
-      },
-      "at": "2026-11-05T20:45:56.480Z"
-    }
-  ],
-  "recentFailures": [
-    {
-      "id": 195690,
-      "code": "response_timeout",
-      "message": "Timed out waiting for detail+inventory; no transport failure reported",
-      "diagnostics": {
-        "received": [],
         "requestFailures": [],
         "pageErrors": [],
         "network": [
@@ -118,7 +41,7 @@
           },
           {
             "phase": "response",
-            "elapsedMs": 299,
+            "elapsedMs": 849,
             "host": "h5.vinehoo.com",
             "path": "/pages/goods-detail/goods-detail",
             "type": "document",
@@ -127,7 +50,7 @@
           },
           {
             "phase": "request",
-            "elapsedMs": 306,
+            "elapsedMs": 859,
             "host": "img.vinehoo.com",
             "path": "[first-party script or commodity endpoint]",
             "type": "script",
@@ -135,7 +58,7 @@
           },
           {
             "phase": "request",
-            "elapsedMs": 306,
+            "elapsedMs": 859,
             "host": "img.vinehoo.com",
             "path": "[first-party script or commodity endpoint]",
             "type": "script",
@@ -143,7 +66,7 @@
           },
           {
             "phase": "request",
-            "elapsedMs": 306,
+            "elapsedMs": 859,
             "host": "h5.vinehoo.com",
             "path": "[first-party script or commodity endpoint]",
             "type": "script",
@@ -151,7 +74,7 @@
           },
           {
             "phase": "request",
-            "elapsedMs": 306,
+            "elapsedMs": 859,
             "host": "h5.vinehoo.com",
             "path": "[first-party script or commodity endpoint]",
             "type": "script",
@@ -159,25 +82,7 @@
           },
           {
             "phase": "response",
-            "elapsedMs": 568,
-            "host": "h5.vinehoo.com",
-            "path": "[first-party script or commodity endpoint]",
-            "type": "script",
-            "kind": "other",
-            "status": 200
-          },
-          {
-            "phase": "response",
-            "elapsedMs": 862,
-            "host": "h5.vinehoo.com",
-            "path": "[first-party script or commodity endpoint]",
-            "type": "script",
-            "kind": "other",
-            "status": 200
-          },
-          {
-            "phase": "response",
-            "elapsedMs": 1729,
+            "elapsedMs": 860,
             "host": "img.vinehoo.com",
             "path": "[first-party script or commodity endpoint]",
             "type": "script",
@@ -186,17 +91,172 @@
           },
           {
             "phase": "response",
-            "elapsedMs": 2053,
+            "elapsedMs": 864,
             "host": "img.vinehoo.com",
             "path": "[first-party script or commodity endpoint]",
             "type": "script",
             "kind": "other",
             "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 1112,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 1683,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 1833,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 1833,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 1833,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 1833,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 1834,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "domcontentloaded",
+            "elapsedMs": 1840
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2021,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2043,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2043,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2044,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2697,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 2727,
+            "host": "img.vinehoo.com",
+            "path": "/vinehoo/client/commodities/periods/147654.json",
+            "type": "xhr",
+            "kind": "detail"
+          },
+          {
+            "phase": "load",
+            "elapsedMs": 2729
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 3291,
+            "host": "img.vinehoo.com",
+            "path": "/vinehoo/client/commodities/periods/147654.json",
+            "type": "xhr",
+            "kind": "detail",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 3341,
+            "host": "h5.vinehoo.com",
+            "path": "/api/commodities/v3/package/getPeriodsPackageInventory",
+            "type": "xhr",
+            "kind": "inventory"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 3670,
+            "host": "h5.vinehoo.com",
+            "path": "/api/commodities/v3/package/getPeriodsPackageInventory",
+            "type": "xhr",
+            "kind": "inventory",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 3674,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "xhr",
+            "kind": "other"
           }
         ]
       },
-      "at": "2026-11-03T08:43:21.183Z"
-    },
+      "at": "2026-11-06T08:00:08.401Z"
+    }
+  ],
+  "recentFailures": [
     {
       "id": 195822,
       "code": "request_failed",
@@ -2127,54 +2187,265 @@
         ]
       },
       "at": "2026-11-05T20:45:56.480Z"
+    },
+    {
+      "id": 147654,
+      "code": "not_wine",
+      "message": "Non-wine product omitted",
+      "diagnostics": {
+        "received": [
+          "detail",
+          "inventory"
+        ],
+        "requestFailures": [],
+        "pageErrors": [],
+        "network": [
+          {
+            "phase": "request",
+            "elapsedMs": 2,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 849,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 859,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 859,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 859,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 859,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 860,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 864,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 1112,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 1683,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 1833,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 1833,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 1833,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 1833,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 1834,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "domcontentloaded",
+            "elapsedMs": 1840
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2021,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2043,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2043,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2044,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2697,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 2727,
+            "host": "img.vinehoo.com",
+            "path": "/vinehoo/client/commodities/periods/147654.json",
+            "type": "xhr",
+            "kind": "detail"
+          },
+          {
+            "phase": "load",
+            "elapsedMs": 2729
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 3291,
+            "host": "img.vinehoo.com",
+            "path": "/vinehoo/client/commodities/periods/147654.json",
+            "type": "xhr",
+            "kind": "detail",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 3341,
+            "host": "h5.vinehoo.com",
+            "path": "/api/commodities/v3/package/getPeriodsPackageInventory",
+            "type": "xhr",
+            "kind": "inventory"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 3670,
+            "host": "h5.vinehoo.com",
+            "path": "/api/commodities/v3/package/getPeriodsPackageInventory",
+            "type": "xhr",
+            "kind": "inventory",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 3674,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "xhr",
+            "kind": "other"
+          }
+        ]
+      },
+      "at": "2026-11-06T08:00:08.401Z"
     }
   ],
-  "stoppedReason": {
-    "id": 197665,
-    "code": "request_failed",
-    "message": "page.goto: Timeout 45000ms exceeded.",
-    "diagnostics": {
-      "received": [],
-      "requestFailures": [
-        {
-          "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197665",
-          "reason": "net::ERR_ABORTED"
-        }
-      ],
-      "pageErrors": [],
-      "network": [
-        {
-          "phase": "request",
-          "elapsedMs": 2,
-          "host": "h5.vinehoo.com",
-          "path": "/pages/goods-detail/goods-detail",
-          "type": "document",
-          "kind": "other"
-        }
-      ]
-    },
-    "at": "2026-11-05T20:45:56.480Z"
-  },
+  "stoppedReason": null,
   "collectionSuspended": false,
   "coverage": {
-    "discoveredAt": "2026-11-05T20:43:02.125Z",
-    "totalUnique": 161,
+    "discoveredAt": "2026-11-06T07:58:39.802Z",
+    "totalUnique": 163,
     "channels": [
       {
         "channel": "现货速发",
         "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-        "newCandidates": 15,
-        "observedCandidates": 15,
-        "elapsedMs": 5936,
+        "newCandidates": 13,
+        "observedCandidates": 13,
+        "elapsedMs": 5615,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "普通商城",
         "url": "https://h5.vinehoo.com/",
-        "newCandidates": 107,
-        "observedCandidates": 107,
-        "elapsedMs": 13054,
+        "newCandidates": 109,
+        "observedCandidates": 111,
+        "elapsedMs": 13067,
         "responseParseFailures": 0,
         "error": null
       },
@@ -2183,25 +2454,25 @@
         "url": "https://h5.vinehoo.com/packageA/pages/more-than-wine/more-than-wine?id=76",
         "newCandidates": 0,
         "observedCandidates": 4,
-        "elapsedMs": 13081,
+        "elapsedMs": 13092,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "分类·法国",
         "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
-        "newCandidates": 18,
+        "newCandidates": 20,
         "observedCandidates": 24,
-        "elapsedMs": 14604,
+        "elapsedMs": 15570,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "分类·意大利",
         "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
-        "newCandidates": 16,
-        "observedCandidates": 16,
-        "elapsedMs": 15142,
+        "newCandidates": 12,
+        "observedCandidates": 15,
+        "elapsedMs": 14556,
         "responseParseFailures": 0,
         "error": null
       }
@@ -2211,7 +2482,7 @@
       "status": 200,
       "provided": false,
       "note": "Site returned SPA HTML instead of robots directives",
-      "checkedAt": "2026-11-05T20:41:20.252Z"
+      "checkedAt": "2026-11-06T07:56:57.846Z"
     }
   },
   "schedule": {
@@ -2224,29 +2495,29 @@
     "cronUtc": "17 1,13 * * *",
     "timing": "GitHub scheduling can be delayed"
   },
-  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/42105624795",
+  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/42184155578",
   "queue": {
-    "discoveredCount": 332,
-    "verifiedCount": 158,
-    "pendingCount": 174,
-    "unverifiedCandidateCount": 173,
+    "discoveredCount": 343,
+    "verifiedCount": 165,
+    "pendingCount": 177,
+    "unverifiedCandidateCount": 176,
     "previouslyVerifiedRetryCount": 1,
     "priceHiddenCount": 2,
-    "excludedCount": 1
+    "excludedCount": 2
   },
-  "detailVerifiedCount": 158,
-  "skuEverVerifiedCount": 329,
-  "freshSkuVerifiedCount": 2,
+  "detailVerifiedCount": 165,
+  "skuEverVerifiedCount": 341,
+  "freshSkuVerifiedCount": 17,
   "publicApiRecoveryCount": 0,
-  "historicalInventoryUnknownCount": 156,
+  "historicalInventoryUnknownCount": 155,
   "countryCounts": [
     {
       "country": "法国",
-      "count": 53
+      "count": 57
     },
     {
       "country": "意大利",
-      "count": 51
+      "count": 53
     },
     {
       "country": "澳大利亚",
@@ -2254,7 +2525,7 @@
     },
     {
       "country": "新西兰",
-      "count": 12
+      "count": 13
     },
     {
       "country": "西班牙",
@@ -2293,6 +2564,6 @@
     "status": 200,
     "provided": false,
     "note": "Site returned SPA HTML instead of robots directives",
-    "checkedAt": "2026-11-05T20:41:20.252Z"
+    "checkedAt": "2026-11-06T07:56:57.846Z"
   }
 }
