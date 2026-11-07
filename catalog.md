@@ -1,32 +1,53 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/7 04:03:10 +08:00；本轮状态：partial；商品 173 款，规格 360 条。
+数据快照：2026/11/7 15:18:11 +08:00；本轮状态：partial；商品 181 款，规格 378 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 196853 | Chateau La Gaffeliere 2007 | 2007 | 单支（SKU 392994） | ¥499.00 | 在售 | 在售 | 5 | 2026/11/7 04:03:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196853) |
-| 193648 | Misty Cove Napa Valley Chardonnay 2008 | 2008 | 单支（SKU 386200） | ¥99.00 | 在售 | 在售 | 4 | 2026/11/7 04:02:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193648) |
-| 193648 | Misty Cove Napa Valley Chardonnay 2008 | 2008 | 双支装（SKU 386201） | ¥189.00 | 在售 | 在售 | 4 | 2026/11/7 04:02:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193648) |
-| 193648 | Misty Cove Napa Valley Chardonnay 2008 | 2008 | 六支装（SKU 386202） | ¥559.00 | 在售 | 在售 | 4 | 2026/11/7 04:02:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193648) |
-| 193648 | Misty Cove Napa Valley Chardonnay 2008 | 2008 | 十二支原箱（SKU 386203） | ¥1099.00 | 在售 | 在售 | 4 | 2026/11/7 04:02:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193648) |
-| 190478 | Louis M. Martini Sonoma County Cabernet Sauvignon | 2016 | 单支（SKU 379111） | ¥99.00 | 在售 | 在售 | 9 | 2026/11/7 04:02:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190478) |
-| 190478 | Louis M. Martini Sonoma County Cabernet Sauvignon | 2016 | 双支装（SKU 379112） | ¥189.00 | 在售 | 在售 | 9 | 2026/11/7 04:02:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190478) |
-| 190478 | Louis M. Martini Sonoma County Cabernet Sauvignon | 2016 | 六支装（SKU 379113） | ¥559.00 | 在售 | 在售 | 3 | 2026/11/7 04:02:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190478) |
-| 190478 | Louis M. Martini Sonoma County Cabernet Sauvignon | 2016 | 十二支原箱（SKU 379114） | ¥1099.00 | 在售 | 在售 | 1 | 2026/11/7 04:02:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190478) |
-| 189519 | Prinz von Preussen Rheinhessen Riesling Halbtrocken 2022 | 2022 | 六支原箱（SKU 377353） | ¥239.00 | 在售 | 在售 | 20 | 2026/11/7 04:02:28 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189519) |
-| 189519 | Prinz von Preussen Rheinhessen Riesling Halbtrocken 2022 | 2022 | 实惠5箱装（SKU 377354） | ¥1180.00 | 在售 | 在售 | 20 | 2026/11/7 04:02:28 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189519) |
-| 189519 | Prinz von Preussen Rheinhessen Riesling Halbtrocken 2022 | 2022 | 囤货10箱装（SKU 377355） | ¥2330.00 | 在售 | 在售 | 15 | 2026/11/7 04:02:28 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189519) |
-| 186336 | Croce di Sala Amarone della Valpolicella Classico by SECONDO MARCO 2021 | 2021 | 单支（SKU 371647） | ¥169.00 | 在售 | 在售 | 7 | 2026/11/7 04:02:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186336) |
-| 186336 | Croce di Sala Amarone della Valpolicella Classico by SECONDO MARCO 2021 | 2021 | 双支装（SKU 371648） | ¥329.00 | 在售 | 在售 | 7 | 2026/11/7 04:02:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186336) |
-| 186336 | Croce di Sala Amarone della Valpolicella Classico by SECONDO MARCO 2021 | 2021 | 六支原箱（SKU 371650） | ¥969.00 | 在售 | 在售 | 7 | 2026/11/7 04:02:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186336) |
-| 197622 | Yann Durieux - Recrue des Sens 'Night Cost' 2017 | 2017 | 单支（SKU 394293） | ¥599.00 | 在售 | 在售 | 1 | 2026/11/7 04:02:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197622) |
-| 185861 | Wolf Blass Grey Label Shiraz 2017 | 2017 | 单支（SKU 371406） | ¥79.90 | 在售 | 在售 | 12 | 2026/11/7 04:01:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185861) |
-| 185861 | Wolf Blass Grey Label Shiraz 2017 | 2017 | 六支装（SKU 377548） | ¥469.00 | 在售 | 在售 | 12 | 2026/11/7 04:01:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185861) |
-| 197665 | Domaine Jacques-Frederic Mugnier Clos de la Marechale Nuits-Saint-Georges Premier Cru 2023 | 2023 | 单支（SKU 394636） | ¥1899.00 | 在售 | 在售 | 2 | 2026/11/7 04:01:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197665) |
-| 197664 | Domaine Jacques Carillon Puligny-Montrachet 2024 | 2024 | 单支（SKU 394609） | ¥999.00 | 在售 | 在售 | 4 | 2026/11/7 04:01:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197664) |
-| 197539 | Chateau Mouton Rothschild | 2018 | 单支（SKU 394193） | ¥5888.00 | 在售 | 在售 | 3 | 2026/11/7 04:01:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197539) |
+| 173498 | Wolf Blass Black Label Cabernet Shiraz Malbec 2017 | 2017 | 单支（SKU 390566） | ¥239.00 | 在售 | 在售 | 7 | 2026/11/7 15:18:03 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=173498) |
+| 173498 | Wolf Blass Black Label Cabernet Shiraz Malbec 2017 | 2017 | 双支装（SKU 390567） | ¥469.00 | 在售 | 在售 | 7 | 2026/11/7 15:18:03 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=173498) |
+| 173498 | Wolf Blass Black Label Cabernet Shiraz Malbec 2017 | 2017 | 六支装（SKU 390568） | ¥1380.00 | 在售 | 在售 | 7 | 2026/11/7 15:18:03 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=173498) |
+| 197276 | Yann Durieux - Recrue des Sens 'BT Les Boutieres' 2017 | 2017 | 单支（SKU 393834） | ¥699.00 | 在售 | 在售 | 6 | 2026/11/7 15:16:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197276) |
+| 197546 | Schloss von Stein Wehlener Sonnenuhr Riesling Spatlese 2025 | 2025 | 单支（SKU 394314） | ¥99.00 | 在售 | 在售 | 5 | 2026/11/7 15:16:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197546) |
+| 197546 | Schloss von Stein Wehlener Sonnenuhr Riesling Spatlese 2025 | 2025 | 双支装（SKU 394316） | ¥198.00 | 在售 | 在售 | 5 | 2026/11/7 15:16:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197546) |
+| 197546 | Schloss von Stein Wehlener Sonnenuhr Riesling Spatlese 2025 | 2025 | 六支装（SKU 394315） | ¥590.00 | 在售 | 在售 | 5 | 2026/11/7 15:16:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197546) |
+| 197385 | Felix Solis 'Prospero' Moscato NV | 未标示 | 单支（SKU 394344） | ¥68.00 | 在售 | 在售 | 4 | 2026/11/7 15:16:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197385) |
+| 197385 | Felix Solis 'Prospero' Moscato NV | 未标示 | 双支装（SKU 394391） | ¥129.00 | 在售 | 在售 | 4 | 2026/11/7 15:16:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197385) |
+| 196693 | Kracher TBA No. 7 Grande Cuvee 2005 375ml | 未标示 | 单支（SKU 392247） | ¥699.00 | 在售 | 在售 | 2 | 2026/11/7 15:16:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196693) |
+| 196114 | The Owl & The Pussycat Moscato NV | 未标示 | 六支装（SKU 390987） | ¥158.00 | 在售 | 在售 | 13 | 2026/11/7 15:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196114) |
+| 196114 | The Owl & The Pussycat Moscato NV | 未标示 | 十二支原箱（SKU 392084） | ¥309.00 | 在售 | 在售 | 13 | 2026/11/7 15:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196114) |
+| 196542 | Champagne Lancelot-Pienne Accord Majeur Brut | 未标示 | 单支（SKU 391961） | ¥359.00 | 在售 | 在售 | 4 | 2026/11/7 15:15:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196542) |
+| 196542 | Champagne Lancelot-Pienne Accord Majeur Brut | 未标示 | 双支装（SKU 391962） | ¥709.00 | 在售 | 在售 | 4 | 2026/11/7 15:15:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196542) |
+| 195703 | Grace Winery Koshu 2024 | 2024 | 单支（SKU 390238） | ¥218.00 | 在售 | 在售 | 5 | 2026/11/7 15:15:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195703) |
+| 195703 | Grace Winery Koshu 2024 | 2024 | 双支装（SKU 390239） | ¥419.00 | 在售 | 在售 | 5 | 2026/11/7 15:15:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195703) |
+| 194622 | KIwi Cove Sauvignon Blanc 2025 | 2025 | 双支（SKU 388219） | ¥99.00 | 在售 | 在售 | 12 | 2026/11/7 15:15:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194622) |
+| 194622 | KIwi Cove Sauvignon Blanc 2025 | 2025 | 六支原箱装（SKU 388220） | ¥269.00 | 在售 | 在售 | 12 | 2026/11/7 15:15:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194622) |
+| 194365 | Champagne Victoire Shiny BLack Vintage Limited Edition 2010 | 2010 | 单支（SKU 387802） | ¥249.00 | 在售 | 在售 | 4 | 2026/11/7 15:15:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194365) |
+| 194365 | Champagne Victoire Shiny BLack Vintage Limited Edition 2010 | 2010 | 双支装（SKU 387803） | ¥489.00 | 在售 | 在售 | 4 | 2026/11/7 15:15:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194365) |
+| 194365 | Champagne Victoire Shiny BLack Vintage Limited Edition 2010 | 2010 | 六支装（SKU 387804） | ¥1459.00 | 在售 | 在售 | 4 | 2026/11/7 15:15:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194365) |
+| 196853 | Chateau La Gaffeliere 2007 | 2007 | 单支（SKU 392994） | ¥499.00 | 未知 | 未知 | 未知 | 2026/11/7 04:03:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196853) |
+| 193648 | Misty Cove Napa Valley Chardonnay 2008 | 2008 | 单支（SKU 386200） | ¥99.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193648) |
+| 193648 | Misty Cove Napa Valley Chardonnay 2008 | 2008 | 双支装（SKU 386201） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193648) |
+| 193648 | Misty Cove Napa Valley Chardonnay 2008 | 2008 | 六支装（SKU 386202） | ¥559.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193648) |
+| 193648 | Misty Cove Napa Valley Chardonnay 2008 | 2008 | 十二支原箱（SKU 386203） | ¥1099.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193648) |
+| 190478 | Louis M. Martini Sonoma County Cabernet Sauvignon | 2016 | 单支（SKU 379111） | ¥99.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190478) |
+| 190478 | Louis M. Martini Sonoma County Cabernet Sauvignon | 2016 | 双支装（SKU 379112） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190478) |
+| 190478 | Louis M. Martini Sonoma County Cabernet Sauvignon | 2016 | 六支装（SKU 379113） | ¥559.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190478) |
+| 190478 | Louis M. Martini Sonoma County Cabernet Sauvignon | 2016 | 十二支原箱（SKU 379114） | ¥1099.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190478) |
+| 189519 | Prinz von Preussen Rheinhessen Riesling Halbtrocken 2022 | 2022 | 六支原箱（SKU 377353） | ¥239.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:28 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189519) |
+| 189519 | Prinz von Preussen Rheinhessen Riesling Halbtrocken 2022 | 2022 | 实惠5箱装（SKU 377354） | ¥1180.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:28 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189519) |
+| 189519 | Prinz von Preussen Rheinhessen Riesling Halbtrocken 2022 | 2022 | 囤货10箱装（SKU 377355） | ¥2330.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:28 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189519) |
+| 186336 | Croce di Sala Amarone della Valpolicella Classico by SECONDO MARCO 2021 | 2021 | 单支（SKU 371647） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186336) |
+| 186336 | Croce di Sala Amarone della Valpolicella Classico by SECONDO MARCO 2021 | 2021 | 双支装（SKU 371648） | ¥329.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186336) |
+| 186336 | Croce di Sala Amarone della Valpolicella Classico by SECONDO MARCO 2021 | 2021 | 六支原箱（SKU 371650） | ¥969.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186336) |
+| 197622 | Yann Durieux - Recrue des Sens 'Night Cost' 2017 | 2017 | 单支（SKU 394293） | ¥599.00 | 未知 | 未知 | 未知 | 2026/11/7 04:02:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197622) |
+| 185861 | Wolf Blass Grey Label Shiraz 2017 | 2017 | 单支（SKU 371406） | ¥79.90 | 未知 | 未知 | 未知 | 2026/11/7 04:01:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185861) |
+| 185861 | Wolf Blass Grey Label Shiraz 2017 | 2017 | 六支装（SKU 377548） | ¥469.00 | 未知 | 未知 | 未知 | 2026/11/7 04:01:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185861) |
+| 197665 | Domaine Jacques-Frederic Mugnier Clos de la Marechale Nuits-Saint-Georges Premier Cru 2023 | 2023 | 单支（SKU 394636） | ¥1899.00 | 未知 | 未知 | 未知 | 2026/11/7 04:01:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197665) |
+| 197664 | Domaine Jacques Carillon Puligny-Montrachet 2024 | 2024 | 单支（SKU 394609） | ¥999.00 | 未知 | 未知 | 未知 | 2026/11/7 04:01:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197664) |
+| 197539 | Chateau Mouton Rothschild | 2018 | 单支（SKU 394193） | ¥5888.00 | 未知 | 未知 | 未知 | 2026/11/7 04:01:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197539) |
 | 197625 | Yann Durieux - Recrue des Sens Les Ponts Blancs 2016 | 2016 | 单支（SKU 394299） | ¥599.00 | 未知 | 未知 | 未知 | 2026/11/6 16:00:30 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197625) |
 | 176093 | Wai Wai Sauvignon Blanc 2024 | 2024 | 单支（SKU 369060） | ¥69.90 | 未知 | 未知 | 未知 | 2026/11/6 16:00:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=176093) |
 | 176093 | Wai Wai Sauvignon Blanc 2024 | 2024 | 双支装（SKU 369061） | ¥139.00 | 未知 | 未知 | 未知 | 2026/11/6 16:00:19 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=176093) |
@@ -360,9 +381,6 @@
 | 193347 | Block 88 Sauvignon Blanc | 2025 | 十二支原箱（SKU 386390） | ¥659.90 | 未知 | 未知 | 未知 | 2026/11/3 06:08:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193347) |
 | 197399 | Patrick Javillier Meursault Les Clousots 2023 | 2023 | 单支（SKU 394301） | ¥899.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197399) |
 | 184915 | Kumeu River Rays Road Chardonnay | 2024 | 单支（SKU 368573） | ¥299.90 | 未知 | 未知 | 未知 | 2026/11/3 06:08:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184915) |
-| 197276 | Yann Durieux - Recrue des Sens 'BT Les Boutieres' 2017 | 2017 | 单支（SKU 393834） | ¥699.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197276) |
-| 196542 | Champagne Lancelot-Pienne Accord Majeur Brut | 未标示 | 单支（SKU 391961） | ¥359.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196542) |
-| 196542 | Champagne Lancelot-Pienne Accord Majeur Brut | 未标示 | 双支装（SKU 391962） | ¥709.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196542) |
 | 197274 | Yann Durieux - Recrue des Sens 'Les Grands Ponts Blancs' 2020 | 2020 | 单支（SKU 393832） | ¥659.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197274) |
 | 183547 | Chateau Jean Faure 2014 | 2014 | 单支（SKU 365987） | ¥259.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:36 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183547) |
 | 197787 | Giuseppe Quintarelli Valpolicella Classico Superiore 2018 | 2018 | 单支（SKU 394589） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197787) |
