@@ -1,11 +1,29 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/8 02:08:29 +08:00；本轮状态：failed；商品 189 款，规格 402 条。
+数据快照：2026/11/9 02:29:04 +08:00；本轮状态：partial；商品 197 款，规格 416 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 197732 | Refine Riesling 2025 | 2025 | 单支（SKU 394526） | ¥89.00 | 在售 | 在售 | 2 | 2026/11/9 02:28:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197732) |
+| 197400 | Patrick Javillier Meursault Cuvee Tete de Murger 2023 | 2023 | 单支（SKU 394291） | ¥1099.00 | 在售 | 在售 | 2 | 2026/11/9 02:28:45 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197400) |
+| 197547 | Gerard Bertrand 'Chateau l'Hospitalet Grand Vin' La Clape 2022 | 2022 | 单支（SKU 394430） | ¥499.00 | 在售 | 在售 | 2 | 2026/11/9 02:28:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197547) |
+| 197547 | Gerard Bertrand 'Chateau l'Hospitalet Grand Vin' La Clape 2022 | 2022 | 双支装（SKU 394431） | ¥980.00 | 在售 | 在售 | 1 | 2026/11/9 02:28:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197547) |
+| 197465 | Chateau Carlmagnus  20th Anniversary 2018 | 2018 | 单支（SKU 394079） | ¥129.00 | 在售 | 在售 | 5 | 2026/11/9 02:28:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197465) |
+| 197465 | Chateau Carlmagnus  20th Anniversary 2018 | 2018 | 双支装（SKU 394080） | ¥248.00 | 在售 | 在售 | 5 | 2026/11/9 02:28:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197465) |
+| 197465 | Chateau Carlmagnus  20th Anniversary 2018 | 2018 | 六支原箱（SKU 394081） | ¥739.00 | 在售 | 在售 | 5 | 2026/11/9 02:28:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197465) |
+| 197430 | Samuel Billaud Chablis 2024 | 2024 | 单支（SKU 394662） | ¥288.00 | 在售 | 在售 | 9 | 2026/11/9 02:28:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197430) |
+| 197376 | Undurraga U Cabernet Sauvignon 2021 | 2021 | 六支原箱（SKU 393968） | ¥129.90 | 在售 | 在售 | 7 | 2026/11/9 02:28:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197376) |
+| 197376 | Undurraga U Cabernet Sauvignon 2021 | 2021 | 5箱聚会装（SKU 393969） | ¥629.00 | 在售 | 在售 | 7 | 2026/11/9 02:28:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197376) |
+| 197376 | Undurraga U Cabernet Sauvignon 2021 | 2021 | 10箱囤货装（SKU 393970） | ¥1229.00 | 在售 | 在售 | 7 | 2026/11/9 02:28:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197376) |
+| 193347 | Block 88 Sauvignon Blanc | 2025 | 三支装（SKU 386388） | ¥199.90 | 在售 | 在售 | 4 | 2026/11/9 02:27:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193347) |
+| 193347 | Block 88 Sauvignon Blanc | 2025 | 六支装（SKU 386389） | ¥359.90 | 在售 | 在售 | 4 | 2026/11/9 02:27:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193347) |
+| 193347 | Block 88 Sauvignon Blanc | 2025 | 十二支原箱（SKU 386390） | ¥659.90 | 在售 | 在售 | 4 | 2026/11/9 02:27:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193347) |
+| 197185 | Schrader Cellars Double Diamond Oakville Cabernet Sauvignon Napa Valley USA | 未标示 | 单支（SKU 393713） | ¥699.00 | 在售 | 在售 | 5 | 2026/11/9 02:27:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197185) |
+| 196987 | Domaine Gros Frere et Soeur Chemin des Moines de Vergy 2023 | 2023 | 单支（SKU 393323） | ¥659.00 | 在售 | 在售 | 4 | 2026/11/9 02:27:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196987) |
+| 195041 | The Prisoner Wine Co. Cabernet Sauvignon | 2019 | 单支（SKU 389001） | ¥499.00 | 在售 | 在售 | 2 | 2026/11/9 02:27:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195041) |
+| 195041 | The Prisoner Wine Co. Cabernet Sauvignon | 2019 | 双支装（SKU 389002） | ¥980.00 | 在售 | 在售 | 2 | 2026/11/9 02:27:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195041) |
 | 189771 | Vallebelbo 'Cesare Pavese' Roero Arneis DOCG 2024 | 2024 | 单支（SKU 377988） | ¥89.00 | 未知 | 未知 | 未知 | 2026/11/8 02:08:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189771) |
 | 189771 | Vallebelbo 'Cesare Pavese' Roero Arneis DOCG 2024 | 2024 | 双支装（SKU 377989） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/8 02:08:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189771) |
 | 189771 | Vallebelbo 'Cesare Pavese' Roero Arneis DOCG 2024 | 2024 | 六支原箱（SKU 377990） | ¥490.00 | 未知 | 未知 | 未知 | 2026/11/8 02:08:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189771) |
@@ -401,10 +419,6 @@
 | 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 单支（SKU 389268） | ¥66.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
 | 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 双支装（SKU 389269） | ¥125.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
 | 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 六支原箱（SKU 389270） | ¥350.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
-| 197400 | Patrick Javillier Meursault Cuvee Tete de Murger 2023 | 2023 | 单支（SKU 394291） | ¥1099.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197400) |
-| 193347 | Block 88 Sauvignon Blanc | 2025 | 三支装（SKU 386388） | ¥199.90 | 未知 | 未知 | 未知 | 2026/11/3 06:08:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193347) |
-| 193347 | Block 88 Sauvignon Blanc | 2025 | 六支装（SKU 386389） | ¥359.90 | 未知 | 未知 | 未知 | 2026/11/3 06:08:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193347) |
-| 193347 | Block 88 Sauvignon Blanc | 2025 | 十二支原箱（SKU 386390） | ¥659.90 | 未知 | 未知 | 未知 | 2026/11/3 06:08:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193347) |
 | 197274 | Yann Durieux - Recrue des Sens 'Les Grands Ponts Blancs' 2020 | 2020 | 单支（SKU 393832） | ¥659.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197274) |
 | 183547 | Chateau Jean Faure 2014 | 2014 | 单支（SKU 365987） | ¥259.00 | 未知 | 未知 | 未知 | 2026/11/3 06:07:36 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183547) |
 | 197787 | Giuseppe Quintarelli Valpolicella Classico Superiore 2018 | 2018 | 单支（SKU 394589） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197787) |
