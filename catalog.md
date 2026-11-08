@@ -1,37 +1,37 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/8 02:08:29 +08:00；本轮状态：partial；商品 189 款，规格 402 条。
+数据快照：2026/11/8 02:08:29 +08:00；本轮状态：failed；商品 189 款，规格 402 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 189771 | Vallebelbo 'Cesare Pavese' Roero Arneis DOCG 2024 | 2024 | 单支（SKU 377988） | ¥89.00 | 在售 | 在售 | 8 | 2026/11/8 02:08:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189771) |
-| 189771 | Vallebelbo 'Cesare Pavese' Roero Arneis DOCG 2024 | 2024 | 双支装（SKU 377989） | ¥169.00 | 在售 | 在售 | 8 | 2026/11/8 02:08:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189771) |
-| 189771 | Vallebelbo 'Cesare Pavese' Roero Arneis DOCG 2024 | 2024 | 六支原箱（SKU 377990） | ¥490.00 | 在售 | 在售 | 8 | 2026/11/8 02:08:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189771) |
-| 186373 | Podere Rocche dei Manzoni Vigna Cappella di Santo Stefano Barolo DOCG 2007 | 2007 | 单支（SKU 372794） | ¥169.00 | 在售 | 在售 | 7 | 2026/11/8 02:08:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186373) |
-| 186373 | Podere Rocche dei Manzoni Vigna Cappella di Santo Stefano Barolo DOCG 2007 | 2007 | 双支装（SKU 372795） | ¥329.00 | 在售 | 在售 | 7 | 2026/11/8 02:08:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186373) |
-| 186373 | Podere Rocche dei Manzoni Vigna Cappella di Santo Stefano Barolo DOCG 2007 | 2007 | 六支装（SKU 372796） | ¥978.00 | 在售 | 在售 | 7 | 2026/11/8 02:08:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186373) |
-| 197399 | Patrick Javillier Meursault Les Clousots 2023 | 2023 | 单支（SKU 394301） | ¥899.00 | 在售 | 在售 | 3 | 2026/11/8 02:07:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197399) |
-| 191836 | Domaine la Haute Fevrie Muscadet Sevre-et-Maine Chateau Thebaud 2020 | 2020 | 单支（SKU 382221） | ¥169.00 | 在售 | 在售 | 6 | 2026/11/8 02:07:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191836) |
-| 191836 | Domaine la Haute Fevrie Muscadet Sevre-et-Maine Chateau Thebaud 2020 | 2020 | 双支装（SKU 382222） | ¥319.00 | 在售 | 在售 | 6 | 2026/11/8 02:07:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191836) |
-| 191836 | Domaine la Haute Fevrie Muscadet Sevre-et-Maine Chateau Thebaud 2020 | 2020 | 十二支装（SKU 382223） | ¥1859.00 | 在售 | 在售 | 6 | 2026/11/8 02:07:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191836) |
-| 191424 | Chateau Fonplegade 2013 | 2013 | 单支（SKU 381272） | ¥169.00 | 在售 | 在售 | 7 | 2026/11/8 02:07:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191424) |
-| 191424 | Chateau Fonplegade 2013 | 2013 | 双支装（SKU 381273） | ¥329.00 | 在售 | 在售 | 7 | 2026/11/8 02:07:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191424) |
-| 191424 | Chateau Fonplegade 2013 | 2013 | 六支装（SKU 381276） | ¥979.00 | 在售 | 在售 | 7 | 2026/11/8 02:07:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191424) |
-| 191424 | Chateau Fonplegade 2013 | 2013 | 十二支装（SKU 381277） | ¥1949.00 | 在售 | 在售 | 7 | 2026/11/8 02:07:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191424) |
-| 189957 | Romandiola Esarca Rubicone IGT Bianco | 未标示 | 双支装（SKU 378192） | ¥109.00 | 在售 | 在售 | 12 | 2026/11/8 02:07:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189957) |
-| 189957 | Romandiola Esarca Rubicone IGT Bianco | 未标示 | 六支原箱（SKU 378193） | ¥299.00 | 在售 | 在售 | 12 | 2026/11/8 02:07:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189957) |
-| 184915 | Kumeu River Rays Road Chardonnay | 2024 | 单支（SKU 368573） | ¥299.90 | 在售 | 在售 | 9 | 2026/11/8 02:06:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184915) |
-| 185506 | Tar & Roses Pinot Grigio Central Victoria 2025 | 2025 | 单支（SKU 394309） | ¥109.90 | 在售 | 在售 | 9 | 2026/11/8 02:06:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185506) |
-| 185506 | Tar & Roses Pinot Grigio Central Victoria 2025 | 2025 | 双支装（SKU 394310） | ¥209.00 | 在售 | 在售 | 9 | 2026/11/8 02:06:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185506) |
-| 185506 | Tar & Roses Pinot Grigio Central Victoria 2025 | 2025 | 六支装（SKU 394311） | ¥609.00 | 在售 | 在售 | 9 | 2026/11/8 02:06:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185506) |
-| 184433 | Chateau Vrai Canon Bouche 2014 | 2014 | 单支（SKU 372032） | ¥89.00 | 在售 | 在售 | 15 | 2026/11/8 02:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184433) |
-| 184433 | Chateau Vrai Canon Bouche 2014 | 2014 | 六支装（SKU 372033） | ¥520.00 | 在售 | 在售 | 15 | 2026/11/8 02:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184433) |
-| 184433 | Chateau Vrai Canon Bouche 2014 | 2014 | 十二支原木箱（SKU 372034） | ¥1020.00 | 在售 | 在售 | 15 | 2026/11/8 02:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184433) |
-| 175081 | Bouchard Aine & Fils Brut de Chardonnay Grande Cuvee NV | 未标示 | 单支（SKU 355021） | ¥79.90 | 在售 | 在售 | 7 | 2026/11/8 02:06:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175081) |
-| 175081 | Bouchard Aine & Fils Brut de Chardonnay Grande Cuvee NV | 未标示 | 双支装（SKU 347458） | ¥149.00 | 在售 | 在售 | 7 | 2026/11/8 02:06:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175081) |
-| 175081 | Bouchard Aine & Fils Brut de Chardonnay Grande Cuvee NV | 未标示 | 六支原箱（SKU 347459） | ¥399.00 | 在售 | 在售 | 7 | 2026/11/8 02:06:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175081) |
+| 189771 | Vallebelbo 'Cesare Pavese' Roero Arneis DOCG 2024 | 2024 | 单支（SKU 377988） | ¥89.00 | 未知 | 未知 | 未知 | 2026/11/8 02:08:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189771) |
+| 189771 | Vallebelbo 'Cesare Pavese' Roero Arneis DOCG 2024 | 2024 | 双支装（SKU 377989） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/8 02:08:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189771) |
+| 189771 | Vallebelbo 'Cesare Pavese' Roero Arneis DOCG 2024 | 2024 | 六支原箱（SKU 377990） | ¥490.00 | 未知 | 未知 | 未知 | 2026/11/8 02:08:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189771) |
+| 186373 | Podere Rocche dei Manzoni Vigna Cappella di Santo Stefano Barolo DOCG 2007 | 2007 | 单支（SKU 372794） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/8 02:08:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186373) |
+| 186373 | Podere Rocche dei Manzoni Vigna Cappella di Santo Stefano Barolo DOCG 2007 | 2007 | 双支装（SKU 372795） | ¥329.00 | 未知 | 未知 | 未知 | 2026/11/8 02:08:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186373) |
+| 186373 | Podere Rocche dei Manzoni Vigna Cappella di Santo Stefano Barolo DOCG 2007 | 2007 | 六支装（SKU 372796） | ¥978.00 | 未知 | 未知 | 未知 | 2026/11/8 02:08:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=186373) |
+| 197399 | Patrick Javillier Meursault Les Clousots 2023 | 2023 | 单支（SKU 394301） | ¥899.00 | 未知 | 未知 | 未知 | 2026/11/8 02:07:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197399) |
+| 191836 | Domaine la Haute Fevrie Muscadet Sevre-et-Maine Chateau Thebaud 2020 | 2020 | 单支（SKU 382221） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/8 02:07:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191836) |
+| 191836 | Domaine la Haute Fevrie Muscadet Sevre-et-Maine Chateau Thebaud 2020 | 2020 | 双支装（SKU 382222） | ¥319.00 | 未知 | 未知 | 未知 | 2026/11/8 02:07:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191836) |
+| 191836 | Domaine la Haute Fevrie Muscadet Sevre-et-Maine Chateau Thebaud 2020 | 2020 | 十二支装（SKU 382223） | ¥1859.00 | 未知 | 未知 | 未知 | 2026/11/8 02:07:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191836) |
+| 191424 | Chateau Fonplegade 2013 | 2013 | 单支（SKU 381272） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/8 02:07:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191424) |
+| 191424 | Chateau Fonplegade 2013 | 2013 | 双支装（SKU 381273） | ¥329.00 | 未知 | 未知 | 未知 | 2026/11/8 02:07:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191424) |
+| 191424 | Chateau Fonplegade 2013 | 2013 | 六支装（SKU 381276） | ¥979.00 | 未知 | 未知 | 未知 | 2026/11/8 02:07:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191424) |
+| 191424 | Chateau Fonplegade 2013 | 2013 | 十二支装（SKU 381277） | ¥1949.00 | 未知 | 未知 | 未知 | 2026/11/8 02:07:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191424) |
+| 189957 | Romandiola Esarca Rubicone IGT Bianco | 未标示 | 双支装（SKU 378192） | ¥109.00 | 未知 | 未知 | 未知 | 2026/11/8 02:07:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189957) |
+| 189957 | Romandiola Esarca Rubicone IGT Bianco | 未标示 | 六支原箱（SKU 378193） | ¥299.00 | 未知 | 未知 | 未知 | 2026/11/8 02:07:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189957) |
+| 184915 | Kumeu River Rays Road Chardonnay | 2024 | 单支（SKU 368573） | ¥299.90 | 未知 | 未知 | 未知 | 2026/11/8 02:06:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184915) |
+| 185506 | Tar & Roses Pinot Grigio Central Victoria 2025 | 2025 | 单支（SKU 394309） | ¥109.90 | 未知 | 未知 | 未知 | 2026/11/8 02:06:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185506) |
+| 185506 | Tar & Roses Pinot Grigio Central Victoria 2025 | 2025 | 双支装（SKU 394310） | ¥209.00 | 未知 | 未知 | 未知 | 2026/11/8 02:06:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185506) |
+| 185506 | Tar & Roses Pinot Grigio Central Victoria 2025 | 2025 | 六支装（SKU 394311） | ¥609.00 | 未知 | 未知 | 未知 | 2026/11/8 02:06:40 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185506) |
+| 184433 | Chateau Vrai Canon Bouche 2014 | 2014 | 单支（SKU 372032） | ¥89.00 | 未知 | 未知 | 未知 | 2026/11/8 02:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184433) |
+| 184433 | Chateau Vrai Canon Bouche 2014 | 2014 | 六支装（SKU 372033） | ¥520.00 | 未知 | 未知 | 未知 | 2026/11/8 02:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184433) |
+| 184433 | Chateau Vrai Canon Bouche 2014 | 2014 | 十二支原木箱（SKU 372034） | ¥1020.00 | 未知 | 未知 | 未知 | 2026/11/8 02:06:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184433) |
+| 175081 | Bouchard Aine & Fils Brut de Chardonnay Grande Cuvee NV | 未标示 | 单支（SKU 355021） | ¥79.90 | 未知 | 未知 | 未知 | 2026/11/8 02:06:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175081) |
+| 175081 | Bouchard Aine & Fils Brut de Chardonnay Grande Cuvee NV | 未标示 | 双支装（SKU 347458） | ¥149.00 | 未知 | 未知 | 未知 | 2026/11/8 02:06:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175081) |
+| 175081 | Bouchard Aine & Fils Brut de Chardonnay Grande Cuvee NV | 未标示 | 六支原箱（SKU 347459） | ¥399.00 | 未知 | 未知 | 未知 | 2026/11/8 02:06:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175081) |
 | 173498 | Wolf Blass Black Label Cabernet Shiraz Malbec 2017 | 2017 | 单支（SKU 390566） | ¥239.00 | 未知 | 未知 | 未知 | 2026/11/7 15:18:03 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=173498) |
 | 173498 | Wolf Blass Black Label Cabernet Shiraz Malbec 2017 | 2017 | 双支装（SKU 390567） | ¥469.00 | 未知 | 未知 | 未知 | 2026/11/7 15:18:03 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=173498) |
 | 173498 | Wolf Blass Black Label Cabernet Shiraz Malbec 2017 | 2017 | 六支装（SKU 390568） | ¥1380.00 | 未知 | 未知 | 未知 | 2026/11/7 15:18:03 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=173498) |

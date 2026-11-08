@@ -31652,10 +31652,13 @@
       ],
       "minPrice": 89,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-07T18:08:21.142Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "retained",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Inventory was not refreshed in this collection"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -31670,9 +31673,9 @@
           "name": "单支",
           "price": "89.00",
           "currency": "CNY",
-          "inventory": 8,
+          "inventory": null,
           "lastKnownInventory": 8,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:08:21.142Z",
           "inventoryConflict": true,
           "components": [
@@ -31688,9 +31691,9 @@
           "name": "双支装",
           "price": "169.00",
           "currency": "CNY",
-          "inventory": 8,
+          "inventory": null,
           "lastKnownInventory": 8,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:08:21.142Z",
           "inventoryConflict": true,
           "components": [
@@ -31706,9 +31709,9 @@
           "name": "六支原箱",
           "price": "490.00",
           "currency": "CNY",
-          "inventory": 8,
+          "inventory": null,
           "lastKnownInventory": 8,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:08:21.142Z",
           "inventoryConflict": true,
           "components": [
@@ -31747,10 +31750,13 @@
       ],
       "minPrice": 169,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-07T18:08:10.331Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "retained",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Inventory was not refreshed in this collection"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -31765,9 +31771,9 @@
           "name": "单支",
           "price": "169.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:08:10.331Z",
           "inventoryConflict": true,
           "components": [
@@ -31783,9 +31789,9 @@
           "name": "双支装",
           "price": "329.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:08:10.331Z",
           "inventoryConflict": true,
           "components": [
@@ -31801,9 +31807,9 @@
           "name": "六支装",
           "price": "978.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:08:10.331Z",
           "inventoryConflict": true,
           "components": [
@@ -31842,10 +31848,13 @@
       ],
       "minPrice": 899,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-07T18:07:47.897Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "retained",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Inventory was not refreshed in this collection"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -31860,9 +31869,9 @@
           "name": "单支",
           "price": "899.00",
           "currency": "CNY",
-          "inventory": 3,
+          "inventory": null,
           "lastKnownInventory": 3,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:07:47.897Z",
           "inventoryConflict": true,
           "components": [
@@ -31901,10 +31910,13 @@
       ],
       "minPrice": 169,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-07T18:07:24.559Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "retained",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Inventory was not refreshed in this collection"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -31919,9 +31931,9 @@
           "name": "单支",
           "price": "169.00",
           "currency": "CNY",
-          "inventory": 6,
+          "inventory": null,
           "lastKnownInventory": 6,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:07:24.559Z",
           "inventoryConflict": true,
           "components": [
@@ -31937,9 +31949,9 @@
           "name": "双支装",
           "price": "319.00",
           "currency": "CNY",
-          "inventory": 6,
+          "inventory": null,
           "lastKnownInventory": 6,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:07:24.559Z",
           "inventoryConflict": true,
           "components": [
@@ -31955,9 +31967,9 @@
           "name": "十二支装",
           "price": "1859.00",
           "currency": "CNY",
-          "inventory": 6,
+          "inventory": null,
           "lastKnownInventory": 6,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:07:24.559Z",
           "inventoryConflict": true,
           "components": [
@@ -31994,10 +32006,13 @@
       ],
       "minPrice": 169,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-07T18:07:13.869Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "retained",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Inventory was not refreshed in this collection"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -32012,9 +32027,9 @@
           "name": "单支",
           "price": "169.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:07:13.869Z",
           "inventoryConflict": true,
           "components": [
@@ -32030,9 +32045,9 @@
           "name": "双支装",
           "price": "329.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:07:13.869Z",
           "inventoryConflict": true,
           "components": [
@@ -32048,9 +32063,9 @@
           "name": "六支装",
           "price": "979.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:07:13.869Z",
           "inventoryConflict": true,
           "components": [
@@ -32066,9 +32081,9 @@
           "name": "十二支装",
           "price": "1949.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:07:13.869Z",
           "inventoryConflict": true,
           "components": [
@@ -32105,10 +32120,13 @@
       ],
       "minPrice": 109,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-07T18:07:02.623Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "retained",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Inventory was not refreshed in this collection"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -32123,9 +32141,9 @@
           "name": "双支装",
           "price": "109.00",
           "currency": "CNY",
-          "inventory": 12,
+          "inventory": null,
           "lastKnownInventory": 12,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:07:02.623Z",
           "inventoryConflict": true,
           "components": [
@@ -32141,9 +32159,9 @@
           "name": "六支原箱",
           "price": "299.00",
           "currency": "CNY",
-          "inventory": 12,
+          "inventory": null,
           "lastKnownInventory": 12,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:07:02.623Z",
           "inventoryConflict": true,
           "components": [
@@ -32182,10 +32200,13 @@
       ],
       "minPrice": 299.9,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-07T18:06:51.608Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "retained",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Inventory was not refreshed in this collection"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -32200,9 +32221,9 @@
           "name": "单支",
           "price": "299.90",
           "currency": "CNY",
-          "inventory": 9,
+          "inventory": null,
           "lastKnownInventory": 9,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:06:51.608Z",
           "inventoryConflict": true,
           "components": [
@@ -32241,10 +32262,13 @@
       ],
       "minPrice": 109.9,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-07T18:06:40.334Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "retained",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Inventory was not refreshed in this collection"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -32259,9 +32283,9 @@
           "name": "单支",
           "price": "109.90",
           "currency": "CNY",
-          "inventory": 9,
+          "inventory": null,
           "lastKnownInventory": 9,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:06:40.334Z",
           "inventoryConflict": true,
           "components": [
@@ -32277,9 +32301,9 @@
           "name": "双支装",
           "price": "209.00",
           "currency": "CNY",
-          "inventory": 9,
+          "inventory": null,
           "lastKnownInventory": 9,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:06:40.334Z",
           "inventoryConflict": true,
           "components": [
@@ -32295,9 +32319,9 @@
           "name": "六支装",
           "price": "609.00",
           "currency": "CNY",
-          "inventory": 9,
+          "inventory": null,
           "lastKnownInventory": 9,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:06:40.334Z",
           "inventoryConflict": true,
           "components": [
@@ -32336,10 +32360,13 @@
       ],
       "minPrice": 89,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-07T18:06:29.660Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "retained",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Inventory was not refreshed in this collection"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -32354,9 +32381,9 @@
           "name": "单支",
           "price": "89.00",
           "currency": "CNY",
-          "inventory": 15,
+          "inventory": null,
           "lastKnownInventory": 15,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:06:29.660Z",
           "inventoryConflict": true,
           "components": [
@@ -32372,9 +32399,9 @@
           "name": "六支装",
           "price": "520.00",
           "currency": "CNY",
-          "inventory": 15,
+          "inventory": null,
           "lastKnownInventory": 15,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:06:29.660Z",
           "inventoryConflict": true,
           "components": [
@@ -32390,9 +32417,9 @@
           "name": "十二支原木箱",
           "price": "1020.00",
           "currency": "CNY",
-          "inventory": 15,
+          "inventory": null,
           "lastKnownInventory": 15,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:06:29.660Z",
           "inventoryConflict": true,
           "components": [
@@ -32429,10 +32456,13 @@
       ],
       "minPrice": 79.9,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-07T18:06:04.973Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "retained",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Inventory was not refreshed in this collection"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -32447,9 +32477,9 @@
           "name": "单支",
           "price": "79.90",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:06:04.973Z",
           "inventoryConflict": true,
           "components": [
@@ -32465,9 +32495,9 @@
           "name": "双支装",
           "price": "149.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:06:04.973Z",
           "inventoryConflict": true,
           "components": [
@@ -32483,9 +32513,9 @@
           "name": "六支原箱",
           "price": "399.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-07T18:06:04.973Z",
           "inventoryConflict": true,
           "components": [
