@@ -1,25 +1,25 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/9 16:03:40 +08:00；本轮状态：partial；商品 204 款，规格 425 条。
+数据快照：2026/11/9 16:03:40 +08:00；本轮状态：failed；商品 204 款，规格 425 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 单支（SKU 389268） | ¥66.00 | 在售 | 在售 | 6 | 2026/11/9 16:03:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
-| 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 双支装（SKU 389269） | ¥125.00 | 在售 | 在售 | 6 | 2026/11/9 16:03:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
-| 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 六支原箱（SKU 389270） | ¥350.00 | 在售 | 在售 | 6 | 2026/11/9 16:03:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
-| 197808 | Leeuwin Estate Art Series Chardonnay | 2023 | 单支（SKU 394640） | ¥829.00 | 在售 | 在售 | 6 | 2026/11/9 16:03:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197808) |
-| 197783 | William Fevre Les Preuses Chablis Grand Cru 2004 | 2004 | 单支（SKU 394588） | ¥1099.00 | 在售 | 在售 | 2 | 2026/11/9 16:03:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197783) |
-| 197769 | Chateau Margaux 1986 | 1986 | 单支（SKU 394579） | ¥4999.00 | 在售 | 在售 | 1 | 2026/11/9 16:02:41 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197769) |
-| 197274 | Yann Durieux - Recrue des Sens 'Les Grands Ponts Blancs' 2020 | 2020 | 单支（SKU 393832） | ¥659.00 | 在售 | 在售 | 5 | 2026/11/9 16:02:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197274) |
-| 197753 | Undurraga Reserva Chardonnay 2025 | 2025 | 六支装（SKU 394667） | ¥199.90 | 在售 | 在售 | 9 | 2026/11/9 16:02:15 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197753) |
-| 197753 | Undurraga Reserva Chardonnay 2025 | 2025 | 十二支原箱（SKU 394668） | ¥389.90 | 在售 | 在售 | 9 | 2026/11/9 16:02:15 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197753) |
-| 194097 | Takler Szekszárdi Szenta-hegyi Kékfrankos 2020 | 2020 | 单支（SKU 387413） | ¥119.00 | 在售 | 在售 | 5 | 2026/11/9 16:02:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194097) |
-| 194097 | Takler Szekszárdi Szenta-hegyi Kékfrankos 2020 | 2020 | 六支装（SKU 387414） | ¥669.00 | 在售 | 在售 | 5 | 2026/11/9 16:02:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194097) |
-| 193245 | Fray Leon Merlot( conic  455g) | 未标示 | 六支原箱（SKU 385378） | ¥189.00 | 在售 | 在售 | 7 | 2026/11/9 16:01:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193245) |
-| 197551 | Reichsrat von Buhl Bone Dry Knochentrocken Rose Trocken 2020 / Domaine  De Pellehaut Harmonie De Gascogne 2024 | 2020 / 2024 | 双支组合（SKU 394494） | ¥99.00 | 在售 | 在售 | 7 | 2026/11/9 16:01:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197551) |
-| 183547 | Chateau Jean Faure 2014 | 2014 | 单支（SKU 365987） | ¥259.00 | 在售 | 在售 | 8 | 2026/11/9 16:01:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183547) |
+| 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 单支（SKU 389268） | ¥66.00 | 未知 | 未知 | 未知 | 2026/11/9 16:03:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
+| 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 双支装（SKU 389269） | ¥125.00 | 未知 | 未知 | 未知 | 2026/11/9 16:03:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
+| 195190 | Luretta Pantera Terra di Veleia Rosso lGT 2020 | 2020 | 六支原箱（SKU 389270） | ¥350.00 | 未知 | 未知 | 未知 | 2026/11/9 16:03:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195190) |
+| 197808 | Leeuwin Estate Art Series Chardonnay | 2023 | 单支（SKU 394640） | ¥829.00 | 未知 | 未知 | 未知 | 2026/11/9 16:03:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197808) |
+| 197783 | William Fevre Les Preuses Chablis Grand Cru 2004 | 2004 | 单支（SKU 394588） | ¥1099.00 | 未知 | 未知 | 未知 | 2026/11/9 16:03:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197783) |
+| 197769 | Chateau Margaux 1986 | 1986 | 单支（SKU 394579） | ¥4999.00 | 未知 | 未知 | 未知 | 2026/11/9 16:02:41 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197769) |
+| 197274 | Yann Durieux - Recrue des Sens 'Les Grands Ponts Blancs' 2020 | 2020 | 单支（SKU 393832） | ¥659.00 | 未知 | 未知 | 未知 | 2026/11/9 16:02:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197274) |
+| 197753 | Undurraga Reserva Chardonnay 2025 | 2025 | 六支装（SKU 394667） | ¥199.90 | 未知 | 未知 | 未知 | 2026/11/9 16:02:15 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197753) |
+| 197753 | Undurraga Reserva Chardonnay 2025 | 2025 | 十二支原箱（SKU 394668） | ¥389.90 | 未知 | 未知 | 未知 | 2026/11/9 16:02:15 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197753) |
+| 194097 | Takler Szekszárdi Szenta-hegyi Kékfrankos 2020 | 2020 | 单支（SKU 387413） | ¥119.00 | 未知 | 未知 | 未知 | 2026/11/9 16:02:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194097) |
+| 194097 | Takler Szekszárdi Szenta-hegyi Kékfrankos 2020 | 2020 | 六支装（SKU 387414） | ¥669.00 | 未知 | 未知 | 未知 | 2026/11/9 16:02:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194097) |
+| 193245 | Fray Leon Merlot( conic  455g) | 未标示 | 六支原箱（SKU 385378） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/9 16:01:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193245) |
+| 197551 | Reichsrat von Buhl Bone Dry Knochentrocken Rose Trocken 2020 / Domaine  De Pellehaut Harmonie De Gascogne 2024 | 2020 / 2024 | 双支组合（SKU 394494） | ¥99.00 | 未知 | 未知 | 未知 | 2026/11/9 16:01:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197551) |
+| 183547 | Chateau Jean Faure 2014 | 2014 | 单支（SKU 365987） | ¥259.00 | 未知 | 未知 | 未知 | 2026/11/9 16:01:29 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183547) |
 | 197732 | Refine Riesling 2025 | 2025 | 单支（SKU 394526） | ¥89.00 | 未知 | 未知 | 未知 | 2026/11/9 02:28:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197732) |
 | 197400 | Patrick Javillier Meursault Cuvee Tete de Murger 2023 | 2023 | 单支（SKU 394291） | ¥1099.00 | 未知 | 未知 | 未知 | 2026/11/9 02:28:45 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197400) |
 | 197547 | Gerard Bertrand 'Chateau l'Hospitalet Grand Vin' La Clape 2022 | 2022 | 单支（SKU 394430） | ¥499.00 | 未知 | 未知 | 未知 | 2026/11/9 02:28:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197547) |
