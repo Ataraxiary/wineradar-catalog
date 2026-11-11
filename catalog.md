@@ -1,26 +1,50 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/11 15:51:00 +08:00；本轮状态：partial；商品 221 款，规格 456 条。
+数据快照：2026/11/12 04:17:57 +08:00；本轮状态：partial；商品 229 款，规格 475 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 195423 | Bodegas Fernando Castro Raices Gran Reserva 2018 | 2018 | 双支装（SKU 389677） | ¥99.90 | 在售 | 在售 | 4 | 2026/11/11 15:50:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195423) |
-| 195423 | Bodegas Fernando Castro Raices Gran Reserva 2018 | 2018 | 六支原箱（SKU 389678） | ¥279.90 | 在售 | 在售 | 4 | 2026/11/11 15:50:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195423) |
-| 191219 | Weingut Georg Muller Hassel Alte Reben Riesling VDP Grosse Lage(Old Vines) 2020 / Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Kumeu River Estate Chardonnay 2024 | 2020 / 2022 / 2024 | 三支组合装（SKU 380955） | ¥699.00 | 在售 | 在售 | 4 | 2026/11/11 15:50:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191219) |
-| 190510 | Bodega Vivaltus 'Vivaltus' Ribera del Duero 2019 | 2019 | 单支（SKU 379388） | ¥699.00 | 在售 | 在售 | 3 | 2026/11/11 15:50:15 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190510) |
-| 197863 | Domaine Alain Chavy Les 8 Climats Puligny-Montrachet 2023 | 2023 | 单支（SKU 394718） | ¥699.00 | 在售 | 在售 | 3 | 2026/11/11 15:50:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197863) |
-| 197805 | Eisele Vineyard Altagracia Cabernet Sauvignon Napa Valley 2018 | 2018 | 单支（SKU 394661） | ¥1399.00 | 在售 | 在售 | 2 | 2026/11/11 15:49:50 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197805) |
-| 197501 | 2018 M. Chapoutier Domaine de Bila-Haut Collioure 'Chrysopee' Rouge | 2018 | 单支（SKU 394290） | ¥559.00 | 在售 | 在售 | 4 | 2026/11/11 15:49:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197501) |
-| 195824 | Maxime Cheurlin Noellat Bourgogne Hautes Cotes de Nuits 2018 | 2018 | 单支（SKU 390710） | ¥199.00 | 在售 | 在售 | 4 | 2026/11/11 15:48:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195824) |
-| 195824 | Maxime Cheurlin Noellat Bourgogne Hautes Cotes de Nuits 2018 | 2018 | 双支装（SKU 390530） | ¥389.00 | 在售 | 在售 | 4 | 2026/11/11 15:48:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195824) |
-| 195824 | Maxime Cheurlin Noellat Bourgogne Hautes Cotes de Nuits 2018 | 2018 | 六支装（SKU 390531） | ¥1159.00 | 在售 | 在售 | 4 | 2026/11/11 15:48:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195824) |
-| 195442 | Maison de Grand Esprit La Mysteriale Chateauneuf-du-Pape 2016 | 2016 | 单支（SKU 392024） | ¥129.90 | 在售 | 在售 | 7 | 2026/11/11 15:48:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195442) |
-| 195442 | Maison de Grand Esprit La Mysteriale Chateauneuf-du-Pape 2016 | 2016 | 六支装（SKU 392025） | ¥719.90 | 在售 | 在售 | 7 | 2026/11/11 15:48:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195442) |
-| 195253 | Reichsrat von Buhl Bone Dry Knochentrocken Rose Trocken 2020 | 2020 | 双支装（SKU 389504） | ¥99.00 | 在售 | 在售 | 4 | 2026/11/11 15:48:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195253) |
-| 195253 | Reichsrat von Buhl Bone Dry Knochentrocken Rose Trocken 2020 | 2020 | 六支装（SKU 389520） | ¥289.00 | 在售 | 在售 | 4 | 2026/11/11 15:48:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195253) |
-| 191906 | Disznoko Tokaji Aszu 5 Puttonyos Tokaji (gift box) | 未标示 | 单支（SKU 382149） | ¥399.00 | 在售 | 在售 | 4 | 2026/11/11 15:48:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191906) |
+| 185613 | Greywacke Pinot Noir 2023 | 2023 | 单支（SKU 370056） | ¥259.90 | 在售 | 在售 | 5 | 2026/11/12 04:17:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185613) |
+| 185613 | Greywacke Pinot Noir 2023 | 2023 | 双支装（SKU 370057） | ¥508.00 | 在售 | 在售 | 5 | 2026/11/12 04:17:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185613) |
+| 167945 | Elephant Hill Airavata Syrah 2018 | 2018 | 单支（SKU 393007） | ¥599.00 | 在售 | 在售 | 4 | 2026/11/12 04:17:36 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167945) |
+| 185518 | 2011 Vinos Jeromin Manu Crianza | 2011 | 单支（SKU 369775） | ¥89.00 | 在售 | 在售 | 11 | 2026/11/12 04:17:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185518) |
+| 185518 | 2011 Vinos Jeromin Manu Crianza | 2011 | 双支装（SKU 369776） | ¥169.00 | 在售 | 在售 | 11 | 2026/11/12 04:17:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185518) |
+| 185518 | 2011 Vinos Jeromin Manu Crianza | 2011 | 六支装（SKU 369777） | ¥489.00 | 在售 | 在售 | 11 | 2026/11/12 04:17:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185518) |
+| 185494 | Codorniu Cuvee Barcelona 1872 Brut Cava | 未标示 | 单支（SKU 369728） | ¥79.90 | 在售 | 在售 | 8 | 2026/11/12 04:17:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185494) |
+| 185494 | Codorniu Cuvee Barcelona 1872 Brut Cava | 未标示 | 双支装（SKU 369729） | ¥149.90 | 在售 | 在售 | 8 | 2026/11/12 04:17:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185494) |
+| 185494 | Codorniu Cuvee Barcelona 1872 Brut Cava | 未标示 | 六支装（SKU 369730） | ¥429.90 | 在售 | 在售 | 8 | 2026/11/12 04:17:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185494) |
+| 181375 | Te Mata Estate Pinot Noir | 2024 | 单支（SKU 360571） | ¥169.90 | 在售 | 在售 | 5 | 2026/11/12 04:16:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=181375) |
+| 181375 | Te Mata Estate Pinot Noir | 2024 | 双支装（SKU 360572） | ¥329.00 | 在售 | 在售 | 5 | 2026/11/12 04:16:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=181375) |
+| 181375 | Te Mata Estate Pinot Noir | 2024 | 六支装（SKU 360573） | ¥979.00 | 在售 | 在售 | 5 | 2026/11/12 04:16:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=181375) |
+| 180780 | Fritz Haag Brauneberger Juffer Sonnenuhr Riesling Auslese Goldkapsel 375ml 2022 | 2022 | 单支（SKU 359526） | ¥469.00 | 在售 | 在售 | 8 | 2026/11/12 04:16:45 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=180780) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 单支（SKU 348335） | ¥115.00 | 在售 | 在售 | 8 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 双支装（SKU 332932） | ¥219.90 | 在售 | 在售 | 8 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 六支装（SKU 332933） | ¥629.90 | 在售 | 在售 | 8 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 十二支装（SKU 332934） | ¥1199.90 | 在售 | 在售 | 8 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 197749 | Cordella Brunello di Montalcino DOCG 2019 | 2019 | 单支（SKU 394571） | ¥129.00 | 在售 | 在售 | 4 | 2026/11/12 04:16:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197749) |
+| 197749 | Cordella Brunello di Montalcino DOCG 2019 | 2019 | 双支装（SKU 394572） | ¥255.00 | 在售 | 在售 | 4 | 2026/11/12 04:16:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197749) |
+| 197749 | Cordella Brunello di Montalcino DOCG 2019 | 2019 | 六支装（SKU 394573） | ¥759.00 | 在售 | 在售 | 4 | 2026/11/12 04:16:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197749) |
+| 197187 | Au Bon Climat Santa Barbara County Pinot Noir | 2024 | 单支（SKU 393557） | ¥259.00 | 在售 | 在售 | 6 | 2026/11/12 04:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197187) |
+| 197187 | Au Bon Climat Santa Barbara County Pinot Noir | 2024 | 双支装（SKU 393558） | ¥499.00 | 在售 | 在售 | 6 | 2026/11/12 04:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197187) |
+| 197187 | Au Bon Climat Santa Barbara County Pinot Noir | 2024 | 六支装（SKU 393559） | ¥1469.00 | 在售 | 在售 | 6 | 2026/11/12 04:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197187) |
+| 197837 | Castello Banfi Brunello di Montalcino DOCG 2016 1500ml | 未标示 | 单支（SKU 394675） | ¥899.00 | 在售 | 在售 | 5 | 2026/11/12 04:15:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197837) |
+| 195423 | Bodegas Fernando Castro Raices Gran Reserva 2018 | 2018 | 双支装（SKU 389677） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/11 15:50:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195423) |
+| 195423 | Bodegas Fernando Castro Raices Gran Reserva 2018 | 2018 | 六支原箱（SKU 389678） | ¥279.90 | 未知 | 未知 | 未知 | 2026/11/11 15:50:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195423) |
+| 191219 | Weingut Georg Muller Hassel Alte Reben Riesling VDP Grosse Lage(Old Vines) 2020 / Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Kumeu River Estate Chardonnay 2024 | 2020 / 2022 / 2024 | 三支组合装（SKU 380955） | ¥699.00 | 未知 | 未知 | 未知 | 2026/11/11 15:50:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191219) |
+| 190510 | Bodega Vivaltus 'Vivaltus' Ribera del Duero 2019 | 2019 | 单支（SKU 379388） | ¥699.00 | 未知 | 未知 | 未知 | 2026/11/11 15:50:15 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190510) |
+| 197863 | Domaine Alain Chavy Les 8 Climats Puligny-Montrachet 2023 | 2023 | 单支（SKU 394718） | ¥699.00 | 未知 | 未知 | 未知 | 2026/11/11 15:50:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197863) |
+| 197805 | Eisele Vineyard Altagracia Cabernet Sauvignon Napa Valley 2018 | 2018 | 单支（SKU 394661） | ¥1399.00 | 未知 | 未知 | 未知 | 2026/11/11 15:49:50 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197805) |
+| 197501 | 2018 M. Chapoutier Domaine de Bila-Haut Collioure 'Chrysopee' Rouge | 2018 | 单支（SKU 394290） | ¥559.00 | 未知 | 未知 | 未知 | 2026/11/11 15:49:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197501) |
+| 195824 | Maxime Cheurlin Noellat Bourgogne Hautes Cotes de Nuits 2018 | 2018 | 单支（SKU 390710） | ¥199.00 | 未知 | 未知 | 未知 | 2026/11/11 15:48:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195824) |
+| 195824 | Maxime Cheurlin Noellat Bourgogne Hautes Cotes de Nuits 2018 | 2018 | 双支装（SKU 390530） | ¥389.00 | 未知 | 未知 | 未知 | 2026/11/11 15:48:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195824) |
+| 195824 | Maxime Cheurlin Noellat Bourgogne Hautes Cotes de Nuits 2018 | 2018 | 六支装（SKU 390531） | ¥1159.00 | 未知 | 未知 | 未知 | 2026/11/11 15:48:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195824) |
+| 195442 | Maison de Grand Esprit La Mysteriale Chateauneuf-du-Pape 2016 | 2016 | 单支（SKU 392024） | ¥129.90 | 未知 | 未知 | 未知 | 2026/11/11 15:48:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195442) |
+| 195442 | Maison de Grand Esprit La Mysteriale Chateauneuf-du-Pape 2016 | 2016 | 六支装（SKU 392025） | ¥719.90 | 未知 | 未知 | 未知 | 2026/11/11 15:48:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195442) |
+| 195253 | Reichsrat von Buhl Bone Dry Knochentrocken Rose Trocken 2020 | 2020 | 双支装（SKU 389504） | ¥99.00 | 未知 | 未知 | 未知 | 2026/11/11 15:48:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195253) |
+| 195253 | Reichsrat von Buhl Bone Dry Knochentrocken Rose Trocken 2020 | 2020 | 六支装（SKU 389520） | ¥289.00 | 未知 | 未知 | 未知 | 2026/11/11 15:48:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195253) |
+| 191906 | Disznoko Tokaji Aszu 5 Puttonyos Tokaji (gift box) | 未标示 | 单支（SKU 382149） | ¥399.00 | 未知 | 未知 | 未知 | 2026/11/11 15:48:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191906) |
 | 190615 | Bibi Graetz Casamatta Bianco Toscana IGT 2023 | 2023 | 单支（SKU 379288） | ¥119.00 | 未知 | 未知 | 未知 | 2026/11/11 04:34:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190615) |
 | 190615 | Bibi Graetz Casamatta Bianco Toscana IGT 2023 | 2023 | 双支装（SKU 379289） | ¥228.00 | 未知 | 未知 | 未知 | 2026/11/11 04:34:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190615) |
 | 190615 | Bibi Graetz Casamatta Bianco Toscana IGT 2023 | 2023 | 六支装（SKU 379290） | ¥666.00 | 未知 | 未知 | 未知 | 2026/11/11 04:34:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190615) |
@@ -451,11 +475,6 @@
 | 175953 | Mother Rock Brutal Red Cinsault / Mother Rock Brutal Chenin Blanc 2022 | 2022 / 部分未标示 | 双支组合装（SKU 349697） | ¥168.00 | 未知 | 未知 | 未知 | 2026/11/3 07:32:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175953) |
 | 175953 | Mother Rock Brutal Red Cinsault / Mother Rock Brutal Chenin Blanc 2022 | 2022 / 部分未标示 | 白 六支装（SKU 349698） | ¥489.00 | 未知 | 未知 | 未知 | 2026/11/3 07:32:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175953) |
 | 175953 | Mother Rock Brutal Red Cinsault / Mother Rock Brutal Chenin Blanc 2022 | 2022 / 部分未标示 | 红 六支装（SKU 349699） | ¥489.00 | 未知 | 未知 | 未知 | 2026/11/3 07:32:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=175953) |
-| 167945 | Elephant Hill Airavata Syrah 2018 | 2018 | 单支（SKU 393007） | ¥599.00 | 未知 | 未知 | 未知 | 2026/11/3 07:32:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167945) |
-| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 单支（SKU 348335） | ¥115.00 | 未知 | 未知 | 未知 | 2026/11/3 07:32:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
-| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 双支装（SKU 332932） | ¥219.90 | 未知 | 未知 | 未知 | 2026/11/3 07:32:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
-| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 六支装（SKU 332933） | ¥629.90 | 未知 | 未知 | 未知 | 2026/11/3 07:32:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
-| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 十二支装（SKU 332934） | ¥1199.90 | 未知 | 未知 | 未知 | 2026/11/3 07:32:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
 | 167797 | E.Guigal Cotes-du-Rhone Rouge | 2021 | 双支装（SKU 332928） | ¥219.90 | 未知 | 未知 | 未知 | 2026/11/3 07:32:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167797) |
 | 167797 | E.Guigal Cotes-du-Rhone Rouge | 2021 | 六支装（SKU 332929） | ¥629.90 | 未知 | 未知 | 未知 | 2026/11/3 07:32:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167797) |
 | 167797 | E.Guigal Cotes-du-Rhone Rouge | 2021 | 十二支装（SKU 332930） | ¥1199.90 | 未知 | 未知 | 未知 | 2026/11/3 07:32:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167797) |
