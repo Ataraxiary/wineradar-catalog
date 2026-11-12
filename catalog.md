@@ -1,35 +1,35 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/12 04:17:57 +08:00；本轮状态：partial；商品 229 款，规格 475 条。
+数据快照：2026/11/12 04:17:57 +08:00；本轮状态：failed；商品 229 款，规格 475 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 185613 | Greywacke Pinot Noir 2023 | 2023 | 单支（SKU 370056） | ¥259.90 | 在售 | 在售 | 5 | 2026/11/12 04:17:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185613) |
-| 185613 | Greywacke Pinot Noir 2023 | 2023 | 双支装（SKU 370057） | ¥508.00 | 在售 | 在售 | 5 | 2026/11/12 04:17:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185613) |
-| 167945 | Elephant Hill Airavata Syrah 2018 | 2018 | 单支（SKU 393007） | ¥599.00 | 在售 | 在售 | 4 | 2026/11/12 04:17:36 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167945) |
-| 185518 | 2011 Vinos Jeromin Manu Crianza | 2011 | 单支（SKU 369775） | ¥89.00 | 在售 | 在售 | 11 | 2026/11/12 04:17:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185518) |
-| 185518 | 2011 Vinos Jeromin Manu Crianza | 2011 | 双支装（SKU 369776） | ¥169.00 | 在售 | 在售 | 11 | 2026/11/12 04:17:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185518) |
-| 185518 | 2011 Vinos Jeromin Manu Crianza | 2011 | 六支装（SKU 369777） | ¥489.00 | 在售 | 在售 | 11 | 2026/11/12 04:17:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185518) |
-| 185494 | Codorniu Cuvee Barcelona 1872 Brut Cava | 未标示 | 单支（SKU 369728） | ¥79.90 | 在售 | 在售 | 8 | 2026/11/12 04:17:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185494) |
-| 185494 | Codorniu Cuvee Barcelona 1872 Brut Cava | 未标示 | 双支装（SKU 369729） | ¥149.90 | 在售 | 在售 | 8 | 2026/11/12 04:17:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185494) |
-| 185494 | Codorniu Cuvee Barcelona 1872 Brut Cava | 未标示 | 六支装（SKU 369730） | ¥429.90 | 在售 | 在售 | 8 | 2026/11/12 04:17:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185494) |
-| 181375 | Te Mata Estate Pinot Noir | 2024 | 单支（SKU 360571） | ¥169.90 | 在售 | 在售 | 5 | 2026/11/12 04:16:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=181375) |
-| 181375 | Te Mata Estate Pinot Noir | 2024 | 双支装（SKU 360572） | ¥329.00 | 在售 | 在售 | 5 | 2026/11/12 04:16:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=181375) |
-| 181375 | Te Mata Estate Pinot Noir | 2024 | 六支装（SKU 360573） | ¥979.00 | 在售 | 在售 | 5 | 2026/11/12 04:16:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=181375) |
-| 180780 | Fritz Haag Brauneberger Juffer Sonnenuhr Riesling Auslese Goldkapsel 375ml 2022 | 2022 | 单支（SKU 359526） | ¥469.00 | 在售 | 在售 | 8 | 2026/11/12 04:16:45 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=180780) |
-| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 单支（SKU 348335） | ¥115.00 | 在售 | 在售 | 8 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
-| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 双支装（SKU 332932） | ¥219.90 | 在售 | 在售 | 8 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
-| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 六支装（SKU 332933） | ¥629.90 | 在售 | 在售 | 8 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
-| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 十二支装（SKU 332934） | ¥1199.90 | 在售 | 在售 | 8 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
-| 197749 | Cordella Brunello di Montalcino DOCG 2019 | 2019 | 单支（SKU 394571） | ¥129.00 | 在售 | 在售 | 4 | 2026/11/12 04:16:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197749) |
-| 197749 | Cordella Brunello di Montalcino DOCG 2019 | 2019 | 双支装（SKU 394572） | ¥255.00 | 在售 | 在售 | 4 | 2026/11/12 04:16:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197749) |
-| 197749 | Cordella Brunello di Montalcino DOCG 2019 | 2019 | 六支装（SKU 394573） | ¥759.00 | 在售 | 在售 | 4 | 2026/11/12 04:16:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197749) |
-| 197187 | Au Bon Climat Santa Barbara County Pinot Noir | 2024 | 单支（SKU 393557） | ¥259.00 | 在售 | 在售 | 6 | 2026/11/12 04:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197187) |
-| 197187 | Au Bon Climat Santa Barbara County Pinot Noir | 2024 | 双支装（SKU 393558） | ¥499.00 | 在售 | 在售 | 6 | 2026/11/12 04:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197187) |
-| 197187 | Au Bon Climat Santa Barbara County Pinot Noir | 2024 | 六支装（SKU 393559） | ¥1469.00 | 在售 | 在售 | 6 | 2026/11/12 04:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197187) |
-| 197837 | Castello Banfi Brunello di Montalcino DOCG 2016 1500ml | 未标示 | 单支（SKU 394675） | ¥899.00 | 在售 | 在售 | 5 | 2026/11/12 04:15:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197837) |
+| 185613 | Greywacke Pinot Noir 2023 | 2023 | 单支（SKU 370056） | ¥259.90 | 未知 | 未知 | 未知 | 2026/11/12 04:17:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185613) |
+| 185613 | Greywacke Pinot Noir 2023 | 2023 | 双支装（SKU 370057） | ¥508.00 | 未知 | 未知 | 未知 | 2026/11/12 04:17:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185613) |
+| 167945 | Elephant Hill Airavata Syrah 2018 | 2018 | 单支（SKU 393007） | ¥599.00 | 未知 | 未知 | 未知 | 2026/11/12 04:17:36 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167945) |
+| 185518 | 2011 Vinos Jeromin Manu Crianza | 2011 | 单支（SKU 369775） | ¥89.00 | 未知 | 未知 | 未知 | 2026/11/12 04:17:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185518) |
+| 185518 | 2011 Vinos Jeromin Manu Crianza | 2011 | 双支装（SKU 369776） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/12 04:17:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185518) |
+| 185518 | 2011 Vinos Jeromin Manu Crianza | 2011 | 六支装（SKU 369777） | ¥489.00 | 未知 | 未知 | 未知 | 2026/11/12 04:17:24 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185518) |
+| 185494 | Codorniu Cuvee Barcelona 1872 Brut Cava | 未标示 | 单支（SKU 369728） | ¥79.90 | 未知 | 未知 | 未知 | 2026/11/12 04:17:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185494) |
+| 185494 | Codorniu Cuvee Barcelona 1872 Brut Cava | 未标示 | 双支装（SKU 369729） | ¥149.90 | 未知 | 未知 | 未知 | 2026/11/12 04:17:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185494) |
+| 185494 | Codorniu Cuvee Barcelona 1872 Brut Cava | 未标示 | 六支装（SKU 369730） | ¥429.90 | 未知 | 未知 | 未知 | 2026/11/12 04:17:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185494) |
+| 181375 | Te Mata Estate Pinot Noir | 2024 | 单支（SKU 360571） | ¥169.90 | 未知 | 未知 | 未知 | 2026/11/12 04:16:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=181375) |
+| 181375 | Te Mata Estate Pinot Noir | 2024 | 双支装（SKU 360572） | ¥329.00 | 未知 | 未知 | 未知 | 2026/11/12 04:16:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=181375) |
+| 181375 | Te Mata Estate Pinot Noir | 2024 | 六支装（SKU 360573） | ¥979.00 | 未知 | 未知 | 未知 | 2026/11/12 04:16:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=181375) |
+| 180780 | Fritz Haag Brauneberger Juffer Sonnenuhr Riesling Auslese Goldkapsel 375ml 2022 | 2022 | 单支（SKU 359526） | ¥469.00 | 未知 | 未知 | 未知 | 2026/11/12 04:16:45 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=180780) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 单支（SKU 348335） | ¥115.00 | 未知 | 未知 | 未知 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 双支装（SKU 332932） | ¥219.90 | 未知 | 未知 | 未知 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 六支装（SKU 332933） | ¥629.90 | 未知 | 未知 | 未知 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 167804 | E.Guigal Cotes-du-Rhone Blanc | 2023 | 十二支装（SKU 332934） | ¥1199.90 | 未知 | 未知 | 未知 | 2026/11/12 04:16:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167804) |
+| 197749 | Cordella Brunello di Montalcino DOCG 2019 | 2019 | 单支（SKU 394571） | ¥129.00 | 未知 | 未知 | 未知 | 2026/11/12 04:16:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197749) |
+| 197749 | Cordella Brunello di Montalcino DOCG 2019 | 2019 | 双支装（SKU 394572） | ¥255.00 | 未知 | 未知 | 未知 | 2026/11/12 04:16:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197749) |
+| 197749 | Cordella Brunello di Montalcino DOCG 2019 | 2019 | 六支装（SKU 394573） | ¥759.00 | 未知 | 未知 | 未知 | 2026/11/12 04:16:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197749) |
+| 197187 | Au Bon Climat Santa Barbara County Pinot Noir | 2024 | 单支（SKU 393557） | ¥259.00 | 未知 | 未知 | 未知 | 2026/11/12 04:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197187) |
+| 197187 | Au Bon Climat Santa Barbara County Pinot Noir | 2024 | 双支装（SKU 393558） | ¥499.00 | 未知 | 未知 | 未知 | 2026/11/12 04:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197187) |
+| 197187 | Au Bon Climat Santa Barbara County Pinot Noir | 2024 | 六支装（SKU 393559） | ¥1469.00 | 未知 | 未知 | 未知 | 2026/11/12 04:16:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197187) |
+| 197837 | Castello Banfi Brunello di Montalcino DOCG 2016 1500ml | 未标示 | 单支（SKU 394675） | ¥899.00 | 未知 | 未知 | 未知 | 2026/11/12 04:15:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197837) |
 | 195423 | Bodegas Fernando Castro Raices Gran Reserva 2018 | 2018 | 双支装（SKU 389677） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/11 15:50:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195423) |
 | 195423 | Bodegas Fernando Castro Raices Gran Reserva 2018 | 2018 | 六支原箱（SKU 389678） | ¥279.90 | 未知 | 未知 | 未知 | 2026/11/11 15:50:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195423) |
 | 191219 | Weingut Georg Muller Hassel Alte Reben Riesling VDP Grosse Lage(Old Vines) 2020 / Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Kumeu River Estate Chardonnay 2024 | 2020 / 2022 / 2024 | 三支组合装（SKU 380955） | ¥699.00 | 未知 | 未知 | 未知 | 2026/11/11 15:50:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191219) |
