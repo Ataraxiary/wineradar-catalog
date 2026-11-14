@@ -1,26 +1,31 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/14 15:43:56 +08:00；本轮状态：partial；商品 252 款，规格 522 条。
+数据快照：2026/11/15 02:51:50 +08:00；本轮状态：partial；商品 255 款，规格 526 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 197129 | Sitial Cava NV | 未标示 | 双支装（SKU 393467） | ¥99.90 | 在售 | 在售 | 7 | 2026/11/14 15:41:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197129) |
-| 197129 | Sitial Cava NV | 未标示 | 六支装（SKU 393468） | ¥269.90 | 在售 | 在售 | 7 | 2026/11/14 15:41:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197129) |
-| 196054 | 2024 Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige | 2024 | 单支（SKU 390905） | ¥159.00 | 在售 | 在售 | 4 | 2026/11/14 15:41:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196054) |
-| 196054 | 2024 Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige | 2024 | 双支装（SKU 390906） | ¥309.00 | 在售 | 在售 | 4 | 2026/11/14 15:41:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196054) |
-| 196054 | 2024 Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige | 2024 | 六支原箱（SKU 390907） | ¥918.00 | 在售 | 在售 | 4 | 2026/11/14 15:41:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196054) |
-| 195752 | Te Mata Estate Vineyards Sauvignon Blanc 2025 | 2025 | 单支（SKU 390443） | ¥128.00 | 在售 | 在售 | 8 | 2026/11/14 15:40:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195752) |
-| 195752 | Te Mata Estate Vineyards Sauvignon Blanc 2025 | 2025 | 双支装（SKU 390444） | ¥249.00 | 在售 | 在售 | 8 | 2026/11/14 15:40:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195752) |
-| 179189 | JJ Leitz Riesling Spatlese Rheinhessen（Rabbit） | 未标示 | 单支（SKU 356226） | ¥89.00 | 在售 | 在售 | 6 | 2026/11/14 15:40:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189) |
-| 179189 | JJ Leitz Riesling Spatlese Rheinhessen（Rabbit） | 未标示 | 双支装（SKU 355891） | ¥159.00 | 在售 | 在售 | 3 | 2026/11/14 15:40:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189) |
-| 179189 | JJ Leitz Riesling Spatlese Rheinhessen（Rabbit） | 未标示 | 六支装（SKU 355892） | ¥449.00 | 在售 | 在售 | 1 | 2026/11/14 15:40:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189) |
-| 194912 | Kracher TBA No. 8 Muskat Ottonel 2015 | 2015 | 单支（SKU 388739） | ¥399.00 | 在售 | 在售 | 3 | 2026/11/14 15:40:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194912) |
-| 194769 | Chateau Les Bedats Bois- Montet 2022 | 2022 | 六支原箱（SKU 388562） | ¥169.90 | 在售 | 在售 | 16 | 2026/11/14 15:40:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194769) |
-| 194769 | Chateau Les Bedats Bois- Montet 2022 | 2022 | 5箱囤货装（SKU 390213） | ¥799.90 | 在售 | 在售 | 16 | 2026/11/14 15:40:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194769) |
-| 194497 | Caves Jean Bourdy Cotes du Jura Blanc 2018 | 2018 | 单支（SKU 388166） | ¥249.00 | 在售 | 在售 | 4 | 2026/11/14 15:39:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194497) |
-| 194497 | Caves Jean Bourdy Cotes du Jura Blanc 2018 | 2018 | 双支装（SKU 388181） | ¥489.00 | 在售 | 在售 | 4 | 2026/11/14 15:39:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194497) |
+| 194714 | Veramonte Coleccion Colores Chardonnay 2024 / Undurraga  Explore by T.H. 'Terroir Hunter' San Antonio-Maipo Sauvignon Blanc 2022 | 2024 / 2022 | 双支组合装（SKU 388458） | ¥99.90 | 在售 | 在售 | 4 | 2026/11/15 02:51:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194714) |
+| 194714 | Veramonte Coleccion Colores Chardonnay 2024 / Undurraga  Explore by T.H. 'Terroir Hunter' San Antonio-Maipo Sauvignon Blanc 2022 | 2024 / 2022 | 六支装（各三支）（SKU 388459） | ¥295.00 | 在售 | 在售 | 4 | 2026/11/15 02:51:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194714) |
+| 197823 | Domaine Alain Chavy Chevalier Montrachet Grand Cru 2023 | 2023 | 单支（SKU 394734） | ¥5999.00 | 在售 | 在售 | 4 | 2026/11/15 02:49:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197823) |
+| 184801 | Masi Costasera Amarone Cassico DOCG (lunar Vear Snake) | 未标示 | 单支礼盒装（SKU 368324） | ¥399.90 | 在售 | 在售 | 4 | 2026/11/15 02:49:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184801) |
+| 197792 | Coche-Dury Bourgogne Chardonnay 2020 | 2020 | 单支（SKU 394732） | ¥3299.00 | 在售 | 在售 | 2 | 2026/11/15 02:49:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197792) |
+| 197129 | Sitial Cava NV | 未标示 | 双支装（SKU 393467） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/14 15:41:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197129) |
+| 197129 | Sitial Cava NV | 未标示 | 六支装（SKU 393468） | ¥269.90 | 未知 | 未知 | 未知 | 2026/11/14 15:41:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197129) |
+| 196054 | 2024 Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige | 2024 | 单支（SKU 390905） | ¥159.00 | 未知 | 未知 | 未知 | 2026/11/14 15:41:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196054) |
+| 196054 | 2024 Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige | 2024 | 双支装（SKU 390906） | ¥309.00 | 未知 | 未知 | 未知 | 2026/11/14 15:41:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196054) |
+| 196054 | 2024 Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige | 2024 | 六支原箱（SKU 390907） | ¥918.00 | 未知 | 未知 | 未知 | 2026/11/14 15:41:06 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196054) |
+| 195752 | Te Mata Estate Vineyards Sauvignon Blanc 2025 | 2025 | 单支（SKU 390443） | ¥128.00 | 未知 | 未知 | 未知 | 2026/11/14 15:40:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195752) |
+| 195752 | Te Mata Estate Vineyards Sauvignon Blanc 2025 | 2025 | 双支装（SKU 390444） | ¥249.00 | 未知 | 未知 | 未知 | 2026/11/14 15:40:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195752) |
+| 179189 | JJ Leitz Riesling Spatlese Rheinhessen（Rabbit） | 未标示 | 单支（SKU 356226） | ¥89.00 | 未知 | 未知 | 未知 | 2026/11/14 15:40:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189) |
+| 179189 | JJ Leitz Riesling Spatlese Rheinhessen（Rabbit） | 未标示 | 双支装（SKU 355891） | ¥159.00 | 未知 | 未知 | 未知 | 2026/11/14 15:40:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189) |
+| 179189 | JJ Leitz Riesling Spatlese Rheinhessen（Rabbit） | 未标示 | 六支装（SKU 355892） | ¥449.00 | 未知 | 未知 | 未知 | 2026/11/14 15:40:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189) |
+| 194912 | Kracher TBA No. 8 Muskat Ottonel 2015 | 2015 | 单支（SKU 388739） | ¥399.00 | 未知 | 未知 | 未知 | 2026/11/14 15:40:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194912) |
+| 194769 | Chateau Les Bedats Bois- Montet 2022 | 2022 | 六支原箱（SKU 388562） | ¥169.90 | 未知 | 未知 | 未知 | 2026/11/14 15:40:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194769) |
+| 194769 | Chateau Les Bedats Bois- Montet 2022 | 2022 | 5箱囤货装（SKU 390213） | ¥799.90 | 未知 | 未知 | 未知 | 2026/11/14 15:40:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194769) |
+| 194497 | Caves Jean Bourdy Cotes du Jura Blanc 2018 | 2018 | 单支（SKU 388166） | ¥249.00 | 未知 | 未知 | 未知 | 2026/11/14 15:39:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194497) |
+| 194497 | Caves Jean Bourdy Cotes du Jura Blanc 2018 | 2018 | 双支装（SKU 388181） | ¥489.00 | 未知 | 未知 | 未知 | 2026/11/14 15:39:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194497) |
 | 187687 | Zonin Primo Amore  Blanco NV | 未标示 | 单支（SKU 380053） | ¥59.00 | 未知 | 未知 | 未知 | 2026/11/14 04:33:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187687) |
 | 187687 | Zonin Primo Amore  Blanco NV | 未标示 | 双支装（SKU 375366） | ¥99.00 | 未知 | 未知 | 未知 | 2026/11/14 04:33:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187687) |
 | 187687 | Zonin Primo Amore  Blanco NV | 未标示 | 六支原箱（SKU 375367） | ¥279.00 | 未知 | 未知 | 未知 | 2026/11/14 04:33:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187687) |
@@ -513,7 +518,6 @@
 | 185232 | Santa Julia 'La Oveja' Blanco Natural 2022 | 2022 | 单支（SKU 369243） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/3 07:45:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185232) |
 | 185232 | Santa Julia 'La Oveja' Blanco Natural 2022 | 2022 | 双支装（SKU 369244） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185232) |
 | 185232 | Santa Julia 'La Oveja' Blanco Natural 2022 | 2022 | 六支装（SKU 369245） | ¥550.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185232) |
-| 184801 | Masi Costasera Amarone Cassico DOCG (lunar Vear Snake) | 未标示 | 单支礼盒装（SKU 368324） | ¥399.90 | 未知 | 未知 | 未知 | 2026/11/3 07:45:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184801) |
 | 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 单支（SKU 389775） | ¥269.00 | 未知 | 未知 | 未知 | 2026/11/3 07:39:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
 | 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 双支装（SKU 389776） | ¥529.00 | 未知 | 未知 | 未知 | 2026/11/3 07:39:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
 | 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 六支原箱（SKU 389777） | ¥1559.00 | 未知 | 未知 | 未知 | 2026/11/3 07:39:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
