@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T20:33:42.475Z",
+  "updatedAt": "2026-11-14T07:43:56.635Z",
   "entries": [
     {
       "id": 147654,
@@ -48,11 +48,6 @@
       "state": "verified",
       "title": "新鲜到港！口碑名庄吉佳乐，断货王隆河白新年份！",
       "sources": [
-        {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
-        },
         {
           "channel": "分类·法国",
           "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
@@ -177,7 +172,7 @@
       "firstSeenAt": "2026-11-03T09:23:40.979Z",
       "attempts": 1,
       "state": "verified",
-      "title": "【一杯喝到整个果园！百香果+荔枝+桃子的清新甜美盛宴！】Boab Tree Dolce Bianco 2023 单支/双支/六支原箱 任选",
+      "title": "【一杯喝下整个果园！百香果×荔枝×白桃，6度甜白天花板！！】Boab Tree Dolce Bianco 2023 单支/双支/六支原箱 任选",
       "sources": [
         {
           "channel": "现货速发",
@@ -223,8 +218,8 @@
     {
       "id": 179037,
       "firstSeenAt": "2026-11-02T23:30:19.376Z",
-      "attempts": 1,
-      "state": "verified",
+      "attempts": 2,
+      "state": "pending",
       "title": "VDP创始元老出品特级园老藤双金奖干白！你一定要试试！",
       "sources": [
         {
@@ -233,13 +228,15 @@
           "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
         }
       ],
-      "lastAttemptAt": "2026-11-02T23:33:22.702Z",
-      "lastVerifiedAt": "2026-11-02T23:33:22.702Z"
+      "lastAttemptAt": "2026-11-14T07:39:33.918Z",
+      "lastVerifiedAt": "2026-11-02T23:33:22.702Z",
+      "lastErrorCode": "price_not_public",
+      "nextEligibleAt": "2026-11-21T07:39:33.918Z"
     },
     {
       "id": 179189,
       "firstSeenAt": "2026-11-02T23:30:19.376Z",
-      "attempts": 1,
+      "attempts": 2,
       "state": "verified",
       "title": "拍照出圈的氛围感神器！小甜甜雷司令！雷兹晚收甜白",
       "sources": [
@@ -249,8 +246,8 @@
           "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
         }
       ],
-      "lastAttemptAt": "2026-11-02T23:33:35.369Z",
-      "lastVerifiedAt": "2026-11-02T23:33:35.369Z"
+      "lastAttemptAt": "2026-11-14T07:40:31.577Z",
+      "lastVerifiedAt": "2026-11-14T07:40:31.577Z"
     },
     {
       "id": 179645,
@@ -263,11 +260,6 @@
           "channel": "现货速发",
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
           "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
-        },
-        {
-          "channel": "普通商城",
-          "url": "https://h5.vinehoo.com/",
-          "api": "https://h5.vinehoo.com/api/go-recommend/v3/home/preference"
         },
         {
           "channel": "分类·法国",
@@ -346,8 +338,8 @@
     {
       "id": 182282,
       "firstSeenAt": "2026-11-02T23:30:19.376Z",
-      "attempts": 1,
-      "state": "verified",
+      "attempts": 2,
+      "state": "pending",
       "title": "捡漏 ！200元不到捡传统派名家Barolo珍藏",
       "sources": [
         {
@@ -356,8 +348,10 @@
           "api": "https://h5.vinehoo.com/api/marketing-conf/v3/column/filtergoodslist?cid=29"
         }
       ],
-      "lastAttemptAt": "2026-11-02T23:36:34.260Z",
-      "lastVerifiedAt": "2026-11-02T23:36:34.260Z"
+      "lastAttemptAt": "2026-11-14T07:43:03.593Z",
+      "lastVerifiedAt": "2026-11-02T23:36:34.260Z",
+      "lastErrorCode": "request_failed",
+      "nextEligibleAt": "2026-11-14T19:43:03.593Z"
     },
     {
       "id": 182658,
@@ -379,6 +373,11 @@
       "id": 183547,
       "title": "暴降176元！毗邻白马，右岸GCC老年份正牌！",
       "sources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
+        },
         {
           "channel": "分类·法国",
           "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
@@ -417,7 +416,7 @@
         {
           "channel": "现货速发",
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         },
         {
           "channel": "普通商城",
@@ -454,7 +453,7 @@
         {
           "channel": "现货速发",
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
       ],
       "lastAttemptAt": "2026-11-13T20:33:30.549Z",
@@ -544,6 +543,11 @@
       "title": "小Coche-Druy来啦！品质远超价位的单一园！",
       "sources": [
         {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
+        },
+        {
           "channel": "分类·法国",
           "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
           "api": "https://h5.vinehoo.com/api/marketing-conf/v3/column/filtergoodslist?cid=28"
@@ -557,7 +561,7 @@
       "firstSeenAt": "2026-11-03T09:05:03.897Z",
       "attempts": 1,
       "state": "verified",
-      "title": "【小心，它是“活”的！卡瓦鼻祖高颜值起泡，轻松平替香槟！】Codorniu Cuvee Barcelona 1872 Brut Cava 单支/双支/六支",
+      "title": "【雕花颜值封神！气泡绵长，满足你对起泡酒的所有想象！】Codorniu Cuvee Barcelona 1872 Brut Cava 单支/双支/六支",
       "sources": [
         {
           "channel": "现货速发",
@@ -604,11 +608,6 @@
       "id": 185601,
       "title": "国均5.9折！一级B等名庄，卓龙梦特酒庄直出副牌！",
       "sources": [
-        {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
-        },
         {
           "channel": "分类·法国",
           "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
@@ -658,14 +657,14 @@
       "title": "罗兰家族旗下中级庄，梅多克性价比楷模！",
       "sources": [
         {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
-        },
-        {
           "channel": "分类·法国",
           "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
           "api": "https://h5.vinehoo.com/api/marketing-conf/v3/column/filtergoodslist?cid=28"
+        },
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
       ],
       "firstSeenAt": "2026-11-02T22:06:59.741Z",
@@ -882,12 +881,17 @@
     },
     {
       "id": 189792,
-      "title": "国均5.7折！喝过都说好！新西兰膜拜庄马丁堡长相思！",
+      "title": "国均5.7折！喝过都说好的马丁堡长相思！单支下单立减20",
       "sources": [
         {
           "channel": "现货速发",
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
+        },
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/go-recommend/v3/home/preference"
         }
       ],
       "firstSeenAt": "2026-11-02T22:06:29.404Z",
@@ -1168,6 +1172,11 @@
       "title": "【碾压中级庄性价比！预算省大半，严控低产  + 法桶熟化！】Castel Vento Colli Piacentini Cabernet Sauvignon 2018 双支/六支/十二支原箱",
       "sources": [
         {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        },
+        {
           "channel": "分类·意大利",
           "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
           "api": "https://h5.vinehoo.com/api/marketing-conf/v3/column/filtergoodslist?cid=29"
@@ -1183,11 +1192,6 @@
       "state": "verified",
       "title": "意大利一级庄清新宝藏，盲品成黑皮诺的“另类”托斯卡纳！",
       "sources": [
-        {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
-        },
         {
           "channel": "分类·意大利",
           "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
@@ -1250,13 +1254,8 @@
       "firstSeenAt": "2026-11-02T23:30:19.376Z",
       "attempts": 1,
       "state": "verified",
-      "title": "【国均7.3折！单支不到50块！酒云Chianti史底价，质价双优口粮酒】Renzo Masi Chianti DOCG 2024 双支/六支原箱 现货速发！",
+      "title": "【国均7.3折！酒云基安蒂史底价！质价双优口粮酒】Renzo Masi Chianti DOCG 2024 双支/六支原箱 现货速发！",
       "sources": [
-        {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
-        },
         {
           "channel": "分类·意大利",
           "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
@@ -1289,11 +1288,6 @@
       "state": "verified",
       "title": "犀牛庄“小鸟”MDA新鲜年份！一瓶接一瓶的快乐源泉",
       "sources": [
-        {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
-        },
         {
           "channel": "普通商城",
           "url": "https://h5.vinehoo.com/",
@@ -1541,6 +1535,11 @@
           "channel": "普通商城",
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/go-recommend/v3/home/preference"
+        },
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
       ],
       "lastAttemptAt": "2026-11-13T08:05:18.197Z",
@@ -1680,7 +1679,7 @@
         {
           "channel": "现货速发",
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         },
         {
           "channel": "分类·法国",
@@ -1726,7 +1725,7 @@
     {
       "id": 194197,
       "firstSeenAt": "2026-11-02T23:43:14.348Z",
-      "attempts": 1,
+      "attempts": 2,
       "state": "pending",
       "title": "【再降50！底价捡漏亏本卖！Lambrusco里的战斗机，颜值和实力兼备】Terreivive Bergianti No Autoclave 现货速发！",
       "sources": [
@@ -1736,9 +1735,9 @@
           "api": "https://h5.vinehoo.com/api/go-recommend/v3/home/preference"
         }
       ],
-      "lastAttemptAt": "2026-11-07T07:15:04.284Z",
+      "lastAttemptAt": "2026-11-14T07:39:47.584Z",
       "lastErrorCode": "price_not_public",
-      "nextEligibleAt": "2026-11-14T07:15:04.284Z"
+      "nextEligibleAt": "2026-11-21T07:39:47.584Z"
     },
     {
       "id": 194241,
@@ -1824,8 +1823,8 @@
     {
       "id": 194497,
       "firstSeenAt": "2026-11-03T09:23:40.979Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "【16代传承汝拉“活化石”，重回霞多丽的原始纪元！】Domaine Jean Bourdy Cotes du Jura Blanc 2018 单支/双支",
       "sources": [
         {
@@ -1833,7 +1832,9 @@
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
           "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-14T07:39:59.151Z",
+      "lastVerifiedAt": "2026-11-14T07:39:59.151Z"
     },
     {
       "id": 194622,
@@ -1843,9 +1844,9 @@
       "title": "5月灌装新鲜到港！金奖马尔堡大厂坐镇，“几维鸟”长相思！",
       "sources": [
         {
-          "channel": "分类·新西兰",
-          "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=33&type=colum",
-          "api": "https://h5.vinehoo.com/api/marketing-conf/v3/column/filtergoodslist?cid=33"
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
       ],
       "lastAttemptAt": "2026-11-07T07:15:29.988Z",
@@ -1882,8 +1883,8 @@
     {
       "id": 194769,
       "firstSeenAt": "2026-11-03T09:23:40.979Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "【平台最低价！单支30不到喝波尔多酒业巨头超波！】Chateau Les Bedats Bois- Montet 2022 六支原箱",
       "sources": [
         {
@@ -1891,13 +1892,15 @@
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
           "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-14T07:40:10.097Z",
+      "lastVerifiedAt": "2026-11-14T07:40:10.097Z"
     },
     {
       "id": 194912,
       "firstSeenAt": "2026-11-03T09:23:40.979Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "【WE满分！花香、柑橘、柠檬酸度三位一体的\"绝美\"！】Kracher TBA No. 8 Muskat Ottonel 2015 375ml 酒庄直出",
       "sources": [
         {
@@ -1905,7 +1908,9 @@
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
           "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-14T07:40:20.790Z",
+      "lastVerifiedAt": "2026-11-14T07:40:20.790Z"
     },
     {
       "id": 194954,
@@ -2218,6 +2223,11 @@
           "channel": "普通商城",
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/go-recommend/v3/home/preference"
+        },
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
       ],
       "lastAttemptAt": "2026-11-03T08:02:04.524Z",
@@ -2337,7 +2347,7 @@
     {
       "id": 195748,
       "firstSeenAt": "2026-11-03T20:08:10.190Z",
-      "attempts": 0,
+      "attempts": 1,
       "state": "pending",
       "title": "【不端着、不劝退！从青苹果到高级香草味，这才是口粮干白该有的“愉悦感”！】Magpie By Oveja Negra Chardonnay 2025 双支/六支原箱",
       "sources": [
@@ -2346,13 +2356,16 @@
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
           "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-14T07:42:10.554Z",
+      "lastErrorCode": "request_failed",
+      "nextEligibleAt": "2026-11-14T19:42:10.554Z"
     },
     {
       "id": 195752,
       "firstSeenAt": "2026-11-03T09:23:40.979Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "【青柠番石榴水果沙冰！新西兰国宝长相思再登场！】Te Mata Estate Vineyards Sauvignon Blanc 2025 单支/双支",
       "sources": [
         {
@@ -2360,7 +2373,9 @@
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
           "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-14T07:40:43.302Z",
+      "lastVerifiedAt": "2026-11-14T07:40:43.302Z"
     },
     {
       "id": 195772,
@@ -2385,11 +2400,6 @@
       "state": "verified",
       "title": "国均3.7折！性价比夯爆！双金奖加持的中级庄“战斗机”！",
       "sources": [
-        {
-          "channel": "普通商城",
-          "url": "https://h5.vinehoo.com/",
-          "api": "https://h5.vinehoo.com/api/go-recommend/v3/home/preference"
-        },
         {
           "channel": "现货速发",
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
@@ -2472,8 +2482,8 @@
     {
       "id": 196054,
       "firstSeenAt": "2026-11-03T09:23:40.979Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "【从未想到过的混酿方略！霞多丽&长相思&白皮诺竟能如此之搭？】Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige 2024 单支/双支/六支原箱 ",
       "sources": [
         {
@@ -2481,14 +2491,16 @@
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
           "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-14T07:41:06.335Z",
+      "lastVerifiedAt": "2026-11-14T07:41:06.335Z"
     },
     {
       "id": 196114,
       "firstSeenAt": "2026-11-02T23:43:14.348Z",
       "attempts": 1,
       "state": "verified",
-      "title": "【直降40！把“人见人爱”四个字，酿成了一瓶酒！】The Owl & The Pussycat Moscato NV  六支装/十二支原箱",
+      "title": "【国庆特惠直降40+！把“人见人爱”四个字，酿成了一瓶酒！】The Owl & The Pussycat Moscato NV  六支装",
       "sources": [
         {
           "channel": "现货速发",
@@ -2663,7 +2675,7 @@
         {
           "channel": "现货速发",
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
         }
       ],
       "lastAttemptAt": "2026-11-03T08:46:52.100Z",
@@ -2892,11 +2904,6 @@
       "title": "圣埃美隆一级B等，2007珍稀老年份适饮回归，优雅浓郁！",
       "sources": [
         {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
-        },
-        {
           "channel": "分类·法国",
           "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
           "api": "https://h5.vinehoo.com/api/marketing-conf/v3/column/filtergoodslist?cid=28"
@@ -2982,7 +2989,12 @@
         {
           "channel": "普通商城",
           "url": "https://h5.vinehoo.com/",
-          "api": "https://h5.vinehoo.com/api/go-recommend/v3/home/preference"
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        },
+        {
+          "channel": "首页专题活动",
+          "url": "https://h5.vinehoo.com/packageA/pages/more-than-wine/more-than-wine?id=76",
+          "api": "https://h5.vinehoo.com/api/marketing-conf/v3/cardgoodslive/clientgoodslist?cid=76&type=1&page=%5BREDACTED%5D&limit=%5BREDACTED%5D"
         }
       ],
       "lastAttemptAt": "2026-11-03T09:00:56.788Z",
@@ -3297,16 +3309,18 @@
     {
       "id": 197129,
       "firstSeenAt": "2026-11-03T09:23:40.979Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "冰桶里最吸睛的西班牙骄阳！GG金奖新鲜Cava！",
       "sources": [
         {
           "channel": "现货速发",
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-14T07:41:17.515Z",
+      "lastVerifiedAt": "2026-11-14T07:41:17.515Z"
     },
     {
       "id": 197132,
@@ -3382,7 +3396,7 @@
         {
           "channel": "现货速发",
           "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
         }
       ],
       "lastAttemptAt": "2026-11-11T20:16:08.471Z",
@@ -3551,13 +3565,8 @@
     },
     {
       "id": 197360,
-      "title": "神水膜拜庄“大金杯”，Vosne-Romanee村精华独占园“修士之路”！",
+      "title": "神水膜拜庄“大金杯”",
       "sources": [
-        {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
-        },
         {
           "channel": "普通商城",
           "url": "https://h5.vinehoo.com/",
@@ -3855,9 +3864,9 @@
       "title": "【国均5.5折！蓝宝堂同门，名庄大厂降维打击！】Lapostolle Grand Selection Carmenere Rapel Valley 2019 单支/双支/六支原箱",
       "sources": [
         {
-          "channel": "普通商城",
-          "url": "https://h5.vinehoo.com/",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
         }
       ],
       "lastAttemptAt": "2026-11-04T07:37:31.215Z",
@@ -3994,7 +4003,7 @@
       "firstSeenAt": "2026-11-02T23:30:19.376Z",
       "attempts": 1,
       "state": "verified",
-      "title": "金奖新鲜桃红，市场价5折不到！",
+      "title": "【别人卖一两百还只是老年份，我们99元给双支金奖新鲜极品！】Domaine de Pellehaut Harmonie de Gascogne Rose 2024 双支/六支原箱",
       "sources": [
         {
           "channel": "普通商城",
@@ -4537,12 +4546,12 @@
       "firstSeenAt": "2026-11-03T07:56:59.740Z",
       "attempts": 1,
       "state": "verified",
-      "title": "【单支仅30+ ！年度智利酒庄+年度酿酒师出品，新鲜纯净的珍藏霞多丽！】Undurraga Reserva Chardonnay 2025 六支装/十二支原箱  ",
+      "title": "【单支仅30+ ！年度智利酒庄+年度酿酒师出品，珍藏级霞多丽新鲜口粮！】Undurraga Reserva Chardonnay 2025 六支装/十二支原箱  ",
       "sources": [
         {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
       ],
       "lastAttemptAt": "2026-11-09T08:02:15.293Z",
@@ -4665,7 +4674,7 @@
     {
       "id": 197775,
       "firstSeenAt": "2026-11-03T20:08:10.190Z",
-      "attempts": 0,
+      "attempts": 1,
       "state": "pending",
       "title": "【三位数解锁DRC同款特级园！】Domaine Maratray-Dubreuil Corton Bressandes Grand Cru 2023 温控包邮",
       "sources": [
@@ -4674,7 +4683,10 @@
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-14T07:43:56.635Z",
+      "lastErrorCode": "request_failed",
+      "nextEligibleAt": "2026-11-14T19:43:56.635Z"
     },
     {
       "id": 197776,
@@ -5694,6 +5706,20 @@
       ]
     },
     {
+      "id": 197974,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "【WA 准满分：完美诠释我钟爱的所有特质！托布雷老藤旗舰！】Torbreck Runrig Shiraz - Viognier 2004",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
       "id": 197976,
       "firstSeenAt": "2026-11-06T07:56:56.032Z",
       "attempts": 0,
@@ -6609,6 +6635,20 @@
       ]
     },
     {
+      "id": 198160,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "年度酒庄金奖长相思",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
       "id": 198164,
       "firstSeenAt": "2026-11-10T20:29:22.121Z",
       "attempts": 0,
@@ -6917,6 +6957,34 @@
       ]
     },
     {
+      "id": 198284,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "【低均好价！不愧是大胡子，见识10年前的高阶冷凉门西亚！】Raul Perez 'El Rapolao' Lomas de Valtuille 2016 套餐任选",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
+      "id": 198293,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "【RVF 评完两支特级园，说“明显更偏爱 Charmes-Chambertin”——就是这一支】Rene Bouvier Charmes-Chambertin Grand Cru 2020 ",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
       "id": 198295,
       "firstSeenAt": "2026-11-11T07:46:20.384Z",
       "attempts": 0,
@@ -7085,6 +7153,20 @@
       ]
     },
     {
+      "id": 198357,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "【JS 96分！一级A等名庄丨大年金钟副牌！】Le Carillon de l'Angelus Saint-Emilion 2019",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
       "id": 198358,
       "firstSeenAt": "2026-11-13T20:30:09.820Z",
       "attempts": 0,
@@ -7113,11 +7195,109 @@
       ]
     },
     {
+      "id": 198370,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "【立省30+！火了十年的“姨妈田”领衔！Eva亲选长相思控必入套组！】马尔堡长相思三支对饮套装",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
       "id": 198374,
       "firstSeenAt": "2026-11-13T08:00:22.869Z",
       "attempts": 0,
       "state": "pending",
       "title": "WS年度百大第二，满分单一园",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
+      "id": 198387,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "PDB的“艳后”",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
+      "id": 198388,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "【“葡萄酒教皇”的玛歌明珠！四级庄荔仙正牌！】Chateau Prieure-Lichine 2021 单支/六支原箱\t",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
+      "id": 198390,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "【特惠直降40元！香奈儿集团旗下，GCC二级名庄鲁臣世家高分正牌！】 Chateau Rauzan-Segla 2017 单支/双支/六支装",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
+      "id": 198398,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "传统BDM名家",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
+      "id": 198412,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "大红虾三杯常客名庄",
+      "sources": [
+        {
+          "channel": "普通商城",
+          "url": "https://h5.vinehoo.com/",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
+        }
+      ]
+    },
+    {
+      "id": 198413,
+      "firstSeenAt": "2026-11-14T07:37:37.902Z",
+      "attempts": 0,
+      "state": "pending",
+      "title": "JM高分评价“无可挑剔”",
       "sources": [
         {
           "channel": "普通商城",

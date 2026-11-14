@@ -3,12 +3,12 @@
   "catalogVersion": 1,
   "provider": "vinehoo",
   "observation": {
-    "runId": "2026-11-13T20-30-09-820Z",
+    "runId": "2026-11-14T07-37-37-902Z",
     "environment": "github-actions",
-    "capturedAt": "2026-11-13T20:33:50.513Z"
+    "capturedAt": "2026-11-14T07:43:56.670Z"
   },
-  "generatedAt": "2026-11-13T20:33:50.513Z",
-  "lastCollectionStartedAt": "2026-11-13T20:30:09.820Z",
+  "generatedAt": "2026-11-14T07:43:56.670Z",
+  "lastCollectionStartedAt": "2026-11-14T07:37:37.902Z",
   "wines": [
     {
       "wineId": "vinehoo:wine:112494",
@@ -709,13 +709,14 @@
       "sourceProductId": 55722,
       "name": "JJ Leitz Riesling Spatlese Rheinhessen（Rabbit）",
       "nameZh": "雷兹酒庄圣诞树雷司令晚收白葡萄酒（兔子标）",
+      "nameSource": "detail_product_info",
       "vintage": null,
       "vintageSource": "not_available",
       "bottleCapacity": "500ml",
       "country": "德国",
       "region": "莱茵黑森产区（Rheinhessen）",
       "winery": "雷兹酒庄（Leitz）",
-      "observedAt": "2026-11-02T23:33:35.100Z"
+      "observedAt": "2026-11-14T07:40:31.286Z"
     },
     {
       "wineId": "vinehoo:wine:116058",
@@ -3616,9 +3617,403 @@
       "region": "威尼托产区（Veneto）",
       "winery": "卓林酒庄（Zonin）",
       "observedAt": "2026-11-13T20:33:42.062Z"
+    },
+    {
+      "wineId": "vinehoo:wine:123160",
+      "sourceProductId": 123160,
+      "name": "Caves Jean Bourdy Cotes du Jura Blanc 2018",
+      "nameZh": "宝迪酒庄汝拉丘霞多丽干白葡萄酒2018",
+      "nameSource": "detail_product_info",
+      "vintage": 2018,
+      "vintageSource": "trailing_year_in_product_name",
+      "bottleCapacity": "750ml",
+      "country": "法国",
+      "region": "汝拉丘产区（Côtes du Jura）",
+      "winery": "宝迪酒庄（Caves Jean Bourdy）",
+      "observedAt": "2026-11-14T07:39:58.804Z"
+    },
+    {
+      "wineId": "vinehoo:wine:125907",
+      "sourceProductId": 125907,
+      "name": "Chateau Les Bedats Bois- Montet 2022",
+      "nameZh": "帕盾特级波尔多干红葡萄酒",
+      "nameSource": "detail_product_info",
+      "vintage": 2022,
+      "vintageSource": "trailing_year_in_product_name",
+      "bottleCapacity": "750ml",
+      "country": "法国",
+      "region": "超级波尔多产区（Bordeaux Superieur）",
+      "winery": "宝邑世家酒庄（MAISON BOUEY）",
+      "observedAt": "2026-11-14T07:40:09.737Z"
+    },
+    {
+      "wineId": "vinehoo:wine:122612",
+      "sourceProductId": 122612,
+      "name": "Kracher TBA No. 8 Muskat Ottonel 2015",
+      "nameZh": "格莱士8号贵腐枯萄逐粒精选甜白葡萄酒2015",
+      "nameSource": "detail_product_info",
+      "vintage": 2015,
+      "vintageSource": "trailing_year_in_product_name",
+      "bottleCapacity": "375ml",
+      "country": "奥地利",
+      "region": "布尔根兰产区（Burgenland）",
+      "winery": "格莱士酒庄（Weinlaubenhof Kracher）",
+      "observedAt": "2026-11-14T07:40:20.475Z"
+    },
+    {
+      "wineId": "vinehoo:wine:126370",
+      "sourceProductId": 126370,
+      "name": "Te Mata Estate Vineyards Sauvignon Blanc 2025",
+      "nameZh": "德迈酒庄长相思干白葡萄酒",
+      "nameSource": "detail_product_info",
+      "vintage": 2025,
+      "vintageSource": "trailing_year_in_product_name",
+      "bottleCapacity": "750ml",
+      "country": "新西兰",
+      "region": "霍克斯湾产区（Hawkes Bay）",
+      "winery": "德迈酒庄（Te Mata Estate）",
+      "observedAt": "2026-11-14T07:40:42.966Z"
+    },
+    {
+      "wineId": "vinehoo:wine:119457",
+      "sourceProductId": 119457,
+      "name": "2024 Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige",
+      "nameZh": "曼宁科尔小仙女混酿白葡萄酒",
+      "nameSource": "detail_product_info",
+      "vintage": 2024,
+      "vintageSource": "leading_year_in_product_name",
+      "bottleCapacity": "750ml",
+      "country": "意大利",
+      "region": "上阿迪杰产区（Alto Adige）",
+      "winery": "曼宁科尔（Manincor）",
+      "observedAt": "2026-11-14T07:41:05.952Z"
+    },
+    {
+      "wineId": "vinehoo:wine:126135",
+      "sourceProductId": 126135,
+      "name": "Sitial Cava NV",
+      "nameZh": "拉巴罗西蒂亚尔炫彩卡瓦起泡葡萄酒 NV 公域不卖",
+      "nameSource": "detail_product_info",
+      "vintage": null,
+      "vintageSource": "not_available",
+      "bottleCapacity": "750ml",
+      "country": "西班牙",
+      "region": "卡瓦产区（Cava）",
+      "winery": "",
+      "observedAt": "2026-11-14T07:41:17.218Z"
     }
   ],
   "listings": [
+    {
+      "listingId": "vinehoo:listing:197129",
+      "sourceListingId": 197129,
+      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197129",
+      "title": "冰桶里最吸睛的西班牙骄阳！GG金奖新鲜Cava！",
+      "wineIds": [
+        "vinehoo:wine:126135"
+      ],
+      "skuIds": [
+        "vinehoo:sku:393467",
+        "vinehoo:sku:393468"
+      ],
+      "observedAt": "2026-11-14T07:41:17.442Z",
+      "displayedPrice": {
+        "amount": "99.90",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:41:17.442Z"
+      },
+      "soldCount": 173,
+      "predictedShipmentDate": "2026-11-14",
+      "saleWindow": {
+        "start": "2026-10-20 15:20:38",
+        "end": "2026-10-27 00:00:00",
+        "timezone": "not_supplied_by_source"
+      },
+      "onsaleStatusRaw": 2,
+      "staticListingInventory": {
+        "quantity": 158,
+        "observedAt": "2026-11-14T07:41:17.218Z",
+        "note": "different level; never substituted for live SKU inventory"
+      },
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
+        }
+      ],
+      "categories": [
+        "干型起泡酒"
+      ],
+      "verificationMethod": "page_xhr_visible_price"
+    },
+    {
+      "listingId": "vinehoo:listing:196054",
+      "sourceListingId": 196054,
+      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196054",
+      "title": "【从未想到过的混酿方略！霞多丽&长相思&白皮诺竟能如此之搭？】Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige 2024 单支/双支/六支原箱 ",
+      "wineIds": [
+        "vinehoo:wine:119457"
+      ],
+      "skuIds": [
+        "vinehoo:sku:390905",
+        "vinehoo:sku:390906",
+        "vinehoo:sku:390907"
+      ],
+      "observedAt": "2026-11-14T07:41:06.216Z",
+      "displayedPrice": {
+        "amount": "159.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:41:06.216Z"
+      },
+      "soldCount": 86,
+      "predictedShipmentDate": "2026-11-14",
+      "saleWindow": {
+        "start": "2026-09-28 09:00:00",
+        "end": "2026-11-16 08:59:58",
+        "timezone": "not_supplied_by_source"
+      },
+      "onsaleStatusRaw": 2,
+      "staticListingInventory": {
+        "quantity": 35,
+        "observedAt": "2026-11-14T07:41:05.952Z",
+        "note": "different level; never substituted for live SKU inventory"
+      },
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        }
+      ],
+      "categories": [
+        "干白葡萄酒"
+      ],
+      "verificationMethod": "page_xhr_visible_price"
+    },
+    {
+      "listingId": "vinehoo:listing:195752",
+      "sourceListingId": 195752,
+      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195752",
+      "title": "【青柠番石榴水果沙冰！新西兰国宝长相思再登场！】Te Mata Estate Vineyards Sauvignon Blanc 2025 单支/双支",
+      "wineIds": [
+        "vinehoo:wine:126370"
+      ],
+      "skuIds": [
+        "vinehoo:sku:390443",
+        "vinehoo:sku:390444"
+      ],
+      "observedAt": "2026-11-14T07:40:43.193Z",
+      "displayedPrice": {
+        "amount": "128.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:43.193Z"
+      },
+      "soldCount": 115,
+      "predictedShipmentDate": "2026-11-22",
+      "saleWindow": {
+        "start": "2026-09-23 14:30:00",
+        "end": "2026-11-18 23:59:57",
+        "timezone": "not_supplied_by_source"
+      },
+      "onsaleStatusRaw": 2,
+      "staticListingInventory": {
+        "quantity": 5981,
+        "observedAt": "2026-11-14T07:40:42.966Z",
+        "note": "different level; never substituted for live SKU inventory"
+      },
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        }
+      ],
+      "categories": [
+        "干白葡萄酒"
+      ],
+      "verificationMethod": "page_xhr_visible_price"
+    },
+    {
+      "listingId": "vinehoo:listing:179189",
+      "sourceListingId": 179189,
+      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189",
+      "title": "拍照出圈的氛围感神器！小甜甜雷司令！雷兹晚收甜白",
+      "wineIds": [
+        "vinehoo:wine:55722"
+      ],
+      "skuIds": [
+        "vinehoo:sku:356226",
+        "vinehoo:sku:355891",
+        "vinehoo:sku:355892"
+      ],
+      "observedAt": "2026-11-14T07:40:31.499Z",
+      "displayedPrice": {
+        "amount": "89.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:31.499Z"
+      },
+      "soldCount": 406,
+      "predictedShipmentDate": "2026-11-14",
+      "saleWindow": {
+        "start": "2026-09-08 16:00:00",
+        "end": "2026-09-15 00:00:00",
+        "timezone": "not_supplied_by_source"
+      },
+      "onsaleStatusRaw": 2,
+      "staticListingInventory": {
+        "quantity": 6,
+        "observedAt": "2026-11-14T07:40:31.286Z",
+        "note": "different level; never substituted for live SKU inventory"
+      },
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
+        }
+      ],
+      "categories": [
+        "甜白葡萄酒",
+        "甜白葡萄酒"
+      ],
+      "verificationMethod": "page_xhr_visible_price"
+    },
+    {
+      "listingId": "vinehoo:listing:194912",
+      "sourceListingId": 194912,
+      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194912",
+      "title": "【WE满分！花香、柑橘、柠檬酸度三位一体的\"绝美\"！】Kracher TBA No. 8 Muskat Ottonel 2015 375ml 酒庄直出",
+      "wineIds": [
+        "vinehoo:wine:122612"
+      ],
+      "skuIds": [
+        "vinehoo:sku:388739"
+      ],
+      "observedAt": "2026-11-14T07:40:20.711Z",
+      "displayedPrice": {
+        "amount": "399.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:20.711Z"
+      },
+      "soldCount": 22,
+      "predictedShipmentDate": "2026-11-14",
+      "saleWindow": {
+        "start": "2026-09-06 09:30:00",
+        "end": "2026-11-15 09:29:56",
+        "timezone": "not_supplied_by_source"
+      },
+      "onsaleStatusRaw": 2,
+      "staticListingInventory": {
+        "quantity": 8,
+        "observedAt": "2026-11-14T07:40:20.475Z",
+        "note": "different level; never substituted for live SKU inventory"
+      },
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        }
+      ],
+      "categories": [
+        "甜白葡萄酒"
+      ],
+      "verificationMethod": "page_xhr_visible_price"
+    },
+    {
+      "listingId": "vinehoo:listing:194769",
+      "sourceListingId": 194769,
+      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194769",
+      "title": "【平台最低价！单支不到30喝波尔多酒业巨头超波！】Chateau Les Bedats Bois- Montet Bordeaux Superieur 2022 六支原箱/5箱囤货装",
+      "wineIds": [
+        "vinehoo:wine:125907"
+      ],
+      "skuIds": [
+        "vinehoo:sku:388562",
+        "vinehoo:sku:390213"
+      ],
+      "observedAt": "2026-11-14T07:40:09.997Z",
+      "displayedPrice": {
+        "amount": "169.90",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:09.997Z"
+      },
+      "soldCount": 452,
+      "predictedShipmentDate": "2026-11-14",
+      "saleWindow": {
+        "start": "2026-11-01 13:42:39",
+        "end": "2026-11-15 13:42:39",
+        "timezone": "not_supplied_by_source"
+      },
+      "onsaleStatusRaw": 2,
+      "staticListingInventory": {
+        "quantity": 5423,
+        "observedAt": "2026-11-14T07:40:09.737Z",
+        "note": "different level; never substituted for live SKU inventory"
+      },
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        }
+      ],
+      "categories": [
+        "干红葡萄酒"
+      ],
+      "verificationMethod": "page_xhr_visible_price"
+    },
+    {
+      "listingId": "vinehoo:listing:194497",
+      "sourceListingId": 194497,
+      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194497",
+      "title": "【16代传承汝拉“活化石”，重回霞多丽的原始纪元！】Domaine Jean Bourdy Cotes du Jura Blanc 2018 单支/双支",
+      "wineIds": [
+        "vinehoo:wine:123160"
+      ],
+      "skuIds": [
+        "vinehoo:sku:388166",
+        "vinehoo:sku:388181"
+      ],
+      "observedAt": "2026-11-14T07:39:59.050Z",
+      "displayedPrice": {
+        "amount": "249.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:39:59.050Z"
+      },
+      "soldCount": 104,
+      "predictedShipmentDate": "2026-11-14",
+      "saleWindow": {
+        "start": "2026-08-31 10:00:00",
+        "end": "2026-11-16 09:59:55",
+        "timezone": "not_supplied_by_source"
+      },
+      "onsaleStatusRaw": 2,
+      "staticListingInventory": {
+        "quantity": 9,
+        "observedAt": "2026-11-14T07:39:58.804Z",
+        "note": "different level; never substituted for live SKU inventory"
+      },
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        }
+      ],
+      "categories": [
+        "干白葡萄酒"
+      ],
+      "verificationMethod": "page_xhr_visible_price"
+    },
     {
       "listingId": "vinehoo:listing:187687",
       "sourceListingId": 187687,
@@ -14330,50 +14725,6 @@
       ]
     },
     {
-      "listingId": "vinehoo:listing:179189",
-      "sourceListingId": 179189,
-      "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189",
-      "title": "拍照出圈的氛围感神器！小甜甜雷司令！雷兹晚收甜白",
-      "wineIds": [
-        "vinehoo:wine:55722"
-      ],
-      "skuIds": [
-        "vinehoo:sku:356226",
-        "vinehoo:sku:355891",
-        "vinehoo:sku:355892"
-      ],
-      "observedAt": "2026-11-02T23:33:35.338Z",
-      "displayedPrice": {
-        "amount": "89.00",
-        "currency": "CNY",
-        "source": "live_sku_inventory_response",
-        "observedAt": "2026-11-02T23:33:35.338Z"
-      },
-      "soldCount": 399,
-      "predictedShipmentDate": "2026-11-03",
-      "saleWindow": {
-        "start": "2026-09-08 16:00:00",
-        "end": "2026-09-15 00:00:00",
-        "timezone": "not_supplied_by_source"
-      },
-      "onsaleStatusRaw": 2,
-      "staticListingInventory": {
-        "quantity": 16,
-        "observedAt": "2026-11-02T23:33:35.100Z",
-        "note": "different level; never substituted for live SKU inventory"
-      },
-      "discoverySources": [
-        {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
-        }
-      ],
-      "categories": [
-        "甜白葡萄酒"
-      ]
-    },
-    {
       "listingId": "vinehoo:listing:179037",
       "sourceListingId": 179037,
       "sourcePage": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179037",
@@ -14950,126 +15301,6 @@
         "comparison": "different",
         "conflict": true,
         "difference": 1,
-        "rawFlags": {
-          "isOnsale": 1,
-          "isHidden": 0,
-          "isHiddenPackage": 0,
-          "unlimited": 1
-        },
-        "checkoutVerified": false
-      }
-    },
-    {
-      "skuId": "vinehoo:sku:356226",
-      "sourcePackageId": 356226,
-      "listingId": "vinehoo:listing:179189",
-      "name": "单支",
-      "components": [
-        {
-          "wineId": "vinehoo:wine:55722",
-          "bottlesPerSku": 1,
-          "reportedProductInventory": 16
-        }
-      ],
-      "price": {
-        "amount": "89.00",
-        "currency": "CNY",
-        "source": "live_sku_inventory_response",
-        "observedAt": "2026-11-02T23:33:35.338Z"
-      },
-      "inventory": {
-        "primarySource": "live_sku_inventory_response",
-        "quantity": 4,
-        "observedAt": "2026-11-02T23:33:35.338Z",
-        "unit": "sellable_sku_units",
-        "availability": "available_reported_by_api",
-        "staticSnapshot": {
-          "quantity": 0,
-          "observedAt": "2026-11-02T23:33:35.100Z"
-        },
-        "comparison": "different",
-        "conflict": true,
-        "difference": 4,
-        "rawFlags": {
-          "isOnsale": 1,
-          "isHidden": 0,
-          "isHiddenPackage": 0,
-          "unlimited": 1
-        },
-        "checkoutVerified": false
-      }
-    },
-    {
-      "skuId": "vinehoo:sku:355891",
-      "sourcePackageId": 355891,
-      "listingId": "vinehoo:listing:179189",
-      "name": "双支装",
-      "components": [
-        {
-          "wineId": "vinehoo:wine:55722",
-          "bottlesPerSku": 2,
-          "reportedProductInventory": 16
-        }
-      ],
-      "price": {
-        "amount": "159.00",
-        "currency": "CNY",
-        "source": "live_sku_inventory_response",
-        "observedAt": "2026-11-02T23:33:35.338Z"
-      },
-      "inventory": {
-        "primarySource": "live_sku_inventory_response",
-        "quantity": 4,
-        "observedAt": "2026-11-02T23:33:35.338Z",
-        "unit": "sellable_sku_units",
-        "availability": "available_reported_by_api",
-        "staticSnapshot": {
-          "quantity": 0,
-          "observedAt": "2026-11-02T23:33:35.100Z"
-        },
-        "comparison": "different",
-        "conflict": true,
-        "difference": 4,
-        "rawFlags": {
-          "isOnsale": 1,
-          "isHidden": 0,
-          "isHiddenPackage": 0,
-          "unlimited": 1
-        },
-        "checkoutVerified": false
-      }
-    },
-    {
-      "skuId": "vinehoo:sku:355892",
-      "sourcePackageId": 355892,
-      "listingId": "vinehoo:listing:179189",
-      "name": "六支装",
-      "components": [
-        {
-          "wineId": "vinehoo:wine:55722",
-          "bottlesPerSku": 6,
-          "reportedProductInventory": 16
-        }
-      ],
-      "price": {
-        "amount": "449.00",
-        "currency": "CNY",
-        "source": "live_sku_inventory_response",
-        "observedAt": "2026-11-02T23:33:35.338Z"
-      },
-      "inventory": {
-        "primarySource": "live_sku_inventory_response",
-        "quantity": 2,
-        "observedAt": "2026-11-02T23:33:35.338Z",
-        "unit": "sellable_sku_units",
-        "availability": "available_reported_by_api",
-        "staticSnapshot": {
-          "quantity": 0,
-          "observedAt": "2026-11-02T23:33:35.100Z"
-        },
-        "comparison": "different",
-        "conflict": true,
-        "difference": 2,
         "rawFlags": {
           "isOnsale": 1,
           "isHidden": 0,
@@ -35163,6 +35394,606 @@
         },
         "checkoutVerified": false
       }
+    },
+    {
+      "skuId": "vinehoo:sku:388166",
+      "sourcePackageId": 388166,
+      "listingId": "vinehoo:listing:194497",
+      "name": "单支",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:123160",
+          "bottlesPerSku": 1,
+          "reportedProductInventory": 9
+        }
+      ],
+      "price": {
+        "amount": "249.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:39:59.050Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 4,
+        "observedAt": "2026-11-14T07:39:59.050Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:39:58.804Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 4,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:388181",
+      "sourcePackageId": 388181,
+      "listingId": "vinehoo:listing:194497",
+      "name": "双支装",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:123160",
+          "bottlesPerSku": 2,
+          "reportedProductInventory": 9
+        }
+      ],
+      "price": {
+        "amount": "489.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:39:59.050Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 4,
+        "observedAt": "2026-11-14T07:39:59.050Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:39:58.804Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 4,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:388562",
+      "sourcePackageId": 388562,
+      "listingId": "vinehoo:listing:194769",
+      "name": "六支原箱",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:125907",
+          "bottlesPerSku": 6,
+          "reportedProductInventory": 5423
+        }
+      ],
+      "price": {
+        "amount": "169.90",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:09.997Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 16,
+        "observedAt": "2026-11-14T07:40:09.997Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:40:09.737Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 16,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:390213",
+      "sourcePackageId": 390213,
+      "listingId": "vinehoo:listing:194769",
+      "name": "5箱囤货装",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:125907",
+          "bottlesPerSku": 30,
+          "reportedProductInventory": 5423
+        }
+      ],
+      "price": {
+        "amount": "799.90",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:09.997Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 16,
+        "observedAt": "2026-11-14T07:40:09.997Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:40:09.737Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 16,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:388739",
+      "sourcePackageId": 388739,
+      "listingId": "vinehoo:listing:194912",
+      "name": "单支",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:122612",
+          "bottlesPerSku": 1,
+          "reportedProductInventory": 8
+        }
+      ],
+      "price": {
+        "amount": "399.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:20.711Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 3,
+        "observedAt": "2026-11-14T07:40:20.711Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:40:20.475Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 3,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:356226",
+      "sourcePackageId": 356226,
+      "listingId": "vinehoo:listing:179189",
+      "name": "单支",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:55722",
+          "bottlesPerSku": 1,
+          "reportedProductInventory": 6
+        }
+      ],
+      "price": {
+        "amount": "89.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:31.499Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 6,
+        "observedAt": "2026-11-14T07:40:31.499Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:40:31.286Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 6,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:355891",
+      "sourcePackageId": 355891,
+      "listingId": "vinehoo:listing:179189",
+      "name": "双支装",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:55722",
+          "bottlesPerSku": 2,
+          "reportedProductInventory": 6
+        }
+      ],
+      "price": {
+        "amount": "159.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:31.499Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 3,
+        "observedAt": "2026-11-14T07:40:31.499Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:40:31.286Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 3,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:355892",
+      "sourcePackageId": 355892,
+      "listingId": "vinehoo:listing:179189",
+      "name": "六支装",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:55722",
+          "bottlesPerSku": 6,
+          "reportedProductInventory": 6
+        }
+      ],
+      "price": {
+        "amount": "449.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:31.499Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 1,
+        "observedAt": "2026-11-14T07:40:31.499Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:40:31.286Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 1,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:390443",
+      "sourcePackageId": 390443,
+      "listingId": "vinehoo:listing:195752",
+      "name": "单支",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:126370",
+          "bottlesPerSku": 1,
+          "reportedProductInventory": 5981
+        }
+      ],
+      "price": {
+        "amount": "128.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:43.193Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 8,
+        "observedAt": "2026-11-14T07:40:43.193Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:40:42.966Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 8,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:390444",
+      "sourcePackageId": 390444,
+      "listingId": "vinehoo:listing:195752",
+      "name": "双支装",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:126370",
+          "bottlesPerSku": 2,
+          "reportedProductInventory": 5981
+        }
+      ],
+      "price": {
+        "amount": "249.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:40:43.193Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 8,
+        "observedAt": "2026-11-14T07:40:43.193Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:40:42.966Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 8,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:390905",
+      "sourcePackageId": 390905,
+      "listingId": "vinehoo:listing:196054",
+      "name": "单支",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:119457",
+          "bottlesPerSku": 1,
+          "reportedProductInventory": 35
+        }
+      ],
+      "price": {
+        "amount": "159.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:41:06.216Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 4,
+        "observedAt": "2026-11-14T07:41:06.216Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:41:05.952Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 4,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:390906",
+      "sourcePackageId": 390906,
+      "listingId": "vinehoo:listing:196054",
+      "name": "双支装",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:119457",
+          "bottlesPerSku": 2,
+          "reportedProductInventory": 35
+        }
+      ],
+      "price": {
+        "amount": "309.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:41:06.216Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 4,
+        "observedAt": "2026-11-14T07:41:06.216Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:41:05.952Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 4,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:390907",
+      "sourcePackageId": 390907,
+      "listingId": "vinehoo:listing:196054",
+      "name": "六支原箱",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:119457",
+          "bottlesPerSku": 6,
+          "reportedProductInventory": 35
+        }
+      ],
+      "price": {
+        "amount": "918.00",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:41:06.216Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 4,
+        "observedAt": "2026-11-14T07:41:06.216Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:41:05.952Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 4,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:393467",
+      "sourcePackageId": 393467,
+      "listingId": "vinehoo:listing:197129",
+      "name": "双支装",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:126135",
+          "bottlesPerSku": 2,
+          "reportedProductInventory": 158
+        }
+      ],
+      "price": {
+        "amount": "99.90",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:41:17.442Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 7,
+        "observedAt": "2026-11-14T07:41:17.442Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:41:17.218Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 7,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
+    },
+    {
+      "skuId": "vinehoo:sku:393468",
+      "sourcePackageId": 393468,
+      "listingId": "vinehoo:listing:197129",
+      "name": "六支装",
+      "components": [
+        {
+          "wineId": "vinehoo:wine:126135",
+          "bottlesPerSku": 6,
+          "reportedProductInventory": 158
+        }
+      ],
+      "price": {
+        "amount": "269.90",
+        "currency": "CNY",
+        "source": "live_sku_inventory_response",
+        "observedAt": "2026-11-14T07:41:17.442Z"
+      },
+      "inventory": {
+        "primarySource": "live_sku_inventory_response",
+        "quantity": 7,
+        "observedAt": "2026-11-14T07:41:17.442Z",
+        "unit": "sellable_sku_units",
+        "availability": "available_reported_by_api",
+        "staticSnapshot": {
+          "quantity": 0,
+          "observedAt": "2026-11-14T07:41:17.218Z"
+        },
+        "comparison": "different",
+        "conflict": true,
+        "difference": 7,
+        "rawFlags": {
+          "isOnsale": 1,
+          "isHidden": 0,
+          "isHiddenPackage": 0,
+          "unlimited": 1
+        },
+        "checkoutVerified": false
+      }
     }
   ],
   "inventoryPolicy": {
@@ -35243,30 +36074,6 @@
       "liveQuantity": 1,
       "staticObservedAt": "2026-11-02T23:33:22.437Z",
       "liveObservedAt": "2026-11-02T23:33:22.671Z"
-    },
-    {
-      "type": "same_sku_inventory_mismatch",
-      "skuId": "vinehoo:sku:356226",
-      "staticQuantity": 0,
-      "liveQuantity": 4,
-      "staticObservedAt": "2026-11-02T23:33:35.100Z",
-      "liveObservedAt": "2026-11-02T23:33:35.338Z"
-    },
-    {
-      "type": "same_sku_inventory_mismatch",
-      "skuId": "vinehoo:sku:355891",
-      "staticQuantity": 0,
-      "liveQuantity": 4,
-      "staticObservedAt": "2026-11-02T23:33:35.100Z",
-      "liveObservedAt": "2026-11-02T23:33:35.338Z"
-    },
-    {
-      "type": "same_sku_inventory_mismatch",
-      "skuId": "vinehoo:sku:355892",
-      "staticQuantity": 0,
-      "liveQuantity": 2,
-      "staticObservedAt": "2026-11-02T23:33:35.100Z",
-      "liveObservedAt": "2026-11-02T23:33:35.338Z"
     },
     {
       "type": "same_sku_inventory_mismatch",
@@ -39227,18 +40034,138 @@
       "liveQuantity": 11,
       "staticObservedAt": "2026-11-13T20:33:42.062Z",
       "liveObservedAt": "2026-11-13T20:33:42.417Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:388166",
+      "staticQuantity": 0,
+      "liveQuantity": 4,
+      "staticObservedAt": "2026-11-14T07:39:58.804Z",
+      "liveObservedAt": "2026-11-14T07:39:59.050Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:388181",
+      "staticQuantity": 0,
+      "liveQuantity": 4,
+      "staticObservedAt": "2026-11-14T07:39:58.804Z",
+      "liveObservedAt": "2026-11-14T07:39:59.050Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:388562",
+      "staticQuantity": 0,
+      "liveQuantity": 16,
+      "staticObservedAt": "2026-11-14T07:40:09.737Z",
+      "liveObservedAt": "2026-11-14T07:40:09.997Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:390213",
+      "staticQuantity": 0,
+      "liveQuantity": 16,
+      "staticObservedAt": "2026-11-14T07:40:09.737Z",
+      "liveObservedAt": "2026-11-14T07:40:09.997Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:388739",
+      "staticQuantity": 0,
+      "liveQuantity": 3,
+      "staticObservedAt": "2026-11-14T07:40:20.475Z",
+      "liveObservedAt": "2026-11-14T07:40:20.711Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:356226",
+      "staticQuantity": 0,
+      "liveQuantity": 6,
+      "staticObservedAt": "2026-11-14T07:40:31.286Z",
+      "liveObservedAt": "2026-11-14T07:40:31.499Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:355891",
+      "staticQuantity": 0,
+      "liveQuantity": 3,
+      "staticObservedAt": "2026-11-14T07:40:31.286Z",
+      "liveObservedAt": "2026-11-14T07:40:31.499Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:355892",
+      "staticQuantity": 0,
+      "liveQuantity": 1,
+      "staticObservedAt": "2026-11-14T07:40:31.286Z",
+      "liveObservedAt": "2026-11-14T07:40:31.499Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:390443",
+      "staticQuantity": 0,
+      "liveQuantity": 8,
+      "staticObservedAt": "2026-11-14T07:40:42.966Z",
+      "liveObservedAt": "2026-11-14T07:40:43.193Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:390444",
+      "staticQuantity": 0,
+      "liveQuantity": 8,
+      "staticObservedAt": "2026-11-14T07:40:42.966Z",
+      "liveObservedAt": "2026-11-14T07:40:43.193Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:390905",
+      "staticQuantity": 0,
+      "liveQuantity": 4,
+      "staticObservedAt": "2026-11-14T07:41:05.952Z",
+      "liveObservedAt": "2026-11-14T07:41:06.216Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:390906",
+      "staticQuantity": 0,
+      "liveQuantity": 4,
+      "staticObservedAt": "2026-11-14T07:41:05.952Z",
+      "liveObservedAt": "2026-11-14T07:41:06.216Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:390907",
+      "staticQuantity": 0,
+      "liveQuantity": 4,
+      "staticObservedAt": "2026-11-14T07:41:05.952Z",
+      "liveObservedAt": "2026-11-14T07:41:06.216Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:393467",
+      "staticQuantity": 0,
+      "liveQuantity": 7,
+      "staticObservedAt": "2026-11-14T07:41:17.218Z",
+      "liveObservedAt": "2026-11-14T07:41:17.442Z"
+    },
+    {
+      "type": "same_sku_inventory_mismatch",
+      "skuId": "vinehoo:sku:393468",
+      "staticQuantity": 0,
+      "liveQuantity": 7,
+      "staticObservedAt": "2026-11-14T07:41:17.218Z",
+      "liveObservedAt": "2026-11-14T07:41:17.442Z"
     }
   ],
   "coverage": {
-    "discoveredAt": "2026-11-13T20:31:55.015Z",
-    "totalUnique": 165,
+    "discoveredAt": "2026-11-14T07:39:24.802Z",
+    "totalUnique": 158,
     "channels": [
       {
         "channel": "现货速发",
         "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-        "newCandidates": 14,
-        "observedCandidates": 14,
-        "elapsedMs": 6007,
+        "newCandidates": 13,
+        "observedCandidates": 13,
+        "elapsedMs": 6715,
         "responseParseFailures": 0,
         "error": null
       },
@@ -39246,8 +40173,8 @@
         "channel": "普通商城",
         "url": "https://h5.vinehoo.com/",
         "newCandidates": 111,
-        "observedCandidates": 115,
-        "elapsedMs": 13056,
+        "observedCandidates": 113,
+        "elapsedMs": 13068,
         "responseParseFailures": 0,
         "error": null
       },
@@ -39256,25 +40183,25 @@
         "url": "https://h5.vinehoo.com/packageA/pages/more-than-wine/more-than-wine?id=242",
         "newCandidates": 0,
         "observedCandidates": 4,
-        "elapsedMs": 13095,
+        "elapsedMs": 13091,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "分类·法国",
         "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
-        "newCandidates": 12,
+        "newCandidates": 13,
         "observedCandidates": 17,
-        "elapsedMs": 15485,
+        "elapsedMs": 17054,
         "responseParseFailures": 0,
         "error": null
       },
       {
         "channel": "分类·意大利",
         "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=29&type=colum",
-        "newCandidates": 14,
+        "newCandidates": 15,
         "observedCandidates": 16,
-        "elapsedMs": 15133,
+        "elapsedMs": 15063,
         "responseParseFailures": 0,
         "error": null
       }
@@ -39284,12 +40211,1168 @@
       "status": 200,
       "provided": false,
       "note": "Site returned SPA HTML instead of robots directives",
-      "checkedAt": "2026-11-13T20:30:12.186Z"
+      "checkedAt": "2026-11-14T07:37:39.760Z"
     }
   },
-  "collectionErrors": [],
-  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/43502045262",
+  "collectionErrors": [
+    {
+      "id": 179037,
+      "code": "price_not_public",
+      "message": "Public page does not display a product price",
+      "diagnostics": {
+        "received": [
+          "detail",
+          "inventory"
+        ],
+        "requestFailures": [],
+        "pageErrors": [],
+        "network": [
+          {
+            "phase": "request",
+            "elapsedMs": 2,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 264,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 273,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 274,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 274,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 274,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 276,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 277,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 492,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 4844,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 4961,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 4961,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 4961,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 4961,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 4962,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "domcontentloaded",
+            "elapsedMs": 4966
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 5155,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 5190,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 5192,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 5319,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 5581,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 5603,
+            "host": "img.vinehoo.com",
+            "path": "/vinehoo/client/commodities/periods/179037.json",
+            "type": "xhr",
+            "kind": "detail"
+          },
+          {
+            "phase": "load",
+            "elapsedMs": 5607
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 6729,
+            "host": "img.vinehoo.com",
+            "path": "/vinehoo/client/commodities/periods/179037.json",
+            "type": "xhr",
+            "kind": "detail",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 6804,
+            "host": "h5.vinehoo.com",
+            "path": "/api/commodities/v3/package/getPeriodsSecondPackageInventory",
+            "type": "xhr",
+            "kind": "inventory"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 7526,
+            "host": "h5.vinehoo.com",
+            "path": "/api/commodities/v3/package/getPeriodsSecondPackageInventory",
+            "type": "xhr",
+            "kind": "inventory",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 7530,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "xhr",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 7531,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "xhr",
+            "kind": "other"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 7819,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "xhr",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 7826,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "xhr",
+            "kind": "other",
+            "status": 200
+          }
+        ]
+      },
+      "at": "2026-11-14T07:39:33.918Z"
+    },
+    {
+      "id": 194197,
+      "code": "price_not_public",
+      "message": "Public page does not display a product price",
+      "diagnostics": {
+        "received": [
+          "detail",
+          "inventory"
+        ],
+        "requestFailures": [],
+        "pageErrors": [],
+        "network": [
+          {
+            "phase": "request",
+            "elapsedMs": 5,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 681,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 688,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 688,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 688,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 688,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 692,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 694,
+            "host": "img.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 1138,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2323,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 2440,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 2441,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 2441,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 2442,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 2442,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other"
+          },
+          {
+            "phase": "domcontentloaded",
+            "elapsedMs": 2446
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2631,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2641,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2713,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 2943,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 3047,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "script",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 3069,
+            "host": "img.vinehoo.com",
+            "path": "/vinehoo/client/commodities/periods/194197.json",
+            "type": "xhr",
+            "kind": "detail"
+          },
+          {
+            "phase": "load",
+            "elapsedMs": 3071
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 3722,
+            "host": "img.vinehoo.com",
+            "path": "/vinehoo/client/commodities/periods/194197.json",
+            "type": "xhr",
+            "kind": "detail",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 3774,
+            "host": "h5.vinehoo.com",
+            "path": "/api/commodities/v3/package/getPeriodsPackageInventory",
+            "type": "xhr",
+            "kind": "inventory"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 4088,
+            "host": "h5.vinehoo.com",
+            "path": "/api/commodities/v3/package/getPeriodsPackageInventory",
+            "type": "xhr",
+            "kind": "inventory",
+            "status": 200
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 4092,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "xhr",
+            "kind": "other"
+          },
+          {
+            "phase": "request",
+            "elapsedMs": 4092,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "xhr",
+            "kind": "other"
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 4372,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "xhr",
+            "kind": "other",
+            "status": 200
+          },
+          {
+            "phase": "response",
+            "elapsedMs": 4847,
+            "host": "h5.vinehoo.com",
+            "path": "[first-party script or commodity endpoint]",
+            "type": "xhr",
+            "kind": "other",
+            "status": 200
+          }
+        ]
+      },
+      "at": "2026-11-14T07:39:47.584Z"
+    },
+    {
+      "id": 195748,
+      "code": "request_failed",
+      "message": "page.goto: Timeout 45000ms exceeded.",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [
+          {
+            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195748",
+            "reason": "net::ERR_ABORTED"
+          }
+        ],
+        "pageErrors": [],
+        "network": [
+          {
+            "phase": "request",
+            "elapsedMs": 2,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other"
+          }
+        ]
+      },
+      "at": "2026-11-14T07:42:10.554Z"
+    },
+    {
+      "id": 182282,
+      "code": "request_failed",
+      "message": "page.goto: Timeout 45000ms exceeded.",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [
+          {
+            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182282",
+            "reason": "net::ERR_ABORTED"
+          }
+        ],
+        "pageErrors": [],
+        "network": [
+          {
+            "phase": "request",
+            "elapsedMs": 2,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other"
+          }
+        ]
+      },
+      "at": "2026-11-14T07:43:03.593Z"
+    },
+    {
+      "id": 197775,
+      "code": "request_failed",
+      "message": "page.goto: Timeout 45000ms exceeded.",
+      "diagnostics": {
+        "received": [],
+        "requestFailures": [
+          {
+            "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197775",
+            "reason": "net::ERR_ABORTED"
+          }
+        ],
+        "pageErrors": [],
+        "network": [
+          {
+            "phase": "request",
+            "elapsedMs": 2,
+            "host": "h5.vinehoo.com",
+            "path": "/pages/goods-detail/goods-detail",
+            "type": "document",
+            "kind": "other"
+          }
+        ]
+      },
+      "at": "2026-11-14T07:43:56.635Z"
+    }
+  ],
+  "runUrl": "https://github.com/Ataraxiary/wineradar-catalog/actions/runs/43571939147",
   "items": [
+    {
+      "id": 197129,
+      "title": "冰桶里最吸睛的西班牙骄阳！GG金奖新鲜Cava！",
+      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197129",
+      "wineNames": [
+        "Sitial Cava NV"
+      ],
+      "wineNamesZh": [
+        "拉巴罗西蒂亚尔炫彩卡瓦起泡葡萄酒 NV 公域不卖"
+      ],
+      "vintages": [],
+      "vintageUnknownCount": 1,
+      "countries": [
+        "西班牙"
+      ],
+      "countryUnknownCount": 0,
+      "regions": [
+        "卡瓦产区（Cava）"
+      ],
+      "capacities": [
+        "750ml"
+      ],
+      "minPrice": 99.9,
+      "currency": "CNY",
+      "availability": "available",
+      "observedAt": "2026-11-14T07:41:17.442Z",
+      "collectionStatus": "success",
+      "lastAttemptError": null,
+      "verificationMethod": "page_xhr_visible_price",
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
+        }
+      ],
+      "offers": [
+        {
+          "skuId": 393467,
+          "name": "双支装",
+          "price": "99.90",
+          "currency": "CNY",
+          "inventory": 7,
+          "lastKnownInventory": 7,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:41:17.442Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:126135",
+              "bottlesPerSku": 2,
+              "reportedProductInventory": 158
+            }
+          ]
+        },
+        {
+          "skuId": 393468,
+          "name": "六支装",
+          "price": "269.90",
+          "currency": "CNY",
+          "inventory": 7,
+          "lastKnownInventory": 7,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:41:17.442Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:126135",
+              "bottlesPerSku": 6,
+              "reportedProductInventory": 158
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 196054,
+      "title": "【从未想到过的混酿方略！霞多丽&长相思&白皮诺竟能如此之搭？】Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige 2024 单支/双支/六支原箱 ",
+      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196054",
+      "wineNames": [
+        "2024 Manincor 'La Manina' Pinot Bianco - Sauvignon - Chardonnay Alto Adige"
+      ],
+      "wineNamesZh": [
+        "曼宁科尔小仙女混酿白葡萄酒"
+      ],
+      "vintages": [
+        2024
+      ],
+      "vintageUnknownCount": 0,
+      "countries": [
+        "意大利"
+      ],
+      "countryUnknownCount": 0,
+      "regions": [
+        "上阿迪杰产区（Alto Adige）"
+      ],
+      "capacities": [
+        "750ml"
+      ],
+      "minPrice": 159,
+      "currency": "CNY",
+      "availability": "available",
+      "observedAt": "2026-11-14T07:41:06.216Z",
+      "collectionStatus": "success",
+      "lastAttemptError": null,
+      "verificationMethod": "page_xhr_visible_price",
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        }
+      ],
+      "offers": [
+        {
+          "skuId": 390905,
+          "name": "单支",
+          "price": "159.00",
+          "currency": "CNY",
+          "inventory": 4,
+          "lastKnownInventory": 4,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:41:06.216Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:119457",
+              "bottlesPerSku": 1,
+              "reportedProductInventory": 35
+            }
+          ]
+        },
+        {
+          "skuId": 390906,
+          "name": "双支装",
+          "price": "309.00",
+          "currency": "CNY",
+          "inventory": 4,
+          "lastKnownInventory": 4,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:41:06.216Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:119457",
+              "bottlesPerSku": 2,
+              "reportedProductInventory": 35
+            }
+          ]
+        },
+        {
+          "skuId": 390907,
+          "name": "六支原箱",
+          "price": "918.00",
+          "currency": "CNY",
+          "inventory": 4,
+          "lastKnownInventory": 4,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:41:06.216Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:119457",
+              "bottlesPerSku": 6,
+              "reportedProductInventory": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 195752,
+      "title": "【青柠番石榴水果沙冰！新西兰国宝长相思再登场！】Te Mata Estate Vineyards Sauvignon Blanc 2025 单支/双支",
+      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195752",
+      "wineNames": [
+        "Te Mata Estate Vineyards Sauvignon Blanc 2025"
+      ],
+      "wineNamesZh": [
+        "德迈酒庄长相思干白葡萄酒"
+      ],
+      "vintages": [
+        2025
+      ],
+      "vintageUnknownCount": 0,
+      "countries": [
+        "新西兰"
+      ],
+      "countryUnknownCount": 0,
+      "regions": [
+        "霍克斯湾产区（Hawkes Bay）"
+      ],
+      "capacities": [
+        "750ml"
+      ],
+      "minPrice": 128,
+      "currency": "CNY",
+      "availability": "available",
+      "observedAt": "2026-11-14T07:40:43.193Z",
+      "collectionStatus": "success",
+      "lastAttemptError": null,
+      "verificationMethod": "page_xhr_visible_price",
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        }
+      ],
+      "offers": [
+        {
+          "skuId": 390443,
+          "name": "单支",
+          "price": "128.00",
+          "currency": "CNY",
+          "inventory": 8,
+          "lastKnownInventory": 8,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:40:43.193Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:126370",
+              "bottlesPerSku": 1,
+              "reportedProductInventory": 5981
+            }
+          ]
+        },
+        {
+          "skuId": 390444,
+          "name": "双支装",
+          "price": "249.00",
+          "currency": "CNY",
+          "inventory": 8,
+          "lastKnownInventory": 8,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:40:43.193Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:126370",
+              "bottlesPerSku": 2,
+              "reportedProductInventory": 5981
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 179189,
+      "title": "拍照出圈的氛围感神器！小甜甜雷司令！雷兹晚收甜白",
+      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189",
+      "wineNames": [
+        "JJ Leitz Riesling Spatlese Rheinhessen（Rabbit）"
+      ],
+      "wineNamesZh": [
+        "雷兹酒庄圣诞树雷司令晚收白葡萄酒（兔子标）"
+      ],
+      "vintages": [],
+      "vintageUnknownCount": 1,
+      "countries": [
+        "德国"
+      ],
+      "countryUnknownCount": 0,
+      "regions": [
+        "莱茵黑森产区（Rheinhessen）"
+      ],
+      "capacities": [
+        "500ml"
+      ],
+      "minPrice": 89,
+      "currency": "CNY",
+      "availability": "available",
+      "observedAt": "2026-11-14T07:40:31.499Z",
+      "collectionStatus": "success",
+      "lastAttemptError": null,
+      "verificationMethod": "page_xhr_visible_price",
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
+        }
+      ],
+      "offers": [
+        {
+          "skuId": 356226,
+          "name": "单支",
+          "price": "89.00",
+          "currency": "CNY",
+          "inventory": 6,
+          "lastKnownInventory": 6,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:40:31.499Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:55722",
+              "bottlesPerSku": 1,
+              "reportedProductInventory": 6
+            }
+          ]
+        },
+        {
+          "skuId": 355891,
+          "name": "双支装",
+          "price": "159.00",
+          "currency": "CNY",
+          "inventory": 3,
+          "lastKnownInventory": 3,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:40:31.499Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:55722",
+              "bottlesPerSku": 2,
+              "reportedProductInventory": 6
+            }
+          ]
+        },
+        {
+          "skuId": 355892,
+          "name": "六支装",
+          "price": "449.00",
+          "currency": "CNY",
+          "inventory": 1,
+          "lastKnownInventory": 1,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:40:31.499Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:55722",
+              "bottlesPerSku": 6,
+              "reportedProductInventory": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 194912,
+      "title": "【WE满分！花香、柑橘、柠檬酸度三位一体的\"绝美\"！】Kracher TBA No. 8 Muskat Ottonel 2015 375ml 酒庄直出",
+      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194912",
+      "wineNames": [
+        "Kracher TBA No. 8 Muskat Ottonel 2015"
+      ],
+      "wineNamesZh": [
+        "格莱士8号贵腐枯萄逐粒精选甜白葡萄酒2015"
+      ],
+      "vintages": [
+        2015
+      ],
+      "vintageUnknownCount": 0,
+      "countries": [
+        "奥地利"
+      ],
+      "countryUnknownCount": 0,
+      "regions": [
+        "布尔根兰产区（Burgenland）"
+      ],
+      "capacities": [
+        "375ml"
+      ],
+      "minPrice": 399,
+      "currency": "CNY",
+      "availability": "available",
+      "observedAt": "2026-11-14T07:40:20.711Z",
+      "collectionStatus": "success",
+      "lastAttemptError": null,
+      "verificationMethod": "page_xhr_visible_price",
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        }
+      ],
+      "offers": [
+        {
+          "skuId": 388739,
+          "name": "单支",
+          "price": "399.00",
+          "currency": "CNY",
+          "inventory": 3,
+          "lastKnownInventory": 3,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:40:20.711Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:122612",
+              "bottlesPerSku": 1,
+              "reportedProductInventory": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 194769,
+      "title": "【平台最低价！单支不到30喝波尔多酒业巨头超波！】Chateau Les Bedats Bois- Montet Bordeaux Superieur 2022 六支原箱/5箱囤货装",
+      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194769",
+      "wineNames": [
+        "Chateau Les Bedats Bois- Montet 2022"
+      ],
+      "wineNamesZh": [
+        "帕盾特级波尔多干红葡萄酒"
+      ],
+      "vintages": [
+        2022
+      ],
+      "vintageUnknownCount": 0,
+      "countries": [
+        "法国"
+      ],
+      "countryUnknownCount": 0,
+      "regions": [
+        "超级波尔多产区（Bordeaux Superieur）"
+      ],
+      "capacities": [
+        "750ml"
+      ],
+      "minPrice": 169.9,
+      "currency": "CNY",
+      "availability": "available",
+      "observedAt": "2026-11-14T07:40:09.997Z",
+      "collectionStatus": "success",
+      "lastAttemptError": null,
+      "verificationMethod": "page_xhr_visible_price",
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        }
+      ],
+      "offers": [
+        {
+          "skuId": 388562,
+          "name": "六支原箱",
+          "price": "169.90",
+          "currency": "CNY",
+          "inventory": 16,
+          "lastKnownInventory": 16,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:40:09.997Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:125907",
+              "bottlesPerSku": 6,
+              "reportedProductInventory": 5423
+            }
+          ]
+        },
+        {
+          "skuId": 390213,
+          "name": "5箱囤货装",
+          "price": "799.90",
+          "currency": "CNY",
+          "inventory": 16,
+          "lastKnownInventory": 16,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:40:09.997Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:125907",
+              "bottlesPerSku": 30,
+              "reportedProductInventory": 5423
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 194497,
+      "title": "【16代传承汝拉“活化石”，重回霞多丽的原始纪元！】Domaine Jean Bourdy Cotes du Jura Blanc 2018 单支/双支",
+      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194497",
+      "wineNames": [
+        "Caves Jean Bourdy Cotes du Jura Blanc 2018"
+      ],
+      "wineNamesZh": [
+        "宝迪酒庄汝拉丘霞多丽干白葡萄酒2018"
+      ],
+      "vintages": [
+        2018
+      ],
+      "vintageUnknownCount": 0,
+      "countries": [
+        "法国"
+      ],
+      "countryUnknownCount": 0,
+      "regions": [
+        "汝拉丘产区（Côtes du Jura）"
+      ],
+      "capacities": [
+        "750ml"
+      ],
+      "minPrice": 249,
+      "currency": "CNY",
+      "availability": "available",
+      "observedAt": "2026-11-14T07:39:59.050Z",
+      "collectionStatus": "success",
+      "lastAttemptError": null,
+      "verificationMethod": "page_xhr_visible_price",
+      "discoverySources": [
+        {
+          "channel": "现货速发",
+          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
+          "api": "https://h5.vinehoo.com/api/commodities_server/v3/second_home/aggregation_v2?client=3"
+        }
+      ],
+      "offers": [
+        {
+          "skuId": 388166,
+          "name": "单支",
+          "price": "249.00",
+          "currency": "CNY",
+          "inventory": 4,
+          "lastKnownInventory": 4,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:39:59.050Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:123160",
+              "bottlesPerSku": 1,
+              "reportedProductInventory": 9
+            }
+          ]
+        },
+        {
+          "skuId": 388181,
+          "name": "双支装",
+          "price": "489.00",
+          "currency": "CNY",
+          "inventory": 4,
+          "lastKnownInventory": 4,
+          "availability": "available_reported_by_api",
+          "observedAt": "2026-11-14T07:39:59.050Z",
+          "inventoryConflict": true,
+          "components": [
+            {
+              "wineId": "vinehoo:wine:123160",
+              "bottlesPerSku": 2,
+              "reportedProductInventory": 9
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": 187687,
       "title": "【一口蜜桃&白花香气！清爽轻甜，低酒精微气泡感！】Zonin Primo Amore  Blanco  单支/双支/六支原箱",
@@ -39314,10 +41397,13 @@
       ],
       "minPrice": 59,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-13T20:33:42.417Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -39332,9 +41418,9 @@
           "name": "单支",
           "price": "59.00",
           "currency": "CNY",
-          "inventory": 11,
+          "inventory": null,
           "lastKnownInventory": 11,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:33:42.417Z",
           "inventoryConflict": true,
           "components": [
@@ -39350,9 +41436,9 @@
           "name": "双支装",
           "price": "99.00",
           "currency": "CNY",
-          "inventory": 11,
+          "inventory": null,
           "lastKnownInventory": 11,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:33:42.417Z",
           "inventoryConflict": true,
           "components": [
@@ -39368,9 +41454,9 @@
           "name": "六支原箱",
           "price": "279.00",
           "currency": "CNY",
-          "inventory": 11,
+          "inventory": null,
           "lastKnownInventory": 11,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:33:42.417Z",
           "inventoryConflict": true,
           "components": [
@@ -39407,10 +41493,13 @@
       ],
       "minPrice": 469,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-13T20:33:30.473Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -39425,9 +41514,9 @@
           "name": "单支",
           "price": "469.00",
           "currency": "CNY",
-          "inventory": 8,
+          "inventory": null,
           "lastKnownInventory": 8,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:33:30.473Z",
           "inventoryConflict": true,
           "components": [
@@ -39443,9 +41532,9 @@
           "name": "双支装",
           "price": "930.00",
           "currency": "CNY",
-          "inventory": 8,
+          "inventory": null,
           "lastKnownInventory": 8,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:33:30.473Z",
           "inventoryConflict": true,
           "components": [
@@ -39461,9 +41550,9 @@
           "name": "六支装",
           "price": "2780.00",
           "currency": "CNY",
-          "inventory": 3,
+          "inventory": null,
           "lastKnownInventory": 3,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:33:30.473Z",
           "inventoryConflict": true,
           "components": [
@@ -39502,10 +41591,13 @@
       ],
       "minPrice": 59.9,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-13T20:33:19.439Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -39520,9 +41612,9 @@
           "name": "单支",
           "price": "59.90",
           "currency": "CNY",
-          "inventory": 8,
+          "inventory": null,
           "lastKnownInventory": 8,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:33:19.439Z",
           "inventoryConflict": true,
           "components": [
@@ -39538,9 +41630,9 @@
           "name": "双支装",
           "price": "109.90",
           "currency": "CNY",
-          "inventory": 8,
+          "inventory": null,
           "lastKnownInventory": 8,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:33:19.439Z",
           "inventoryConflict": true,
           "components": [
@@ -39556,9 +41648,9 @@
           "name": "六支原箱",
           "price": "299.90",
           "currency": "CNY",
-          "inventory": 8,
+          "inventory": null,
           "lastKnownInventory": 8,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:33:19.439Z",
           "inventoryConflict": true,
           "components": [
@@ -39597,10 +41689,13 @@
       ],
       "minPrice": 239,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-13T20:33:08.104Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -39615,9 +41710,9 @@
           "name": "单支",
           "price": "239.00",
           "currency": "CNY",
-          "inventory": 5,
+          "inventory": null,
           "lastKnownInventory": 5,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:33:08.104Z",
           "inventoryConflict": true,
           "components": [
@@ -39656,10 +41751,13 @@
       ],
       "minPrice": 139,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-13T20:32:56.987Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -39674,9 +41772,9 @@
           "name": "单支",
           "price": "139.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:32:56.987Z",
           "inventoryConflict": true,
           "components": [
@@ -39692,9 +41790,9 @@
           "name": "双支装",
           "price": "269.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:32:56.987Z",
           "inventoryConflict": true,
           "components": [
@@ -39710,9 +41808,9 @@
           "name": "六支装",
           "price": "780.00",
           "currency": "CNY",
-          "inventory": 7,
+          "inventory": null,
           "lastKnownInventory": 7,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:32:56.987Z",
           "inventoryConflict": true,
           "components": [
@@ -39751,10 +41849,13 @@
       ],
       "minPrice": 99.9,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-13T20:32:45.653Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -39769,9 +41870,9 @@
           "name": "双支装",
           "price": "99.90",
           "currency": "CNY",
-          "inventory": 5,
+          "inventory": null,
           "lastKnownInventory": 5,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:32:45.653Z",
           "inventoryConflict": true,
           "components": [
@@ -39787,9 +41888,9 @@
           "name": "六支装",
           "price": "269.90",
           "currency": "CNY",
-          "inventory": 5,
+          "inventory": null,
           "lastKnownInventory": 5,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:32:45.653Z",
           "inventoryConflict": true,
           "components": [
@@ -39828,10 +41929,13 @@
       ],
       "minPrice": 279,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-13T20:32:33.875Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -39846,9 +41950,9 @@
           "name": "单支",
           "price": "279.00",
           "currency": "CNY",
-          "inventory": 2,
+          "inventory": null,
           "lastKnownInventory": 2,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:32:33.875Z",
           "inventoryConflict": true,
           "components": [
@@ -39887,10 +41991,13 @@
       ],
       "minPrice": 199.9,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-13T20:32:21.825Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -39905,9 +42012,9 @@
           "name": "单支",
           "price": "199.90",
           "currency": "CNY",
-          "inventory": 6,
+          "inventory": null,
           "lastKnownInventory": 6,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:32:21.825Z",
           "inventoryConflict": true,
           "components": [
@@ -39946,10 +42053,13 @@
       ],
       "minPrice": 169.9,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-13T20:32:09.853Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -39964,9 +42074,9 @@
           "name": "买一送一",
           "price": "169.90",
           "currency": "CNY",
-          "inventory": 9,
+          "inventory": null,
           "lastKnownInventory": 9,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:32:09.853Z",
           "inventoryConflict": true,
           "components": [
@@ -39982,9 +42092,9 @@
           "name": "买三送三",
           "price": "499.00",
           "currency": "CNY",
-          "inventory": 9,
+          "inventory": null,
           "lastKnownInventory": 9,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:32:09.853Z",
           "inventoryConflict": true,
           "components": [
@@ -40025,10 +42135,13 @@
       ],
       "minPrice": 89.9,
       "currency": "CNY",
-      "availability": "available",
+      "availability": "unknown",
       "observedAt": "2026-11-13T20:31:59.251Z",
-      "collectionStatus": "success",
-      "lastAttemptError": null,
+      "collectionStatus": "failed",
+      "lastAttemptError": {
+        "code": "not_refreshed",
+        "message": "Retained from an earlier observation"
+      },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
         {
@@ -40043,9 +42156,9 @@
           "name": "红 单支",
           "price": "89.90",
           "currency": "CNY",
-          "inventory": 12,
+          "inventory": null,
           "lastKnownInventory": 12,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:31:59.251Z",
           "inventoryConflict": true,
           "components": [
@@ -40061,9 +42174,9 @@
           "name": "白 单支",
           "price": "89.90",
           "currency": "CNY",
-          "inventory": 12,
+          "inventory": null,
           "lastKnownInventory": 12,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:31:59.251Z",
           "inventoryConflict": true,
           "components": [
@@ -40079,9 +42192,9 @@
           "name": "双支组合装",
           "price": "168.00",
           "currency": "CNY",
-          "inventory": 12,
+          "inventory": null,
           "lastKnownInventory": 12,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:31:59.251Z",
           "inventoryConflict": true,
           "components": [
@@ -40102,9 +42215,9 @@
           "name": "白 六支装",
           "price": "489.00",
           "currency": "CNY",
-          "inventory": 11,
+          "inventory": null,
           "lastKnownInventory": 11,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:31:59.251Z",
           "inventoryConflict": true,
           "components": [
@@ -40120,9 +42233,9 @@
           "name": "红 六支装",
           "price": "489.00",
           "currency": "CNY",
-          "inventory": 12,
+          "inventory": null,
           "lastKnownInventory": 12,
-          "availability": "available_reported_by_api",
+          "availability": "unknown",
           "observedAt": "2026-11-13T20:31:59.251Z",
           "inventoryConflict": true,
           "components": [
@@ -59035,8 +61148,30 @@
       "observedAt": "2026-11-02T23:36:34.229Z",
       "collectionStatus": "failed",
       "lastAttemptError": {
-        "code": "not_refreshed",
-        "message": "Retained from an earlier observation"
+        "id": 182282,
+        "code": "request_failed",
+        "message": "page.goto: Timeout 45000ms exceeded.",
+        "diagnostics": {
+          "received": [],
+          "requestFailures": [
+            {
+              "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182282",
+              "reason": "net::ERR_ABORTED"
+            }
+          ],
+          "pageErrors": [],
+          "network": [
+            {
+              "phase": "request",
+              "elapsedMs": 2,
+              "host": "h5.vinehoo.com",
+              "path": "/pages/goods-detail/goods-detail",
+              "type": "document",
+              "kind": "other"
+            }
+          ]
+        },
+        "at": "2026-11-14T07:43:03.593Z"
       },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
@@ -59091,102 +61226,6 @@
       ]
     },
     {
-      "id": 179189,
-      "title": "拍照出圈的氛围感神器！小甜甜雷司令！雷兹晚收甜白",
-      "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179189",
-      "wineNames": [
-        "JJ Leitz Riesling Spatlese Rheinhessen（Rabbit）"
-      ],
-      "wineNamesZh": [
-        "雷兹酒庄圣诞树雷司令晚收白葡萄酒（兔子标）"
-      ],
-      "vintages": [],
-      "vintageUnknownCount": 1,
-      "countries": [
-        "德国"
-      ],
-      "countryUnknownCount": 0,
-      "regions": [
-        "莱茵黑森产区（Rheinhessen）"
-      ],
-      "capacities": [
-        "500ml"
-      ],
-      "minPrice": 89,
-      "currency": "CNY",
-      "availability": "unknown",
-      "observedAt": "2026-11-02T23:33:35.338Z",
-      "collectionStatus": "failed",
-      "lastAttemptError": {
-        "code": "not_refreshed",
-        "message": "Retained from an earlier observation"
-      },
-      "verificationMethod": "page_xhr_visible_price",
-      "discoverySources": [
-        {
-          "channel": "现货速发",
-          "url": "https://h5.vinehoo.com/pages/miaofa/miaofa",
-          "api": "https://h5.vinehoo.com/api/openapi/v3/commodity/list"
-        }
-      ],
-      "offers": [
-        {
-          "skuId": 356226,
-          "name": "单支",
-          "price": "89.00",
-          "currency": "CNY",
-          "inventory": null,
-          "lastKnownInventory": 4,
-          "availability": "unknown",
-          "observedAt": "2026-11-02T23:33:35.338Z",
-          "inventoryConflict": true,
-          "components": [
-            {
-              "wineId": "vinehoo:wine:55722",
-              "bottlesPerSku": 1,
-              "reportedProductInventory": 16
-            }
-          ]
-        },
-        {
-          "skuId": 355891,
-          "name": "双支装",
-          "price": "159.00",
-          "currency": "CNY",
-          "inventory": null,
-          "lastKnownInventory": 4,
-          "availability": "unknown",
-          "observedAt": "2026-11-02T23:33:35.338Z",
-          "inventoryConflict": true,
-          "components": [
-            {
-              "wineId": "vinehoo:wine:55722",
-              "bottlesPerSku": 2,
-              "reportedProductInventory": 16
-            }
-          ]
-        },
-        {
-          "skuId": 355892,
-          "name": "六支装",
-          "price": "449.00",
-          "currency": "CNY",
-          "inventory": null,
-          "lastKnownInventory": 2,
-          "availability": "unknown",
-          "observedAt": "2026-11-02T23:33:35.338Z",
-          "inventoryConflict": true,
-          "components": [
-            {
-              "wineId": "vinehoo:wine:55722",
-              "bottlesPerSku": 6,
-              "reportedProductInventory": 16
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": 179037,
       "title": "VDP创始元老出品特级园老藤双金奖干白！你一定要试试！",
       "url": "https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=179037",
@@ -59216,8 +61255,266 @@
       "observedAt": "2026-11-02T23:33:22.671Z",
       "collectionStatus": "failed",
       "lastAttemptError": {
-        "code": "not_refreshed",
-        "message": "Retained from an earlier observation"
+        "id": 179037,
+        "code": "price_not_public",
+        "message": "Public page does not display a product price",
+        "diagnostics": {
+          "received": [
+            "detail",
+            "inventory"
+          ],
+          "requestFailures": [],
+          "pageErrors": [],
+          "network": [
+            {
+              "phase": "request",
+              "elapsedMs": 2,
+              "host": "h5.vinehoo.com",
+              "path": "/pages/goods-detail/goods-detail",
+              "type": "document",
+              "kind": "other"
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 264,
+              "host": "h5.vinehoo.com",
+              "path": "/pages/goods-detail/goods-detail",
+              "type": "document",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 273,
+              "host": "img.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other"
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 274,
+              "host": "img.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other"
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 274,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other"
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 274,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other"
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 276,
+              "host": "img.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 277,
+              "host": "img.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 492,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 4844,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 4961,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other"
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 4961,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other"
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 4961,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other"
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 4961,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other"
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 4962,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other"
+            },
+            {
+              "phase": "domcontentloaded",
+              "elapsedMs": 4966
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 5155,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 5190,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 5192,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 5319,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 5581,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "script",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 5603,
+              "host": "img.vinehoo.com",
+              "path": "/vinehoo/client/commodities/periods/179037.json",
+              "type": "xhr",
+              "kind": "detail"
+            },
+            {
+              "phase": "load",
+              "elapsedMs": 5607
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 6729,
+              "host": "img.vinehoo.com",
+              "path": "/vinehoo/client/commodities/periods/179037.json",
+              "type": "xhr",
+              "kind": "detail",
+              "status": 200
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 6804,
+              "host": "h5.vinehoo.com",
+              "path": "/api/commodities/v3/package/getPeriodsSecondPackageInventory",
+              "type": "xhr",
+              "kind": "inventory"
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 7526,
+              "host": "h5.vinehoo.com",
+              "path": "/api/commodities/v3/package/getPeriodsSecondPackageInventory",
+              "type": "xhr",
+              "kind": "inventory",
+              "status": 200
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 7530,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "xhr",
+              "kind": "other"
+            },
+            {
+              "phase": "request",
+              "elapsedMs": 7531,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "xhr",
+              "kind": "other"
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 7819,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "xhr",
+              "kind": "other",
+              "status": 200
+            },
+            {
+              "phase": "response",
+              "elapsedMs": 7826,
+              "host": "h5.vinehoo.com",
+              "path": "[first-party script or commodity endpoint]",
+              "type": "xhr",
+              "kind": "other",
+              "status": 200
+            }
+          ]
+        },
+        "at": "2026-11-14T07:39:33.918Z"
       },
       "verificationMethod": "page_xhr_visible_price",
       "discoverySources": [
