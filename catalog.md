@@ -1,36 +1,55 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/15 15:59:15 +08:00；本轮状态：partial；商品 262 款，规格 543 条。
+数据快照：2026/11/16 03:28:03 +08:00；本轮状态：partial；商品 269 款，规格 554 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 197865 | CLAUDE QUENARD ET FILS MONDEUSE Arbin  - 2018 | 2018 | 单支（SKU 394763） | ¥99.90 | 在售 | 在售 | 4 | 2026/11/15 15:59:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197865) |
-| 197865 | CLAUDE QUENARD ET FILS MONDEUSE Arbin  - 2018 | 2018 | 双支装（SKU 394764） | ¥198.00 | 在售 | 在售 | 4 | 2026/11/15 15:59:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197865) |
-| 197865 | CLAUDE QUENARD ET FILS MONDEUSE Arbin  - 2018 | 2018 | 六支装（SKU 394765） | ¥588.00 | 在售 | 在售 | 4 | 2026/11/15 15:59:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197865) |
-| 185399 | Pierre Boisson Macon Bray Les Essarts 2021 | 2021 | 单支（SKU 369523） | ¥269.00 | 在售 | 在售 | 9 | 2026/11/15 15:57:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185399) |
-| 185399 | Pierre Boisson Macon Bray Les Essarts 2021 | 2021 | 双支装（SKU 369524） | ¥529.00 | 在售 | 在售 | 9 | 2026/11/15 15:57:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185399) |
-| 185399 | Pierre Boisson Macon Bray Les Essarts 2021 | 2021 | 六支装（SKU 369525） | ¥1579.00 | 在售 | 在售 | 4 | 2026/11/15 15:57:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185399) |
-| 197833 | Saint Baron sauvignon blanc | 未标示 | 单支（SKU 394963） | ¥60.00 | 在售 | 在售 | 7 | 2026/11/15 15:56:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197833) |
-| 197833 | Saint Baron sauvignon blanc | 未标示 | 双支装（SKU 394767） | ¥99.00 | 在售 | 在售 | 7 | 2026/11/15 15:56:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197833) |
-| 197833 | Saint Baron sauvignon blanc | 未标示 | 六支原箱（SKU 394768） | ¥279.00 | 在售 | 在售 | 7 | 2026/11/15 15:56:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197833) |
-| 197819 | Palari Faro 2019 | 2019 | 单支（SKU 394784） | ¥299.00 | 在售 | 在售 | 7 | 2026/11/15 15:56:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197819) |
-| 197819 | Palari Faro 2019 | 2019 | 六支装（SKU 394785） | ¥1779.00 | 在售 | 在售 | 7 | 2026/11/15 15:56:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197819) |
-| 197780 | 2014 Obsidian Merlot - Cabernets - Petit Verdot | 2014 | 单支（SKU 394779） | ¥69.00 | 在售 | 在售 | 8 | 2026/11/15 15:56:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197780) |
-| 197780 | 2014 Obsidian Merlot - Cabernets - Petit Verdot | 2014 | 双支装（SKU 394780） | ¥129.00 | 在售 | 在售 | 8 | 2026/11/15 15:56:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197780) |
-| 197780 | 2014 Obsidian Merlot - Cabernets - Petit Verdot | 2014 | 六支原箱（SKU 394781） | ¥369.00 | 在售 | 在售 | 8 | 2026/11/15 15:56:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197780) |
-| 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 单支（SKU 389775） | ¥269.00 | 在售 | 在售 | 9 | 2026/11/15 15:56:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
-| 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 双支装（SKU 389776） | ¥529.00 | 在售 | 在售 | 9 | 2026/11/15 15:56:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
-| 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 六支原箱（SKU 389777） | ¥1559.00 | 在售 | 在售 | 4 | 2026/11/15 15:56:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
-| 197638 | Chateau La Lagune Le Moulin de la Lagune 2017 | 2017 | 单支（SKU 394759） | ¥99.00 | 在售 | 在售 | 8 | 2026/11/15 15:55:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197638) |
-| 197638 | Chateau La Lagune Le Moulin de la Lagune 2017 | 2017 | 双支装（SKU 394760） | ¥188.00 | 在售 | 在售 | 8 | 2026/11/15 15:55:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197638) |
-| 197638 | Chateau La Lagune Le Moulin de la Lagune 2017 | 2017 | 六支装（SKU 394761） | ¥539.00 | 在售 | 在售 | 8 | 2026/11/15 15:55:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197638) |
-| 197824 | 2022 Gaja Barbaresco DOCG | 2022 | 单支（SKU 394750） | ¥1999.00 | 在售 | 在售 | 3 | 2026/11/15 15:55:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197824) |
-| 195748 | Magpie By Oveja Negra Chardonnay 2025 | 2025 | 双支装（SKU 390307） | ¥109.90 | 在售 | 在售 | 6 | 2026/11/15 15:55:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195748) |
-| 195748 | Magpie By Oveja Negra Chardonnay 2025 | 2025 | 六支原箱（SKU 390308） | ¥279.90 | 在售 | 在售 | 6 | 2026/11/15 15:55:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195748) |
-| 182282 | Alibrianza Cascina Radice 'Argante' Barolo Riserva DOCG 2015 | 2015 | 单支（SKU 362301） | ¥199.90 | 在售 | 在售 | 7 | 2026/11/15 15:55:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182282) |
-| 182282 | Alibrianza Cascina Radice 'Argante' Barolo Riserva DOCG 2015 | 2015 | 六支原箱（SKU 362302） | ¥1188.00 | 在售 | 在售 | 5 | 2026/11/15 15:55:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182282) |
+| 197666 | Tenuta di Trinoro 'Campo di Magnacosta' Toscana IGT 2021 | 2021 | 单支（SKU 394833） | ¥799.00 | 在售 | 在售 | 6 | 2026/11/16 03:27:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197666) |
+| 187242 | Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 / Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 | 2012 | 六支原箱（SKU 372883） | ¥199.00 | 在售 | 在售 | 12 | 2026/11/16 03:27:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187242) |
+| 187242 | Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 / Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 | 2012 | 十二支原箱（SKU 372884） | ¥389.00 | 在售 | 在售 | 12 | 2026/11/16 03:27:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187242) |
+| 192682 | Undurraga  Explore by T.H. 'Terroir Hunter' San Antonio-Maipo Sauvignon Blanc 2022 | 2022 | 单支（SKU 384226） | ¥75.00 | 在售 | 在售 | 7 | 2026/11/16 03:27:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192682) |
+| 192682 | Undurraga  Explore by T.H. 'Terroir Hunter' San Antonio-Maipo Sauvignon Blanc 2022 | 2022 | 双支装（SKU 384158） | ¥129.90 | 在售 | 在售 | 7 | 2026/11/16 03:27:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192682) |
+| 192682 | Undurraga  Explore by T.H. 'Terroir Hunter' San Antonio-Maipo Sauvignon Blanc 2022 | 2022 | 六支装（SKU 384160） | ¥369.00 | 在售 | 在售 | 7 | 2026/11/16 03:27:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192682) |
+| 197909 | Yann Durieux - Recrue des Sens 'Les Grands Ponts Blancs' 2019 | 2019 | 单支（SKU 394777） | ¥799.00 | 在售 | 在售 | 6 | 2026/11/16 03:27:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197909) |
+| 197909 | Yann Durieux - Recrue des Sens 'Les Grands Ponts Blancs' 2019 | 2019 | 双支装（SKU 394792） | ¥1588.00 | 在售 | 在售 | 6 | 2026/11/16 03:27:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197909) |
+| 197909 | Yann Durieux - Recrue des Sens 'Les Grands Ponts Blancs' 2019 | 2019 | 六支装（SKU 394793） | ¥4749.00 | 在售 | 在售 | 2 | 2026/11/16 03:27:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197909) |
+| 197903 | Undurraga U Merlot 2021 | 2021 | 六支原箱（SKU 394774） | ¥129.90 | 在售 | 在售 | 6 | 2026/11/16 03:26:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197903) |
+| 197890 | Chateau Valandraud 1996 | 1996 | 单支（SKU 394741） | ¥1799.00 | 在售 | 在售 | 2 | 2026/11/16 03:26:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197890) |
+| 187146 | Rizzotto Soave Classico 2024 | 2024 | 双支装（SKU 373315） | ¥99.00 | 在售 | 在售 | 7 | 2026/11/16 03:26:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187146) |
+| 187146 | Rizzotto Soave Classico 2024 | 2024 | 六支原箱（SKU 372935） | ¥229.00 | 在售 | 在售 | 7 | 2026/11/16 03:26:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187146) |
+| 187146 | Rizzotto Soave Classico 2024 | 2024 | 实惠五箱装（SKU 372939） | ¥1129.00 | 在售 | 在售 | 7 | 2026/11/16 03:26:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187146) |
+| 187146 | Rizzotto Soave Classico 2024 | 2024 | 囤货十箱装（SKU 372940） | ¥2239.00 | 在售 | 在售 | 7 | 2026/11/16 03:26:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187146) |
+| 197887 | Giacomo Conterno Barolo Riserva 1958 | 1958 | 单支（SKU 394735） | ¥4599.00 | 在售 | 在售 | 2 | 2026/11/16 03:25:58 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197887) |
+| 197881 | Domaine Laroche Les Blanchots Chablis Grand Cru 2023 | 2023 | 单支（SKU 394797） | ¥799.00 | 在售 | 在售 | 5 | 2026/11/16 03:25:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197881) |
+| 185726 | Luca Bosio Moscato d'Asti 2024 | 2024 | 双支装（SKU 370188） | ¥109.90 | 在售 | 在售 | 23 | 2026/11/16 03:25:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185726) |
+| 185726 | Luca Bosio Moscato d'Asti 2024 | 2024 | 六支原箱（SKU 370189） | ¥299.90 | 在售 | 在售 | 21 | 2026/11/16 03:25:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185726) |
+| 197865 | CLAUDE QUENARD ET FILS MONDEUSE Arbin  - 2018 | 2018 | 单支（SKU 394763） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/15 15:59:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197865) |
+| 197865 | CLAUDE QUENARD ET FILS MONDEUSE Arbin  - 2018 | 2018 | 双支装（SKU 394764） | ¥198.00 | 未知 | 未知 | 未知 | 2026/11/15 15:59:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197865) |
+| 197865 | CLAUDE QUENARD ET FILS MONDEUSE Arbin  - 2018 | 2018 | 六支装（SKU 394765） | ¥588.00 | 未知 | 未知 | 未知 | 2026/11/15 15:59:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197865) |
+| 185399 | Pierre Boisson Macon Bray Les Essarts 2021 | 2021 | 单支（SKU 369523） | ¥269.00 | 未知 | 未知 | 未知 | 2026/11/15 15:57:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185399) |
+| 185399 | Pierre Boisson Macon Bray Les Essarts 2021 | 2021 | 双支装（SKU 369524） | ¥529.00 | 未知 | 未知 | 未知 | 2026/11/15 15:57:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185399) |
+| 185399 | Pierre Boisson Macon Bray Les Essarts 2021 | 2021 | 六支装（SKU 369525） | ¥1579.00 | 未知 | 未知 | 未知 | 2026/11/15 15:57:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185399) |
+| 197833 | Saint Baron sauvignon blanc | 未标示 | 单支（SKU 394963） | ¥60.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197833) |
+| 197833 | Saint Baron sauvignon blanc | 未标示 | 双支装（SKU 394767） | ¥99.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197833) |
+| 197833 | Saint Baron sauvignon blanc | 未标示 | 六支原箱（SKU 394768） | ¥279.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197833) |
+| 197819 | Palari Faro 2019 | 2019 | 单支（SKU 394784） | ¥299.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197819) |
+| 197819 | Palari Faro 2019 | 2019 | 六支装（SKU 394785） | ¥1779.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197819) |
+| 197780 | 2014 Obsidian Merlot - Cabernets - Petit Verdot | 2014 | 单支（SKU 394779） | ¥69.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197780) |
+| 197780 | 2014 Obsidian Merlot - Cabernets - Petit Verdot | 2014 | 双支装（SKU 394780） | ¥129.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197780) |
+| 197780 | 2014 Obsidian Merlot - Cabernets - Petit Verdot | 2014 | 六支原箱（SKU 394781） | ¥369.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197780) |
+| 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 单支（SKU 389775） | ¥269.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
+| 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 双支装（SKU 389776） | ¥529.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
+| 183776 | Vina Quebrada de Macul Stella Aurea 2014 | 2014 | 六支原箱（SKU 389777） | ¥1559.00 | 未知 | 未知 | 未知 | 2026/11/15 15:56:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=183776) |
+| 197638 | Chateau La Lagune Le Moulin de la Lagune 2017 | 2017 | 单支（SKU 394759） | ¥99.00 | 未知 | 未知 | 未知 | 2026/11/15 15:55:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197638) |
+| 197638 | Chateau La Lagune Le Moulin de la Lagune 2017 | 2017 | 双支装（SKU 394760） | ¥188.00 | 未知 | 未知 | 未知 | 2026/11/15 15:55:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197638) |
+| 197638 | Chateau La Lagune Le Moulin de la Lagune 2017 | 2017 | 六支装（SKU 394761） | ¥539.00 | 未知 | 未知 | 未知 | 2026/11/15 15:55:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197638) |
+| 197824 | 2022 Gaja Barbaresco DOCG | 2022 | 单支（SKU 394750） | ¥1999.00 | 未知 | 未知 | 未知 | 2026/11/15 15:55:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197824) |
+| 195748 | Magpie By Oveja Negra Chardonnay 2025 | 2025 | 双支装（SKU 390307） | ¥109.90 | 未知 | 未知 | 未知 | 2026/11/15 15:55:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195748) |
+| 195748 | Magpie By Oveja Negra Chardonnay 2025 | 2025 | 六支原箱（SKU 390308） | ¥279.90 | 未知 | 未知 | 未知 | 2026/11/15 15:55:14 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195748) |
+| 182282 | Alibrianza Cascina Radice 'Argante' Barolo Riserva DOCG 2015 | 2015 | 单支（SKU 362301） | ¥199.90 | 未知 | 未知 | 未知 | 2026/11/15 15:55:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182282) |
+| 182282 | Alibrianza Cascina Radice 'Argante' Barolo Riserva DOCG 2015 | 2015 | 六支原箱（SKU 362302） | ¥1188.00 | 未知 | 未知 | 未知 | 2026/11/15 15:55:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=182282) |
 | 194714 | Veramonte Coleccion Colores Chardonnay 2024 / Undurraga  Explore by T.H. 'Terroir Hunter' San Antonio-Maipo Sauvignon Blanc 2022 | 2024 / 2022 | 双支组合装（SKU 388458） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/15 02:51:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194714) |
 | 194714 | Veramonte Coleccion Colores Chardonnay 2024 / Undurraga  Explore by T.H. 'Terroir Hunter' San Antonio-Maipo Sauvignon Blanc 2022 | 2024 / 2022 | 六支装（各三支）（SKU 388459） | ¥295.00 | 未知 | 未知 | 未知 | 2026/11/15 02:51:42 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194714) |
 | 197823 | Domaine Alain Chavy Chevalier Montrachet Grand Cru 2023 | 2023 | 单支（SKU 394734） | ¥5999.00 | 未知 | 未知 | 未知 | 2026/11/15 02:49:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197823) |
@@ -529,14 +548,6 @@
 | 189779 | Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Domaine Roc de l'Abbaye - Florian Mollet Sancerre L'Antique 2022 | 2022 | 普伊富美白 2022 单支（SKU 385106） | ¥299.00 | 未知 | 未知 | 未知 | 2026/11/3 07:46:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189779) |
 | 189779 | Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Domaine Roc de l'Abbaye - Florian Mollet Sancerre L'Antique 2022 | 2022 | 桑塞尔白 2022 单支（SKU 385107） | ¥299.00 | 未知 | 未知 | 未知 | 2026/11/3 07:46:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189779) |
 | 189779 | Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Domaine Roc de l'Abbaye - Florian Mollet Sancerre L'Antique 2022 | 2022 | 双支组合（SKU 378022） | ¥488.00 | 未知 | 未知 | 未知 | 2026/11/3 07:46:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189779) |
-| 187242 | Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 / Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 | 2012 | 六支原箱（SKU 372883） | ¥199.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187242) |
-| 187242 | Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 / Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 | 2012 | 十二支原箱（SKU 372884） | ¥389.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187242) |
-| 187146 | Rizzotto Soave Classico 2024 | 2024 | 双支装（SKU 373315） | ¥99.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187146) |
-| 187146 | Rizzotto Soave Classico 2024 | 2024 | 六支原箱（SKU 372935） | ¥229.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187146) |
-| 187146 | Rizzotto Soave Classico 2024 | 2024 | 实惠五箱装（SKU 372939） | ¥1129.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187146) |
-| 187146 | Rizzotto Soave Classico 2024 | 2024 | 囤货十箱装（SKU 372940） | ¥2239.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187146) |
-| 185726 | Luca Bosio Moscato d'Asti 2024 | 2024 | 双支装（SKU 370188） | ¥109.90 | 未知 | 未知 | 未知 | 2026/11/3 07:45:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185726) |
-| 185726 | Luca Bosio Moscato d'Asti 2024 | 2024 | 六支原箱（SKU 370189） | ¥299.90 | 未知 | 未知 | 未知 | 2026/11/3 07:45:33 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185726) |
 | 185232 | Santa Julia 'La Oveja' Blanco Natural 2022 | 2022 | 单支（SKU 369243） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/3 07:45:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185232) |
 | 185232 | Santa Julia 'La Oveja' Blanco Natural 2022 | 2022 | 双支装（SKU 369244） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185232) |
 | 185232 | Santa Julia 'La Oveja' Blanco Natural 2022 | 2022 | 六支装（SKU 369245） | ¥550.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185232) |
