@@ -14,7 +14,7 @@
 | 本轮成功更新 | 0 |
 | 本轮公开接口恢复成功 | 0 |
 | 本轮详情成功率 | 未记录 |
-| 本轮运行耗时 | 23 秒 |
+| 本轮运行耗时 | 20 秒 |
 | 本轮已验证库存 SKU 数 | 0 |
 | 本轮失败 | 1 |
 | 本轮不适合公开目录的商品 | 0 |
@@ -24,15 +24,15 @@
 | 保留历史数据 | 是 |
 | 商品目录快照时间（北京时间） | 2026/11/16 03:28:03 +08:00 |
 | 最近成功采集时间（北京时间） | 2026/11/16 03:28:03 +08:00 |
-| 最近采集结束时间（北京时间） | 2026/11/16 16:01:04 +08:00 |
+| 最近采集结束时间（北京时间） | 2026/11/17 06:54:45 +08:00 |
 | 数据新鲜度界限（北京时间） | 2026/11/16 21:28:03 +08:00 |
-| 最近采集运行链接 | [GitHub Actions](https://github.com/Ataraxiary/wineradar-catalog/actions/runs/43827764261) |
+| 最近采集运行链接 | [GitHub Actions](https://github.com/Ataraxiary/wineradar-catalog/actions/runs/43974362367) |
 
 ## 本轮失败或未入库记录
 
 | 商品 ID | 代码 | 原因 | 时间（北京时间） |
 | --- | --- | --- | --- |
-| — | collection_failed | apiRequestContext.get: Timeout 20000ms exceeded. | 2026/11/16 16:01:04 +08:00 |
+| — | collection_failed | apiRequestContext.get: Timeout 20000ms exceeded. | 2026/11/17 06:54:45 +08:00 |
 
 ## 本轮发现入口
 
