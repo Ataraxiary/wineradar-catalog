@@ -5,38 +5,41 @@
 | 字段 | 值 |
 | --- | --- |
 | 采集状态 | partial |
-| 目录商品数 | 270 |
+| 目录商品数 | 276 |
 | 持久队列累计候选 ID 数 | 501 |
 | 本轮页面观察到的唯一候选 ID 数 | 0 |
-| 尚未验证详情的候选 ID 数 | 229 |
-| 历史已验证详情商品数 | 270 |
-| 历史已验证库存 SKU 数 | 555 |
-| 本轮成功更新 | 1 |
+| 尚未验证详情的候选 ID 数 | 223 |
+| 历史已验证详情商品数 | 276 |
+| 历史已验证库存 SKU 数 | 564 |
+| 本轮成功更新 | 7 |
 | 本轮公开接口恢复成功 | 0 |
-| 本轮详情成功率 | 20.0% |
-| 本轮运行耗时 | 302 秒 |
-| 本轮已验证库存 SKU 数 | 1 |
-| 本轮失败 | 4 |
-| 本轮不适合公开目录的商品 | 1 |
-| 价格保密待复查候选 ID 数 | 25 |
+| 本轮详情成功率 | 77.8% |
+| 本轮运行耗时 | 340 秒 |
+| 本轮已验证库存 SKU 数 | 12 |
+| 本轮失败 | 2 |
+| 本轮不适合公开目录的商品 | 6 |
+| 价格保密待复查候选 ID 数 | 29 |
 | 当前库存未知商品数 | 269 |
 | 历史库存已失效的商品数 | 269 |
 | 保留历史数据 | 是 |
-| 商品目录快照时间（北京时间） | 2026/11/17 17:20:00 +08:00 |
-| 最近成功采集时间（北京时间） | 2026/11/17 17:20:00 +08:00 |
-| 最近采集结束时间（北京时间） | 2026/11/17 17:20:00 +08:00 |
-| 数据新鲜度界限（北京时间） | 2026/11/18 11:20:00 +08:00 |
-| 最近采集运行链接 | [GitHub Actions](https://github.com/Ataraxiary/wineradar-catalog/actions/runs/44053730046) |
+| 商品目录快照时间（北京时间） | 2026/11/18 05:53:05 +08:00 |
+| 最近成功采集时间（北京时间） | 2026/11/18 05:53:05 +08:00 |
+| 最近采集结束时间（北京时间） | 2026/11/18 05:53:05 +08:00 |
+| 数据新鲜度界限（北京时间） | 2026/11/18 23:53:05 +08:00 |
+| 最近采集运行链接 | [GitHub Actions](https://github.com/Ataraxiary/wineradar-catalog/actions/runs/44183367541) |
 
 ## 本轮失败或未入库记录
 
 | 商品 ID | 代码 | 原因 | 时间（北京时间） |
 | --- | --- | --- | --- |
-| 189779 | response_timeout | Timed out waiting for detail+inventory; no transport failure reported | 2026/11/17 17:16:19 +08:00 |
-| 197776 | price_not_public | Public page does not display a product price | 2026/11/17 17:17:10 +08:00 |
-| 197765 | request_failed | page.goto: Timeout 45000ms exceeded. | 2026/11/17 17:18:14 +08:00 |
-| 197820 | request_failed | page.goto: Timeout 45000ms exceeded. | 2026/11/17 17:19:07 +08:00 |
-| 189889 | request_failed | page.goto: Timeout 45000ms exceeded. | 2026/11/17 17:20:00 +08:00 |
+| 197392 | response_timeout | Timed out waiting for detail+inventory; no transport failure reported | 2026/11/18 05:48:44 +08:00 |
+| 197810 | price_not_public | Public page does not display a product price | 2026/11/18 05:49:30 +08:00 |
+| 197765 | price_not_public | Public page does not display a product price | 2026/11/18 05:49:42 +08:00 |
+| 197830 | request_failed | page.goto: Timeout 45000ms exceeded. | 2026/11/18 05:50:46 +08:00 |
+| 197910 | price_not_public | Public page does not display a product price | 2026/11/18 05:51:41 +08:00 |
+| 197926 | price_not_public | Public page does not display a product price | 2026/11/18 05:51:54 +08:00 |
+| 189889 | price_not_public | Public page does not display a product price | 2026/11/18 05:52:06 +08:00 |
+| 187463 | price_not_public | Public page does not display a product price | 2026/11/18 05:52:32 +08:00 |
 
 ## 本轮发现入口
 
@@ -49,15 +52,15 @@
 
 | 产国 | 商品数 |
 | --- | --- |
-| 法国 | 89 |
-| 意大利 | 69 |
+| 法国 | 91 |
+| 意大利 | 70 |
 | 澳大利亚 | 27 |
 | 新西兰 | 25 |
 | 西班牙 | 20 |
-| 智利 | 15 |
+| 智利 | 16 |
 | 德国 | 14 |
 | 美国 | 7 |
-| 中国 | 3 |
+| 中国 | 5 |
 | 匈牙利 | 3 |
 | 南非 | 2 |
 | 奥地利 | 2 |

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T09:20:00.430Z",
+  "updatedAt": "2026-11-17T21:52:57.219Z",
   "entries": [
     {
       "id": 147654,
@@ -793,7 +793,7 @@
     {
       "id": 187463,
       "firstSeenAt": "2026-11-05T07:56:29.717Z",
-      "attempts": 0,
+      "attempts": 1,
       "state": "pending",
       "title": "白菜价大年一级园！勃艮第“大地主”之宝藏酒村代表力作！",
       "sources": [
@@ -802,7 +802,10 @@
           "url": "https://h5.vinehoo.com/pages/miaofa/cardDetail?cid=28&type=colum",
           "api": "https://h5.vinehoo.com/api/marketing-conf/v3/column/filtergoodslist?cid=28"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-17T21:52:32.799Z",
+      "lastErrorCode": "price_not_public",
+      "nextEligibleAt": "2026-11-24T21:52:32.799Z"
     },
     {
       "id": 187687,
@@ -855,8 +858,8 @@
     {
       "id": 189779,
       "firstSeenAt": "2026-11-02T23:30:19.376Z",
-      "attempts": 2,
-      "state": "pending",
+      "attempts": 3,
+      "state": "verified",
       "title": "【​探索“燧石”风土的两种面孔​】​Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 + Sancerre L'Antique 2022组合装",
       "sources": [
         {
@@ -870,10 +873,8 @@
           "api": "https://h5.vinehoo.com/api/marketing-conf/v3/column/filtergoodslist?cid=28"
         }
       ],
-      "lastAttemptAt": "2026-11-17T09:16:19.918Z",
-      "lastVerifiedAt": "2026-11-02T23:46:05.543Z",
-      "lastErrorCode": "response_timeout",
-      "nextEligibleAt": "2026-11-17T21:16:19.918Z"
+      "lastAttemptAt": "2026-11-17T21:51:00.156Z",
+      "lastVerifiedAt": "2026-11-17T21:51:00.156Z"
     },
     {
       "id": 189784,
@@ -910,7 +911,7 @@
     {
       "id": 189889,
       "firstSeenAt": "2026-11-02T23:30:19.376Z",
-      "attempts": 2,
+      "attempts": 3,
       "state": "pending",
       "title": "【单支不到50元！皮埃蒙特“起泡之王”的甜美盛宴，荔枝风暴来袭！】Cantina Vallebelbo San Maurizio Gran Dessert DOLCE Spumante NV 双支/六支原箱 任选",
       "sources": [
@@ -920,10 +921,10 @@
           "api": "https://h5.vinehoo.com/api/go-recommend/v3/home/preference"
         }
       ],
-      "lastAttemptAt": "2026-11-17T09:20:00.430Z",
+      "lastAttemptAt": "2026-11-17T21:52:06.661Z",
       "lastVerifiedAt": "2026-11-02T23:46:16.366Z",
-      "lastErrorCode": "request_failed",
-      "nextEligibleAt": "2026-11-17T21:20:00.430Z"
+      "lastErrorCode": "price_not_public",
+      "nextEligibleAt": "2026-11-24T21:52:06.661Z"
     },
     {
       "id": 189957,
@@ -1411,8 +1412,8 @@
     {
       "id": 192475,
       "firstSeenAt": "2026-11-05T07:56:29.717Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "【“敖云”同源酒庄！尽享高原霞多丽的爽净圆润！】雪域猫王霞多丽干白葡萄酒 2024 （加赠双支手工杯）",
       "sources": [
         {
@@ -1420,7 +1421,9 @@
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/go-recommend/v3/home/preference"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-17T21:52:44.017Z",
+      "lastVerifiedAt": "2026-11-17T21:52:44.017Z"
     },
     {
       "id": 192491,
@@ -1639,8 +1642,8 @@
     {
       "id": 193847,
       "firstSeenAt": "2026-11-05T07:56:29.717Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "【两百以内喝到“敖云”同门！致敬香格里拉的野性与优雅！】雪域猫王赤霞珠干红葡萄酒 2021（加赠双支手工杯）",
       "sources": [
         {
@@ -1648,7 +1651,9 @@
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/go-recommend/v3/home/preference"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-17T21:52:57.219Z",
+      "lastVerifiedAt": "2026-11-17T21:52:57.219Z"
     },
     {
       "id": 193882,
@@ -3677,11 +3682,11 @@
       ],
       "firstSeenAt": "2026-11-02T22:08:55.091Z",
       "lastVerifiedAt": "2026-11-02T22:08:55.091Z",
-      "attempts": 2,
+      "attempts": 3,
       "state": "pending",
-      "lastAttemptAt": "2026-11-10T20:31:09.666Z",
-      "lastErrorCode": "price_not_public",
-      "nextEligibleAt": "2026-11-17T20:31:09.666Z"
+      "lastAttemptAt": "2026-11-17T21:48:44.143Z",
+      "lastErrorCode": "response_timeout",
+      "nextEligibleAt": "2026-11-18T09:48:44.143Z"
     },
     {
       "id": 197398,
@@ -4667,7 +4672,7 @@
     {
       "id": 197765,
       "firstSeenAt": "2026-11-04T20:27:01.349Z",
-      "attempts": 1,
+      "attempts": 2,
       "state": "pending",
       "title": "好年高分盛赞巴罗洛",
       "sources": [
@@ -4677,9 +4682,9 @@
           "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
       ],
-      "lastAttemptAt": "2026-11-17T09:18:14.296Z",
-      "lastErrorCode": "request_failed",
-      "nextEligibleAt": "2026-11-17T21:18:14.296Z"
+      "lastAttemptAt": "2026-11-17T21:49:42.836Z",
+      "lastErrorCode": "price_not_public",
+      "nextEligibleAt": "2026-11-24T21:49:42.836Z"
     },
     {
       "id": 197766,
@@ -4897,7 +4902,7 @@
     {
       "id": 197810,
       "firstSeenAt": "2026-11-03T07:56:59.740Z",
-      "attempts": 2,
+      "attempts": 3,
       "state": "pending",
       "title": "【低均600+！罗第丘教父级名庄，传奇“棕丘园”首发年份】Domaine Rene Rostaing Cote Rotie Cote Brune 2013",
       "sources": [
@@ -4907,9 +4912,9 @@
           "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
       ],
-      "lastAttemptAt": "2026-11-10T20:31:21.111Z",
+      "lastAttemptAt": "2026-11-17T21:49:30.473Z",
       "lastErrorCode": "price_not_public",
-      "nextEligibleAt": "2026-11-17T20:31:21.111Z"
+      "nextEligibleAt": "2026-11-24T21:49:30.473Z"
     },
     {
       "id": 197811,
@@ -4946,8 +4951,8 @@
     {
       "id": 197820,
       "firstSeenAt": "2026-11-04T20:27:01.349Z",
-      "attempts": 1,
-      "state": "pending",
+      "attempts": 2,
+      "state": "verified",
       "title": "凯隆世家“红心庄”优年正牌",
       "sources": [
         {
@@ -4956,9 +4961,8 @@
           "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
       ],
-      "lastAttemptAt": "2026-11-17T09:19:07.343Z",
-      "lastErrorCode": "request_failed",
-      "nextEligibleAt": "2026-11-17T21:19:07.343Z"
+      "lastAttemptAt": "2026-11-17T21:49:53.601Z",
+      "lastVerifiedAt": "2026-11-17T21:49:53.601Z"
     },
     {
       "id": 197821,
@@ -5076,7 +5080,7 @@
     {
       "id": 197830,
       "firstSeenAt": "2026-11-04T20:27:01.349Z",
-      "attempts": 0,
+      "attempts": 1,
       "state": "pending",
       "title": "【曾一年三登JS百大榜单？这支北意长相思颠覆认知！】Manincor 'Tannenberg' Sauvignon Blanc 2024 ",
       "sources": [
@@ -5085,7 +5089,10 @@
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-17T21:50:46.656Z",
+      "lastErrorCode": "request_failed",
+      "nextEligibleAt": "2026-11-18T09:50:46.656Z"
     },
     {
       "id": 197831,
@@ -5313,8 +5320,8 @@
     {
       "id": 197868,
       "firstSeenAt": "2026-11-04T20:27:01.349Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "智利葡萄酒先驱名庄",
       "sources": [
         {
@@ -5322,7 +5329,9 @@
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-17T21:51:13.414Z",
+      "lastVerifiedAt": "2026-11-17T21:51:13.414Z"
     },
     {
       "id": 197881,
@@ -5348,8 +5357,8 @@
     {
       "id": 197884,
       "firstSeenAt": "2026-11-04T20:27:01.349Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "【国均8.5折！意大利“酒王”副牌，大年高分“小马赛托”！】Massetino 2021 ",
       "sources": [
         {
@@ -5357,7 +5366,9 @@
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-17T21:51:26.517Z",
+      "lastVerifiedAt": "2026-11-17T21:51:26.517Z"
     },
     {
       "id": 197885,
@@ -5544,7 +5555,7 @@
     {
       "id": 197910,
       "firstSeenAt": "2026-11-04T20:27:01.349Z",
-      "attempts": 0,
+      "attempts": 1,
       "state": "pending",
       "title": "进口商亏近50%",
       "sources": [
@@ -5553,12 +5564,15 @@
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-17T21:51:41.363Z",
+      "lastErrorCode": "price_not_public",
+      "nextEligibleAt": "2026-11-24T21:51:41.363Z"
     },
     {
       "id": 197926,
       "firstSeenAt": "2026-11-04T20:27:01.349Z",
-      "attempts": 0,
+      "attempts": 1,
       "state": "pending",
       "title": "【勃艮第名家，稀缺低产特级独占园！】Albert Bichot Domaine du Pavillon Corton Clos des Marechaudes Grand Cru Monopole 2021",
       "sources": [
@@ -5567,7 +5581,10 @@
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-17T21:51:54.021Z",
+      "lastErrorCode": "price_not_public",
+      "nextEligibleAt": "2026-11-24T21:51:54.021Z"
     },
     {
       "id": 197927,
@@ -5731,8 +5748,8 @@
     {
       "id": 197958,
       "firstSeenAt": "2026-11-04T20:27:01.349Z",
-      "attempts": 0,
-      "state": "pending",
+      "attempts": 1,
+      "state": "verified",
       "title": "勃艮第实力新秀“吹冷风”",
       "sources": [
         {
@@ -5740,7 +5757,9 @@
           "url": "https://h5.vinehoo.com/",
           "api": "https://h5.vinehoo.com/api/openapi/v3/combine/home?client=3"
         }
-      ]
+      ],
+      "lastAttemptAt": "2026-11-17T21:52:17.844Z",
+      "lastVerifiedAt": "2026-11-17T21:52:17.844Z"
     },
     {
       "id": 197959,

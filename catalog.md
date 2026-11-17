@@ -1,12 +1,24 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/17 17:20:00 +08:00；本轮状态：partial；商品 270 款，规格 555 条。
+数据快照：2026/11/18 05:53:05 +08:00；本轮状态：partial；商品 276 款，规格 564 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 197842 | Chateau Gruaud-Larose | 1995 | 单支（SKU 394790） | ¥1099.00 | 在售 | 在售 | 2 | 2026/11/17 17:17:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197842) |
+| 193847 | Lian Jiu 勃艮第杯(酒杯)  920ml / 雪域猫王赤霞珠干红葡萄酒 2021 | 2021 / 部分未标示 | 单支 赠双支手工杯（SKU 386784） | ¥188.00 | 在售 | 在售 | 7 | 2026/11/18 05:52:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193847) |
+| 192475 | 香格里拉雪域猫王霞多丽干白葡萄酒 2024 / Lian Jiu 勃艮第杯(酒杯)  920ml | 2024 / 部分未标示 | 单支 赠勃艮第杯2个（SKU 383823） | ¥188.00 | 在售 | 在售 | 9 | 2026/11/18 05:52:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192475) |
+| 197958 | Domaine Coquard-Loison-Fleurot Clos de la Roche Grand Cru 2020 | 2020 | 单支（SKU 394840） | ¥2799.00 | 在售 | 在售 | 2 | 2026/11/18 05:52:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197958) |
+| 197884 | Massetino Toscana IGT 2021 | 2021 | 单支（SKU 394832） | ¥1999.00 | 在售 | 在售 | 2 | 2026/11/18 05:51:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197884) |
+| 197868 | Undurraga T.H. 'Terroir Hunter' Leyda Pinot Noir 2020 / Undurraga T.H. 'Terroir Hunter' Cauquenes Syrah 2020 / Undurraga T.H. 'Terroir Hunter' Alto Maipo Cabernet Sauvignon | 2020 / 部分未标示 | 黑皮诺 单支（SKU 394834） | ¥139.00 | 在售 | 在售 | 9 | 2026/11/18 05:51:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197868) |
+| 197868 | Undurraga T.H. 'Terroir Hunter' Leyda Pinot Noir 2020 / Undurraga T.H. 'Terroir Hunter' Cauquenes Syrah 2020 / Undurraga T.H. 'Terroir Hunter' Alto Maipo Cabernet Sauvignon | 2020 / 部分未标示 | 西拉 单支（SKU 394835） | ¥139.00 | 在售 | 在售 | 9 | 2026/11/18 05:51:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197868) |
+| 197868 | Undurraga T.H. 'Terroir Hunter' Leyda Pinot Noir 2020 / Undurraga T.H. 'Terroir Hunter' Cauquenes Syrah 2020 / Undurraga T.H. 'Terroir Hunter' Alto Maipo Cabernet Sauvignon | 2020 / 部分未标示 | 赤霞珠 单支（SKU 394836） | ¥139.00 | 在售 | 在售 | 9 | 2026/11/18 05:51:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197868) |
+| 197868 | Undurraga T.H. 'Terroir Hunter' Leyda Pinot Noir 2020 / Undurraga T.H. 'Terroir Hunter' Cauquenes Syrah 2020 / Undurraga T.H. 'Terroir Hunter' Alto Maipo Cabernet Sauvignon | 2020 / 部分未标示 | 三支组合装（SKU 394837） | ¥399.00 | 在售 | 在售 | 9 | 2026/11/18 05:51:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197868) |
+| 189779 | Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Domaine Roc de l'Abbaye - Florian Mollet Sancerre L'Antique 2022 | 2022 | 普伊富美白 2022 单支（SKU 385106） | ¥299.00 | 在售 | 在售 | 1 | 2026/11/18 05:51:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189779) |
+| 189779 | Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Domaine Roc de l'Abbaye - Florian Mollet Sancerre L'Antique 2022 | 2022 | 桑塞尔白 2022 单支（SKU 385107） | ¥299.00 | 在售 | 在售 | 1 | 2026/11/18 05:51:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189779) |
+| 189779 | Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Domaine Roc de l'Abbaye - Florian Mollet Sancerre L'Antique 2022 | 2022 | 双支组合（SKU 378022） | ¥488.00 | 在售 | 在售 | 1 | 2026/11/18 05:51:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189779) |
+| 197820 | Chateau Calon-Segur 2019 | 2019 | 单支（SKU 394814） | ¥1099.00 | 在售 | 在售 | 3 | 2026/11/18 05:49:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197820) |
+| 197842 | Chateau Gruaud-Larose | 1995 | 单支（SKU 394790） | ¥1099.00 | 未知 | 未知 | 未知 | 2026/11/17 17:17:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197842) |
 | 197666 | Tenuta di Trinoro 'Campo di Magnacosta' Toscana IGT 2021 | 2021 | 单支（SKU 394833） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/16 03:27:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197666) |
 | 187242 | Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 / Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 | 2012 | 六支原箱（SKU 372883） | ¥199.00 | 未知 | 未知 | 未知 | 2026/11/16 03:27:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187242) |
 | 187242 | Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 / Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 | 2012 | 十二支原箱（SKU 372884） | ¥389.00 | 未知 | 未知 | 未知 | 2026/11/16 03:27:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187242) |
@@ -546,9 +558,6 @@
 | 190102 | Wolf Blass Grey Label Shiraz - Cabernet Sauvignon 2017 | 2017 | 六支装（SKU 382805） | ¥469.00 | 未知 | 未知 | 未知 | 2026/11/3 07:46:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190102) |
 | 189889 | Cantina Vallebelbo San Maurizio Gran Dessert DOLCE Spumante | 未标示 | 双支装（SKU 378262） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/3 07:46:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189889) |
 | 189889 | Cantina Vallebelbo San Maurizio Gran Dessert DOLCE Spumante | 未标示 | 六支原箱（SKU 378263） | ¥279.90 | 未知 | 未知 | 未知 | 2026/11/3 07:46:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189889) |
-| 189779 | Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Domaine Roc de l'Abbaye - Florian Mollet Sancerre L'Antique 2022 | 2022 | 普伊富美白 2022 单支（SKU 385106） | ¥299.00 | 未知 | 未知 | 未知 | 2026/11/3 07:46:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189779) |
-| 189779 | Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Domaine Roc de l'Abbaye - Florian Mollet Sancerre L'Antique 2022 | 2022 | 桑塞尔白 2022 单支（SKU 385107） | ¥299.00 | 未知 | 未知 | 未知 | 2026/11/3 07:46:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189779) |
-| 189779 | Domaine Roc de l'Abbaye - Florian Mollet Pouilly-Fume L'Antique 2022 / Domaine Roc de l'Abbaye - Florian Mollet Sancerre L'Antique 2022 | 2022 | 双支组合（SKU 378022） | ¥488.00 | 未知 | 未知 | 未知 | 2026/11/3 07:46:05 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=189779) |
 | 185232 | Santa Julia 'La Oveja' Blanco Natural 2022 | 2022 | 单支（SKU 369243） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/3 07:45:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185232) |
 | 185232 | Santa Julia 'La Oveja' Blanco Natural 2022 | 2022 | 双支装（SKU 369244） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185232) |
 | 185232 | Santa Julia 'La Oveja' Blanco Natural 2022 | 2022 | 六支装（SKU 369245） | ¥550.00 | 未知 | 未知 | 未知 | 2026/11/3 07:45:11 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=185232) |
