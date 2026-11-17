@@ -1,11 +1,12 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/16 03:28:03 +08:00；本轮状态：failed；商品 269 款，规格 554 条。
+数据快照：2026/11/17 17:20:00 +08:00；本轮状态：partial；商品 270 款，规格 555 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 197842 | Chateau Gruaud-Larose | 1995 | 单支（SKU 394790） | ¥1099.00 | 在售 | 在售 | 2 | 2026/11/17 17:17:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197842) |
 | 197666 | Tenuta di Trinoro 'Campo di Magnacosta' Toscana IGT 2021 | 2021 | 单支（SKU 394833） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/16 03:27:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197666) |
 | 187242 | Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 / Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 | 2012 | 六支原箱（SKU 372883） | ¥199.00 | 未知 | 未知 | 未知 | 2026/11/16 03:27:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187242) |
 | 187242 | Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 / Chateau Mayne Blanc Cuvee Tradition Lussac-Saint-Emilion 2012 | 2012 | 十二支原箱（SKU 372884） | ¥389.00 | 未知 | 未知 | 未知 | 2026/11/16 03:27:31 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=187242) |
