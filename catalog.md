@@ -1,21 +1,21 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/18 16:39:21 +08:00；本轮状态：partial；商品 283 款，规格 571 条。
+数据快照：2026/11/18 16:39:21 +08:00；本轮状态：failed；商品 283 款，规格 571 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 197936 | Domaine Laroche Les Vaudevey Chablis Premier Cru 2023 | 2023 | 单支（SKU 394850） | ¥329.90 | 在售 | 在售 | 7 | 2026/11/18 16:39:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197936) |
-| 197932 | Gaja Sori Tildin Barbaresco 1985 | 1985 | 单支（SKU 394856） | ¥4499.00 | 在售 | 在售 | 2 | 2026/11/18 16:38:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197932) |
-| 197931 | Giacomo Conterno Barolo 1974 | 1974 | 单支（SKU 394854） | ¥2999.00 | 在售 | 在售 | 2 | 2026/11/18 16:38:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197931) |
-| 190102 | Wolf Blass Grey Label Shiraz - Cabernet Sauvignon 2017 | 2017 | 单支（SKU 378491） | ¥79.90 | 在售 | 在售 | 6 | 2026/11/18 16:38:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190102) |
-| 190102 | Wolf Blass Grey Label Shiraz - Cabernet Sauvignon 2017 | 2017 | 双支装（SKU 378492） | ¥159.00 | 在售 | 在售 | 6 | 2026/11/18 16:38:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190102) |
-| 190102 | Wolf Blass Grey Label Shiraz - Cabernet Sauvignon 2017 | 2017 | 六支装（SKU 382805） | ¥469.00 | 在售 | 在售 | 6 | 2026/11/18 16:38:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190102) |
-| 197596 | Casa Castillo Pie Franco | 未标示 | 单支（SKU 394263） | ¥799.00 | 在售 | 在售 | 1 | 2026/11/18 16:37:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197596) |
-| 196954 | Domaine Michel Gros Chambolle-Musigny 2022 | 2022 | 单支（SKU 394848） | ¥899.00 | 在售 | 在售 | 6 | 2026/11/18 16:37:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196954) |
-| 196556 | Domaine Remi Jobard Bourgogne Aligote 2023 | 2023 | 单支（SKU 391978） | ¥399.90 | 在售 | 在售 | 1 | 2026/11/18 16:37:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196556) |
-| 193882 | Dr. Loosen Urziger Wurzgarten Riesling Kabinett 2022 | 2022 | 单支（SKU 386798） | ¥299.90 | 在售 | 在售 | 8 | 2026/11/18 16:36:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193882) |
+| 197936 | Domaine Laroche Les Vaudevey Chablis Premier Cru 2023 | 2023 | 单支（SKU 394850） | ¥329.90 | 未知 | 未知 | 未知 | 2026/11/18 16:39:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197936) |
+| 197932 | Gaja Sori Tildin Barbaresco 1985 | 1985 | 单支（SKU 394856） | ¥4499.00 | 未知 | 未知 | 未知 | 2026/11/18 16:38:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197932) |
+| 197931 | Giacomo Conterno Barolo 1974 | 1974 | 单支（SKU 394854） | ¥2999.00 | 未知 | 未知 | 未知 | 2026/11/18 16:38:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197931) |
+| 190102 | Wolf Blass Grey Label Shiraz - Cabernet Sauvignon 2017 | 2017 | 单支（SKU 378491） | ¥79.90 | 未知 | 未知 | 未知 | 2026/11/18 16:38:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190102) |
+| 190102 | Wolf Blass Grey Label Shiraz - Cabernet Sauvignon 2017 | 2017 | 双支装（SKU 378492） | ¥159.00 | 未知 | 未知 | 未知 | 2026/11/18 16:38:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190102) |
+| 190102 | Wolf Blass Grey Label Shiraz - Cabernet Sauvignon 2017 | 2017 | 六支装（SKU 382805） | ¥469.00 | 未知 | 未知 | 未知 | 2026/11/18 16:38:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190102) |
+| 197596 | Casa Castillo Pie Franco | 未标示 | 单支（SKU 394263） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/18 16:37:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197596) |
+| 196954 | Domaine Michel Gros Chambolle-Musigny 2022 | 2022 | 单支（SKU 394848） | ¥899.00 | 未知 | 未知 | 未知 | 2026/11/18 16:37:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196954) |
+| 196556 | Domaine Remi Jobard Bourgogne Aligote 2023 | 2023 | 单支（SKU 391978） | ¥399.90 | 未知 | 未知 | 未知 | 2026/11/18 16:37:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196556) |
+| 193882 | Dr. Loosen Urziger Wurzgarten Riesling Kabinett 2022 | 2022 | 单支（SKU 386798） | ¥299.90 | 未知 | 未知 | 未知 | 2026/11/18 16:36:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193882) |
 | 193847 | Lian Jiu 勃艮第杯(酒杯)  920ml / 雪域猫王赤霞珠干红葡萄酒 2021 | 2021 / 部分未标示 | 单支 赠双支手工杯（SKU 386784） | ¥188.00 | 未知 | 未知 | 未知 | 2026/11/18 05:52:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193847) |
 | 192475 | 香格里拉雪域猫王霞多丽干白葡萄酒 2024 / Lian Jiu 勃艮第杯(酒杯)  920ml | 2024 / 部分未标示 | 单支 赠勃艮第杯2个（SKU 383823） | ¥188.00 | 未知 | 未知 | 未知 | 2026/11/18 05:52:43 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192475) |
 | 197958 | Domaine Coquard-Loison-Fleurot Clos de la Roche Grand Cru 2020 | 2020 | 单支（SKU 394840） | ¥2799.00 | 未知 | 未知 | 未知 | 2026/11/18 05:52:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197958) |
