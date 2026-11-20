@@ -5,62 +5,69 @@
 | 字段 | 值 |
 | --- | --- |
 | 采集状态 | partial |
-| 目录商品数 | 285 |
-| 持久队列累计候选 ID 数 | 531 |
-| 本轮页面观察到的唯一候选 ID 数 | 0 |
-| 尚未验证详情的候选 ID 数 | 244 |
-| 历史已验证详情商品数 | 285 |
-| 历史已验证库存 SKU 数 | 573 |
-| 本轮成功更新 | 3 |
+| 目录商品数 | 291 |
+| 持久队列累计候选 ID 数 | 558 |
+| 本轮页面观察到的唯一候选 ID 数 | 149 |
+| 尚未验证详情的候选 ID 数 | 265 |
+| 历史已验证详情商品数 | 291 |
+| 历史已验证库存 SKU 数 | 583 |
+| 本轮成功更新 | 7 |
 | 本轮公开接口恢复成功 | 0 |
-| 本轮详情成功率 | 50.0% |
-| 本轮运行耗时 | 251 秒 |
-| 本轮已验证库存 SKU 数 | 3 |
-| 本轮失败 | 3 |
-| 本轮不适合公开目录的商品 | 2 |
-| 价格保密待复查候选 ID 数 | 32 |
-| 当前库存未知商品数 | 282 |
-| 历史库存已失效的商品数 | 282 |
+| 本轮详情成功率 | 100.0% |
+| 本轮运行耗时 | 281 秒 |
+| 本轮已验证库存 SKU 数 | 11 |
+| 本轮失败 | 0 |
+| 本轮不适合公开目录的商品 | 8 |
+| 价格保密待复查候选 ID 数 | 40 |
+| 当前库存未知商品数 | 284 |
+| 历史库存已失效的商品数 | 284 |
 | 保留历史数据 | 是 |
-| 商品目录快照时间（北京时间） | 2026/11/20 16:39:37 +08:00 |
-| 最近成功采集时间（北京时间） | 2026/11/20 16:39:37 +08:00 |
-| 最近采集结束时间（北京时间） | 2026/11/20 16:39:37 +08:00 |
-| 数据新鲜度界限（北京时间） | 2026/11/21 10:39:37 +08:00 |
-| 最近采集运行链接 | [GitHub Actions](https://github.com/Ataraxiary/wineradar-catalog/actions/runs/44703619129) |
+| 商品目录快照时间（北京时间） | 2026/11/21 05:12:31 +08:00 |
+| 最近成功采集时间（北京时间） | 2026/11/21 05:12:31 +08:00 |
+| 最近采集结束时间（北京时间） | 2026/11/21 05:12:31 +08:00 |
+| 数据新鲜度界限（北京时间） | 2026/11/21 23:12:31 +08:00 |
+| 最近采集运行链接 | [GitHub Actions](https://github.com/Ataraxiary/wineradar-catalog/actions/runs/44817400188) |
 
 ## 本轮失败或未入库记录
 
 | 商品 ID | 代码 | 原因 | 时间（北京时间） |
 | --- | --- | --- | --- |
-| 197278 | price_not_public | Public page does not display a product price | 2026/11/20 16:36:20 +08:00 |
-| 197942 | price_not_public | Public page does not display a product price | 2026/11/20 16:36:58 +08:00 |
-| 167797 | request_failed | page.goto: Timeout 45000ms exceeded. | 2026/11/20 16:37:51 +08:00 |
-| 197948 | request_failed | page.goto: Timeout 45000ms exceeded. | 2026/11/20 16:38:44 +08:00 |
-| 197959 | request_failed | page.goto: Timeout 45000ms exceeded. | 2026/11/20 16:39:37 +08:00 |
+| 167797 | price_not_public | Public page does not display a product price | 2026/11/21 05:09:43 +08:00 |
+| 197948 | price_not_public | Public page does not display a product price | 2026/11/21 05:09:55 +08:00 |
+| 197959 | price_not_public | Public page does not display a product price | 2026/11/21 05:10:07 +08:00 |
+| 197970 | price_not_public | Public page does not display a product price | 2026/11/21 05:10:19 +08:00 |
+| 197982 | price_not_public | Public page does not display a product price | 2026/11/21 05:10:31 +08:00 |
+| 190491 | price_not_public | Public page does not display a product price | 2026/11/21 05:10:42 +08:00 |
+| 197998 | price_not_public | Public page does not display a product price | 2026/11/21 05:11:05 +08:00 |
+| 198002 | price_not_public | Public page does not display a product price | 2026/11/21 05:11:28 +08:00 |
 
 ## 本轮发现入口
 
 | 入口 | 观察到的候选数 | 入口错误 |
 | --- | --- | --- |
-| 现货速发 | 0 | 无 |
-| 普通商城 | 0 | discovery_navigation_failed |
+| 现货速发 | 14 | 无 |
+| 普通商城 | 114 | 无 |
+| 首页专题活动 | 4 | 无 |
+| 分类·法国 | 16 | 无 |
+| 分类·意大利 | 11 | 无 |
 
 ## 已验证详情商品的产国
 
 | 产国 | 商品数 |
 | --- | --- |
-| 法国 | 94 |
-| 意大利 | 74 |
+| 法国 | 98 |
+| 意大利 | 75 |
 | 澳大利亚 | 27 |
 | 新西兰 | 25 |
 | 西班牙 | 21 |
+| 德国 | 16 |
 | 智利 | 16 |
-| 德国 | 15 |
 | 美国 | 7 |
 | 中国 | 5 |
 | 匈牙利 | 3 |
 | 南非 | 2 |
 | 奥地利 | 2 |
+| 斯洛伐克共和国 | 2 |
 | 阿根廷 | 2 |
 | 日本 | 1 |
 | 葡萄牙 | 1 |

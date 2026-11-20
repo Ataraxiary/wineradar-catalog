@@ -1,14 +1,25 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/20 16:39:37 +08:00；本轮状态：partial；商品 285 款，规格 573 条。
+数据快照：2026/11/21 05:12:31 +08:00；本轮状态：partial；商品 291 款，规格 583 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 197937 | Marchesi Antinori Solaia Toscana IGT | 2014 | 单支（SKU 394922） | ¥2299.00 | 在售 | 在售 | 2 | 2026/11/20 16:36:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197937) |
-| 197830 | Manincor 'Tannenberg' Sauvignon Blanc 2024 | 2024 | 单支（SKU 394830） | ¥278.00 | 在售 | 在售 | 5 | 2026/11/20 16:36:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197830) |
-| 197392 | Patrick Javillier Meursault Clos du Cromin 2023 | 2023 | 单支（SKU 394005） | ¥749.00 | 在售 | 在售 | 4 | 2026/11/20 16:36:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197392) |
+| 197544 | Domaine Tessier Les Charmes Dessus Meursault Premier Cru 2023 | 2023 | 单支（SKU 394877） | ¥999.00 | 在售 | 在售 | 3 | 2026/11/21 05:12:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197544) |
+| 195669 | Rona Image系列Bordeaux杯 650ml / Joseph Drouhin Bourgogne Pinot Noir 2023 | 2023 / 部分未标示 | 单支 赠Rona酒杯一个（SKU 390195） | ¥189.90 | 在售 | 在售 | 2 | 2026/11/21 05:12:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195669) |
+| 195381 | Veuve Ambal Blanc de Blancs Brut NV | 未标示 | 双支装（SKU 389699） | ¥125.00 | 在售 | 在售 | 6 | 2026/11/21 05:12:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195381) |
+| 195381 | Veuve Ambal Blanc de Blancs Brut NV | 未标示 | 六支原箱（SKU 389700） | ¥349.00 | 在售 | 在售 | 6 | 2026/11/21 05:12:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195381) |
+| 195381 | Veuve Ambal Blanc de Blancs Brut NV | 未标示 | 5箱囤货装（SKU 389701） | ¥1730.00 | 在售 | 在售 | 6 | 2026/11/21 05:12:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195381) |
+| 194725 | M.Chapoutier Pays d'OC Rouge 2025 / Rona Image系列Bordeaux杯 650ml | 2025 / 部分未标示 | 单支（赠一支酒杯）（SKU 388480） | ¥138.00 | 在售 | 在售 | 4 | 2026/11/21 05:11:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=194725) |
+| 190517 | Domaine Amiot-Servelle Les Amoureuses Chambolle-Musigny Premier Cru 2016 | 2016 | 单支（SKU 379316） | ¥3699.00 | 在售 | 在售 | 1 | 2026/11/21 05:11:39 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190517) |
+| 198001 | La Spinetta IL GENTILE DI CASANOVA | 2020 | 单支（SKU 394919） | ¥179.90 | 在售 | 在售 | 7 | 2026/11/21 05:11:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198001) |
+| 198001 | La Spinetta IL GENTILE DI CASANOVA | 2020 | 双支装（SKU 394920） | ¥349.00 | 在售 | 在售 | 3 | 2026/11/21 05:11:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198001) |
+| 197991 | Markus Molitor Traditio Riesling golden capsule Sample 2024 / Markus Molitor Tradition Riesling white capsule Sample 2023 | 2024 / 2023 | 甜白葡萄酒（金盖）单支（SKU 394889） | ¥139.00 | 在售 | 在售 | 1 | 2026/11/21 05:10:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197991) |
+| 197991 | Markus Molitor Traditio Riesling golden capsule Sample 2024 / Markus Molitor Tradition Riesling white capsule Sample 2023 | 2024 / 2023 | 干白葡萄酒（白盖）单支（SKU 394890） | ¥139.00 | 在售 | 在售 | 1 | 2026/11/21 05:10:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197991) |
+| 197937 | Marchesi Antinori Solaia Toscana IGT | 2014 | 单支（SKU 394922） | ¥2299.00 | 未知 | 未知 | 未知 | 2026/11/20 16:36:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197937) |
+| 197830 | Manincor 'Tannenberg' Sauvignon Blanc 2024 | 2024 | 单支（SKU 394830） | ¥278.00 | 未知 | 未知 | 未知 | 2026/11/20 16:36:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197830) |
+| 197392 | Patrick Javillier Meursault Clos du Cromin 2023 | 2023 | 单支（SKU 394005） | ¥749.00 | 未知 | 未知 | 未知 | 2026/11/20 16:36:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197392) |
 | 197936 | Domaine Laroche Les Vaudevey Chablis Premier Cru 2023 | 2023 | 单支（SKU 394850） | ¥329.90 | 未知 | 未知 | 未知 | 2026/11/18 16:39:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197936) |
 | 197932 | Gaja Sori Tildin Barbaresco 1985 | 1985 | 单支（SKU 394856） | ¥4499.00 | 未知 | 未知 | 未知 | 2026/11/18 16:38:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197932) |
 | 197931 | Giacomo Conterno Barolo 1974 | 1974 | 单支（SKU 394854） | ¥2999.00 | 未知 | 未知 | 未知 | 2026/11/18 16:38:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197931) |
@@ -562,7 +573,6 @@
 | 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 单支（SKU 379977） | ¥168.00 | 未知 | 未知 | 未知 | 2026/11/3 07:55:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
 | 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 双支装（SKU 379978） | ¥328.00 | 未知 | 未知 | 未知 | 2026/11/3 07:55:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
 | 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 六支原木箱（SKU 379979） | ¥978.00 | 未知 | 未知 | 未知 | 2026/11/3 07:55:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
-| 190517 | Domaine Amiot-Servelle Les Amoureuses Chambolle-Musigny Premier Cru 2016 | 2016 | 单支（SKU 379316） | ¥3699.00 | 未知 | 未知 | 未知 | 2026/11/3 07:55:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190517) |
 | 190491 | M. Chapoutier Cotes du Rhone 2022 | 2022 | 单支（SKU 379125） | ¥75.00 | 未知 | 未知 | 未知 | 2026/11/3 07:48:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190491) |
 | 190491 | M. Chapoutier Cotes du Rhone 2022 | 2022 | 双支装（SKU 379126） | ¥139.00 | 未知 | 未知 | 未知 | 2026/11/3 07:48:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190491) |
 | 190491 | M. Chapoutier Cotes du Rhone 2022 | 2022 | 六支原箱（SKU 379127） | ¥399.00 | 未知 | 未知 | 未知 | 2026/11/3 07:48:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190491) |
