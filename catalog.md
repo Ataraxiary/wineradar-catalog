@@ -1,11 +1,14 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/18 16:39:21 +08:00；本轮状态：failed；商品 283 款，规格 571 条。
+数据快照：2026/11/20 16:39:37 +08:00；本轮状态：partial；商品 285 款，规格 573 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 197937 | Marchesi Antinori Solaia Toscana IGT | 2014 | 单支（SKU 394922） | ¥2299.00 | 在售 | 在售 | 2 | 2026/11/20 16:36:44 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197937) |
+| 197830 | Manincor 'Tannenberg' Sauvignon Blanc 2024 | 2024 | 单支（SKU 394830） | ¥278.00 | 在售 | 在售 | 5 | 2026/11/20 16:36:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197830) |
+| 197392 | Patrick Javillier Meursault Clos du Cromin 2023 | 2023 | 单支（SKU 394005） | ¥749.00 | 在售 | 在售 | 4 | 2026/11/20 16:36:07 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197392) |
 | 197936 | Domaine Laroche Les Vaudevey Chablis Premier Cru 2023 | 2023 | 单支（SKU 394850） | ¥329.90 | 未知 | 未知 | 未知 | 2026/11/18 16:39:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197936) |
 | 197932 | Gaja Sori Tildin Barbaresco 1985 | 1985 | 单支（SKU 394856） | ¥4499.00 | 未知 | 未知 | 未知 | 2026/11/18 16:38:49 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197932) |
 | 197931 | Giacomo Conterno Barolo 1974 | 1974 | 单支（SKU 394854） | ¥2999.00 | 未知 | 未知 | 未知 | 2026/11/18 16:38:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197931) |
@@ -575,5 +578,4 @@
 | 167797 | E.Guigal Cotes-du-Rhone Rouge | 2021 | 六支装（SKU 332929） | ¥629.90 | 未知 | 未知 | 未知 | 2026/11/3 07:32:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167797) |
 | 167797 | E.Guigal Cotes-du-Rhone Rouge | 2021 | 十二支装（SKU 332930） | ¥1199.90 | 未知 | 未知 | 未知 | 2026/11/3 07:32:10 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=167797) |
 | 196988 | Domaine Gros Frere et Soeur Vosne-Romanee 2023 | 2023 | 单支（SKU 393383） | ¥1099.00 | 未知 | 未知 | 未知 | 2026/11/3 06:09:17 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196988) |
-| 197392 | Patrick Javillier Meursault Clos du Cromin 2023 | 2023 | 单支（SKU 394005） | ¥749.00 | 未知 | 未知 | 未知 | 2026/11/3 06:08:55 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197392) |
 | 197787 | Giuseppe Quintarelli Valpolicella Classico Superiore 2018 | 2018 | 单支（SKU 394589） | ¥799.00 | 未知 | 未知 | 未知 | 2026/11/3 06:06:37 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197787) |
