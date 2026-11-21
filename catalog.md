@@ -1,11 +1,14 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/21 05:12:31 +08:00；本轮状态：failed；商品 291 款，规格 583 条。
+数据快照：2026/11/22 04:14:45 +08:00；本轮状态：partial；商品 291 款，规格 583 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 单支（SKU 379977） | ¥168.00 | 在售 | 在售 | 6 | 2026/11/22 04:11:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
+| 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 双支装（SKU 379978） | ¥328.00 | 在售 | 在售 | 6 | 2026/11/22 04:11:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
+| 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 六支原木箱（SKU 379979） | ¥978.00 | 在售 | 在售 | 6 | 2026/11/22 04:11:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
 | 197544 | Domaine Tessier Les Charmes Dessus Meursault Premier Cru 2023 | 2023 | 单支（SKU 394877） | ¥999.00 | 未知 | 未知 | 未知 | 2026/11/21 05:12:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197544) |
 | 195669 | Rona Image系列Bordeaux杯 650ml / Joseph Drouhin Bourgogne Pinot Noir 2023 | 2023 / 部分未标示 | 单支 赠Rona酒杯一个（SKU 390195） | ¥189.90 | 未知 | 未知 | 未知 | 2026/11/21 05:12:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195669) |
 | 195381 | Veuve Ambal Blanc de Blancs Brut NV | 未标示 | 双支装（SKU 389699） | ¥125.00 | 未知 | 未知 | 未知 | 2026/11/21 05:12:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=195381) |
@@ -570,9 +573,6 @@
 | 191351 | Monopole Clasico Reserva 2020 | 2020 | 单支（SKU 381505） | ¥279.00 | 未知 | 未知 | 未知 | 2026/11/3 07:55:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191351) |
 | 191351 | Monopole Clasico Reserva 2020 | 2020 | 双支装（SKU 381493） | ¥349.00 | 未知 | 未知 | 未知 | 2026/11/3 07:55:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191351) |
 | 191351 | Monopole Clasico Reserva 2020 | 2020 | 六支装（SKU 381494） | ¥1039.00 | 未知 | 未知 | 未知 | 2026/11/3 07:55:46 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191351) |
-| 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 单支（SKU 379977） | ¥168.00 | 未知 | 未知 | 未知 | 2026/11/3 07:55:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
-| 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 双支装（SKU 379978） | ¥328.00 | 未知 | 未知 | 未知 | 2026/11/3 07:55:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
-| 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 六支原木箱（SKU 379979） | ¥978.00 | 未知 | 未知 | 未知 | 2026/11/3 07:55:34 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
 | 190491 | M. Chapoutier Cotes du Rhone 2022 | 2022 | 单支（SKU 379125） | ¥75.00 | 未知 | 未知 | 未知 | 2026/11/3 07:48:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190491) |
 | 190491 | M. Chapoutier Cotes du Rhone 2022 | 2022 | 双支装（SKU 379126） | ¥139.00 | 未知 | 未知 | 未知 | 2026/11/3 07:48:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190491) |
 | 190491 | M. Chapoutier Cotes du Rhone 2022 | 2022 | 六支原箱（SKU 379127） | ¥399.00 | 未知 | 未知 | 未知 | 2026/11/3 07:48:02 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190491) |
