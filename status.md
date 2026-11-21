@@ -4,52 +4,40 @@
 
 | 字段 | 值 |
 | --- | --- |
-| 采集状态 | partial |
+| 采集状态 | failed |
 | 目录商品数 | 291 |
 | 持久队列累计候选 ID 数 | 558 |
-| 本轮页面观察到的唯一候选 ID 数 | 149 |
+| 本轮页面观察到的唯一候选 ID 数 | 未记录 |
 | 尚未验证详情的候选 ID 数 | 265 |
 | 历史已验证详情商品数 | 291 |
 | 历史已验证库存 SKU 数 | 583 |
-| 本轮成功更新 | 7 |
+| 本轮成功更新 | 0 |
 | 本轮公开接口恢复成功 | 0 |
-| 本轮详情成功率 | 100.0% |
-| 本轮运行耗时 | 281 秒 |
-| 本轮已验证库存 SKU 数 | 11 |
-| 本轮失败 | 0 |
-| 本轮不适合公开目录的商品 | 8 |
+| 本轮详情成功率 | 未记录 |
+| 本轮运行耗时 | 22 秒 |
+| 本轮已验证库存 SKU 数 | 0 |
+| 本轮失败 | 1 |
+| 本轮不适合公开目录的商品 | 0 |
 | 价格保密待复查候选 ID 数 | 40 |
-| 当前库存未知商品数 | 284 |
-| 历史库存已失效的商品数 | 284 |
+| 当前库存未知商品数 | 291 |
+| 历史库存已失效的商品数 | 291 |
 | 保留历史数据 | 是 |
 | 商品目录快照时间（北京时间） | 2026/11/21 05:12:31 +08:00 |
 | 最近成功采集时间（北京时间） | 2026/11/21 05:12:31 +08:00 |
-| 最近采集结束时间（北京时间） | 2026/11/21 05:12:31 +08:00 |
+| 最近采集结束时间（北京时间） | 2026/11/21 16:19:25 +08:00 |
 | 数据新鲜度界限（北京时间） | 2026/11/21 23:12:31 +08:00 |
-| 最近采集运行链接 | [GitHub Actions](https://github.com/Ataraxiary/wineradar-catalog/actions/runs/44817400188) |
+| 最近采集运行链接 | [GitHub Actions](https://github.com/Ataraxiary/wineradar-catalog/actions/runs/44884226392) |
 
 ## 本轮失败或未入库记录
 
 | 商品 ID | 代码 | 原因 | 时间（北京时间） |
 | --- | --- | --- | --- |
-| 167797 | price_not_public | Public page does not display a product price | 2026/11/21 05:09:43 +08:00 |
-| 197948 | price_not_public | Public page does not display a product price | 2026/11/21 05:09:55 +08:00 |
-| 197959 | price_not_public | Public page does not display a product price | 2026/11/21 05:10:07 +08:00 |
-| 197970 | price_not_public | Public page does not display a product price | 2026/11/21 05:10:19 +08:00 |
-| 197982 | price_not_public | Public page does not display a product price | 2026/11/21 05:10:31 +08:00 |
-| 190491 | price_not_public | Public page does not display a product price | 2026/11/21 05:10:42 +08:00 |
-| 197998 | price_not_public | Public page does not display a product price | 2026/11/21 05:11:05 +08:00 |
-| 198002 | price_not_public | Public page does not display a product price | 2026/11/21 05:11:28 +08:00 |
+| — | collection_failed | apiRequestContext.get: Timeout 20000ms exceeded. | 2026/11/21 16:19:25 +08:00 |
 
 ## 本轮发现入口
 
 | 入口 | 观察到的候选数 | 入口错误 |
 | --- | --- | --- |
-| 现货速发 | 14 | 无 |
-| 普通商城 | 114 | 无 |
-| 首页专题活动 | 4 | 无 |
-| 分类·法国 | 16 | 无 |
-| 分类·意大利 | 11 | 无 |
 
 ## 已验证详情商品的产国
 
