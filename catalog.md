@@ -1,23 +1,29 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/22 16:05:59 +08:00；本轮状态：partial；商品 296 款，规格 589 条。
+数据快照：2026/11/23 04:27:47 +08:00；本轮状态：partial；商品 299 款，规格 593 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 197986 | Poderi Aldo Conterno Bussia Cicala Barolo DOCG 2007 | 2007 | 单支（SKU 394878） | ¥1699.00 | 在售 | 在售 | 1 | 2026/11/22 16:05:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197986) |
-| 197979 | Giacomo Borgogno & Figli Barolo Riserva DOCG 1961 | 1961 | 单支（SKU 394980） | ¥1999.00 | 在售 | 在售 | 2 | 2026/11/22 16:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197979) |
-| 191658 | I Balzini Balze Verdi IGP Toscana 2022 | 2022 | 单支（SKU 381706） | ¥99.90 | 在售 | 在售 | 9 | 2026/11/22 16:05:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191658) |
-| 191658 | I Balzini Balze Verdi IGP Toscana 2022 | 2022 | 双支装（SKU 381707） | ¥189.00 | 在售 | 在售 | 9 | 2026/11/22 16:05:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191658) |
-| 191658 | I Balzini Balze Verdi IGP Toscana 2022 | 2022 | 六支装（SKU 381708） | ¥550.00 | 在售 | 在售 | 9 | 2026/11/22 16:05:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191658) |
-| 197976 | Fontanafredda La Bianca Barolo 1978 | 1978 | 单支（SKU 394981） | ¥1299.00 | 在售 | 在售 | 2 | 2026/11/22 16:04:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197976) |
-| 184834 | Vini Viti Vinci Bourgogne Aligote Breau 2022 | 2022 | 单支（SKU 389807） | ¥199.90 | 在售 | 在售 | 4 | 2026/11/22 16:04:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184834) |
-| 184834 | Vini Viti Vinci Bourgogne Aligote Breau 2022 | 2022 | 双支装（SKU 389808） | ¥389.00 | 在售 | 在售 | 2 | 2026/11/22 16:04:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184834) |
-| 197927 | Tyrrell's Vat 9 Hunter Shiraz 2023 | 2023 | 单支（SKU 394791） | ¥368.00 | 在售 | 在售 | 6 | 2026/11/22 16:03:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197927) |
-| 191351 | Monopole Clasico Reserva 2020 | 2020 | 单支（SKU 381505） | ¥279.00 | 在售 | 在售 | 9 | 2026/11/22 16:02:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191351) |
-| 191351 | Monopole Clasico Reserva 2020 | 2020 | 双支装（SKU 381493） | ¥349.00 | 在售 | 在售 | 9 | 2026/11/22 16:02:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191351) |
-| 191351 | Monopole Clasico Reserva 2020 | 2020 | 六支装（SKU 381494） | ¥1039.00 | 在售 | 在售 | 9 | 2026/11/22 16:02:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191351) |
+| 196960 | Roberto Voerzio Barbera D'Alba Doc Ii Cerreto - 2021 | 2021 | 单支（SKU 393191） | ¥249.90 | 在售 | 在售 | 4 | 2026/11/23 04:27:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196960) |
+| 196960 | Roberto Voerzio Barbera D'Alba Doc Ii Cerreto - 2021 | 2021 | 双支装（SKU 393324） | ¥488.00 | 在售 | 在售 | 4 | 2026/11/23 04:27:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196960) |
+| 191791 | Renzo Masi Chianti DOCG 2024 | 2024 | 双支装（SKU 382014） | ¥99.90 | 在售 | 在售 | 6 | 2026/11/23 04:26:50 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191791) |
+| 191791 | Renzo Masi Chianti DOCG 2024 | 2024 | 六支原箱（SKU 382015） | ¥279.00 | 在售 | 在售 | 6 | 2026/11/23 04:26:50 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191791) |
+| 197996 | Renzo Masi Chianti DOCG 2024 / Chateau des Tourelles 2017 / Bodegas Fernando Castro Raices Gran Reserva 2018 / Takler Szekszárdi Trio Cuvée 2022 / Never Look Back Coffee Pinotage / Calyptra Petit Inedito 2022 | 2024 / 2017 / 2018 / 2022 / 部分未标示 | 六支组合装（SKU 394974） | ¥319.00 | 在售 | 在售 | 4 | 2026/11/23 04:26:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197996) |
+| 197906 | Domaine Fourrier Les Goulots Vieilles Vignes Gevrey-Chambertin Premier Cru 2022 | 2022 | 单支（SKU 394949） | ¥2499.00 | 在售 | 在售 | 3 | 2026/11/23 04:26:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197906) |
+| 197986 | Poderi Aldo Conterno Bussia Cicala Barolo DOCG 2007 | 2007 | 单支（SKU 394878） | ¥1699.00 | 未知 | 未知 | 未知 | 2026/11/22 16:05:26 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197986) |
+| 197979 | Giacomo Borgogno & Figli Barolo Riserva DOCG 1961 | 1961 | 单支（SKU 394980） | ¥1999.00 | 未知 | 未知 | 未知 | 2026/11/22 16:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197979) |
+| 191658 | I Balzini Balze Verdi IGP Toscana 2022 | 2022 | 单支（SKU 381706） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/22 16:05:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191658) |
+| 191658 | I Balzini Balze Verdi IGP Toscana 2022 | 2022 | 双支装（SKU 381707） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/22 16:05:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191658) |
+| 191658 | I Balzini Balze Verdi IGP Toscana 2022 | 2022 | 六支装（SKU 381708） | ¥550.00 | 未知 | 未知 | 未知 | 2026/11/22 16:05:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191658) |
+| 197976 | Fontanafredda La Bianca Barolo 1978 | 1978 | 单支（SKU 394981） | ¥1299.00 | 未知 | 未知 | 未知 | 2026/11/22 16:04:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197976) |
+| 184834 | Vini Viti Vinci Bourgogne Aligote Breau 2022 | 2022 | 单支（SKU 389807） | ¥199.90 | 未知 | 未知 | 未知 | 2026/11/22 16:04:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184834) |
+| 184834 | Vini Viti Vinci Bourgogne Aligote Breau 2022 | 2022 | 双支装（SKU 389808） | ¥389.00 | 未知 | 未知 | 未知 | 2026/11/22 16:04:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=184834) |
+| 197927 | Tyrrell's Vat 9 Hunter Shiraz 2023 | 2023 | 单支（SKU 394791） | ¥368.00 | 未知 | 未知 | 未知 | 2026/11/22 16:03:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197927) |
+| 191351 | Monopole Clasico Reserva 2020 | 2020 | 单支（SKU 381505） | ¥279.00 | 未知 | 未知 | 未知 | 2026/11/22 16:02:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191351) |
+| 191351 | Monopole Clasico Reserva 2020 | 2020 | 双支装（SKU 381493） | ¥349.00 | 未知 | 未知 | 未知 | 2026/11/22 16:02:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191351) |
+| 191351 | Monopole Clasico Reserva 2020 | 2020 | 六支装（SKU 381494） | ¥1039.00 | 未知 | 未知 | 未知 | 2026/11/22 16:02:53 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191351) |
 | 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 单支（SKU 379977） | ¥168.00 | 未知 | 未知 | 未知 | 2026/11/22 04:11:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
 | 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 双支装（SKU 379978） | ¥328.00 | 未知 | 未知 | 未知 | 2026/11/22 04:11:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
 | 190886 | Giovanni Rosso Etna Rosso DOC 2021 | 2021 | 六支原木箱（SKU 379979） | ¥978.00 | 未知 | 未知 | 未知 | 2026/11/22 04:11:23 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=190886) |
@@ -568,8 +574,6 @@
 | 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 双支装（SKU 382118） | ¥229.90 | 未知 | 未知 | 未知 | 2026/11/3 07:57:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
 | 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 小鸟花鸟（双支装）（SKU 382119） | ¥229.90 | 未知 | 未知 | 未知 | 2026/11/3 07:57:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
 | 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 六支装（SKU 383218） | ¥668.00 | 未知 | 未知 | 未知 | 2026/11/3 07:57:00 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
-| 191791 | Renzo Masi Chianti DOCG 2024 | 2024 | 双支装（SKU 382014） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/3 07:56:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191791) |
-| 191791 | Renzo Masi Chianti DOCG 2024 | 2024 | 六支原箱（SKU 382015） | ¥279.00 | 未知 | 未知 | 未知 | 2026/11/3 07:56:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191791) |
 | 191694 | Jean Loron RIFT 496 Pinot Noir 2021 | 2021 | 单支（SKU 381750） | ¥99.00 | 未知 | 未知 | 未知 | 2026/11/3 07:56:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191694) |
 | 191694 | Jean Loron RIFT 496 Pinot Noir 2021 | 2021 | 双支装（SKU 381751） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/3 07:56:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191694) |
 | 191694 | Jean Loron RIFT 496 Pinot Noir 2021 | 2021 | 六支装（SKU 381752） | ¥550.00 | 未知 | 未知 | 未知 | 2026/11/3 07:56:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191694) |
