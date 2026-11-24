@@ -1,27 +1,42 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/23 17:15:07 +08:00；本轮状态：partial；商品 307 款，规格 602 条。
+数据快照：2026/11/24 08:58:01 +08:00；本轮状态：partial；商品 316 款，规格 614 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 198039 | Emiliana Ge Colchagua Valley 2018 | 2018 | 单支（SKU 395067） | ¥499.00 | 在售 | 在售 | 6 | 2026/11/23 17:14:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198039) |
-| 198024 | Giacomo Borgogno & Figli Barolo Riserva 1964 | 1964 | 单支（SKU 395039） | ¥1499.00 | 在售 | 在售 | 2 | 2026/11/23 17:14:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198024) |
-| 198013 | Nicole Lamarche Nuits-Saint-Georges Village, Cote de Nuits 2021 | 2021 | 单支（SKU 395056） | ¥599.00 | 在售 | 在售 | 5 | 2026/11/23 17:14:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198013) |
-| 198009 | Giovannini Moresco Podere del Pajore Barbaresco 1970 | 1970 | 单支（SKU 395035） | ¥2799.00 | 在售 | 在售 | 1 | 2026/11/23 17:13:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198009) |
-| 197963 | Paul Hobbs Stagecoach Vineyard Cabernet Sauvignon 2008 | 2008 | 单支（SKU 395122） | ¥999.00 | 在售 | 在售 | 2 | 2026/11/23 17:13:36 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197963) |
-| 198068 | Chateau Mouton Rothschild 1500ml | 未标示 | 单支（SKU 395031） | ¥7599.00 | 在售 | 在售 | 3 | 2026/11/23 17:13:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198068) |
-| 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 单支（SKU 382117） | ¥119.00 | 在售 | 在售 | 5 | 2026/11/23 17:12:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
-| 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 双支装（SKU 382118） | ¥229.90 | 在售 | 在售 | 5 | 2026/11/23 17:12:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
-| 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 小鸟花鸟（双支装）（SKU 382119） | ¥229.90 | 在售 | 在售 | 5 | 2026/11/23 17:12:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
-| 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 六支装（SKU 383218） | ¥668.00 | 在售 | 在售 | 5 | 2026/11/23 17:12:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
-| 198019 | Never Look Back Cabernet Sauvignon | 2022 | 双支装（SKU 394945） | ¥99.90 | 在售 | 在售 | 7 | 2026/11/23 17:12:41 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198019) |
-| 198019 | Never Look Back Cabernet Sauvignon | 2022 | 六支原箱（SKU 394946） | ¥279.00 | 在售 | 在售 | 6 | 2026/11/23 17:12:41 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198019) |
-| 197984 | Domaine Laroche Les Fourchaume Vieilles Vignes Chablis Premier Cru 2023 | 2023 | 单支（SKU 395004） | ¥399.90 | 在售 | 在售 | 6 | 2026/11/23 17:12:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197984) |
-| 191687 | Deliance Pere & Fils Cremant de Bourgogne Ruban Or Brut | 2014 | 单支（SKU 381745） | ¥199.00 | 在售 | 在售 | 9 | 2026/11/23 17:11:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191687) |
-| 191687 | Deliance Pere & Fils Cremant de Bourgogne Ruban Or Brut | 2014 | 双支装（SKU 381746） | ¥389.00 | 在售 | 在售 | 9 | 2026/11/23 17:11:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191687) |
-| 191687 | Deliance Pere & Fils Cremant de Bourgogne Ruban Or Brut | 2014 | 六支装（SKU 381747） | ¥999.00 | 在售 | 在售 | 9 | 2026/11/23 17:11:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191687) |
+| 198105 | Domaine Fourrier La Combe Aux Moines Vieilles Vignes 2022 | 2022 | 单支（SKU 395046） | ¥2799.00 | 在售 | 在售 | 5 | 2026/11/24 08:57:52 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198105) |
+| 198084 | Poderi Oddero BrunateBarolo DOCG 2021 | 2021 | 单支（SKU 395114） | ¥1199.00 | 在售 | 在售 | 3 | 2026/11/24 08:57:38 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198084) |
+| 198055 | Produttori del Barbaresco Muncagota Barbaresco Riserva DOCG 2020 | 2020 | 单支（SKU 394987） | ¥439.00 | 在售 | 在售 | 4 | 2026/11/24 08:57:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198055) |
+| 198055 | Produttori del Barbaresco Muncagota Barbaresco Riserva DOCG 2020 | 2020 | 双支装（SKU 394988） | ¥868.00 | 在售 | 在售 | 4 | 2026/11/24 08:57:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198055) |
+| 198055 | Produttori del Barbaresco Muncagota Barbaresco Riserva DOCG 2020 | 2020 | 六支装（SKU 394989） | ¥2569.00 | 在售 | 在售 | 2 | 2026/11/24 08:57:27 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198055) |
+| 197904 | Domaine de Montille Clos De Vougeot Grand Cru 2020 | 2020 | 单支（SKU 395119） | ¥2299.00 | 在售 | 在售 | 2 | 2026/11/24 08:57:16 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197904) |
+| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 单支（SKU 390634） | ¥169.00 | 在售 | 在售 | 6 | 2026/11/24 08:57:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
+| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 双支装（SKU 384482） | ¥329.00 | 在售 | 在售 | 6 | 2026/11/24 08:57:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
+| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 六支装（SKU 384483） | ¥969.00 | 在售 | 在售 | 6 | 2026/11/24 08:57:04 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
+| 198120 | La Ca Nova 'Montefico' Vigna Bric Mentina Barbaresco DOCG 2019 | 2019 | 单支（SKU 395107） | ¥499.00 | 在售 | 在售 | 2 | 2026/11/24 08:56:54 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198120) |
+| 198077 | Pio Cesare Barolo 1974 | 1974 | 单支（SKU 395123） | ¥1199.00 | 在售 | 在售 | 2 | 2026/11/24 08:56:30 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198077) |
+| 198074 | Marcarini Brunate Barolo 1974 | 1974 | 单支（SKU 395118） | ¥1299.00 | 在售 | 在售 | 2 | 2026/11/24 08:56:20 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198074) |
+| 198056 | JJ Hahn Reginald Shiraz - Cabernet Sauvignon 2014 / JJ Hahn Reginald Shiraz - Cabernet Sauvignon 2013 | 2014 / 2013 | 双支组合装（SKU 395109） | ¥135.00 | 在售 | 在售 | 9 | 2026/11/24 08:55:32 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198056) |
+| 198051 | Insoglio del Cinghiale Campo di Sasso 2022 | 2022 | 单支（SKU 395076） | ¥269.00 | 在售 | 在售 | 7 | 2026/11/24 08:55:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198051) |
+| 198051 | Insoglio del Cinghiale Campo di Sasso 2022 | 2022 | 双支装（SKU 395077） | ¥529.00 | 在售 | 在售 | 7 | 2026/11/24 08:55:21 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198051) |
+| 198039 | Emiliana Ge Colchagua Valley 2018 | 2018 | 单支（SKU 395067） | ¥499.00 | 未知 | 未知 | 未知 | 2026/11/23 17:14:59 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198039) |
+| 198024 | Giacomo Borgogno & Figli Barolo Riserva 1964 | 1964 | 单支（SKU 395039） | ¥1499.00 | 未知 | 未知 | 未知 | 2026/11/23 17:14:35 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198024) |
+| 198013 | Nicole Lamarche Nuits-Saint-Georges Village, Cote de Nuits 2021 | 2021 | 单支（SKU 395056） | ¥599.00 | 未知 | 未知 | 未知 | 2026/11/23 17:14:22 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198013) |
+| 198009 | Giovannini Moresco Podere del Pajore Barbaresco 1970 | 1970 | 单支（SKU 395035） | ¥2799.00 | 未知 | 未知 | 未知 | 2026/11/23 17:13:51 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198009) |
+| 197963 | Paul Hobbs Stagecoach Vineyard Cabernet Sauvignon 2008 | 2008 | 单支（SKU 395122） | ¥999.00 | 未知 | 未知 | 未知 | 2026/11/23 17:13:36 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197963) |
+| 198068 | Chateau Mouton Rothschild 1500ml | 未标示 | 单支（SKU 395031） | ¥7599.00 | 未知 | 未知 | 未知 | 2026/11/23 17:13:09 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198068) |
+| 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 单支（SKU 382117） | ¥119.00 | 未知 | 未知 | 未知 | 2026/11/23 17:12:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
+| 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 双支装（SKU 382118） | ¥229.90 | 未知 | 未知 | 未知 | 2026/11/23 17:12:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
+| 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 小鸟花鸟（双支装）（SKU 382119） | ¥229.90 | 未知 | 未知 | 未知 | 2026/11/23 17:12:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
+| 191902 | La Spinetta Bricco Quaglia Moscato d'Asti DOCG 2025 / La Spinetta Biancospino Moscato d'Asti DOCG 2025 | 2025 | 六支装（SKU 383218） | ¥668.00 | 未知 | 未知 | 未知 | 2026/11/23 17:12:56 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191902) |
+| 198019 | Never Look Back Cabernet Sauvignon | 2022 | 双支装（SKU 394945） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/23 17:12:41 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198019) |
+| 198019 | Never Look Back Cabernet Sauvignon | 2022 | 六支原箱（SKU 394946） | ¥279.00 | 未知 | 未知 | 未知 | 2026/11/23 17:12:41 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198019) |
+| 197984 | Domaine Laroche Les Fourchaume Vieilles Vignes Chablis Premier Cru 2023 | 2023 | 单支（SKU 395004） | ¥399.90 | 未知 | 未知 | 未知 | 2026/11/23 17:12:12 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=197984) |
+| 191687 | Deliance Pere & Fils Cremant de Bourgogne Ruban Or Brut | 2014 | 单支（SKU 381745） | ¥199.00 | 未知 | 未知 | 未知 | 2026/11/23 17:11:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191687) |
+| 191687 | Deliance Pere & Fils Cremant de Bourgogne Ruban Or Brut | 2014 | 双支装（SKU 381746） | ¥389.00 | 未知 | 未知 | 未知 | 2026/11/23 17:11:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191687) |
+| 191687 | Deliance Pere & Fils Cremant de Bourgogne Ruban Or Brut | 2014 | 六支装（SKU 381747） | ¥999.00 | 未知 | 未知 | 未知 | 2026/11/23 17:11:47 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191687) |
 | 196960 | Roberto Voerzio Barbera D'Alba Doc Ii Cerreto - 2021 | 2021 | 单支（SKU 393191） | ¥249.90 | 未知 | 未知 | 未知 | 2026/11/23 04:27:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196960) |
 | 196960 | Roberto Voerzio Barbera D'Alba Doc Ii Cerreto - 2021 | 2021 | 双支装（SKU 393324） | ¥488.00 | 未知 | 未知 | 未知 | 2026/11/23 04:27:25 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=196960) |
 | 191791 | Renzo Masi Chianti DOCG 2024 | 2024 | 双支装（SKU 382014） | ¥99.90 | 未知 | 未知 | 未知 | 2026/11/23 04:26:50 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=191791) |
@@ -572,9 +587,6 @@
 | 193473 | Torrevento Infinitum Chardonnay | 2024 | 单支（SKU 385859） | ¥59.90 | 未知 | 未知 | 未知 | 2026/11/3 08:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193473) |
 | 193473 | Torrevento Infinitum Chardonnay | 2024 | 双支装（SKU 385860） | ¥109.90 | 未知 | 未知 | 未知 | 2026/11/3 08:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193473) |
 | 193473 | Torrevento Infinitum Chardonnay | 2024 | 六支原箱（SKU 385861） | ¥319.90 | 未知 | 未知 | 未知 | 2026/11/3 08:05:13 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=193473) |
-| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 单支（SKU 390634） | ¥169.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
-| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 双支装（SKU 384482） | ¥329.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
-| 192826 | Feudi di San Gregorio Taurasi DOCG 2020 | 2020 | 六支装（SKU 384483） | ¥969.00 | 未知 | 未知 | 未知 | 2026/11/3 08:05:01 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192826) |
 | 192743 | Vina Una Hectarea 1 ha  Reserva Especial Cabernet Sauvignon 2020 | 2020 | 六支原箱（SKU 384278） | ¥149.90 | 未知 | 未知 | 未知 | 2026/11/3 08:04:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192743) |
 | 192743 | Vina Una Hectarea 1 ha  Reserva Especial Cabernet Sauvignon 2020 | 2020 | 5箱聚会装（SKU 389274） | ¥739.00 | 未知 | 未知 | 未知 | 2026/11/3 08:04:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192743) |
 | 192743 | Vina Una Hectarea 1 ha  Reserva Especial Cabernet Sauvignon 2020 | 2020 | 10箱囤货装（SKU 389275） | ¥1469.00 | 未知 | 未知 | 未知 | 2026/11/3 08:04:48 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=192743) |
