@@ -1,11 +1,17 @@
 # WineRadar 完整商品目录
 
-数据快照：2026/11/24 19:03:26 +08:00；本轮状态：failed；商品 324 款，规格 626 条。
+数据快照：2026/11/25 17:57:16 +08:00；本轮状态：partial；商品 326 款，规格 632 条。
 
 结构化权威数据：[catalog.json](https://ataraxiary.github.io/wineradar-catalog/catalog.json)；[更新与失败状态](https://ataraxiary.github.io/wineradar-catalog/status.md)。价格为规格总价。库存“未知”不等于售罄；最后验证时间表示历史成功读取时间，不表示当前仍有库存。
 
 | 商品 ID | 名称 | 年份 | 规格 / SKU | 价格（CNY） | 商品库存状态 | SKU 库存状态 | 当前 SKU 库存 | 库存最后验证时间（北京时间） | 原商品链接 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 198106 | Emiliana Coyam, Colchagua Valley 2020 | 2020 | 单支（SKU 395047） | ¥199.90 | 在售 | 在售 | 8 | 2026/11/25 17:57:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198106) |
+| 198106 | Emiliana Coyam, Colchagua Valley 2020 | 2020 | 双支装（SKU 395048） | ¥389.90 | 在售 | 在售 | 8 | 2026/11/25 17:57:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198106) |
+| 198106 | Emiliana Coyam, Colchagua Valley 2020 | 2020 | 六支装（SKU 395049） | ¥1159.00 | 在售 | 在售 | 7 | 2026/11/25 17:57:08 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198106) |
+| 198089 | Domaine Chandon de Briailles Les Lavieres, Savigny-Les-Beaune Premier Cru 2021 | 2021 | 单支（SKU 395189） | ¥399.00 | 在售 | 在售 | 9 | 2026/11/25 17:56:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198089) |
+| 198089 | Domaine Chandon de Briailles Les Lavieres, Savigny-Les-Beaune Premier Cru 2021 | 2021 | 双支装（SKU 395190） | ¥789.00 | 在售 | 在售 | 9 | 2026/11/25 17:56:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198089) |
+| 198089 | Domaine Chandon de Briailles Les Lavieres, Savigny-Les-Beaune Premier Cru 2021 | 2021 | 六支装（SKU 395191） | ¥2349.00 | 在售 | 在售 | 5 | 2026/11/25 17:56:57 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198089) |
 | 198088 | Torre Mora 'Scalunera' Etna Rosso 2019 | 2019 | 单支（SKU 395163） | ¥99.00 | 未知 | 未知 | 未知 | 2026/11/24 19:03:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198088) |
 | 198088 | Torre Mora 'Scalunera' Etna Rosso 2019 | 2019 | 双支装（SKU 395164） | ¥189.00 | 未知 | 未知 | 未知 | 2026/11/24 19:03:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198088) |
 | 198088 | Torre Mora 'Scalunera' Etna Rosso 2019 | 2019 | 六支装（SKU 395165） | ¥559.00 | 未知 | 未知 | 未知 | 2026/11/24 19:03:18 +08:00 | [原商品](https://h5.vinehoo.com/pages/goods-detail/goods-detail?id=198088) |
