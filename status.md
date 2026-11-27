@@ -7,37 +7,41 @@
 | 采集状态 | failed |
 | 目录商品数 | 335 |
 | 持久队列累计候选 ID 数 | 685 |
-| 本轮页面观察到的唯一候选 ID 数 | 未记录 |
+| 本轮页面观察到的唯一候选 ID 数 | 0 |
 | 尚未验证详情的候选 ID 数 | 348 |
 | 历史已验证详情商品数 | 335 |
 | 历史已验证库存 SKU 数 | 643 |
 | 本轮成功更新 | 0 |
 | 本轮公开接口恢复成功 | 0 |
-| 本轮详情成功率 | 未记录 |
-| 本轮运行耗时 | 22 秒 |
+| 本轮详情成功率 | 0.0% |
+| 本轮运行耗时 | 244 秒 |
 | 本轮已验证库存 SKU 数 | 0 |
-| 本轮失败 | 1 |
+| 本轮失败 | 3 |
 | 本轮不适合公开目录的商品 | 0 |
-| 价格保密待复查候选 ID 数 | 67 |
+| 价格保密待复查候选 ID 数 | 64 |
 | 当前库存未知商品数 | 335 |
 | 历史库存已失效的商品数 | 335 |
 | 保留历史数据 | 是 |
 | 商品目录快照时间（北京时间） | 2026/11/26 06:41:18 +08:00 |
 | 最近成功采集时间（北京时间） | 2026/11/26 06:41:18 +08:00 |
-| 最近采集结束时间（北京时间） | 2026/11/27 17:43:29 +08:00 |
+| 最近采集结束时间（北京时间） | 2026/11/28 06:02:57 +08:00 |
 | 数据新鲜度界限（北京时间） | 2026/11/27 00:41:18 +08:00 |
-| 最近采集运行链接 | [GitHub Actions](https://github.com/Ataraxiary/wineradar-catalog/actions/runs/45975920465) |
+| 最近采集运行链接 | [GitHub Actions](https://github.com/Ataraxiary/wineradar-catalog/actions/runs/46073679879) |
 
 ## 本轮失败或未入库记录
 
 | 商品 ID | 代码 | 原因 | 时间（北京时间） |
 | --- | --- | --- | --- |
-| — | collection_failed | apiRequestContext.get: Timeout 20000ms exceeded. | 2026/11/27 17:43:29 +08:00 |
+| 167797 | response_timeout | Timed out waiting for detail+inventory; no transport failure reported | 2026/11/28 06:00:10 +08:00 |
+| 197278 | response_timeout | Timed out waiting for detail+inventory; no transport failure reported | 2026/11/28 06:01:33 +08:00 |
+| 197942 | response_timeout | Timed out waiting for detail+inventory; no transport failure reported | 2026/11/28 06:02:57 +08:00 |
 
 ## 本轮发现入口
 
 | 入口 | 观察到的候选数 | 入口错误 |
 | --- | --- | --- |
+| 现货速发 | 0 | 无 |
+| 普通商城 | 0 | discovery_navigation_failed |
 
 ## 已验证详情商品的产国
 
